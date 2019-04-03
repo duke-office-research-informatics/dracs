@@ -4,7 +4,9 @@ Duke Research Application Component System v0.0.21
 
 This is the repository for Duke Research Application Component System (DRACS) components.  
 
-The documentation is implemented in `react-storybook`. Each component has a playground in which you can manipulate each prop and see the outcome from the UI, and an info section that tells how to import the component from dracs, how to declare it, and a table that lists all props.
+The documentation is implemented in `react-storybook`available here https://duke-office-research-informatics.github.io/dracs/?path=/story/app-header--header
+
+Each component has a playground in which you can manipulate each prop and see the outcome from the UI, and an info section that tells how to import the component from dracs, how to declare it, and a table that lists all props.
 
 -- with snapshot testing (enzyme-to-json), accessibliity testing (jest-aXe), and style testing (jest-styled-components).
 
