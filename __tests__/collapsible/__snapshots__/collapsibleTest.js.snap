@@ -1,0 +1,1313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collapsible matches snapshot 1`] = `
+.c5 {
+  fill: #b5b5b5;
+  vertical-align: top;
+}
+
+.c7 {
+  fill: #fff;
+  vertical-align: top;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding: 8px;
+}
+
+.c3 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #545454;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  color: #0680cd;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c1:hover .c2 {
+  color: #53a4dc;
+}
+
+.c4 {
+  cursor: pointer;
+}
+
+.c6 {
+  display: none;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    onClick={[Function]}
+  >
+    <h4
+      className="c2 c3"
+    >
+      hello
+    </h4>
+    <button
+      className="c4"
+      onClick={[Function]}
+    >
+      <svg
+        aria-label="Down Icon"
+        className="c5"
+        color="#b5b5b5"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          Down Icon
+        </title>
+        <desc>
+          downward facing caret
+        </desc>
+        <path
+          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="c6"
+  >
+    <svg
+      aria-label="open customize and profile menu"
+      className="c7"
+      color="#fff"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Collapsible matches snapshot and returns no a11y violations when active is set to true 1`] = `
+.c5 {
+  fill: #b5b5b5;
+  vertical-align: top;
+}
+
+.c7 {
+  fill: #fff;
+  vertical-align: top;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding: 8px;
+}
+
+.c3 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #545454;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  color: #0680cd;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c1:hover .c2 {
+  color: #53a4dc;
+}
+
+.c4 {
+  cursor: pointer;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    onClick={[Function]}
+  >
+    <h4
+      className="c2 c3"
+    >
+      hello
+    </h4>
+    <button
+      className="c4"
+      onClick={[Function]}
+    >
+      <svg
+        aria-label="send icon"
+        className="c5"
+        color="#b5b5b5"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          send icon
+        </title>
+        <path
+          d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="c6"
+  >
+    <svg
+      aria-label="open customize and profile menu"
+      className="c7"
+      color="#fff"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Collapsible passes a react element title via props 1`] = `
+.c6 {
+  fill: #b5b5b5;
+  vertical-align: top;
+}
+
+.c8 {
+  fill: #fff;
+  vertical-align: top;
+}
+
+.c4 {
+  fill: #666;
+  vertical-align: top;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding: 8px;
+}
+
+.c3 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #545454;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  color: #0680cd;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c1:hover .c2 {
+  color: #53a4dc;
+}
+
+.c5 {
+  cursor: pointer;
+}
+
+.c7 {
+  display: none;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    onClick={[Function]}
+  >
+    <h4
+      className="c2 c3"
+    >
+      <svg
+        aria-label="Help Icon"
+        className="c4"
+        color="#666"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          Help Icon
+        </title>
+        <desc>
+          qustion mark
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"
+        />
+      </svg>
+    </h4>
+    <button
+      className="c5"
+      onClick={[Function]}
+    >
+      <svg
+        aria-label="Down Icon"
+        className="c6"
+        color="#b5b5b5"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          Down Icon
+        </title>
+        <desc>
+          downward facing caret
+        </desc>
+        <path
+          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="c7"
+  >
+    <svg
+      aria-label="open customize and profile menu"
+      className="c8"
+      color="#fff"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Collapsible passes a title color via props 1`] = `
+.c5 {
+  fill: #b5b5b5;
+  vertical-align: top;
+}
+
+.c7 {
+  fill: #fff;
+  vertical-align: top;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding: 8px;
+}
+
+.c3 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #545454;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  color: #131516;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c1:hover .c2 {
+  color: #53a4dc;
+}
+
+.c4 {
+  cursor: pointer;
+}
+
+.c6 {
+  display: none;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    onClick={[Function]}
+  >
+    <h4
+      className="c2 c3"
+    >
+      hello
+    </h4>
+    <button
+      className="c4"
+      onClick={[Function]}
+    >
+      <svg
+        aria-label="Down Icon"
+        className="c5"
+        color="#b5b5b5"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          Down Icon
+        </title>
+        <desc>
+          downward facing caret
+        </desc>
+        <path
+          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="c6"
+  >
+    <svg
+      aria-label="open customize and profile menu"
+      className="c7"
+      color="#fff"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Collapsible passes a title hover color via props 1`] = `
+.c5 {
+  fill: #b5b5b5;
+  vertical-align: top;
+}
+
+.c7 {
+  fill: #fff;
+  vertical-align: top;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding: 8px;
+}
+
+.c3 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #545454;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  color: #0680cd;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+}
+
+.jfLYNq:hover .c2 {
+  color: #53a4dc;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c1:hover .c2 {
+  color: #696969;
+}
+
+.c4 {
+  cursor: pointer;
+}
+
+.c6 {
+  display: none;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    onClick={[Function]}
+  >
+    <h4
+      className="c2 c3"
+    >
+      hello
+    </h4>
+    <button
+      className="c4"
+      onClick={[Function]}
+    >
+      <svg
+        aria-label="Down Icon"
+        className="c5"
+        color="#b5b5b5"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          Down Icon
+        </title>
+        <desc>
+          downward facing caret
+        </desc>
+        <path
+          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="c6"
+  >
+    <svg
+      aria-label="open customize and profile menu"
+      className="c7"
+      color="#fff"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Collapsible passes click function to toggle via onToggleClick prop 1`] = `
+.c5 {
+  fill: #b5b5b5;
+  vertical-align: top;
+}
+
+.c7 {
+  fill: #fff;
+  vertical-align: top;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding: 8px;
+}
+
+.c3 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #545454;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  color: #0680cd;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c1:hover .c2 {
+  color: #53a4dc;
+}
+
+.c4 {
+  cursor: pointer;
+}
+
+.c6 {
+  display: none;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    onClick={[Function]}
+  >
+    <h4
+      className="c2 c3"
+    >
+      hello
+    </h4>
+    <button
+      className="c4"
+      onClick={[Function]}
+    >
+      <svg
+        aria-label="Down Icon"
+        className="c5"
+        color="#b5b5b5"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          Down Icon
+        </title>
+        <desc>
+          downward facing caret
+        </desc>
+        <path
+          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="c6"
+  >
+    <svg
+      aria-label="open customize and profile menu"
+      className="c7"
+      color="#fff"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Collapsible sets a style object on the component wrapper via props 1`] = `
+.c5 {
+  fill: #b5b5b5;
+  vertical-align: top;
+}
+
+.c7 {
+  fill: #fff;
+  vertical-align: top;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding: 8px;
+}
+
+.c3 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #545454;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  color: #0680cd;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c1:hover .c2 {
+  color: #53a4dc;
+}
+
+.kJjZNS:hover .c2 {
+  color: #696969;
+}
+
+.c4 {
+  cursor: pointer;
+}
+
+.c6 {
+  display: none;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div
+  className="c0"
+  style={
+    Object {
+      "margin": "8px",
+    }
+  }
+>
+  <div
+    className="c1"
+    onClick={[Function]}
+  >
+    <h4
+      className="c2 c3"
+    >
+      hello
+    </h4>
+    <button
+      className="c4"
+      onClick={[Function]}
+    >
+      <svg
+        aria-label="Down Icon"
+        className="c5"
+        color="#b5b5b5"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          Down Icon
+        </title>
+        <desc>
+          downward facing caret
+        </desc>
+        <path
+          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="c6"
+  >
+    <svg
+      aria-label="open customize and profile menu"
+      className="c7"
+      color="#fff"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Collapsible sets wrapper padding via props 1`] = `
+.c5 {
+  fill: #b5b5b5;
+  vertical-align: top;
+}
+
+.c7 {
+  fill: #fff;
+  vertical-align: top;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding: 8px;
+}
+
+.c3 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #545454;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  color: #0680cd;
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c1:hover .c2 {
+  color: #53a4dc;
+}
+
+.c4 {
+  cursor: pointer;
+}
+
+.c6 {
+  display: none;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    onClick={[Function]}
+  >
+    <h4
+      className="c2 c3"
+    >
+      hello
+    </h4>
+    <button
+      className="c4"
+      onClick={[Function]}
+    >
+      <svg
+        aria-label="Down Icon"
+        className="c5"
+        color="#b5b5b5"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          Down Icon
+        </title>
+        <desc>
+          downward facing caret
+        </desc>
+        <path
+          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="c6"
+  >
+    <svg
+      aria-label="open customize and profile menu"
+      className="c7"
+      color="#fff"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+</div>
+`;

@@ -1,0 +1,460 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioGroup applies styles to the wrapper via \`wrapperStyle\` prop 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  min-height: 24px;
+  min-width: 24px;
+  margin: 4px;
+}
+
+.c1 input[type="radio"] {
+  opacity: 0;
+}
+
+.c1 input[type="radio"]:focus + label::before {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c1 input[type="radio"] + label {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.c1 input[type="radio"]:checked + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiA3Yy0yLjc2IDAtNSAyLjI0LTUgNXMyLjI0IDUgNSA1IDUtMi4yNCA1LTUtMi4yNC01LTUtNXptMC01QzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+}
+
+.c1 input[type="radio"] + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+}
+
+.c1 input[type="radio"]:checked:disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiA3Yy0yLjc2IDAtNSAyLjI0LTUgNXMyLjI0IDUgNSA1IDUtMi4yNCA1LTUtMi4yNC01LTUtNXptMC01QzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c1 input[type="radio"]:not(:checked):disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c1 span {
+  margin-left: 12px;
+  font-size: 0.875em;
+  color: #131516;
+}
+
+<div
+  aria-activedescendant="button1"
+  className="c0"
+  name="testGroup"
+  style={
+    Object {
+      "color": "#0680cd",
+    }
+  }
+>
+  <div
+    className="c1"
+  >
+    <input
+      aria-checked={true}
+      aria-labelledby="button1-label"
+      checked={true}
+      className=""
+      id="button1"
+      name="button1"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="radio"
+      value="button1"
+    />
+    <label
+      htmlFor="button1"
+    />
+    <span
+      id="button1-label"
+      onClick={null}
+    >
+      button 1
+    </span>
+  </div>
+  <div
+    className="c1"
+  >
+    <input
+      aria-checked={false}
+      aria-labelledby="button2-label"
+      checked={false}
+      className=""
+      id="button2"
+      name="button2"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="radio"
+      value="button2"
+    />
+    <label
+      htmlFor="button2"
+    />
+    <span
+      id="button2-label"
+      onClick={null}
+    >
+      button 2
+    </span>
+  </div>
+</div>
+`;
+
+exports[`RadioGroup matches snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  min-height: 24px;
+  min-width: 24px;
+  margin: 4px;
+}
+
+.c1 input[type="radio"] {
+  opacity: 0;
+}
+
+.c1 input[type="radio"]:focus + label::before {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c1 input[type="radio"] + label {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.c1 input[type="radio"]:checked + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiA3Yy0yLjc2IDAtNSAyLjI0LTUgNXMyLjI0IDUgNSA1IDUtMi4yNCA1LTUtMi4yNC01LTUtNXptMC01QzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+}
+
+.c1 input[type="radio"] + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+}
+
+.c1 input[type="radio"]:checked:disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiA3Yy0yLjc2IDAtNSAyLjI0LTUgNXMyLjI0IDUgNSA1IDUtMi4yNCA1LTUtMi4yNC01LTUtNXptMC01QzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c1 input[type="radio"]:not(:checked):disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c1 span {
+  margin-left: 12px;
+  font-size: 0.875em;
+  color: #131516;
+}
+
+<div
+  aria-activedescendant="button1"
+  className="c0"
+  name="testGroup"
+>
+  <div
+    className="c1"
+  >
+    <input
+      aria-checked={true}
+      aria-labelledby="button1-label"
+      checked={true}
+      className=""
+      id="button1"
+      name="button1"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="radio"
+      value="button1"
+    />
+    <label
+      htmlFor="button1"
+    />
+    <span
+      id="button1-label"
+      onClick={null}
+    >
+      button 1
+    </span>
+  </div>
+  <div
+    className="c1"
+  >
+    <input
+      aria-checked={false}
+      aria-labelledby="button2-label"
+      checked={false}
+      className=""
+      id="button2"
+      name="button2"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="radio"
+      value="button2"
+    />
+    <label
+      htmlFor="button2"
+    />
+    <span
+      id="button2-label"
+      onClick={null}
+    >
+      button 2
+    </span>
+  </div>
+</div>
+`;
+
+exports[`RadioGroup sets buttons as disabled when \`disabled\` is set to true 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  min-height: 24px;
+  min-width: 24px;
+  margin: 4px;
+}
+
+.c1 input[type="radio"] {
+  opacity: 0;
+}
+
+.c1 input[type="radio"]:focus + label::before {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c1 input[type="radio"] + label {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.c1 input[type="radio"]:checked + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiA3Yy0yLjc2IDAtNSAyLjI0LTUgNXMyLjI0IDUgNSA1IDUtMi4yNCA1LTUtMi4yNC01LTUtNXptMC01QzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+}
+
+.c1 input[type="radio"] + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+}
+
+.c1 input[type="radio"]:checked:disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiA3Yy0yLjc2IDAtNSAyLjI0LTUgNXMyLjI0IDUgNSA1IDUtMi4yNCA1LTUtMi4yNC01LTUtNXptMC01QzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c1 input[type="radio"]:not(:checked):disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c1 span {
+  margin-left: 12px;
+  font-size: 0.875em;
+  color: #696969;
+  cursor: not-allowed;
+}
+
+<div
+  aria-activedescendant="button1"
+  className="c0"
+  name="testGroup"
+>
+  <div
+    className="c1"
+    disabled={true}
+  >
+    <input
+      aria-checked={true}
+      aria-labelledby="button1-label"
+      checked={true}
+      className=""
+      disabled={true}
+      id="button1"
+      name="button1"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="radio"
+      value="button1"
+    />
+    <label
+      htmlFor="button1"
+    />
+    <span
+      disabled={true}
+      id="button1-label"
+      onClick={null}
+    >
+      button 1
+    </span>
+  </div>
+  <div
+    className="c1"
+    disabled={true}
+  >
+    <input
+      aria-checked={false}
+      aria-labelledby="button2-label"
+      checked={false}
+      className=""
+      disabled={true}
+      id="button2"
+      name="button2"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="radio"
+      value="button2"
+    />
+    <label
+      htmlFor="button2"
+    />
+    <span
+      disabled={true}
+      id="button2-label"
+      onClick={null}
+    >
+      button 2
+    </span>
+  </div>
+</div>
+`;

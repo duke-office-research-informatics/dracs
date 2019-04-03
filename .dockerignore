@@ -1,0 +1,14 @@
+dist
+node_modules
+.git
+.config
+.npm-global
+.npm
+.node_repl_history
+.bash_history
+Dockerfile
+docker-compose.dev.yml
+docker-compose.override.yml
+docker-compose.yml
+.gitignore
+.dockerignore

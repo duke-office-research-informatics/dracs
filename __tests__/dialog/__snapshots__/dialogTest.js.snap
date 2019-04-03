@@ -1,0 +1,2328 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dialog matches snapshot 1`] = `
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 36px;
+  line-height: 2.8em;
+  white-space: nowrap;
+  min-width: 64px;
+  padding: 0 8px;
+  font-size: 0.875em;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.075em;
+  -moz-letter-spacing: 0.075em;
+  -ms-letter-spacing: 0.075em;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border: 0;
+  box-shadow: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #0680cd;
+  background-color: #fff;
+  -webkit-font-smoothing: inherit;
+}
+
+.c5 svg {
+  fill: #0680cd;
+}
+
+.c5:hover,
+.c5:focus {
+  color: #53a4dc;
+  background-color: #fff;
+}
+
+.c5:hover svg,
+.c5:focus svg {
+  fill: #53a4dc;
+}
+
+.c5:focus {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c3 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
+}
+
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 100ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 100ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c1 {
+  position: relative;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 19px 60px rgba(0,0,0,0.3),0 15px 20px rgba(0,0,0,0.22);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 96vw;
+  width: 30vw;
+  padding: 8px 16px;
+  z-index: 1001;
+  overflow-y: auto;
+  overflow-x: hidden;
+  opacity: 0;
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  -ms-overflow-style: none;
+}
+
+.c2 {
+  color: #131516;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+<div>
+  <div
+    className="c0"
+    data-dracs="overlay"
+    onTouchStart={[Function]}
+  />
+  <section
+    aria-labelledby="dracs-dialog-title"
+    className="c1"
+    role="dialog"
+    tabIndex={-1}
+  >
+    <h3
+      className="c2 c3"
+      id="dracs-dialog-title"
+    >
+      A dialog
+    </h3>
+    <nav
+      className="c4"
+    >
+      <button
+        className="c5"
+        disabled={false}
+        label="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "4px",
+          }
+        }
+      >
+        button
+      </button>
+    </nav>
+  </section>
+</div>
+`;
+
+exports[`Dialog passes an onOverlayMouseDown function to overlay via props 1`] = `
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 36px;
+  line-height: 2.8em;
+  white-space: nowrap;
+  min-width: 64px;
+  padding: 0 8px;
+  font-size: 0.875em;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.075em;
+  -moz-letter-spacing: 0.075em;
+  -ms-letter-spacing: 0.075em;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border: 0;
+  box-shadow: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #0680cd;
+  background-color: #fff;
+  -webkit-font-smoothing: inherit;
+}
+
+.c5 svg {
+  fill: #0680cd;
+}
+
+.c5:hover,
+.c5:focus {
+  color: #53a4dc;
+  background-color: #fff;
+}
+
+.c5:hover svg,
+.c5:focus svg {
+  fill: #53a4dc;
+}
+
+.c5:focus {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c3 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
+}
+
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 100ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 100ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c1 {
+  position: relative;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 19px 60px rgba(0,0,0,0.3),0 15px 20px rgba(0,0,0,0.22);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 96vw;
+  width: 30vw;
+  padding: 8px 16px;
+  z-index: 1001;
+  overflow-y: auto;
+  overflow-x: hidden;
+  opacity: 0;
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  -ms-overflow-style: none;
+}
+
+.c2 {
+  color: #131516;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+<div>
+  <div
+    className="c0"
+    data-dracs="overlay"
+    onMouseDown={[Function]}
+    onTouchStart={[Function]}
+  />
+  <section
+    aria-labelledby="dracs-dialog-title"
+    className="c1"
+    role="dialog"
+    tabIndex={-1}
+  >
+    <h3
+      className="c2 c3"
+      id="dracs-dialog-title"
+    >
+      A dialog
+    </h3>
+    <nav
+      className="c4"
+    >
+      <button
+        className="c5"
+        disabled={false}
+        label="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "4px",
+          }
+        }
+      >
+        button
+      </button>
+    </nav>
+  </section>
+</div>
+`;
+
+exports[`Dialog passes an onOverlayMouseMove function to overlay via props 1`] = `
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 36px;
+  line-height: 2.8em;
+  white-space: nowrap;
+  min-width: 64px;
+  padding: 0 8px;
+  font-size: 0.875em;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.075em;
+  -moz-letter-spacing: 0.075em;
+  -ms-letter-spacing: 0.075em;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border: 0;
+  box-shadow: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #0680cd;
+  background-color: #fff;
+  -webkit-font-smoothing: inherit;
+}
+
+.c5 svg {
+  fill: #0680cd;
+}
+
+.c5:hover,
+.c5:focus {
+  color: #53a4dc;
+  background-color: #fff;
+}
+
+.c5:hover svg,
+.c5:focus svg {
+  fill: #53a4dc;
+}
+
+.c5:focus {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c3 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
+}
+
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 100ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 100ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c1 {
+  position: relative;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 19px 60px rgba(0,0,0,0.3),0 15px 20px rgba(0,0,0,0.22);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 96vw;
+  width: 30vw;
+  padding: 8px 16px;
+  z-index: 1001;
+  overflow-y: auto;
+  overflow-x: hidden;
+  opacity: 0;
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  -ms-overflow-style: none;
+}
+
+.c2 {
+  color: #131516;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+<div>
+  <div
+    className="c0"
+    data-dracs="overlay"
+    onMouseMove={[Function]}
+    onTouchStart={[Function]}
+  />
+  <section
+    aria-labelledby="dracs-dialog-title"
+    className="c1"
+    role="dialog"
+    tabIndex={-1}
+  >
+    <h3
+      className="c2 c3"
+      id="dracs-dialog-title"
+    >
+      A dialog
+    </h3>
+    <nav
+      className="c4"
+    >
+      <button
+        className="c5"
+        disabled={false}
+        label="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "4px",
+          }
+        }
+      >
+        button
+      </button>
+    </nav>
+  </section>
+</div>
+`;
+
+exports[`Dialog passes an onOverlayMouseUp function to overlay via props 1`] = `
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 36px;
+  line-height: 2.8em;
+  white-space: nowrap;
+  min-width: 64px;
+  padding: 0 8px;
+  font-size: 0.875em;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.075em;
+  -moz-letter-spacing: 0.075em;
+  -ms-letter-spacing: 0.075em;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border: 0;
+  box-shadow: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #0680cd;
+  background-color: #fff;
+  -webkit-font-smoothing: inherit;
+}
+
+.c5 svg {
+  fill: #0680cd;
+}
+
+.c5:hover,
+.c5:focus {
+  color: #53a4dc;
+  background-color: #fff;
+}
+
+.c5:hover svg,
+.c5:focus svg {
+  fill: #53a4dc;
+}
+
+.c5:focus {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c3 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
+}
+
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 100ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 100ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c1 {
+  position: relative;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 19px 60px rgba(0,0,0,0.3),0 15px 20px rgba(0,0,0,0.22);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 96vw;
+  width: 30vw;
+  padding: 8px 16px;
+  z-index: 1001;
+  overflow-y: auto;
+  overflow-x: hidden;
+  opacity: 0;
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  -ms-overflow-style: none;
+}
+
+.c2 {
+  color: #131516;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+<div>
+  <div
+    className="c0"
+    data-dracs="overlay"
+    onMouseUp={[Function]}
+    onTouchStart={[Function]}
+  />
+  <section
+    aria-labelledby="dracs-dialog-title"
+    className="c1"
+    role="dialog"
+    tabIndex={-1}
+  >
+    <h3
+      className="c2 c3"
+      id="dracs-dialog-title"
+    >
+      A dialog
+    </h3>
+    <nav
+      className="c4"
+    >
+      <button
+        className="c5"
+        disabled={false}
+        label="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "4px",
+          }
+        }
+      >
+        button
+      </button>
+    </nav>
+  </section>
+</div>
+`;
+
+exports[`Dialog passes onOverlayClick function to overlay via props 1`] = `
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 36px;
+  line-height: 2.8em;
+  white-space: nowrap;
+  min-width: 64px;
+  padding: 0 8px;
+  font-size: 0.875em;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.075em;
+  -moz-letter-spacing: 0.075em;
+  -ms-letter-spacing: 0.075em;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border: 0;
+  box-shadow: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #0680cd;
+  background-color: #fff;
+  -webkit-font-smoothing: inherit;
+}
+
+.c5 svg {
+  fill: #0680cd;
+}
+
+.c5:hover,
+.c5:focus {
+  color: #53a4dc;
+  background-color: #fff;
+}
+
+.c5:hover svg,
+.c5:focus svg {
+  fill: #53a4dc;
+}
+
+.c5:focus {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c3 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
+}
+
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 100ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 100ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c1 {
+  position: relative;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 19px 60px rgba(0,0,0,0.3),0 15px 20px rgba(0,0,0,0.22);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 96vw;
+  width: 30vw;
+  padding: 8px 16px;
+  z-index: 1001;
+  overflow-y: auto;
+  overflow-x: hidden;
+  opacity: 0;
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  -ms-overflow-style: none;
+}
+
+.c2 {
+  color: #131516;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+<div>
+  <div
+    className="c0"
+    data-dracs="overlay"
+    onClick={[Function]}
+    onTouchStart={[Function]}
+  />
+  <section
+    aria-labelledby="dracs-dialog-title"
+    className="c1"
+    role="dialog"
+    tabIndex={-1}
+  >
+    <h3
+      className="c2 c3"
+      id="dracs-dialog-title"
+    >
+      A dialog
+    </h3>
+    <nav
+      className="c4"
+    >
+      <button
+        className="c5"
+        disabled={false}
+        label="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "4px",
+          }
+        }
+      >
+        button
+      </button>
+    </nav>
+  </section>
+</div>
+`;
+
+exports[`Dialog sets width to 25vw when type=quarterScreen 1`] = `
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 36px;
+  line-height: 2.8em;
+  white-space: nowrap;
+  min-width: 64px;
+  padding: 0 8px;
+  font-size: 0.875em;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.075em;
+  -moz-letter-spacing: 0.075em;
+  -ms-letter-spacing: 0.075em;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border: 0;
+  box-shadow: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #0680cd;
+  background-color: #fff;
+  -webkit-font-smoothing: inherit;
+}
+
+.c5 svg {
+  fill: #0680cd;
+}
+
+.c5:hover,
+.c5:focus {
+  color: #53a4dc;
+  background-color: #fff;
+}
+
+.c5:hover svg,
+.c5:focus svg {
+  fill: #53a4dc;
+}
+
+.c5:focus {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c3 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
+}
+
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 100ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 100ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c1 {
+  position: relative;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 19px 60px rgba(0,0,0,0.3),0 15px 20px rgba(0,0,0,0.22);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 96vw;
+  width: 25vw;
+  padding: 8px 16px;
+  z-index: 1001;
+  overflow-y: auto;
+  overflow-x: hidden;
+  opacity: 0;
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  -ms-overflow-style: none;
+}
+
+.c2 {
+  color: #131516;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+<div>
+  <div
+    className="c0"
+    data-dracs="overlay"
+    onTouchStart={[Function]}
+  />
+  <section
+    aria-labelledby="dracs-dialog-title"
+    className="c1"
+    role="dialog"
+    tabIndex={-1}
+    type="quarterScreen"
+  >
+    <h3
+      className="c2 c3"
+      id="dracs-dialog-title"
+    >
+      A dialog
+    </h3>
+    <nav
+      className="c4"
+    >
+      <button
+        className="c5"
+        disabled={false}
+        label="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "4px",
+          }
+        }
+      >
+        button
+      </button>
+    </nav>
+  </section>
+</div>
+`;
+
+exports[`Dialog sets width to 30vw when type=thirtyPctScreen 1`] = `
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 36px;
+  line-height: 2.8em;
+  white-space: nowrap;
+  min-width: 64px;
+  padding: 0 8px;
+  font-size: 0.875em;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.075em;
+  -moz-letter-spacing: 0.075em;
+  -ms-letter-spacing: 0.075em;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border: 0;
+  box-shadow: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #0680cd;
+  background-color: #fff;
+  -webkit-font-smoothing: inherit;
+}
+
+.c5 svg {
+  fill: #0680cd;
+}
+
+.c5:hover,
+.c5:focus {
+  color: #53a4dc;
+  background-color: #fff;
+}
+
+.c5:hover svg,
+.c5:focus svg {
+  fill: #53a4dc;
+}
+
+.c5:focus {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c3 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
+}
+
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 100ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 100ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c1 {
+  position: relative;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 19px 60px rgba(0,0,0,0.3),0 15px 20px rgba(0,0,0,0.22);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 96vw;
+  width: 30vw;
+  padding: 8px 16px;
+  z-index: 1001;
+  overflow-y: auto;
+  overflow-x: hidden;
+  opacity: 0;
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  -ms-overflow-style: none;
+}
+
+.c2 {
+  color: #131516;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+<div>
+  <div
+    className="c0"
+    data-dracs="overlay"
+    onTouchStart={[Function]}
+  />
+  <section
+    aria-labelledby="dracs-dialog-title"
+    className="c1"
+    role="dialog"
+    tabIndex={-1}
+    type="thirtyPctScreen"
+  >
+    <h3
+      className="c2 c3"
+      id="dracs-dialog-title"
+    >
+      A dialog
+    </h3>
+    <nav
+      className="c4"
+    >
+      <button
+        className="c5"
+        disabled={false}
+        label="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "4px",
+          }
+        }
+      >
+        button
+      </button>
+    </nav>
+  </section>
+</div>
+`;
+
+exports[`Dialog sets width to 50vw when type=halfScreen 1`] = `
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 36px;
+  line-height: 2.8em;
+  white-space: nowrap;
+  min-width: 64px;
+  padding: 0 8px;
+  font-size: 0.875em;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.075em;
+  -moz-letter-spacing: 0.075em;
+  -ms-letter-spacing: 0.075em;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border: 0;
+  box-shadow: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #0680cd;
+  background-color: #fff;
+  -webkit-font-smoothing: inherit;
+}
+
+.c5 svg {
+  fill: #0680cd;
+}
+
+.c5:hover,
+.c5:focus {
+  color: #53a4dc;
+  background-color: #fff;
+}
+
+.c5:hover svg,
+.c5:focus svg {
+  fill: #53a4dc;
+}
+
+.c5:focus {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c3 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
+}
+
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 100ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 100ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c1 {
+  position: relative;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 19px 60px rgba(0,0,0,0.3),0 15px 20px rgba(0,0,0,0.22);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 96vw;
+  width: 50vw;
+  padding: 8px 16px;
+  z-index: 1001;
+  overflow-y: auto;
+  overflow-x: hidden;
+  opacity: 0;
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  -ms-overflow-style: none;
+}
+
+.c2 {
+  color: #131516;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+<div>
+  <div
+    className="c0"
+    data-dracs="overlay"
+    onTouchStart={[Function]}
+  />
+  <section
+    aria-labelledby="dracs-dialog-title"
+    className="c1"
+    role="dialog"
+    tabIndex={-1}
+    type="halfScreen"
+  >
+    <h3
+      className="c2 c3"
+      id="dracs-dialog-title"
+    >
+      A dialog
+    </h3>
+    <nav
+      className="c4"
+    >
+      <button
+        className="c5"
+        disabled={false}
+        label="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "4px",
+          }
+        }
+      >
+        button
+      </button>
+    </nav>
+  </section>
+</div>
+`;
+
+exports[`Dialog sets width to 96vw when type=large 1`] = `
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 36px;
+  line-height: 2.8em;
+  white-space: nowrap;
+  min-width: 64px;
+  padding: 0 8px;
+  font-size: 0.875em;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.075em;
+  -moz-letter-spacing: 0.075em;
+  -ms-letter-spacing: 0.075em;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border: 0;
+  box-shadow: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #0680cd;
+  background-color: #fff;
+  -webkit-font-smoothing: inherit;
+}
+
+.c5 svg {
+  fill: #0680cd;
+}
+
+.c5:hover,
+.c5:focus {
+  color: #53a4dc;
+  background-color: #fff;
+}
+
+.c5:hover svg,
+.c5:focus svg {
+  fill: #53a4dc;
+}
+
+.c5:focus {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c3 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
+}
+
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 100ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 100ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c1 {
+  position: relative;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 19px 60px rgba(0,0,0,0.3),0 15px 20px rgba(0,0,0,0.22);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 96vw;
+  width: 96vw;
+  padding: 8px 16px;
+  z-index: 1001;
+  overflow-y: auto;
+  overflow-x: hidden;
+  opacity: 0;
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  -ms-overflow-style: none;
+}
+
+.c2 {
+  color: #131516;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+<div>
+  <div
+    className="c0"
+    data-dracs="overlay"
+    onTouchStart={[Function]}
+  />
+  <section
+    aria-labelledby="dracs-dialog-title"
+    className="c1"
+    role="dialog"
+    tabIndex={-1}
+    type="large"
+  >
+    <h3
+      className="c2 c3"
+      id="dracs-dialog-title"
+    >
+      A dialog
+    </h3>
+    <nav
+      className="c4"
+    >
+      <button
+        className="c5"
+        disabled={false}
+        label="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "4px",
+          }
+        }
+      >
+        button
+      </button>
+    </nav>
+  </section>
+</div>
+`;
+
+exports[`Dialog sets width to 300px when type=small 1`] = `
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 36px;
+  line-height: 2.8em;
+  white-space: nowrap;
+  min-width: 64px;
+  padding: 0 8px;
+  font-size: 0.875em;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.075em;
+  -moz-letter-spacing: 0.075em;
+  -ms-letter-spacing: 0.075em;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border: 0;
+  box-shadow: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #0680cd;
+  background-color: #fff;
+  -webkit-font-smoothing: inherit;
+}
+
+.c5 svg {
+  fill: #0680cd;
+}
+
+.c5:hover,
+.c5:focus {
+  color: #53a4dc;
+  background-color: #fff;
+}
+
+.c5:hover svg,
+.c5:focus svg {
+  fill: #53a4dc;
+}
+
+.c5:focus {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c3 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
+}
+
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 100ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 100ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c1 {
+  position: relative;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 19px 60px rgba(0,0,0,0.3),0 15px 20px rgba(0,0,0,0.22);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 96vw;
+  width: 300px;
+  padding: 8px 16px;
+  z-index: 1001;
+  overflow-y: auto;
+  overflow-x: hidden;
+  opacity: 0;
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  -ms-overflow-style: none;
+}
+
+.c2 {
+  color: #131516;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+<div>
+  <div
+    className="c0"
+    data-dracs="overlay"
+    onTouchStart={[Function]}
+  />
+  <section
+    aria-labelledby="dracs-dialog-title"
+    className="c1"
+    role="dialog"
+    tabIndex={-1}
+    type="small"
+  >
+    <h3
+      className="c2 c3"
+      id="dracs-dialog-title"
+    >
+      A dialog
+    </h3>
+    <nav
+      className="c4"
+    >
+      <button
+        className="c5"
+        disabled={false}
+        label="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "4px",
+          }
+        }
+      >
+        button
+      </button>
+    </nav>
+  </section>
+</div>
+`;
+
+exports[`Dialog sets width to 700px when type=medium 1`] = `
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 36px;
+  line-height: 2.8em;
+  white-space: nowrap;
+  min-width: 64px;
+  padding: 0 8px;
+  font-size: 0.875em;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.075em;
+  -moz-letter-spacing: 0.075em;
+  -ms-letter-spacing: 0.075em;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border: 0;
+  box-shadow: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #0680cd;
+  background-color: #fff;
+  -webkit-font-smoothing: inherit;
+}
+
+.c5 svg {
+  fill: #0680cd;
+}
+
+.c5:hover,
+.c5:focus {
+  color: #53a4dc;
+  background-color: #fff;
+}
+
+.c5:hover svg,
+.c5:focus svg {
+  fill: #53a4dc;
+}
+
+.c5:focus {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c3 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
+}
+
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 100ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 100ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c1 {
+  position: relative;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 19px 60px rgba(0,0,0,0.3),0 15px 20px rgba(0,0,0,0.22);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 96vw;
+  width: 700px;
+  padding: 8px 16px;
+  z-index: 1001;
+  overflow-y: auto;
+  overflow-x: hidden;
+  opacity: 0;
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  -ms-overflow-style: none;
+}
+
+.c2 {
+  color: #131516;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+<div>
+  <div
+    className="c0"
+    data-dracs="overlay"
+    onTouchStart={[Function]}
+  />
+  <section
+    aria-labelledby="dracs-dialog-title"
+    className="c1"
+    role="dialog"
+    tabIndex={-1}
+    type="medium"
+  >
+    <h3
+      className="c2 c3"
+      id="dracs-dialog-title"
+    >
+      A dialog
+    </h3>
+    <nav
+      className="c4"
+    >
+      <button
+        className="c5"
+        disabled={false}
+        label="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "4px",
+          }
+        }
+      >
+        button
+      </button>
+    </nav>
+  </section>
+</div>
+`;
+
+exports[`Dialog sets width to auto when type=auto 1`] = `
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 36px;
+  line-height: 2.8em;
+  white-space: nowrap;
+  min-width: 64px;
+  padding: 0 8px;
+  font-size: 0.875em;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.075em;
+  -moz-letter-spacing: 0.075em;
+  -ms-letter-spacing: 0.075em;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border: 0;
+  box-shadow: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #0680cd;
+  background-color: #fff;
+  -webkit-font-smoothing: inherit;
+}
+
+.c5 svg {
+  fill: #0680cd;
+}
+
+.c5:hover,
+.c5:focus {
+  color: #53a4dc;
+  background-color: #fff;
+}
+
+.c5:hover svg,
+.c5:focus svg {
+  fill: #53a4dc;
+}
+
+.c5:focus {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c3 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
+}
+
+.c0 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 100ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 100ms cubic-bezier(0.4,0,0.2,1);
+}
+
+.c1 {
+  position: relative;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 19px 60px rgba(0,0,0,0.3),0 15px 20px rgba(0,0,0,0.22);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 96vw;
+  width: auto;
+  padding: 8px 16px;
+  z-index: 1001;
+  overflow-y: auto;
+  overflow-x: hidden;
+  opacity: 0;
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+  -webkit-transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  transition: all 300ms cubic-bezier(0.4,0,0.2,1);
+  -ms-overflow-style: none;
+}
+
+.c2 {
+  color: #131516;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+<div>
+  <div
+    className="c0"
+    data-dracs="overlay"
+    onTouchStart={[Function]}
+  />
+  <section
+    aria-labelledby="dracs-dialog-title"
+    className="c1"
+    role="dialog"
+    tabIndex={-1}
+    type="auto"
+  >
+    <h3
+      className="c2 c3"
+      id="dracs-dialog-title"
+    >
+      A dialog
+    </h3>
+    <nav
+      className="c4"
+    >
+      <button
+        className="c5"
+        disabled={false}
+        label="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "4px",
+          }
+        }
+      >
+        button
+      </button>
+    </nav>
+  </section>
+</div>
+`;

@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List matches snapshot 1`] = `
+.c0 {
+  padding: 0;
+  margin: 0;
+}
+
+<ul
+  className="c0"
+/>
+`;
+
+exports[`List renders children 1`] = `
+.c0 {
+  padding: 0;
+  margin: 0;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 4px 0;
+  list-style-type: none;
+  width: 100%;
+}
+
+.c1:focus {
+  outline: dotted 1px rgb(59,153,252);
+  outline-offset: -1px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c3 {
+  padding: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+<ul
+  className="c0"
+>
+  <li
+    className="c1"
+    onKeyUp={[Function]}
+    tabIndex={null}
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+      >
+        its a test title
+      </div>
+    </div>
+    <div
+      className=""
+    />
+  </li>
+</ul>
+`;

@@ -1,0 +1,672 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card adds a box-shadow when \`raised\` is set to true 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #fff;
+  height: auto;
+  width: auto;
+  border: solid 1px #e8e5e2;
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -ms-overflow-style: none;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+}
+
+.react-draggable-dragging .c0 {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  z-index: 100;
+}
+
+<section
+  className="c0"
+  height="auto"
+  width="auto"
+/>
+`;
+
+exports[`Card attaches a className via props 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #fff;
+  height: auto;
+  width: auto;
+  border: solid 1px #e8e5e2;
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -ms-overflow-style: none;
+}
+
+.react-draggable-dragging .c0 {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  z-index: 100;
+}
+
+<section
+  className="testClass c0"
+  height="auto"
+  width="auto"
+/>
+`;
+
+exports[`Card attaches children 1`] = `
+.c1 {
+  fill: #fff;
+  vertical-align: top;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #fff;
+  height: auto;
+  width: auto;
+  border: solid 1px #e8e5e2;
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -ms-overflow-style: none;
+}
+
+.react-draggable-dragging .c0 {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  z-index: 100;
+}
+
+<section
+  className="c0"
+  height="auto"
+  width="auto"
+>
+  <svg
+    aria-label="open customize and profile menu"
+    className="c1"
+    color="#fff"
+    height={24}
+    role="img"
+    viewBox="0 0 24 24"
+    width={24}
+  >
+    <title>
+      menu icon
+    </title>
+    <desc>
+      hamburger menu icon
+    </desc>
+    <path
+      d="M0 0h24v24H0z"
+      fill="none"
+    />
+    <path
+      d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+    />
+  </svg>
+</section>
+`;
+
+exports[`Card does not apply a border when \`border\` set to false 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #fff;
+  height: auto;
+  width: auto;
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -ms-overflow-style: none;
+}
+
+.react-draggable-dragging .c0 {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  z-index: 100;
+}
+
+<section
+  className="c0"
+  height="auto"
+  width="auto"
+/>
+`;
+
+exports[`Card matches snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #fff;
+  height: auto;
+  width: auto;
+  border: solid 1px #e8e5e2;
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -ms-overflow-style: none;
+}
+
+.react-draggable-dragging .c0 {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  z-index: 100;
+}
+
+<section
+  className="c0"
+  height="auto"
+  width="auto"
+/>
+`;
+
+exports[`Card sets a mediaQuery via props 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #fff;
+  height: auto;
+  width: auto;
+  border: solid 1px #e8e5e2;
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -ms-overflow-style: none;
+}
+
+.react-draggable-dragging .c0 {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  z-index: 100;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    padding: 8px;
+  }
+}
+
+<section
+  className="c0"
+  height="auto"
+  width="auto"
+/>
+`;
+
+exports[`Card sets a style object via props 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #fff;
+  height: auto;
+  width: auto;
+  border: solid 1px #e8e5e2;
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -ms-overflow-style: none;
+}
+
+.react-draggable-dragging .c0 {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  z-index: 100;
+}
+
+<section
+  className="c0"
+  height="auto"
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+  width="auto"
+/>
+`;
+
+exports[`Card sets a width via props 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #fff;
+  height: auto;
+  width: 100px;
+  border: solid 1px #e8e5e2;
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -ms-overflow-style: none;
+}
+
+.react-draggable-dragging .c0 {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  z-index: 100;
+}
+
+<section
+  className="c0"
+  height="auto"
+  width="100px"
+/>
+`;
+
+exports[`Card sets an html id attr via props 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #fff;
+  height: auto;
+  width: auto;
+  border: solid 1px #e8e5e2;
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -ms-overflow-style: none;
+}
+
+.react-draggable-dragging .c0 {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  z-index: 100;
+}
+
+<section
+  className="c0"
+  height="auto"
+  id="testID"
+  width="auto"
+/>
+`;
+
+exports[`Card sets an onClick handler that is called on click 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #fff;
+  height: auto;
+  width: auto;
+  border: solid 1px #e8e5e2;
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -ms-overflow-style: none;
+  cursor: pointer;
+}
+
+.react-draggable-dragging .c0 {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  z-index: 100;
+}
+
+<section
+  className="c0"
+  height="auto"
+  onClick={[Function]}
+  width="auto"
+/>
+`;
+
+exports[`Card sets background color via props 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #f6f5f4;
+  height: auto;
+  width: auto;
+  border: solid 1px #e8e5e2;
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -ms-overflow-style: none;
+}
+
+.react-draggable-dragging .c0 {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  z-index: 100;
+}
+
+<section
+  className="c0"
+  height="auto"
+  width="auto"
+/>
+`;
+
+exports[`Card sets height via props 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #fff;
+  height: 300px;
+  width: auto;
+  border: solid 1px #e8e5e2;
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -ms-overflow-style: none;
+}
+
+.react-draggable-dragging .c0 {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  z-index: 100;
+}
+
+<section
+  className="c0"
+  height="300px"
+  width="auto"
+/>
+`;
+
+exports[`Card sets margin via props 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #fff;
+  height: auto;
+  width: auto;
+  border: solid 1px #e8e5e2;
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -ms-overflow-style: none;
+  margin: 20px;
+}
+
+.react-draggable-dragging .c0 {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  z-index: 100;
+}
+
+<section
+  className="c0"
+  height="auto"
+  width="auto"
+/>
+`;
+
+exports[`Card sets minHeight via props 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #fff;
+  height: auto;
+  width: auto;
+  border: solid 1px #e8e5e2;
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -ms-overflow-style: none;
+  min-height: 200px;
+}
+
+.react-draggable-dragging .c0 {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  z-index: 100;
+}
+
+<section
+  className="c0"
+  height="auto"
+  width="auto"
+/>
+`;
+
+exports[`Card sets minWidth via props 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #fff;
+  height: auto;
+  width: auto;
+  border: solid 1px #e8e5e2;
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -ms-overflow-style: none;
+  min-width: 200px;
+}
+
+.react-draggable-dragging .c0 {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  z-index: 100;
+}
+
+<section
+  className="c0"
+  height="auto"
+  width="auto"
+/>
+`;
+
+exports[`Card sets padding via props 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #fff;
+  height: auto;
+  width: auto;
+  border: solid 1px #e8e5e2;
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -ms-overflow-style: none;
+  padding: 8px;
+}
+
+.react-draggable-dragging .c0 {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  z-index: 100;
+}
+
+<section
+  className="c0"
+  height="auto"
+  width="auto"
+/>
+`;

@@ -1,0 +1,46 @@
+{
+    "plugins": [
+        "react",
+        "prettier"
+    ],
+
+    "extends": [
+        "prettier",
+        "plugin:prettier/recommended",
+        "plugin:react/recommended"
+    ],
+
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+
+    "parser": "babel-eslint",
+
+    "env": {
+      "browser": true,     // browser global variables
+      "node": true,        // Node.js global variables and Node.js-specific rules
+      "jquery": true,      // jquery global variables
+      "es6": true,         // enable all ECMAScript 6 features except for modules (this automatically sets the ecmaVersion parser option to 6)
+      "jest": true         // Jest global variables
+    },
+
+    "globals": { //set global variables here to avoid them showing up as an unused variable
+        "React": true,
+        "ReactDOM": true,
+        "TestUtils": true,
+        "test": true,
+        "netid": true
+    },
+
+    "rules": {
+      "prettier/prettier": "error",    //prettier errors
+      "react/jsx-uses-vars": "error", // Prevent variables used in JSX to be incorrectly marked as unused
+      "no-console": 0,                 // disallow the use of console, I explicityly disable this to avoid it throwing an error when debugging
+      "no-unused-vars": 1,             // disallow declaration of variables that are not used in the code
+      "no-undef": 1                    // disallow use of undeclared variables unless mentioned in a /*global */ block
+    }
+}

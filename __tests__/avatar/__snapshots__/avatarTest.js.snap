@@ -1,0 +1,322 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar \`bgColor\` prop matches snapshot 1`] = `
+.c1 {
+  fill: #fff;
+  vertical-align: top;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #696969;
+  border-radius: 50%;
+  color: transparent;
+  font-size: 0;
+  overflow: hidden;
+}
+
+<div
+  className="c0"
+  size={32}
+>
+  <svg
+    aria-label="profile icon"
+    className="c1"
+    color="#fff"
+    height={30}
+    role="img"
+    viewBox="0 0 50 50"
+    width={30}
+  >
+    <title>
+      profile icon
+    </title>
+    <path
+      d="M34.8,33.8c-1.7-0.7-3.8-1.6-3.8-2.3V27c2.5-1.9,4-4.9,4-8v-6c0-5.5-4.5-10-10-10c-5.5,0-10,4.5-10,10v6c0,3.1,1.5,6.2,4,8  v4.5c0,0.6-2.1,1.5-3.8,2.3C11.1,35.5,5,38.1,5,45v1h40v-1C45,38.1,38.9,35.5,34.8,33.8z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Avatar \`displayLetter\` prop matches snapshot 1`] = `
+.c0 {
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  border-radius: 50%;
+  color: transparent;
+  font-size: 0;
+  overflow: hidden;
+}
+
+.c1 {
+  position: relative;
+  top: 8.767px;
+  color: #fff;
+  vertical-align: top;
+  font-size: 21.333333333333332px;
+  line-height: 0.8;
+  text-transform: uppercase;
+}
+
+<div
+  className="c0"
+  size={32}
+>
+  <span
+    className="c1"
+    size={32}
+  >
+    a
+  </span>
+</div>
+`;
+
+exports[`Avatar \`iconColor\` matches snapshot 1`] = `
+.c0 {
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  border-radius: 50%;
+  color: transparent;
+  font-size: 0;
+  overflow: hidden;
+}
+
+.c1 {
+  position: relative;
+  top: 8.767px;
+  color: #0680cd;
+  vertical-align: top;
+  font-size: 21.333333333333332px;
+  line-height: 0.8;
+  text-transform: uppercase;
+}
+
+<div
+  className="c0"
+  size={32}
+>
+  <span
+    className="c1"
+    color="#0680cd"
+    size={32}
+  >
+    a
+  </span>
+</div>
+`;
+
+exports[`Avatar \`iconHoverColor\` matches snapshot 1`] = `
+.c1 {
+  fill: #fff;
+  vertical-align: top;
+}
+
+.c1:hover {
+  fill: #0680cd;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  border-radius: 50%;
+  color: transparent;
+  font-size: 0;
+  overflow: hidden;
+}
+
+<div
+  className="c0"
+  size={32}
+>
+  <svg
+    aria-label="profile icon"
+    className="c1"
+    color="#fff"
+    height={30}
+    role="img"
+    viewBox="0 0 50 50"
+    width={30}
+  >
+    <title>
+      profile icon
+    </title>
+    <path
+      d="M34.8,33.8c-1.7-0.7-3.8-1.6-3.8-2.3V27c2.5-1.9,4-4.9,4-8v-6c0-5.5-4.5-10-10-10c-5.5,0-10,4.5-10,10v6c0,3.1,1.5,6.2,4,8  v4.5c0,0.6-2.1,1.5-3.8,2.3C11.1,35.5,5,38.1,5,45v1h40v-1C45,38.1,38.9,35.5,34.8,33.8z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Avatar \`imgUrl\` matches snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  border-radius: 50%;
+  color: transparent;
+  font-size: 0;
+  overflow: hidden;
+  background-image: url(https://image.freepik.com/free-vector/soft-background-with-a-cute-blue-watercolor-stain_1048-5169.jpg);
+}
+
+<div
+  className="c0"
+  size={32}
+/>
+`;
+
+exports[`Avatar \`size\` (larger than 32) matches snapshot 1`] = `
+.c0 {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  border-radius: 50%;
+  color: transparent;
+  font-size: 0;
+  overflow: hidden;
+}
+
+.c1 {
+  position: relative;
+  top: 10.000px;
+  color: #fff;
+  vertical-align: top;
+  font-size: 26.666666666666668px;
+  line-height: 0.8;
+  text-transform: uppercase;
+}
+
+<div
+  className="c0"
+  size={40}
+>
+  <span
+    className="c1"
+    size={40}
+  >
+    a
+  </span>
+</div>
+`;
+
+exports[`Avatar matches snapshot 1`] = `
+.c1 {
+  fill: #fff;
+  vertical-align: top;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  border-radius: 50%;
+  color: transparent;
+  font-size: 0;
+  overflow: hidden;
+}
+
+<div
+  className="c0"
+  size={32}
+>
+  <svg
+    aria-label="profile icon"
+    className="c1"
+    color="#fff"
+    height={30}
+    role="img"
+    viewBox="0 0 50 50"
+    width={30}
+  >
+    <title>
+      profile icon
+    </title>
+    <path
+      d="M34.8,33.8c-1.7-0.7-3.8-1.6-3.8-2.3V27c2.5-1.9,4-4.9,4-8v-6c0-5.5-4.5-10-10-10c-5.5,0-10,4.5-10,10v6c0,3.1,1.5,6.2,4,8  v4.5c0,0.6-2.1,1.5-3.8,2.3C11.1,35.5,5,38.1,5,45v1h40v-1C45,38.1,38.9,35.5,34.8,33.8z"
+    />
+  </svg>
+</div>
+`;

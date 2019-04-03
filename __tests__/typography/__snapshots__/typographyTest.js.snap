@@ -1,0 +1,589 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`H1 bolds when \`bold\` prop is set to true 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 2.625em;
+  line-height: 1.16em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<h1
+  className="c0"
+>
+  An H1 is you
+</h1>
+`;
+
+exports[`H1 displays correct color when \`color\` prop is declared 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 2.625em;
+  line-height: 1.16em;
+  color: #0680cd;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<h1
+  className="c0"
+  color="#0680cd"
+>
+  An H1 is you
+</h1>
+`;
+
+exports[`H1 italicizes when \`italic\` prop is set to true 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 2.625em;
+  line-height: 1.16em;
+  color: #131516;
+  font-weight: 400;
+  font-style: italic;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<h1
+  className="c0"
+>
+  An H1 is you
+</h1>
+`;
+
+exports[`H1 matches dom snapshot 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 2.625em;
+  line-height: 1.16em;
+  color: #131516;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<h1
+  className="c0"
+>
+  An H1 is you
+</h1>
+`;
+
+exports[`H1 sets the top/bottom margin when \`margin\` prop is declared 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 2.625em;
+  line-height: 1.16em;
+  color: #131516;
+  font-weight: 400;
+  margin: 8px 0;
+  padding: 0;
+}
+
+<h1
+  className="c0"
+>
+  An H1 is you
+</h1>
+`;
+
+exports[`H2 bolds when \`bold\` prop is set to true 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 2.125em;
+  line-height: 1.18em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<h2
+  className="c0"
+>
+  An H2 is you
+</h2>
+`;
+
+exports[`H2 displays correct color when \`color\` prop is declared 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 2.125em;
+  line-height: 1.18em;
+  color: #0680cd;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<h2
+  className="c0"
+  color="#0680cd"
+>
+  An H2 is you
+</h2>
+`;
+
+exports[`H2 italicizes when \`italic\` prop is set to true 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 2.125em;
+  line-height: 1.18em;
+  color: #131516;
+  font-weight: 400;
+  font-style: italic;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<h2
+  className="c0"
+>
+  An H2 is you
+</h2>
+`;
+
+exports[`H2 matches dom snapshot 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 2.125em;
+  line-height: 1.18em;
+  color: #131516;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<h2
+  className="c0"
+>
+  An H2 is you
+</h2>
+`;
+
+exports[`H2 sets the top/bottom margin when \`margin\` prop is declared 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 2.125em;
+  line-height: 1.18em;
+  color: #131516;
+  font-weight: 400;
+  margin: 8px 0;
+  padding: 0;
+}
+
+<h2
+  className="c0"
+>
+  An H2 is you
+</h2>
+`;
+
+exports[`H3 bolds when \`bold\` prop is set to true 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<h3
+  className="c0"
+>
+  An H3 is you
+</h3>
+`;
+
+exports[`H3 displays correct color when \`color\` prop is declared 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #0680cd;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<h3
+  className="c0"
+  color="#0680cd"
+>
+  An H3 is you
+</h3>
+`;
+
+exports[`H3 italicizes when \`italic\` prop is set to true 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 400;
+  font-style: italic;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<h3
+  className="c0"
+>
+  An H3 is you
+</h3>
+`;
+
+exports[`H3 matches dom snapshot 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<h3
+  className="c0"
+>
+  An H3 is you
+</h3>
+`;
+
+exports[`H3 sets the top/bottom margin when \`margin\` prop is declared 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 400;
+  margin: 8px 0;
+  padding: 0;
+}
+
+<h3
+  className="c0"
+>
+  An H3 is you
+</h3>
+`;
+
+exports[`H4 bolds when \`bold\` prop is set to true 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #545454;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<h4
+  className="c0"
+>
+  An H4 is you
+</h4>
+`;
+
+exports[`H4 displays correct color when \`color\` prop is declared 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #0680cd;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<h4
+  className="c0"
+  color="#0680cd"
+>
+  An H4 is you
+</h4>
+`;
+
+exports[`H4 italicizes when \`italic\` prop is set to true 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #545454;
+  font-weight: 400;
+  font-style: italic;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<h4
+  className="c0"
+>
+  An H4 is you
+</h4>
+`;
+
+exports[`H4 matches dom snapshot 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #545454;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<h4
+  className="c0"
+>
+  An H4 is you
+</h4>
+`;
+
+exports[`H4 sets the top/bottom margin when \`margin\` prop is declared 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #545454;
+  font-weight: 400;
+  margin: 8px 0;
+  padding: 0;
+}
+
+<h4
+  className="c0"
+>
+  An H4 is you
+</h4>
+`;
+
+exports[`H5 bolds when \`bold\` prop is set to true 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #696969;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<h5
+  className="c0"
+>
+  An H5 is you
+</h5>
+`;
+
+exports[`H5 displays correct color when \`color\` prop is declared 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #0680cd;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<h5
+  className="c0"
+  color="#0680cd"
+>
+  An H5 is you
+</h5>
+`;
+
+exports[`H5 italicizes when \`italic\` prop is set to true 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #696969;
+  font-weight: 400;
+  font-style: italic;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<h5
+  className="c0"
+>
+  An H5 is you
+</h5>
+`;
+
+exports[`H5 line-height: 1.43em when \`expanded\` is set to true 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.43em;
+  color: #696969;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<h5
+  className="c0"
+>
+  An H5 is you
+</h5>
+`;
+
+exports[`H5 matches dom snapshot 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #696969;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<h5
+  className="c0"
+>
+  An H5 is you
+</h5>
+`;
+
+exports[`H5 sets the top/bottom margin when \`margin\` prop is declared 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #696969;
+  font-weight: 400;
+  margin: 8px 0;
+  padding: 0;
+}
+
+<h5
+  className="c0"
+>
+  An H5 is you
+</h5>
+`;
+
+exports[`P bolds when \`bold\` prop is set to true 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<p
+  className="c0"
+>
+  An P is you
+</p>
+`;
+
+exports[`P displays correct color when \`color\` prop is declared 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #0680cd;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<p
+  className="c0"
+  color="#0680cd"
+>
+  An P is you
+</p>
+`;
+
+exports[`P italicizes when \`italic\` prop is set to true 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #131516;
+  font-weight: 400;
+  font-style: italic;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<p
+  className="c0"
+>
+  An P is you
+</p>
+`;
+
+exports[`P line-height: 1.43em when \`expanded\` is set to true 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.43em;
+  color: #131516;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<p
+  className="c0"
+>
+  An P is you
+</p>
+`;
+
+exports[`P matches dom snapshot 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #131516;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+}
+
+<p
+  className="c0"
+>
+  An P is you
+</p>
+`;
+
+exports[`P sets the top/bottom margin when \`margin\` prop is declared 1`] = `
+.c0 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #131516;
+  font-weight: 400;
+  margin: 8px 0;
+  padding: 0;
+}
+
+<p
+  className="c0"
+>
+  An P is you
+</p>
+`;

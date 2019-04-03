@@ -1,0 +1,7 @@
+version: '2'
+services:
+  dracs:
+    build: .
+    image: dracs
+    ports:
+      - 9001:9001

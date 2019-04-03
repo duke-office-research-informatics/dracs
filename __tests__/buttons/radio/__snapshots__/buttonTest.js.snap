@@ -1,0 +1,544 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio Button calls onChange handler on label click when \`changeOnLabelClick\` is true 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  min-height: 24px;
+  min-width: 24px;
+  margin: 4px;
+}
+
+.c0 input[type="radio"] {
+  opacity: 0;
+}
+
+.c0 input[type="radio"]:focus + label::before {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c0 input[type="radio"] + label {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.c0 input[type="radio"]:checked + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiA3Yy0yLjc2IDAtNSAyLjI0LTUgNXMyLjI0IDUgNSA1IDUtMi4yNCA1LTUtMi4yNC01LTUtNXptMC01QzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+}
+
+.c0 input[type="radio"] + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+}
+
+.c0 input[type="radio"]:checked:disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiA3Yy0yLjc2IDAtNSAyLjI0LTUgNXMyLjI0IDUgNSA1IDUtMi4yNCA1LTUtMi4yNC01LTUtNXptMC01QzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c0 input[type="radio"]:not(:checked):disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c0 span {
+  margin-left: 12px;
+  font-size: 0.875em;
+  color: #131516;
+  cursor: pointer;
+}
+
+<div
+  className="c0"
+>
+  <input
+    aria-labelledby="testButton-label"
+    className=""
+    id="testButton"
+    name="testButton"
+    onChange={[Function]}
+    onClick={[Function]}
+    type="radio"
+    value="testButton"
+  />
+  <label
+    htmlFor="testButton"
+  />
+  <span
+    id="testButton-label"
+    onClick={[Function]}
+  >
+    test button
+  </span>
+</div>
+`;
+
+exports[`Radio Button calls the onChange handler on input click 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  min-height: 24px;
+  min-width: 24px;
+  margin: 4px;
+}
+
+.c0 input[type="radio"] {
+  opacity: 0;
+}
+
+.c0 input[type="radio"]:focus + label::before {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c0 input[type="radio"] + label {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.c0 input[type="radio"]:checked + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiA3Yy0yLjc2IDAtNSAyLjI0LTUgNXMyLjI0IDUgNSA1IDUtMi4yNCA1LTUtMi4yNC01LTUtNXptMC01QzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+}
+
+.c0 input[type="radio"] + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+}
+
+.c0 input[type="radio"]:checked:disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiA3Yy0yLjc2IDAtNSAyLjI0LTUgNXMyLjI0IDUgNSA1IDUtMi4yNCA1LTUtMi4yNC01LTUtNXptMC01QzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c0 input[type="radio"]:not(:checked):disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c0 span {
+  margin-left: 12px;
+  font-size: 0.875em;
+  color: #131516;
+}
+
+<div
+  className="c0"
+>
+  <input
+    aria-labelledby="testButton-label"
+    className=""
+    id="testButton"
+    name="testButton"
+    onChange={[Function]}
+    onClick={[Function]}
+    type="radio"
+    value="testButton"
+  />
+  <label
+    htmlFor="testButton"
+  />
+  <span
+    id="testButton-label"
+    onClick={null}
+  >
+    test button
+  </span>
+</div>
+`;
+
+exports[`Radio Button disables itself when \`disabled\` is set to true 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  min-height: 24px;
+  min-width: 24px;
+  margin: 4px;
+}
+
+.c0 input[type="radio"] {
+  opacity: 0;
+}
+
+.c0 input[type="radio"]:focus + label::before {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c0 input[type="radio"] + label {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.c0 input[type="radio"]:checked + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiA3Yy0yLjc2IDAtNSAyLjI0LTUgNXMyLjI0IDUgNSA1IDUtMi4yNCA1LTUtMi4yNC01LTUtNXptMC01QzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+}
+
+.c0 input[type="radio"] + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+}
+
+.c0 input[type="radio"]:checked:disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiA3Yy0yLjc2IDAtNSAyLjI0LTUgNXMyLjI0IDUgNSA1IDUtMi4yNCA1LTUtMi4yNC01LTUtNXptMC01QzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c0 input[type="radio"]:not(:checked):disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c0 span {
+  margin-left: 12px;
+  font-size: 0.875em;
+  color: #696969;
+  cursor: not-allowed;
+}
+
+<div
+  className="c0"
+  disabled={true}
+>
+  <input
+    aria-labelledby="testButton-label"
+    className=""
+    disabled={true}
+    id="testButton"
+    name="testButton"
+    onChange={[Function]}
+    onClick={[Function]}
+    type="radio"
+    value="testButton"
+  />
+  <label
+    htmlFor="testButton"
+  />
+  <span
+    disabled={true}
+    id="testButton-label"
+    onClick={null}
+  >
+    test button
+  </span>
+</div>
+`;
+
+exports[`Radio Button matches snapshot 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  min-height: 24px;
+  min-width: 24px;
+  margin: 4px;
+}
+
+.c0 input[type="radio"] {
+  opacity: 0;
+}
+
+.c0 input[type="radio"]:focus + label::before {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c0 input[type="radio"] + label {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.c0 input[type="radio"]:checked + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiA3Yy0yLjc2IDAtNSAyLjI0LTUgNXMyLjI0IDUgNSA1IDUtMi4yNCA1LTUtMi4yNC01LTUtNXptMC01QzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+}
+
+.c0 input[type="radio"] + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+}
+
+.c0 input[type="radio"]:checked:disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiA3Yy0yLjc2IDAtNSAyLjI0LTUgNXMyLjI0IDUgNSA1IDUtMi4yNCA1LTUtMi4yNC01LTUtNXptMC01QzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c0 input[type="radio"]:not(:checked):disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c0 span {
+  margin-left: 12px;
+  font-size: 0.875em;
+  color: #131516;
+}
+
+<div
+  className="c0"
+>
+  <input
+    aria-labelledby="testButton-label"
+    className=""
+    id="testButton"
+    name="testButton"
+    onChange={[Function]}
+    onClick={[Function]}
+    type="radio"
+    value="testButton"
+  />
+  <label
+    htmlFor="testButton"
+  />
+  <span
+    id="testButton-label"
+    onClick={null}
+  >
+    test button
+  </span>
+</div>
+`;
+
+exports[`Radio Button renders a child 1`] = `
+.c1 {
+  fill: #fff;
+  vertical-align: top;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  min-height: 24px;
+  min-width: 24px;
+  margin: 4px;
+}
+
+.c0 input[type="radio"] {
+  opacity: 0;
+}
+
+.c0 input[type="radio"]:focus + label::before {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c0 input[type="radio"] + label {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.c0 input[type="radio"]:checked + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiA3Yy0yLjc2IDAtNSAyLjI0LTUgNXMyLjI0IDUgNSA1IDUtMi4yNCA1LTUtMi4yNC01LTUtNXptMC01QzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+}
+
+.c0 input[type="radio"] + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+}
+
+.c0 input[type="radio"]:checked:disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiA3Yy0yLjc2IDAtNSAyLjI0LTUgNXMyLjI0IDUgNSA1IDUtMi4yNCA1LTUtMi4yNC01LTUtNXptMC01QzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c0 input[type="radio"]:not(:checked):disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA4LTggOHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c0 span {
+  margin-left: 12px;
+  font-size: 0.875em;
+  color: #131516;
+}
+
+<div
+  className="c0"
+>
+  <input
+    aria-labelledby="testButton-label"
+    className=""
+    id="testButton"
+    name="testButton"
+    onChange={[Function]}
+    onClick={[Function]}
+    type="radio"
+    value="testButton"
+  />
+  <label
+    htmlFor="testButton"
+  />
+  <span
+    id="testButton-label"
+    onClick={null}
+  >
+    test button
+  </span>
+  <svg
+    aria-label="open customize and profile menu"
+    className="c1"
+    color="#fff"
+    height={24}
+    role="img"
+    viewBox="0 0 24 24"
+    width={24}
+  >
+    <title>
+      menu icon
+    </title>
+    <desc>
+      hamburger menu icon
+    </desc>
+    <path
+      d="M0 0h24v24H0z"
+      fill="none"
+    />
+    <path
+      d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+    />
+  </svg>
+</div>
+`;

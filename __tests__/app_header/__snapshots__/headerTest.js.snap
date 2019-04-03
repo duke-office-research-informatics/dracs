@@ -1,0 +1,781 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppHeader \`backgroundColor\` prop matches dom snapshot 1`] = `
+.c1 {
+  height: 56px;
+  width: 100%;
+  background-color: #696969;
+  background-image: url();
+  background-size: cover;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 16px;
+  z-index: 500;
+}
+
+.c0 {
+  width: 100vw;
+}
+
+<div
+  className="c0"
+>
+  <header
+    className="c1"
+    height={56}
+  />
+</div>
+`;
+
+exports[`AppHeader \`backgroundImage\` prop matches dom snapshot 1`] = `
+.c1 {
+  height: 56px;
+  width: 100%;
+  background-color: #0680cd;
+  background-image: url(https://image.freepik.com/free-vector/soft-background-with-a-cute-blue-watercolor-stain_1048-5169.jpg);
+  background-size: cover;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 16px;
+  z-index: 500;
+}
+
+.c0 {
+  width: 100vw;
+}
+
+<div
+  className="c0"
+>
+  <header
+    className="c1"
+    height={56}
+  />
+</div>
+`;
+
+exports[`AppHeader \`childrenLeft\` prop matches dom snapshot 1`] = `
+.c1 {
+  height: 56px;
+  width: 100%;
+  background-color: #0680cd;
+  background-image: url();
+  background-size: cover;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 16px;
+  z-index: 500;
+}
+
+.c0 {
+  width: 100vw;
+}
+
+.c3 {
+  fill: #fff;
+  vertical-align: top;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  border-radius: 50%;
+  color: transparent;
+  font-size: 0;
+  overflow: hidden;
+}
+
+<div
+  className="c0"
+>
+  <header
+    className="c1"
+    height={56}
+  >
+    <div
+      className="c2"
+      size={32}
+    >
+      <svg
+        aria-label="profile icon"
+        className="c3"
+        color="#fff"
+        height={30}
+        role="img"
+        viewBox="0 0 50 50"
+        width={30}
+      >
+        <title>
+          profile icon
+        </title>
+        <path
+          d="M34.8,33.8c-1.7-0.7-3.8-1.6-3.8-2.3V27c2.5-1.9,4-4.9,4-8v-6c0-5.5-4.5-10-10-10c-5.5,0-10,4.5-10,10v6c0,3.1,1.5,6.2,4,8  v4.5c0,0.6-2.1,1.5-3.8,2.3C11.1,35.5,5,38.1,5,45v1h40v-1C45,38.1,38.9,35.5,34.8,33.8z"
+        />
+      </svg>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`AppHeader \`childrenRight\` prop matches dom snapshot 1`] = `
+.c1 {
+  height: 56px;
+  width: 100%;
+  background-color: #0680cd;
+  background-image: url();
+  background-size: cover;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 16px;
+  z-index: 500;
+}
+
+.c2 {
+  margin-left: auto;
+}
+
+.c0 {
+  width: 100vw;
+}
+
+.c4 {
+  fill: #fff;
+  vertical-align: top;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  border-radius: 50%;
+  color: transparent;
+  font-size: 0;
+  overflow: hidden;
+}
+
+<div
+  className="c0"
+>
+  <header
+    className="c1"
+    height={56}
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        size={32}
+      >
+        <svg
+          aria-label="profile icon"
+          className="c4"
+          color="#fff"
+          height={30}
+          role="img"
+          viewBox="0 0 50 50"
+          width={30}
+        >
+          <title>
+            profile icon
+          </title>
+          <path
+            d="M34.8,33.8c-1.7-0.7-3.8-1.6-3.8-2.3V27c2.5-1.9,4-4.9,4-8v-6c0-5.5-4.5-10-10-10c-5.5,0-10,4.5-10,10v6c0,3.1,1.5,6.2,4,8  v4.5c0,0.6-2.1,1.5-3.8,2.3C11.1,35.5,5,38.1,5,45v1h40v-1C45,38.1,38.9,35.5,34.8,33.8z"
+          />
+        </svg>
+      </div>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`AppHeader \`fixed\` prop set to true matches dom snapshot 1`] = `
+.c2 {
+  position: absolute;
+  top: 0;
+  height: 56px;
+  width: 100%;
+  background-color: #0680cd;
+  background-image: url();
+  background-size: cover;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 16px;
+  z-index: 500;
+}
+
+.c0 {
+  width: 100vw;
+}
+
+.c1 {
+  height: 56px;
+  width: 100vw;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    height={56}
+  />
+  <header
+    className="c2"
+    height={56}
+  />
+</div>
+`;
+
+exports[`AppHeader \`leftIcon\` props with click handler matches dom snapshot 1`] = `
+.c1 {
+  height: 56px;
+  width: 100%;
+  background-color: #0680cd;
+  background-image: url();
+  background-size: cover;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 16px;
+  z-index: 500;
+}
+
+.c0 {
+  width: 100vw;
+}
+
+.c2 {
+  fill: #fff;
+  vertical-align: top;
+}
+
+<div
+  className="c0"
+>
+  <header
+    className="c1"
+    height={56}
+  >
+    <button
+      className=""
+      onClick={[Function]}
+      tabIndex={0}
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c2"
+        color="#fff"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </button>
+  </header>
+</div>
+`;
+
+exports[`AppHeader \`leftIcon\` props without click handler matches dom snapshot 1`] = `
+.c1 {
+  height: 56px;
+  width: 100%;
+  background-color: #0680cd;
+  background-image: url();
+  background-size: cover;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 16px;
+  z-index: 500;
+}
+
+.c0 {
+  width: 100vw;
+}
+
+.c2 {
+  fill: #fff;
+  vertical-align: top;
+}
+
+<div
+  className="c0"
+>
+  <header
+    className="c1"
+    height={56}
+  >
+    <svg
+      aria-label="open customize and profile menu"
+      className="c2"
+      color="#fff"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </header>
+</div>
+`;
+
+exports[`AppHeader \`mediaQuery\` string passed via prop matches dom snapshot 1`] = `
+.c1 {
+  height: 56px;
+  width: 100%;
+  background-color: #0680cd;
+  background-image: url();
+  background-size: cover;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 16px;
+  z-index: 500;
+}
+
+.c0 {
+  width: 100vw;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    background-color: #fff;
+  }
+}
+
+<div
+  className="c0"
+>
+  <header
+    className="c1"
+    height={56}
+  />
+</div>
+`;
+
+exports[`AppHeader \`raised\` set to true matches dom snapshot 1`] = `
+.c1 {
+  height: 56px;
+  width: 100%;
+  background-color: #0680cd;
+  background-image: url();
+  background-size: cover;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 16px;
+  box-shadow: 0 0 12px 0 rgba(0,0,0,0.40);
+  z-index: 500;
+}
+
+.c0 {
+  width: 100vw;
+}
+
+<div
+  className="c0"
+>
+  <header
+    className="c1"
+    height={56}
+  />
+</div>
+`;
+
+exports[`AppHeader \`rightIcon\` props with click handler matches dom snapshot 1`] = `
+.c1 {
+  height: 56px;
+  width: 100%;
+  background-color: #0680cd;
+  background-image: url();
+  background-size: cover;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 16px;
+  z-index: 500;
+}
+
+.c2 {
+  margin-left: auto;
+}
+
+.c0 {
+  width: 100vw;
+}
+
+.c3 {
+  fill: #fff;
+  vertical-align: top;
+}
+
+<div
+  className="c0"
+>
+  <header
+    className="c1"
+    height={56}
+  >
+    <button
+      className="c2"
+      onClick={[Function]}
+      tabIndex={0}
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c3"
+        color="#fff"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </button>
+  </header>
+</div>
+`;
+
+exports[`AppHeader \`rightIcon\` props without click handler matches dom snapshot 1`] = `
+.c1 {
+  height: 56px;
+  width: 100%;
+  background-color: #0680cd;
+  background-image: url();
+  background-size: cover;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 16px;
+  z-index: 500;
+}
+
+.c2 {
+  margin-left: auto;
+}
+
+.c0 {
+  width: 100vw;
+}
+
+.c3 {
+  fill: #fff;
+  vertical-align: top;
+}
+
+<div
+  className="c0"
+>
+  <header
+    className="c1"
+    height={56}
+  >
+    <div
+      className="c2"
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c3"
+        color="#fff"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`AppHeader \`width\` set via prop matches dom snapshot 1`] = `
+.c1 {
+  height: 56px;
+  width: 200px;
+  background-color: #0680cd;
+  background-image: url();
+  background-size: cover;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 16px;
+  z-index: 500;
+}
+
+.c0 {
+  width: 100vw;
+}
+
+<div
+  className="c0"
+>
+  <header
+    className="c1"
+    height={56}
+    width="200px"
+  />
+</div>
+`;
+
+exports[`AppHeader matches dom snapshot 1`] = `
+.c1 {
+  height: 56px;
+  width: 100%;
+  background-color: #0680cd;
+  background-image: url();
+  background-size: cover;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 16px;
+  z-index: 500;
+}
+
+.c0 {
+  width: 100vw;
+}
+
+<div
+  className="c0"
+>
+  <header
+    className="c1"
+    height={56}
+  />
+</div>
+`;

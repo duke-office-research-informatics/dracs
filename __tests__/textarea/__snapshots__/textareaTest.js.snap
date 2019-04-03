@@ -1,0 +1,3065 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Textarea applies the correct styles and attrs when \`inputState\`=default or is not declared 1`] = `
+.c6 {
+  fill: hsla(0,0%,14.9%,0.5700000000000001);
+  vertical-align: top;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 12px;
+  left: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 4px 0 0 0;
+  padding-left: 2px;
+}
+
+.c5 {
+  display: inline-block;
+  margin-right: 2px;
+  width: 12px;
+  height: 12px;
+}
+
+.c0 {
+  width: 100%;
+  cursor: auto;
+  background-color: #fff;
+}
+
+.c1 {
+  position: relative;
+  padding: 20px 0 0 0;
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  border: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.c3 {
+  padding: 0 8px 8px 8px;
+  min-height: 64px;
+  height: 100%;
+  width: 100%;
+  color: hsla(0,0%,14.9%,0.9);
+  resize: none;
+  overflow: auto;
+  border-radius: 4px;
+  border: none;
+  background-color: #fff;
+  cursor: auto;
+  box-sizing: border-box;
+}
+
+.c3::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c3::-moz-placeholder {
+  color: transparent;
+}
+
+.c3:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c3::placeholder {
+  color: transparent;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testLabelName"
+    >
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+  </div>
+  <label
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  >
+    <span
+      className="c5"
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c6"
+        color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+        height={12}
+        role="img"
+        viewBox="0 0 24 24"
+        width={12}
+      >
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Textarea applies the correct styles and attrs when \`inputState\`=disabled 1`] = `
+.c6 {
+  fill: hsla(0,0%,14.9%,0.44999999999999996);
+  vertical-align: top;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+  top: 12px;
+  left: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: not-allowed;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 4px 0 0 0;
+  padding-left: 2px;
+}
+
+.c5 {
+  display: inline-block;
+  margin-right: 2px;
+  width: 12px;
+  height: 12px;
+}
+
+.c0 {
+  width: 100%;
+  cursor: not-allowed;
+  background-color: #f6f5f4;
+}
+
+.c1 {
+  position: relative;
+  padding: 20px 0 0 0;
+  height: auto;
+  width: 100%;
+  background-color: #f6f5f4;
+  border: solid 1px hsla(0,0%,14.9%,0.44999999999999996);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.c3 {
+  padding: 0 8px 8px 8px;
+  min-height: 64px;
+  height: 100%;
+  width: 100%;
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+  resize: none;
+  overflow: auto;
+  border-radius: 4px;
+  border: none;
+  background-color: #f6f5f4;
+  cursor: not-allowed;
+  box-sizing: border-box;
+}
+
+.c3::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c3::-moz-placeholder {
+  color: transparent;
+}
+
+.c3:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c3::placeholder {
+  color: transparent;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testLabelName"
+    >
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={true}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+  </div>
+  <label
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  >
+    <span
+      className="c5"
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c6"
+        color="hsla(0,0%,14.9%,0.44999999999999996)"
+        height={12}
+        role="img"
+        viewBox="0 0 24 24"
+        width={12}
+      >
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Textarea applies the correct styles and attrs when \`inputState\`=error  1`] = `
+.c6 {
+  fill: hsla(15,100%,40%,0.87);
+  vertical-align: top;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: #cc3300;
+  top: 12px;
+  left: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(15,100%,40%,0.87);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 4px 0 0 0;
+  padding-left: 2px;
+}
+
+.c5 {
+  display: inline-block;
+  margin-right: 2px;
+  width: 12px;
+  height: 12px;
+}
+
+.c0 {
+  width: 100%;
+  cursor: auto;
+  background-color: #fff;
+}
+
+.c1 {
+  position: relative;
+  padding: 20px 0 0 0;
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  border: solid 1px #cc3300;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.c3 {
+  padding: 0 8px 8px 8px;
+  min-height: 64px;
+  height: 100%;
+  width: 100%;
+  color: #cc3300;
+  resize: none;
+  overflow: auto;
+  border-radius: 4px;
+  border: none;
+  background-color: #fff;
+  cursor: auto;
+  box-sizing: border-box;
+}
+
+.c3::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c3::-moz-placeholder {
+  color: transparent;
+}
+
+.c3:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c3::placeholder {
+  color: transparent;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testLabelName"
+    >
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+  </div>
+  <label
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  >
+    <span
+      className="c5"
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c6"
+        color="hsla(15,100%,40%,0.87)"
+        height={12}
+        role="img"
+        viewBox="0 0 24 24"
+        width={12}
+      >
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Textarea matches snapshot 1`] = `
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 12px;
+  left: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 4px 0 0 0;
+  padding-left: 2px;
+}
+
+.c0 {
+  width: 100%;
+  cursor: auto;
+  background-color: #fff;
+}
+
+.c1 {
+  position: relative;
+  padding: 20px 0 0 0;
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  border: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.c3 {
+  padding: 0 8px 8px 8px;
+  min-height: 64px;
+  height: 100%;
+  width: 100%;
+  color: hsla(0,0%,14.9%,0.9);
+  resize: none;
+  overflow: auto;
+  border-radius: 4px;
+  border: none;
+  background-color: #fff;
+  cursor: auto;
+  box-sizing: border-box;
+}
+
+.c3::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c3::-moz-placeholder {
+  color: transparent;
+}
+
+.c3:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c3::placeholder {
+  color: transparent;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testLabelName"
+    >
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+  </div>
+  <label
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
+`;
+
+exports[`Textarea sets \`helpIcon\` via props 1`] = `
+.c6 {
+  fill: hsla(0,0%,14.9%,0.5700000000000001);
+  vertical-align: top;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 12px;
+  left: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 4px 0 0 0;
+  padding-left: 2px;
+}
+
+.c5 {
+  display: inline-block;
+  margin-right: 2px;
+  width: 12px;
+  height: 12px;
+}
+
+.c0 {
+  width: 100%;
+  cursor: auto;
+  background-color: #fff;
+}
+
+.c1 {
+  position: relative;
+  padding: 20px 0 0 0;
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  border: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.c3 {
+  padding: 0 8px 8px 8px;
+  min-height: 64px;
+  height: 100%;
+  width: 100%;
+  color: hsla(0,0%,14.9%,0.9);
+  resize: none;
+  overflow: auto;
+  border-radius: 4px;
+  border: none;
+  background-color: #fff;
+  cursor: auto;
+  box-sizing: border-box;
+}
+
+.c3::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c3::-moz-placeholder {
+  color: transparent;
+}
+
+.c3:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c3::placeholder {
+  color: transparent;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testLabelName"
+    >
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+  </div>
+  <label
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  >
+    <span
+      className="c5"
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c6"
+        color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+        height={12}
+        role="img"
+        viewBox="0 0 24 24"
+        width={12}
+      >
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Textarea sets \`helpText\` via props 1`] = `
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 12px;
+  left: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 4px 0 0 0;
+  padding-left: 2px;
+}
+
+.c0 {
+  width: 100%;
+  cursor: auto;
+  background-color: #fff;
+}
+
+.c1 {
+  position: relative;
+  padding: 20px 0 0 0;
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  border: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.c3 {
+  padding: 0 8px 8px 8px;
+  min-height: 64px;
+  height: 100%;
+  width: 100%;
+  color: hsla(0,0%,14.9%,0.9);
+  resize: none;
+  overflow: auto;
+  border-radius: 4px;
+  border: none;
+  background-color: #fff;
+  cursor: auto;
+  box-sizing: border-box;
+}
+
+.c3::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c3::-moz-placeholder {
+  color: transparent;
+}
+
+.c3:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c3::placeholder {
+  color: transparent;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testLabelName"
+    >
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+  </div>
+  <label
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  >
+    test help
+  </label>
+</div>
+`;
+
+exports[`Textarea sets a style object on the component wrapper via props 1`] = `
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 12px;
+  left: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 4px 0 0 0;
+  padding-left: 2px;
+}
+
+.c0 {
+  width: 100%;
+  cursor: auto;
+  background-color: #fff;
+}
+
+.c1 {
+  position: relative;
+  padding: 20px 0 0 0;
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  border: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.c3 {
+  padding: 0 8px 8px 8px;
+  min-height: 64px;
+  height: 100%;
+  width: 100%;
+  color: hsla(0,0%,14.9%,0.9);
+  resize: none;
+  overflow: auto;
+  border-radius: 4px;
+  border: none;
+  background-color: #fff;
+  cursor: auto;
+  box-sizing: border-box;
+}
+
+.c3::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c3::-moz-placeholder {
+  color: transparent;
+}
+
+.c3:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c3::placeholder {
+  color: transparent;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+<div
+  className="c0"
+  style={
+    Object {
+      "backgroundColor": "blue",
+    }
+  }
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testLabelName"
+    >
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+  </div>
+  <label
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
+`;
+
+exports[`Textarea sets an onBlur func and sets state.isFocused to false on blur 1`] = `
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(203.200000000005,94.3%,41.4%,0.87);
+  top: 2px;
+  left: 8px;
+  font-size: 12px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 4px 0 0 0;
+  padding-left: 2px;
+}
+
+.c0 {
+  width: 100%;
+  cursor: auto;
+  background-color: #fff;
+}
+
+.c1 {
+  position: relative;
+  padding: 19px 0 0 0;
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  border: solid 2px #0680cd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.c3 {
+  padding: 0 7px 7px 7px;
+  min-height: 64px;
+  height: 100%;
+  width: 100%;
+  color: hsla(0,0%,14.9%,0.9);
+  resize: none;
+  overflow: auto;
+  border-radius: 4px;
+  border: none;
+  background-color: #fff;
+  cursor: auto;
+  box-sizing: border-box;
+}
+
+.c3::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c3::-moz-placeholder {
+  color: transparent;
+}
+
+.c3:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c3::placeholder {
+  color: transparent;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testLabelName"
+    >
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+  </div>
+  <label
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
+`;
+
+exports[`Textarea sets an onChange function on the input and sets state.isTouched to true if value isnt empty 1`] = `
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 12px;
+  left: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 4px 0 0 0;
+  padding-left: 2px;
+}
+
+.c0 {
+  width: 100%;
+  cursor: auto;
+  background-color: #fff;
+}
+
+.c1 {
+  position: relative;
+  padding: 20px 0 0 0;
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  border: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.c3 {
+  padding: 0 8px 8px 8px;
+  min-height: 64px;
+  height: 100%;
+  width: 100%;
+  color: hsla(0,0%,14.9%,0.9);
+  resize: none;
+  overflow: auto;
+  border-radius: 4px;
+  border: none;
+  background-color: #fff;
+  cursor: auto;
+  box-sizing: border-box;
+}
+
+.c3::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c3::-moz-placeholder {
+  color: transparent;
+}
+
+.c3:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c3::placeholder {
+  color: transparent;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testLabelName"
+    >
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+  </div>
+  <label
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
+`;
+
+exports[`Textarea sets focus on the textarea when \`autoFocus\`=true 1`] = `
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 12px;
+  left: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 4px 0 0 0;
+  padding-left: 2px;
+}
+
+.c0 {
+  width: 100%;
+  cursor: auto;
+  background-color: #fff;
+}
+
+.c1 {
+  position: relative;
+  padding: 20px 0 0 0;
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  border: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.c3 {
+  padding: 0 8px 8px 8px;
+  min-height: 64px;
+  height: 100%;
+  width: 100%;
+  color: hsla(0,0%,14.9%,0.9);
+  resize: none;
+  overflow: auto;
+  border-radius: 4px;
+  border: none;
+  background-color: #fff;
+  cursor: auto;
+  box-sizing: border-box;
+}
+
+.c3::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c3::-moz-placeholder {
+  color: transparent;
+}
+
+.c3:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c3::placeholder {
+  color: transparent;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testLabelName"
+    >
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      autoFocus={true}
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+  </div>
+  <label
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
+`;
+
+exports[`Textarea sets id attr via props and propogages to relevant elements for a11y 1`] = `
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 12px;
+  left: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 4px 0 0 0;
+  padding-left: 2px;
+}
+
+.c0 {
+  width: 100%;
+  cursor: auto;
+  background-color: #fff;
+}
+
+.c1 {
+  position: relative;
+  padding: 20px 0 0 0;
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  border: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.c3 {
+  padding: 0 8px 8px 8px;
+  min-height: 64px;
+  height: 100%;
+  width: 100%;
+  color: hsla(0,0%,14.9%,0.9);
+  resize: none;
+  overflow: auto;
+  border-radius: 4px;
+  border: none;
+  background-color: #fff;
+  cursor: auto;
+  box-sizing: border-box;
+}
+
+.c3::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c3::-moz-placeholder {
+  color: transparent;
+}
+
+.c3:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c3::placeholder {
+  color: transparent;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testId"
+    >
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testId-statusText"
+      className="c3"
+      disabled={false}
+      id="testId"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+  </div>
+  <label
+    className="c4"
+    id="testId-statusText"
+    role="status"
+  />
+</div>
+`;
+
+exports[`Textarea sets the components height via props 1`] = `
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 12px;
+  left: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 4px 0 0 0;
+  padding-left: 2px;
+}
+
+.c0 {
+  width: 100%;
+  cursor: auto;
+  background-color: #fff;
+}
+
+.c1 {
+  position: relative;
+  padding: 20px 0 0 0;
+  height: 500px;
+  width: 100%;
+  background-color: #fff;
+  border: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.c3 {
+  padding: 0 8px 8px 8px;
+  min-height: 64px;
+  height: 100%;
+  width: 100%;
+  color: hsla(0,0%,14.9%,0.9);
+  resize: none;
+  overflow: auto;
+  border-radius: 4px;
+  border: none;
+  background-color: #fff;
+  cursor: auto;
+  box-sizing: border-box;
+}
+
+.c3::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c3::-moz-placeholder {
+  color: transparent;
+}
+
+.c3:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c3::placeholder {
+  color: transparent;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    height="500px"
+  >
+    <label
+      className="c2"
+      htmlFor="testLabelName"
+    >
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+  </div>
+  <label
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
+`;
+
+exports[`Textarea sets the html type attr on the input via props 1`] = `
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 12px;
+  left: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 4px 0 0 0;
+  padding-left: 2px;
+}
+
+.c0 {
+  width: 100%;
+  cursor: auto;
+  background-color: #fff;
+}
+
+.c1 {
+  position: relative;
+  padding: 20px 0 0 0;
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  border: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.c3 {
+  padding: 0 8px 8px 8px;
+  min-height: 64px;
+  height: 100%;
+  width: 100%;
+  color: hsla(0,0%,14.9%,0.9);
+  resize: none;
+  overflow: auto;
+  border-radius: 4px;
+  border: none;
+  background-color: #fff;
+  cursor: auto;
+  box-sizing: border-box;
+}
+
+.c3::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c3::-moz-placeholder {
+  color: transparent;
+}
+
+.c3:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c3::placeholder {
+  color: transparent;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testLabelName"
+    >
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      type="search"
+      value=""
+    />
+  </div>
+  <label
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
+`;
+
+exports[`Textarea sets the inputs value via props 1`] = `
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 2px;
+  left: 8px;
+  font-size: 12px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 4px 0 0 0;
+  padding-left: 2px;
+}
+
+.c0 {
+  width: 100%;
+  cursor: auto;
+  background-color: #fff;
+}
+
+.c1 {
+  position: relative;
+  padding: 20px 0 0 0;
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  border: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.c3 {
+  padding: 0 8px 8px 8px;
+  min-height: 64px;
+  height: 100%;
+  width: 100%;
+  color: hsla(0,0%,14.9%,0.9);
+  resize: none;
+  overflow: auto;
+  border-radius: 4px;
+  border: none;
+  background-color: #fff;
+  cursor: auto;
+  box-sizing: border-box;
+}
+
+.c3::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c3::-moz-placeholder {
+  color: transparent;
+}
+
+.c3:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c3::placeholder {
+  color: transparent;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testLabelName"
+    >
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value="test"
+    />
+  </div>
+  <label
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
+`;
+
+exports[`Textarea sets the inputs width via props 1`] = `
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 12px;
+  left: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 4px 0 0 0;
+  padding-left: 2px;
+}
+
+.c0 {
+  width: 500px;
+  cursor: auto;
+  background-color: #fff;
+}
+
+.c1 {
+  position: relative;
+  padding: 20px 0 0 0;
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  border: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.c3 {
+  padding: 0 8px 8px 8px;
+  min-height: 64px;
+  height: 100%;
+  width: 100%;
+  color: hsla(0,0%,14.9%,0.9);
+  resize: none;
+  overflow: auto;
+  border-radius: 4px;
+  border: none;
+  background-color: #fff;
+  cursor: auto;
+  box-sizing: border-box;
+}
+
+.c3::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c3::-moz-placeholder {
+  color: transparent;
+}
+
+.c3:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c3::placeholder {
+  color: transparent;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+<div
+  className="c0"
+  width="500px"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testLabelName"
+    >
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+  </div>
+  <label
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
+`;
+
+exports[`Textarea sets the placeholder on input via props 1`] = `
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 12px;
+  left: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 4px 0 0 0;
+  padding-left: 2px;
+}
+
+.c0 {
+  width: 100%;
+  cursor: auto;
+  background-color: #fff;
+}
+
+.c1 {
+  position: relative;
+  padding: 20px 0 0 0;
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  border: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.c3 {
+  padding: 0 8px 8px 8px;
+  min-height: 64px;
+  height: 100%;
+  width: 100%;
+  color: hsla(0,0%,14.9%,0.9);
+  resize: none;
+  overflow: auto;
+  border-radius: 4px;
+  border: none;
+  background-color: #fff;
+  cursor: auto;
+  box-sizing: border-box;
+}
+
+.c3::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c3::-moz-placeholder {
+  color: transparent;
+}
+
+.c3:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c3::placeholder {
+  color: transparent;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testLabelName"
+    >
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="tteesstt"
+      tabIndex="0"
+      value=""
+    />
+  </div>
+  <label
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
+`;
+
+exports[`Textarea sets the proper styles when state.isFocused=true 1`] = `
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(203.200000000005,94.3%,41.4%,0.87);
+  top: 2px;
+  left: 8px;
+  font-size: 12px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 4px 0 0 0;
+  padding-left: 2px;
+}
+
+.c0 {
+  width: 100%;
+  cursor: auto;
+  background-color: #fff;
+}
+
+.c1 {
+  position: relative;
+  padding: 19px 0 0 0;
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  border: solid 2px #0680cd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.c3 {
+  padding: 0 7px 7px 7px;
+  min-height: 64px;
+  height: 100%;
+  width: 100%;
+  color: hsla(0,0%,14.9%,0.9);
+  resize: none;
+  overflow: auto;
+  border-radius: 4px;
+  border: none;
+  background-color: #fff;
+  cursor: auto;
+  box-sizing: border-box;
+}
+
+.c3::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c3::-moz-placeholder {
+  color: transparent;
+}
+
+.c3:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c3::placeholder {
+  color: transparent;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testLabelName"
+    >
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+  </div>
+  <label
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
+`;
+
+exports[`Textarea sets the proper styles when state.isTouched=true 1`] = `
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 2px;
+  left: 8px;
+  font-size: 12px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 4px 0 0 0;
+  padding-left: 2px;
+}
+
+.c0 {
+  width: 100%;
+  cursor: auto;
+  background-color: #fff;
+}
+
+.c1 {
+  position: relative;
+  padding: 20px 0 0 0;
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  border: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.c3 {
+  padding: 0 8px 8px 8px;
+  min-height: 64px;
+  height: 100%;
+  width: 100%;
+  color: hsla(0,0%,14.9%,0.9);
+  resize: none;
+  overflow: auto;
+  border-radius: 4px;
+  border: none;
+  background-color: #fff;
+  cursor: auto;
+  box-sizing: border-box;
+}
+
+.c3::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c3::-moz-placeholder {
+  color: transparent;
+}
+
+.c3:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c3::placeholder {
+  color: transparent;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testLabelName"
+    >
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+  </div>
+  <label
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
+`;
+
+exports[`Textarea sets the readOnly attr on input via props 1`] = `
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 12px;
+  left: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 4px 0 0 0;
+  padding-left: 2px;
+}
+
+.c0 {
+  width: 100%;
+  cursor: auto;
+  background-color: #fff;
+}
+
+.c1 {
+  position: relative;
+  padding: 20px 0 0 0;
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  border: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.c3 {
+  padding: 0 8px 8px 8px;
+  min-height: 64px;
+  height: 100%;
+  width: 100%;
+  color: hsla(0,0%,14.9%,0.9);
+  resize: none;
+  overflow: auto;
+  border-radius: 4px;
+  border: none;
+  background-color: #fff;
+  cursor: auto;
+  box-sizing: border-box;
+}
+
+.c3::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c3::-moz-placeholder {
+  color: transparent;
+}
+
+.c3:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c3::placeholder {
+  color: transparent;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testLabelName"
+    >
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={true}
+      tabIndex="0"
+      value=""
+    />
+  </div>
+  <label
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
+`;
+
+exports[`Textarea sets the required attr via props and adds a star to the label 1`] = `
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 12px;
+  left: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 4px 0 0 0;
+  padding-left: 2px;
+}
+
+.c0 {
+  width: 100%;
+  cursor: auto;
+  background-color: #fff;
+}
+
+.c1 {
+  position: relative;
+  padding: 20px 0 0 0;
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  border: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.c3 {
+  padding: 0 8px 8px 8px;
+  min-height: 64px;
+  height: 100%;
+  width: 100%;
+  color: hsla(0,0%,14.9%,0.9);
+  resize: none;
+  overflow: auto;
+  border-radius: 4px;
+  border: none;
+  background-color: #fff;
+  cursor: auto;
+  box-sizing: border-box;
+}
+
+.c3::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c3::-moz-placeholder {
+  color: transparent;
+}
+
+.c3:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c3::placeholder {
+  color: transparent;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testLabelName"
+    >
+      testLabel
+      <span
+        style={
+          Object {
+            "color": "hsla(15,100%,40%,0.5)",
+            "marginLeft": "2px",
+          }
+        }
+      >
+        *
+      </span>
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      required={true}
+      tabIndex="0"
+      value=""
+    />
+  </div>
+  <label
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
+`;

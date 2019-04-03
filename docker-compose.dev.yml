@@ -1,0 +1,11 @@
+version: '2'
+services:
+  localdev:
+    image: dracs
+    command: ['echo','setting up localdev']
+    volumes:
+      - .:/opt/app-root/src
+  dracs:
+    user: root
+    volumes_from:
+      - localdev

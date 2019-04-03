@@ -1,0 +1,2138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`checkbox applies an onBlur function via props and calls function on blur 1`] = `
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  min-height: 24px;
+  min-width: 24px;
+  margin-right: 4px;
+  vertical-align: top;
+  line-height: 0px;
+}
+
+.c2 input[type="checkbox"] {
+  opacity: 0;
+}
+
+.c2 input[type="checkbox"]:focus + label::before {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c2 input[type="checkbox"] + label {
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.c2 input[type="checkbox"]:checked + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0xOSAzSDVjLTEuMTEgMC0yIC45LTIgMnYxNGMwIDEuMS44OSAyIDIgMmgxNGMxLjExIDAgMi0uOSAyLTJWNWMwLTEuMS0uODktMi0yLTJ6bS05IDE0bC01LTUgMS40MS0xLjQxTDEwIDE0LjE3bDcuNTktNy41OUwxOSA4bC05IDl6Ii8+Cjwvc3ZnPg==);
+}
+
+.c2 input[type="checkbox"] + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+}
+
+.c2 input[type="checkbox"]:not(:checked):disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+}
+
+.c2 input[type="checkbox"]:not(:checked):disabled + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+  cursor: not-allowed;
+}
+
+.c2 input[type="checkbox"]:disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnptLTkgMTRsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+);
+}
+
+.c2 input[type="checkbox"]:disabled + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnptLTkgMTRsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c2 input[type="checkbox"]:indeterminate + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCI+CiAgICA8ZGVmcz4KICAgICAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBpZD0iYSIvPgogICAgPC9kZWZzPgogICAgPGNsaXBQYXRoIGlkPSJiIj4KICAgICAgICA8dXNlIG92ZXJmbG93PSJ2aXNpYmxlIiB4bGlua0hyZWY9IiNhIi8+CiAgICA8L2NsaXBQYXRoPgogICAgPHBhdGggY2xpcC1wYXRoPSJ1cmwoI2IpIiBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0yIDEwSDd2LTJoMTB2MnoiLz4KPC9zdmc+);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 4px 0;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  margin-top: 2px;
+  color: #131516;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <input
+        aria-labelledby="testCheckbox-label"
+        checked={false}
+        className=""
+        disabled={false}
+        id="testCheckbox"
+        name="testCheckbox"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        type="checkbox"
+      />
+      <label
+        aria-checked={false}
+        htmlFor="testCheckbox"
+      />
+    </div>
+    <span
+      className="c3"
+      disabled={false}
+      id="testCheckbox-label"
+      onClick={null}
+    >
+      hello
+    </span>
+  </div>
+</div>
+`;
+
+exports[`checkbox applies an onFocus function via props and calls function on focus 1`] = `
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  min-height: 24px;
+  min-width: 24px;
+  margin-right: 4px;
+  vertical-align: top;
+  line-height: 0px;
+}
+
+.c2 input[type="checkbox"] {
+  opacity: 0;
+}
+
+.c2 input[type="checkbox"]:focus + label::before {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c2 input[type="checkbox"] + label {
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.c2 input[type="checkbox"]:checked + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0xOSAzSDVjLTEuMTEgMC0yIC45LTIgMnYxNGMwIDEuMS44OSAyIDIgMmgxNGMxLjExIDAgMi0uOSAyLTJWNWMwLTEuMS0uODktMi0yLTJ6bS05IDE0bC01LTUgMS40MS0xLjQxTDEwIDE0LjE3bDcuNTktNy41OUwxOSA4bC05IDl6Ii8+Cjwvc3ZnPg==);
+}
+
+.c2 input[type="checkbox"] + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+}
+
+.c2 input[type="checkbox"]:not(:checked):disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+}
+
+.c2 input[type="checkbox"]:not(:checked):disabled + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+  cursor: not-allowed;
+}
+
+.c2 input[type="checkbox"]:disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnptLTkgMTRsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+);
+}
+
+.c2 input[type="checkbox"]:disabled + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnptLTkgMTRsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c2 input[type="checkbox"]:indeterminate + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCI+CiAgICA8ZGVmcz4KICAgICAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBpZD0iYSIvPgogICAgPC9kZWZzPgogICAgPGNsaXBQYXRoIGlkPSJiIj4KICAgICAgICA8dXNlIG92ZXJmbG93PSJ2aXNpYmxlIiB4bGlua0hyZWY9IiNhIi8+CiAgICA8L2NsaXBQYXRoPgogICAgPHBhdGggY2xpcC1wYXRoPSJ1cmwoI2IpIiBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0yIDEwSDd2LTJoMTB2MnoiLz4KPC9zdmc+);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 4px 0;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  margin-top: 2px;
+  color: #131516;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <input
+        aria-labelledby="testCheckbox-label"
+        checked={false}
+        className=""
+        disabled={false}
+        id="testCheckbox"
+        name="testCheckbox"
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        type="checkbox"
+      />
+      <label
+        aria-checked={false}
+        htmlFor="testCheckbox"
+      />
+    </div>
+    <span
+      className="c3"
+      disabled={false}
+      id="testCheckbox-label"
+      onClick={null}
+    >
+      hello
+    </span>
+  </div>
+</div>
+`;
+
+exports[`checkbox applies an onMouseEnter function via props and calls function on mouseenter 1`] = `
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  min-height: 24px;
+  min-width: 24px;
+  margin-right: 4px;
+  vertical-align: top;
+  line-height: 0px;
+}
+
+.c2 input[type="checkbox"] {
+  opacity: 0;
+}
+
+.c2 input[type="checkbox"]:focus + label::before {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c2 input[type="checkbox"] + label {
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.c2 input[type="checkbox"]:checked + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0xOSAzSDVjLTEuMTEgMC0yIC45LTIgMnYxNGMwIDEuMS44OSAyIDIgMmgxNGMxLjExIDAgMi0uOSAyLTJWNWMwLTEuMS0uODktMi0yLTJ6bS05IDE0bC01LTUgMS40MS0xLjQxTDEwIDE0LjE3bDcuNTktNy41OUwxOSA4bC05IDl6Ii8+Cjwvc3ZnPg==);
+}
+
+.c2 input[type="checkbox"] + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+}
+
+.c2 input[type="checkbox"]:not(:checked):disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+}
+
+.c2 input[type="checkbox"]:not(:checked):disabled + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+  cursor: not-allowed;
+}
+
+.c2 input[type="checkbox"]:disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnptLTkgMTRsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+);
+}
+
+.c2 input[type="checkbox"]:disabled + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnptLTkgMTRsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c2 input[type="checkbox"]:indeterminate + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCI+CiAgICA8ZGVmcz4KICAgICAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBpZD0iYSIvPgogICAgPC9kZWZzPgogICAgPGNsaXBQYXRoIGlkPSJiIj4KICAgICAgICA8dXNlIG92ZXJmbG93PSJ2aXNpYmxlIiB4bGlua0hyZWY9IiNhIi8+CiAgICA8L2NsaXBQYXRoPgogICAgPHBhdGggY2xpcC1wYXRoPSJ1cmwoI2IpIiBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0yIDEwSDd2LTJoMTB2MnoiLz4KPC9zdmc+);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 4px 0;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  margin-top: 2px;
+  color: #131516;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+      onMouseEnter={[Function]}
+    >
+      <input
+        aria-labelledby="testCheckbox-label"
+        checked={false}
+        className=""
+        disabled={false}
+        id="testCheckbox"
+        name="testCheckbox"
+        onChange={[Function]}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        type="checkbox"
+      />
+      <label
+        aria-checked={false}
+        htmlFor="testCheckbox"
+      />
+    </div>
+    <span
+      className="c3"
+      disabled={false}
+      id="testCheckbox-label"
+      onClick={null}
+    >
+      hello
+    </span>
+  </div>
+</div>
+`;
+
+exports[`checkbox applies an onMouseLeave function via props and calls function on mouseleave 1`] = `
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  min-height: 24px;
+  min-width: 24px;
+  margin-right: 4px;
+  vertical-align: top;
+  line-height: 0px;
+}
+
+.c2 input[type="checkbox"] {
+  opacity: 0;
+}
+
+.c2 input[type="checkbox"]:focus + label::before {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c2 input[type="checkbox"] + label {
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.c2 input[type="checkbox"]:checked + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0xOSAzSDVjLTEuMTEgMC0yIC45LTIgMnYxNGMwIDEuMS44OSAyIDIgMmgxNGMxLjExIDAgMi0uOSAyLTJWNWMwLTEuMS0uODktMi0yLTJ6bS05IDE0bC01LTUgMS40MS0xLjQxTDEwIDE0LjE3bDcuNTktNy41OUwxOSA4bC05IDl6Ii8+Cjwvc3ZnPg==);
+}
+
+.c2 input[type="checkbox"] + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+}
+
+.c2 input[type="checkbox"]:not(:checked):disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+}
+
+.c2 input[type="checkbox"]:not(:checked):disabled + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+  cursor: not-allowed;
+}
+
+.c2 input[type="checkbox"]:disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnptLTkgMTRsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+);
+}
+
+.c2 input[type="checkbox"]:disabled + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnptLTkgMTRsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c2 input[type="checkbox"]:indeterminate + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCI+CiAgICA8ZGVmcz4KICAgICAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBpZD0iYSIvPgogICAgPC9kZWZzPgogICAgPGNsaXBQYXRoIGlkPSJiIj4KICAgICAgICA8dXNlIG92ZXJmbG93PSJ2aXNpYmxlIiB4bGlua0hyZWY9IiNhIi8+CiAgICA8L2NsaXBQYXRoPgogICAgPHBhdGggY2xpcC1wYXRoPSJ1cmwoI2IpIiBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0yIDEwSDd2LTJoMTB2MnoiLz4KPC9zdmc+);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 4px 0;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  margin-top: 2px;
+  color: #131516;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+      onMouseLeave={[Function]}
+    >
+      <input
+        aria-labelledby="testCheckbox-label"
+        checked={false}
+        className=""
+        disabled={false}
+        id="testCheckbox"
+        name="testCheckbox"
+        onChange={[Function]}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        type="checkbox"
+      />
+      <label
+        aria-checked={false}
+        htmlFor="testCheckbox"
+      />
+    </div>
+    <span
+      className="c3"
+      disabled={false}
+      id="testCheckbox-label"
+      onClick={null}
+    >
+      hello
+    </span>
+  </div>
+</div>
+`;
+
+exports[`checkbox calls the onChange handler when input is clicked 1`] = `
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  min-height: 24px;
+  min-width: 24px;
+  margin-right: 4px;
+  vertical-align: top;
+  line-height: 0px;
+}
+
+.c2 input[type="checkbox"] {
+  opacity: 0;
+}
+
+.c2 input[type="checkbox"]:focus + label::before {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c2 input[type="checkbox"] + label {
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.c2 input[type="checkbox"]:checked + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0xOSAzSDVjLTEuMTEgMC0yIC45LTIgMnYxNGMwIDEuMS44OSAyIDIgMmgxNGMxLjExIDAgMi0uOSAyLTJWNWMwLTEuMS0uODktMi0yLTJ6bS05IDE0bC01LTUgMS40MS0xLjQxTDEwIDE0LjE3bDcuNTktNy41OUwxOSA4bC05IDl6Ii8+Cjwvc3ZnPg==);
+}
+
+.c2 input[type="checkbox"] + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+}
+
+.c2 input[type="checkbox"]:not(:checked):disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+}
+
+.c2 input[type="checkbox"]:not(:checked):disabled + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+  cursor: not-allowed;
+}
+
+.c2 input[type="checkbox"]:disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnptLTkgMTRsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+);
+}
+
+.c2 input[type="checkbox"]:disabled + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnptLTkgMTRsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c2 input[type="checkbox"]:indeterminate + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCI+CiAgICA8ZGVmcz4KICAgICAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBpZD0iYSIvPgogICAgPC9kZWZzPgogICAgPGNsaXBQYXRoIGlkPSJiIj4KICAgICAgICA8dXNlIG92ZXJmbG93PSJ2aXNpYmxlIiB4bGlua0hyZWY9IiNhIi8+CiAgICA8L2NsaXBQYXRoPgogICAgPHBhdGggY2xpcC1wYXRoPSJ1cmwoI2IpIiBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0yIDEwSDd2LTJoMTB2MnoiLz4KPC9zdmc+);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 4px 0;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  margin-top: 2px;
+  color: #131516;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <input
+        aria-labelledby="testCheckbox-label"
+        checked={false}
+        className=""
+        disabled={false}
+        id="testCheckbox"
+        name="testCheckbox"
+        onChange={[Function]}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        type="checkbox"
+      />
+      <label
+        aria-checked={false}
+        htmlFor="testCheckbox"
+      />
+    </div>
+    <span
+      className="c3"
+      disabled={false}
+      id="testCheckbox-label"
+      onClick={null}
+    >
+      hello
+    </span>
+  </div>
+</div>
+`;
+
+exports[`checkbox calls the onChange handler when label is clicked when \`changeOnLabelClick\` is true 1`] = `
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  min-height: 24px;
+  min-width: 24px;
+  margin-right: 4px;
+  vertical-align: top;
+  line-height: 0px;
+}
+
+.c2 input[type="checkbox"] {
+  opacity: 0;
+}
+
+.c2 input[type="checkbox"]:focus + label::before {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c2 input[type="checkbox"] + label {
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.c2 input[type="checkbox"]:checked + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0xOSAzSDVjLTEuMTEgMC0yIC45LTIgMnYxNGMwIDEuMS44OSAyIDIgMmgxNGMxLjExIDAgMi0uOSAyLTJWNWMwLTEuMS0uODktMi0yLTJ6bS05IDE0bC01LTUgMS40MS0xLjQxTDEwIDE0LjE3bDcuNTktNy41OUwxOSA4bC05IDl6Ii8+Cjwvc3ZnPg==);
+}
+
+.c2 input[type="checkbox"] + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+}
+
+.c2 input[type="checkbox"]:not(:checked):disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+}
+
+.c2 input[type="checkbox"]:not(:checked):disabled + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+  cursor: not-allowed;
+}
+
+.c2 input[type="checkbox"]:disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnptLTkgMTRsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+);
+}
+
+.c2 input[type="checkbox"]:disabled + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnptLTkgMTRsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c2 input[type="checkbox"]:indeterminate + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCI+CiAgICA8ZGVmcz4KICAgICAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBpZD0iYSIvPgogICAgPC9kZWZzPgogICAgPGNsaXBQYXRoIGlkPSJiIj4KICAgICAgICA8dXNlIG92ZXJmbG93PSJ2aXNpYmxlIiB4bGlua0hyZWY9IiNhIi8+CiAgICA8L2NsaXBQYXRoPgogICAgPHBhdGggY2xpcC1wYXRoPSJ1cmwoI2IpIiBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0yIDEwSDd2LTJoMTB2MnoiLz4KPC9zdmc+);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 4px 0;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  cursor: pointer;
+  margin-top: 2px;
+  color: #131516;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <input
+        aria-labelledby="testCheckbox-label"
+        checked={false}
+        className=""
+        disabled={false}
+        id="testCheckbox"
+        name="testCheckbox"
+        onChange={[Function]}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        type="checkbox"
+      />
+      <label
+        aria-checked={false}
+        htmlFor="testCheckbox"
+      />
+    </div>
+    <span
+      className="c3"
+      disabled={false}
+      id="testCheckbox-label"
+      onClick={[Function]}
+    >
+      hello
+    </span>
+  </div>
+</div>
+`;
+
+exports[`checkbox inserts a child 1`] = `
+.c4 {
+  fill: #fff;
+  vertical-align: top;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  min-height: 24px;
+  min-width: 24px;
+  margin-right: 4px;
+  vertical-align: top;
+  line-height: 0px;
+}
+
+.c2 input[type="checkbox"] {
+  opacity: 0;
+}
+
+.c2 input[type="checkbox"]:focus + label::before {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c2 input[type="checkbox"] + label {
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.c2 input[type="checkbox"]:checked + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0xOSAzSDVjLTEuMTEgMC0yIC45LTIgMnYxNGMwIDEuMS44OSAyIDIgMmgxNGMxLjExIDAgMi0uOSAyLTJWNWMwLTEuMS0uODktMi0yLTJ6bS05IDE0bC01LTUgMS40MS0xLjQxTDEwIDE0LjE3bDcuNTktNy41OUwxOSA4bC05IDl6Ii8+Cjwvc3ZnPg==);
+}
+
+.c2 input[type="checkbox"] + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+}
+
+.c2 input[type="checkbox"]:not(:checked):disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+}
+
+.c2 input[type="checkbox"]:not(:checked):disabled + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+  cursor: not-allowed;
+}
+
+.c2 input[type="checkbox"]:disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnptLTkgMTRsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+);
+}
+
+.c2 input[type="checkbox"]:disabled + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnptLTkgMTRsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c2 input[type="checkbox"]:indeterminate + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCI+CiAgICA8ZGVmcz4KICAgICAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBpZD0iYSIvPgogICAgPC9kZWZzPgogICAgPGNsaXBQYXRoIGlkPSJiIj4KICAgICAgICA8dXNlIG92ZXJmbG93PSJ2aXNpYmxlIiB4bGlua0hyZWY9IiNhIi8+CiAgICA8L2NsaXBQYXRoPgogICAgPHBhdGggY2xpcC1wYXRoPSJ1cmwoI2IpIiBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0yIDEwSDd2LTJoMTB2MnoiLz4KPC9zdmc+);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 4px 0;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  margin-top: 2px;
+  color: #131516;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <input
+        aria-labelledby="testCheckbox-label"
+        checked={false}
+        className=""
+        disabled={false}
+        id="testCheckbox"
+        name="testCheckbox"
+        onChange={[Function]}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        type="checkbox"
+      />
+      <label
+        aria-checked={false}
+        htmlFor="testCheckbox"
+      />
+    </div>
+    <span
+      className="c3"
+      disabled={false}
+      id="testCheckbox-label"
+      onClick={null}
+    >
+      hello
+    </span>
+  </div>
+  <svg
+    aria-label="open customize and profile menu"
+    className="c4"
+    color="#fff"
+    height={24}
+    role="img"
+    viewBox="0 0 24 24"
+    width={24}
+  >
+    <title>
+      menu icon
+    </title>
+    <desc>
+      hamburger menu icon
+    </desc>
+    <path
+      d="M0 0h24v24H0z"
+      fill="none"
+    />
+    <path
+      d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`checkbox matches snapshot 1`] = `
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  min-height: 24px;
+  min-width: 24px;
+  margin-right: 4px;
+  vertical-align: top;
+  line-height: 0px;
+}
+
+.c2 input[type="checkbox"] {
+  opacity: 0;
+}
+
+.c2 input[type="checkbox"]:focus + label::before {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c2 input[type="checkbox"] + label {
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.c2 input[type="checkbox"]:checked + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0xOSAzSDVjLTEuMTEgMC0yIC45LTIgMnYxNGMwIDEuMS44OSAyIDIgMmgxNGMxLjExIDAgMi0uOSAyLTJWNWMwLTEuMS0uODktMi0yLTJ6bS05IDE0bC01LTUgMS40MS0xLjQxTDEwIDE0LjE3bDcuNTktNy41OUwxOSA4bC05IDl6Ii8+Cjwvc3ZnPg==);
+}
+
+.c2 input[type="checkbox"] + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+}
+
+.c2 input[type="checkbox"]:not(:checked):disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+}
+
+.c2 input[type="checkbox"]:not(:checked):disabled + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+  cursor: not-allowed;
+}
+
+.c2 input[type="checkbox"]:disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnptLTkgMTRsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+);
+}
+
+.c2 input[type="checkbox"]:disabled + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnptLTkgMTRsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c2 input[type="checkbox"]:indeterminate + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCI+CiAgICA8ZGVmcz4KICAgICAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBpZD0iYSIvPgogICAgPC9kZWZzPgogICAgPGNsaXBQYXRoIGlkPSJiIj4KICAgICAgICA8dXNlIG92ZXJmbG93PSJ2aXNpYmxlIiB4bGlua0hyZWY9IiNhIi8+CiAgICA8L2NsaXBQYXRoPgogICAgPHBhdGggY2xpcC1wYXRoPSJ1cmwoI2IpIiBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0yIDEwSDd2LTJoMTB2MnoiLz4KPC9zdmc+);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 4px 0;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  margin-top: 2px;
+  color: #131516;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <input
+        aria-labelledby="testCheckbox-label"
+        checked={false}
+        className=""
+        disabled={false}
+        id="testCheckbox"
+        name="testCheckbox"
+        onChange={[Function]}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        type="checkbox"
+      />
+      <label
+        aria-checked={false}
+        htmlFor="testCheckbox"
+      />
+    </div>
+    <span
+      className="c3"
+      disabled={false}
+      id="testCheckbox-label"
+      onClick={null}
+    >
+      hello
+    </span>
+  </div>
+</div>
+`;
+
+exports[`checkbox sets input as disabled via props 1`] = `
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  min-height: 24px;
+  min-width: 24px;
+  margin-right: 4px;
+  vertical-align: top;
+  line-height: 0px;
+}
+
+.c2 input[type="checkbox"] {
+  opacity: 0;
+}
+
+.c2 input[type="checkbox"]:focus + label::before {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c2 input[type="checkbox"] + label {
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.c2 input[type="checkbox"]:checked + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0xOSAzSDVjLTEuMTEgMC0yIC45LTIgMnYxNGMwIDEuMS44OSAyIDIgMmgxNGMxLjExIDAgMi0uOSAyLTJWNWMwLTEuMS0uODktMi0yLTJ6bS05IDE0bC01LTUgMS40MS0xLjQxTDEwIDE0LjE3bDcuNTktNy41OUwxOSA4bC05IDl6Ii8+Cjwvc3ZnPg==);
+}
+
+.c2 input[type="checkbox"] + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+}
+
+.c2 input[type="checkbox"]:not(:checked):disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+}
+
+.c2 input[type="checkbox"]:not(:checked):disabled + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+  cursor: not-allowed;
+}
+
+.c2 input[type="checkbox"]:disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnptLTkgMTRsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+);
+}
+
+.c2 input[type="checkbox"]:disabled + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnptLTkgMTRsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c2 input[type="checkbox"]:indeterminate + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCI+CiAgICA8ZGVmcz4KICAgICAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBpZD0iYSIvPgogICAgPC9kZWZzPgogICAgPGNsaXBQYXRoIGlkPSJiIj4KICAgICAgICA8dXNlIG92ZXJmbG93PSJ2aXNpYmxlIiB4bGlua0hyZWY9IiNhIi8+CiAgICA8L2NsaXBQYXRoPgogICAgPHBhdGggY2xpcC1wYXRoPSJ1cmwoI2IpIiBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0yIDEwSDd2LTJoMTB2MnoiLz4KPC9zdmc+);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 4px 0;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  cursor: not-allowed;
+  margin-top: 2px;
+  color: #696969;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <input
+        aria-labelledby="testCheckbox-label"
+        checked={false}
+        className=""
+        disabled={true}
+        id="testCheckbox"
+        name="testCheckbox"
+        onChange={[Function]}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        type="checkbox"
+      />
+      <label
+        aria-checked={false}
+        htmlFor="testCheckbox"
+      />
+    </div>
+    <span
+      className="c3"
+      disabled={true}
+      id="testCheckbox-label"
+      onClick={null}
+    >
+      hello
+    </span>
+  </div>
+</div>
+`;
+
+exports[`checkbox sets labelStyle via style object passed as props 1`] = `
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  min-height: 24px;
+  min-width: 24px;
+  margin-right: 4px;
+  vertical-align: top;
+  line-height: 0px;
+}
+
+.c2 input[type="checkbox"] {
+  opacity: 0;
+}
+
+.c2 input[type="checkbox"]:focus + label::before {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c2 input[type="checkbox"] + label {
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.c2 input[type="checkbox"]:checked + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0xOSAzSDVjLTEuMTEgMC0yIC45LTIgMnYxNGMwIDEuMS44OSAyIDIgMmgxNGMxLjExIDAgMi0uOSAyLTJWNWMwLTEuMS0uODktMi0yLTJ6bS05IDE0bC01LTUgMS40MS0xLjQxTDEwIDE0LjE3bDcuNTktNy41OUwxOSA4bC05IDl6Ii8+Cjwvc3ZnPg==);
+}
+
+.c2 input[type="checkbox"] + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+}
+
+.c2 input[type="checkbox"]:not(:checked):disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+}
+
+.c2 input[type="checkbox"]:not(:checked):disabled + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+  cursor: not-allowed;
+}
+
+.c2 input[type="checkbox"]:disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnptLTkgMTRsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+);
+}
+
+.c2 input[type="checkbox"]:disabled + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnptLTkgMTRsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c2 input[type="checkbox"]:indeterminate + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCI+CiAgICA8ZGVmcz4KICAgICAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBpZD0iYSIvPgogICAgPC9kZWZzPgogICAgPGNsaXBQYXRoIGlkPSJiIj4KICAgICAgICA8dXNlIG92ZXJmbG93PSJ2aXNpYmxlIiB4bGlua0hyZWY9IiNhIi8+CiAgICA8L2NsaXBQYXRoPgogICAgPHBhdGggY2xpcC1wYXRoPSJ1cmwoI2IpIiBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0yIDEwSDd2LTJoMTB2MnoiLz4KPC9zdmc+);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 4px 0;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  margin-top: 2px;
+  color: #131516;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <input
+        aria-labelledby="testCheckbox-label"
+        checked={false}
+        className=""
+        disabled={false}
+        id="testCheckbox"
+        name="testCheckbox"
+        onChange={[Function]}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        type="checkbox"
+      />
+      <label
+        aria-checked={false}
+        htmlFor="testCheckbox"
+      />
+    </div>
+    <span
+      className="c3"
+      disabled={false}
+      id="testCheckbox-label"
+      onClick={null}
+      style={
+        Object {
+          "color": "#0680cd",
+        }
+      }
+    >
+      hello
+    </span>
+  </div>
+</div>
+`;
+
+exports[`checkbox sets wrapper style via object passed as props 1`] = `
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  min-height: 24px;
+  min-width: 24px;
+  margin-right: 4px;
+  vertical-align: top;
+  line-height: 0px;
+}
+
+.c2 input[type="checkbox"] {
+  opacity: 0;
+}
+
+.c2 input[type="checkbox"]:focus + label::before {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c2 input[type="checkbox"] + label {
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.c2 input[type="checkbox"]:checked + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0xOSAzSDVjLTEuMTEgMC0yIC45LTIgMnYxNGMwIDEuMS44OSAyIDIgMmgxNGMxLjExIDAgMi0uOSAyLTJWNWMwLTEuMS0uODktMi0yLTJ6bS05IDE0bC01LTUgMS40MS0xLjQxTDEwIDE0LjE3bDcuNTktNy41OUwxOSA4bC05IDl6Ii8+Cjwvc3ZnPg==);
+}
+
+.c2 input[type="checkbox"] + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+}
+
+.c2 input[type="checkbox"]:not(:checked):disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+}
+
+.c2 input[type="checkbox"]:not(:checked):disabled + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+  cursor: not-allowed;
+}
+
+.c2 input[type="checkbox"]:disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnptLTkgMTRsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+);
+}
+
+.c2 input[type="checkbox"]:disabled + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnptLTkgMTRsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c2 input[type="checkbox"]:indeterminate + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCI+CiAgICA8ZGVmcz4KICAgICAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBpZD0iYSIvPgogICAgPC9kZWZzPgogICAgPGNsaXBQYXRoIGlkPSJiIj4KICAgICAgICA8dXNlIG92ZXJmbG93PSJ2aXNpYmxlIiB4bGlua0hyZWY9IiNhIi8+CiAgICA8L2NsaXBQYXRoPgogICAgPHBhdGggY2xpcC1wYXRoPSJ1cmwoI2IpIiBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0yIDEwSDd2LTJoMTB2MnoiLz4KPC9zdmc+);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 4px 0;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  margin-top: 2px;
+  color: #131516;
+}
+
+<div
+  className="c0"
+  style={
+    Object {
+      "color": "#0680cd",
+    }
+  }
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <input
+        aria-labelledby="testCheckbox-label"
+        checked={false}
+        className=""
+        disabled={false}
+        id="testCheckbox"
+        name="testCheckbox"
+        onChange={[Function]}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        type="checkbox"
+      />
+      <label
+        aria-checked={false}
+        htmlFor="testCheckbox"
+      />
+    </div>
+    <span
+      className="c3"
+      disabled={false}
+      id="testCheckbox-label"
+      onClick={null}
+    >
+      hello
+    </span>
+  </div>
+</div>
+`;
+
+exports[`checkbox underlines the label on hover when \`underlineLabelOnHover\` is set to true 1`] = `
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  min-height: 24px;
+  min-width: 24px;
+  margin-right: 4px;
+  vertical-align: top;
+  line-height: 0px;
+}
+
+.c2 input[type="checkbox"] {
+  opacity: 0;
+}
+
+.c2 input[type="checkbox"]:focus + label::before {
+  outline-offset: 2px;
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c2 input[type="checkbox"] + label {
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.c2 input[type="checkbox"]:checked + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0xOSAzSDVjLTEuMTEgMC0yIC45LTIgMnYxNGMwIDEuMS44OSAyIDIgMmgxNGMxLjExIDAgMi0uOSAyLTJWNWMwLTEuMS0uODktMi0yLTJ6bS05IDE0bC01LTUgMS40MS0xLjQxTDEwIDE0LjE3bDcuNTktNy41OUwxOSA4bC05IDl6Ii8+Cjwvc3ZnPg==);
+}
+
+.c2 input[type="checkbox"] + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+}
+
+.c2 input[type="checkbox"]:not(:checked):disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+}
+
+.c2 input[type="checkbox"]:not(:checked):disabled + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xOSA1djE0SDVWNWgxNG0wLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMlY1YzAtMS4xLS45LTItMi0yeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=);
+  cursor: not-allowed;
+}
+
+.c2 input[type="checkbox"]:disabled + label:before {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnptLTkgMTRsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+);
+}
+
+.c2 input[type="checkbox"]:disabled + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjYjViNWI1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTE5IDNINWMtMS4xMSAwLTIgLjktMiAydjE0YzAgMS4xLjg5IDIgMiAyaDE0YzEuMTEgMCAyLS45IDItMlY1YzAtMS4xLS44OS0yLTItMnptLTkgMTRsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz4KPC9zdmc+);
+  cursor: not-allowed;
+}
+
+.c2 input[type="checkbox"]:indeterminate + label {
+  content: " ";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDY4MGNkIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCI+CiAgICA8ZGVmcz4KICAgICAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBpZD0iYSIvPgogICAgPC9kZWZzPgogICAgPGNsaXBQYXRoIGlkPSJiIj4KICAgICAgICA8dXNlIG92ZXJmbG93PSJ2aXNpYmxlIiB4bGlua0hyZWY9IiNhIi8+CiAgICA8L2NsaXBQYXRoPgogICAgPHBhdGggY2xpcC1wYXRoPSJ1cmwoI2IpIiBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0yIDEwSDd2LTJoMTB2MnoiLz4KPC9zdmc+);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 4px 0;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  margin-top: 2px;
+  color: #131516;
+}
+
+.c3:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <input
+        aria-labelledby="testCheckbox-label"
+        checked={false}
+        className=""
+        disabled={false}
+        id="testCheckbox"
+        name="testCheckbox"
+        onChange={[Function]}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        type="checkbox"
+      />
+      <label
+        aria-checked={false}
+        htmlFor="testCheckbox"
+      />
+    </div>
+    <span
+      className="c3"
+      disabled={false}
+      id="testCheckbox-label"
+      onClick={null}
+    >
+      hello
+    </span>
+  </div>
+</div>
+`;

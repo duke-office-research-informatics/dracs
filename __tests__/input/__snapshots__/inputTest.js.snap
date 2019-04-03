@@ -1,0 +1,8762 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input applies \`helpText\` via props and has no a11y violations 1`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    >
+      help text
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Input applies \`helpText\` via props and has no a11y violations 2`] = `
+.c5 {
+  fill: #fff;
+  vertical-align: top;
+}
+
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c5"
+        color="#fff"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Input applies the correct styles and attrs when \`inputState\`=default or is not declared 1`] = `
+.c6 {
+  fill: hsla(0,0%,14.9%,0.5700000000000001);
+  vertical-align: top;
+}
+
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c5 {
+  display: inline-block;
+  margin-right: 2px;
+  width: 12px;
+  height: 12px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    >
+      <span
+        className="c5"
+      >
+        <svg
+          aria-label="open customize and profile menu"
+          className="c6"
+          color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+          height={12}
+          role="img"
+          viewBox="0 0 24 24"
+          width={12}
+        >
+          <title>
+            menu icon
+          </title>
+          <desc>
+            hamburger menu icon
+          </desc>
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+          />
+        </svg>
+      </span>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Input applies the correct styles and attrs when \`inputState\`=disabled 1`] = `
+.c2 {
+  fill: hsla(0,0%,14.9%,0.44999999999999996);
+  vertical-align: top;
+}
+
+.c5 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding-right: 24px;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: dashed 1px hsla(0,0%,14.9%,0.44999999999999996);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: not-allowed;
+}
+
+.c5::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c5::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c5:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c5::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c5:focus {
+  border-bottom: dashed 1px hsla(0,0%,14.9%,0.44999999999999996);
+}
+
+.c5:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+}
+
+.c5:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+}
+
+.c5:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+}
+
+.c5:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+}
+
+.c5::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c5:invalid {
+  box-shadow: none;
+}
+
+.c4 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: not-allowed;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c7 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c8 {
+  display: inline-block;
+  margin-right: 2px;
+  width: 12px;
+  height: 12px;
+}
+
+.c1 {
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  padding-bottom: 28px;
+  padding-right: 8px;
+  cursor: not-allowed;
+}
+
+.c1:focus {
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c6 {
+  position: absolute;
+  top: 32px;
+  right: 0;
+  cursor: not-allowed;
+}
+
+.c6:focus {
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: not-allowed;
+}
+
+.c3 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    onClick={null}
+    onKeyUp={null}
+    tabIndex={null}
+  >
+    <svg
+      aria-label="open customize and profile menu"
+      className="c2"
+      color="hsla(0,0%,14.9%,0.44999999999999996)"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+  <div
+    className="c3"
+  >
+    <label
+      className="c4"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c5"
+      data-lpignore={true}
+      disabled={true}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c6"
+      onBlur={null}
+      onClick={null}
+      onFocus={null}
+      onKeyUp={null}
+      tabIndex={null}
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c2"
+        color="hsla(0,0%,14.9%,0.44999999999999996)"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </div>
+    <label
+      className="c7"
+      id="testInput-statusText"
+      role="status"
+    >
+      <span
+        className="c8"
+      >
+        <svg
+          aria-label="open customize and profile menu"
+          className="c2"
+          color="hsla(0,0%,14.9%,0.44999999999999996)"
+          height={12}
+          role="img"
+          viewBox="0 0 24 24"
+          width={12}
+        >
+          <title>
+            menu icon
+          </title>
+          <desc>
+            hamburger menu icon
+          </desc>
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+          />
+        </svg>
+      </span>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Input applies the correct styles when \`inputState\`=error 1`] = `
+.c6 {
+  fill: hsla(15,100%,40%,0.87);
+  vertical-align: top;
+}
+
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: #cc3300;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px #cc3300;
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #cc3300;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: #cc3300;
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(15,100%,40%,0.87);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c5 {
+  display: inline-block;
+  margin-right: 2px;
+  width: 12px;
+  height: 12px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    >
+      <span
+        className="c5"
+      >
+        <svg
+          aria-label="open customize and profile menu"
+          className="c6"
+          color="hsla(15,100%,40%,0.87)"
+          height={12}
+          role="img"
+          viewBox="0 0 24 24"
+          width={12}
+        >
+          <title>
+            menu icon
+          </title>
+          <desc>
+            hamburger menu icon
+          </desc>
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+          />
+        </svg>
+      </span>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Input applies the correct styling when \`dense\`=true and has no a11y violations 1`] = `
+.c2 {
+  fill: hsla(0,0%,14.9%,0.5700000000000001);
+  vertical-align: top;
+}
+
+.c5 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding-right: 24px;
+  margin: 14px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 13px;
+  line-height: 24px;
+  height: 26px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c5::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c5::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c5:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c5::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c5:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c5:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c5:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c5:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c5:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c5::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c5:invalid {
+  box-shadow: none;
+}
+
+.c4 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: -6px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c7 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 4px 0 0 0;
+}
+
+.c1 {
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  padding-bottom: 8px;
+  padding-right: 8px;
+  cursor: auto;
+}
+
+.c1:focus {
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c6 {
+  position: absolute;
+  top: 16px;
+  right: 0;
+  cursor: auto;
+}
+
+.c6:focus {
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c3 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    onKeyUp={[Function]}
+    tabIndex={null}
+  >
+    <svg
+      aria-label="open customize and profile menu"
+      className="c2"
+      color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+  <div
+    className="c3"
+  >
+    <label
+      className="c4"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c5"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c6"
+      onKeyUp={[Function]}
+      tabIndex={null}
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c2"
+        color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+        height={20}
+        role="img"
+        viewBox="0 0 24 24"
+        width={20}
+      >
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </div>
+    <label
+      className="c7"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input applies the correct syles and attrs when \`datepicker\`=true 1`] = `
+.c2 {
+  fill: hsla(0,0%,14.9%,0.5700000000000001);
+  vertical-align: top;
+}
+
+.c5 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding-right: 24px;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c5::-webkit-input-placeholder {
+  font-weight: 400;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c5::-moz-placeholder {
+  font-weight: 400;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c5:-ms-input-placeholder {
+  font-weight: 400;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c5::placeholder {
+  font-weight: 400;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c5:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c5:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c5:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c5:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c5:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c5::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c5:invalid {
+  box-shadow: none;
+}
+
+.c4 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: -12px;
+  font-size: 12px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c7 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c1 {
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  padding-bottom: 8px;
+  padding-right: 8px;
+  cursor: auto;
+}
+
+.c1:focus {
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c6 {
+  position: absolute;
+  top: 32px;
+  right: 0;
+  cursor: auto;
+}
+
+.c6:focus {
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c3 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    data-toggle={true}
+    onKeyUp={[Function]}
+    tabIndex={null}
+  >
+    <svg
+      aria-label="open customize and profile menu"
+      className="c2"
+      color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+  <div
+    className="c3"
+  >
+    <label
+      className="c4"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c5"
+      data-input={true}
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c6"
+      data-clear={true}
+      onKeyUp={[Function]}
+      tabIndex={null}
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c2"
+        color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </div>
+    <label
+      className="c7"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input attaches \`helpIcon\` as function via props 1`] = `
+.c6 {
+  fill: hsla(0,0%,14.9%,0.5700000000000001);
+  vertical-align: top;
+}
+
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c5 {
+  display: inline-block;
+  margin-right: 2px;
+  width: 12px;
+  height: 12px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    >
+      <span
+        className="c5"
+      >
+        <svg
+          aria-label="open customize and profile menu"
+          className="c6"
+          color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+          height={12}
+          role="img"
+          viewBox="0 0 24 24"
+          width={12}
+        >
+          <title>
+            menu icon
+          </title>
+          <desc>
+            hamburger menu icon
+          </desc>
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+          />
+        </svg>
+      </span>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Input attaches \`iconLeft\` as a function with correct styles 1`] = `
+.c2 {
+  fill: hsla(0,0%,14.9%,0.5700000000000001);
+  vertical-align: top;
+}
+
+.c5 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c5::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c5::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c5:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c5::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c5:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c5:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c5:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c5:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c5:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c5::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c5:invalid {
+  box-shadow: none;
+}
+
+.c4 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c6 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c1 {
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  padding-bottom: 8px;
+  padding-right: 8px;
+  cursor: auto;
+}
+
+.c1:focus {
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c3 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    onKeyUp={[Function]}
+    tabIndex={null}
+  >
+    <svg
+      aria-label="open customize and profile menu"
+      className="c2"
+      color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+  <div
+    className="c3"
+  >
+    <label
+      className="c4"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c5"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c6"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input attaches \`iconLeftChild\` as an instantiated object with correct styles 1`] = `
+.c2 {
+  fill: hsla(0,0%,14.9%,0.5700000000000001);
+  vertical-align: top;
+}
+
+.c5 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c5::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c5::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c5:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c5::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c5:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c5:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c5:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c5:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c5:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c5::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c5:invalid {
+  box-shadow: none;
+}
+
+.c4 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c6 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c1 {
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  padding-bottom: 8px;
+  padding-right: 8px;
+  cursor: auto;
+}
+
+.c1:focus {
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c3 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    onKeyUp={[Function]}
+    tabIndex={null}
+  >
+    <svg
+      aria-label="open customize and profile menu"
+      className="c2"
+      color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+    <span>
+      hello
+    </span>
+  </div>
+  <div
+    className="c3"
+  >
+    <label
+      className="c4"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c5"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c6"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input attaches \`iconRight\` as a function with correct styles 1`] = `
+.c5 {
+  fill: hsla(0,0%,14.9%,0.5700000000000001);
+  vertical-align: top;
+}
+
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding-right: 24px;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c6 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c4 {
+  position: absolute;
+  top: 32px;
+  right: 0;
+  cursor: auto;
+}
+
+.c4:focus {
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      onKeyUp={[Function]}
+      tabIndex={null}
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c5"
+        color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </div>
+    <label
+      className="c6"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input attaches \`iconRightChild\` as an instantiated object with correct styles 1`] = `
+.c5 {
+  fill: hsla(0,0%,14.9%,0.5700000000000001);
+  vertical-align: top;
+}
+
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding-right: 24px;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c6 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c4 {
+  position: absolute;
+  top: 32px;
+  right: 0;
+  cursor: auto;
+}
+
+.c4:focus {
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      onKeyUp={[Function]}
+      tabIndex={null}
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c5"
+        color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+      <span>
+        hello
+      </span>
+    </div>
+    <label
+      className="c6"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input attaches an aria-label via props with no a11y violations when \`noLabel\` is true 1`] = `
+.c2 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 6px 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c2::-webkit-input-placeholder {
+  font-weight: 400;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c2::-moz-placeholder {
+  font-weight: 400;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c2:-ms-input-placeholder {
+  font-weight: 400;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c2::placeholder {
+  font-weight: 400;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c2:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c2:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c2:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c2:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c2:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c2::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c2:invalid {
+  box-shadow: none;
+}
+
+.c3 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <input
+      aria-controls="testInput-statusText"
+      aria-label="ariaLabel"
+      className="c2"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c3"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input attaches an html id attr to input and propagates to relevant elements for a11y 1`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testId"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testId-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testId"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testId-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input matches snapshot 1`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input passes a function to the rightIcon and sets tabIndex and keyUp listeners via props 1`] = `
+.c5 {
+  fill: hsla(0,0%,14.9%,0.5700000000000001);
+  vertical-align: top;
+}
+
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding-right: 24px;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c6 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c4 {
+  position: absolute;
+  top: 32px;
+  right: 0;
+  cursor: pointer;
+}
+
+.c4:focus {
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      onClick={[Function]}
+      onKeyUp={[Function]}
+      tabIndex="0"
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c5"
+        color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </div>
+    <label
+      className="c6"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input passes func to leftIcon and sets tabIndex and keyup listeners via props 1`] = `
+.c2 {
+  fill: hsla(0,0%,14.9%,0.5700000000000001);
+  vertical-align: top;
+}
+
+.c5 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c5::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c5::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c5:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c5::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c5:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c5:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c5:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c5:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c5:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c5::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c5:invalid {
+  box-shadow: none;
+}
+
+.c4 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c6 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c1 {
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  padding-bottom: 8px;
+  padding-right: 8px;
+  cursor: pointer;
+}
+
+.c1:focus {
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c3 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    onClick={[Function]}
+    onKeyUp={[Function]}
+    tabIndex="0"
+  >
+    <svg
+      aria-label="open customize and profile menu"
+      className="c2"
+      color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+  <div
+    className="c3"
+  >
+    <label
+      className="c4"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c5"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c6"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets an onBlur func on the input via props and sets state.isFocused to false on blur 1`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 0px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(203.200000000005,94.3%,41.4%,0.87);
+  top: -12px;
+  font-size: 12px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets an onChange function on the input and sets state.isTouched to true if value isnt empty 1`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets an onFocus func on input via props and sets state.isFocused to true on focus 1`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets an onKeyDown func on the input 1`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets an onKeyUp func on the input 1`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyUp={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets an onMouseDown func on the input 1`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets an onMouseEnter func on the input 1`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets an onMouseLeave func on the input 1`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onMouseLeave={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets an onMouseUp func on the input 1`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onMouseUp={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets an onTouchEnd func on the input 1`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onTouchEnd={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets an onTouchStart func on the input 1`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets focus on the input when \`autoFocus\` is set to true 1`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      autoFocus={true}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets the component width via props 1`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 700px;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+  width="700px"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets the html type attr on the input via props 1`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      type="search"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets the inputs value via props 1`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: -12px;
+  font-size: 12px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value="test"
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets the proper styling when state.isFocused = true 1`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 0px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(203.200000000005,94.3%,41.4%,0.87);
+  top: -12px;
+  font-size: 12px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets the proper styling when state.isFocused = true 2`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 14px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 0px;
+  font-size: 13px;
+  line-height: 24px;
+  height: 26px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(203.200000000005,94.3%,41.4%,0.87);
+  top: -22px;
+  font-size: 12px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 4px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets the proper styling when state.isFocused = true 3`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: #cc3300;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px #cc3300;
+  padding-bottom: 0px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #cc3300;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: #cc3300;
+  top: -12px;
+  font-size: 12px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(15,100%,40%,0.87);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets the proper styling when state.isFocused = true 4`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: dashed 1px hsla(0,0%,14.9%,0.44999999999999996);
+  padding-bottom: 0px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: not-allowed;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: dashed 1px hsla(0,0%,14.9%,0.44999999999999996);
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+  top: -12px;
+  font-size: 12px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: not-allowed;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: not-allowed;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={true}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets the proper styling when state.isTouched is true 1`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: -12px;
+  font-size: 12px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets the proper styling when state.isTouched is true 2`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 14px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 13px;
+  line-height: 24px;
+  height: 26px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: -22px;
+  font-size: 12px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 4px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets the proper styling when state.isTouched is true 3`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: #cc3300;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px #cc3300;
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #cc3300;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: #cc3300;
+  top: -12px;
+  font-size: 12px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(15,100%,40%,0.87);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets the proper styling when state.isTouched is true 4`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: dashed 1px hsla(0,0%,14.9%,0.44999999999999996);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: not-allowed;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: dashed 1px hsla(0,0%,14.9%,0.44999999999999996);
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+  top: -12px;
+  font-size: 12px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: not-allowed;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.44999999999999996);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: not-allowed;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={true}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets the readOnly attribute on the input via props 1`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={true}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;
+
+exports[`Input sets the required attr via props and adds a star to the label 1`] = `
+.c3 {
+  box-sizing: border-box;
+  display: block;
+  color: hsla(0,0%,14.9%,0.9);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 26px 0 0 0;
+  -webkit-transition: border-bottom padding-bottom ease-in-out 0.2s;
+  transition: border-bottom padding-bottom ease-in-out 0.2s;
+  border-bottom: solid 1px hsla(0,0%,14.9%,0.5700000000000001);
+  padding-bottom: 1px;
+  font-size: 16px;
+  line-height: 30px;
+  height: 32px;
+  border-radius: 0px;
+  cursor: auto;
+}
+
+.c3::-webkit-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::-moz-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:-ms-input-placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3::placeholder {
+  font-weight: 400;
+  color: transparent;
+  -webkit-transition: 240ms;
+  transition: 240ms;
+}
+
+.c3:focus {
+  border-bottom: solid 2px #0680cd;
+}
+
+.c3:focus::-webkit-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::-moz-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus:-ms-input-placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:focus::placeholder {
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3:invalid {
+  box-shadow: none;
+}
+
+.c2 {
+  display: inline-block;
+  position: absolute;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  top: 8px;
+  font-size: 16px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: translate3d(0,24px,0) scale( 1 );
+  -ms-transform: translate3d(0,24px,0) scale( 1 );
+  transform: translate3d(0,24px,0) scale( 1 );
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transition: 340ms;
+  transition: 340ms;
+  cursor: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,14.9%,0.5700000000000001);
+  font-size: 12px;
+  pointer-events: none;
+  padding: 8px 0 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: auto;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 40px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+      <span
+        style={
+          Object {
+            "color": "hsla(15,100%,40%,0.5)",
+            "marginLeft": "2px",
+          }
+        }
+      >
+        *
+      </span>
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      required={true}
+      tabIndex="0"
+      value=""
+    />
+    <label
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
+`;

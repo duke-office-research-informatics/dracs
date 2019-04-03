@@ -1,0 +1,1111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading Spinner matches snapshot and returns no a11y violations 1`] = `
+.c0 {
+  position: relative;
+  height: 16px;
+  width: 16px;
+  margin: 4px;
+}
+
+.c1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.c2 {
+  -webkit-animation: jVfXJg 1.2s linear infinite;
+  animation: jVfXJg 1.2s linear infinite;
+  position: absolute;
+  top: -3.9%;
+  left: -10%;
+  width: 20%;
+  height: 7.8%;
+  background-color: #0680cd;
+  border-radius: 5px;
+}
+
+<div
+  className="c0"
+  size={32}
+>
+  <div
+    className="c1"
+    size={32}
+  >
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-1.2s",
+          "WebkitTransform": "rotate(0deg) translate(146%)",
+          "animationDelay": "-1.2s",
+          "transform": "rotate(0deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-1.1s",
+          "WebkitTransform": "rotate(30deg) translate(146%)",
+          "animationDelay": "-1.1s",
+          "transform": "rotate(30deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-1s",
+          "WebkitTransform": "rotate(60deg) translate(146%)",
+          "animationDelay": "-1s",
+          "transform": "rotate(60deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.9s",
+          "WebkitTransform": "rotate(90deg) translate(146%)",
+          "animationDelay": "-0.9s",
+          "transform": "rotate(90deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.8s",
+          "WebkitTransform": "rotate(120deg) translate(146%)",
+          "animationDelay": "-0.8s",
+          "transform": "rotate(120deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.7s",
+          "WebkitTransform": "rotate(150deg) translate(146%)",
+          "animationDelay": "-0.7s",
+          "transform": "rotate(150deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.6s",
+          "WebkitTransform": "rotate(180deg) translate(146%)",
+          "animationDelay": "-0.6s",
+          "transform": "rotate(180deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.5s",
+          "WebkitTransform": "rotate(210deg) translate(146%)",
+          "animationDelay": "-0.5s",
+          "transform": "rotate(210deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.4s",
+          "WebkitTransform": "rotate(240deg) translate(146%)",
+          "animationDelay": "-0.4s",
+          "transform": "rotate(240deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.3s",
+          "WebkitTransform": "rotate(270deg) translate(146%)",
+          "animationDelay": "-0.3s",
+          "transform": "rotate(270deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.2s",
+          "WebkitTransform": "rotate(300deg) translate(146%)",
+          "animationDelay": "-0.2s",
+          "transform": "rotate(300deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.1s",
+          "WebkitTransform": "rotate(330deg) translate(146%)",
+          "animationDelay": "-0.1s",
+          "transform": "rotate(330deg) translate(146%)",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Loading Spinner sets an HTML id attr on the proper dom node via the id prop 1`] = `
+.c0 {
+  position: relative;
+  height: 16px;
+  width: 16px;
+  margin: 4px;
+}
+
+.c1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.c2 {
+  -webkit-animation: jVfXJg 1.2s linear infinite;
+  animation: jVfXJg 1.2s linear infinite;
+  position: absolute;
+  top: -3.9%;
+  left: -10%;
+  width: 20%;
+  height: 7.8%;
+  background-color: #0680cd;
+  border-radius: 5px;
+}
+
+<div
+  className="c0"
+  size={32}
+>
+  <div
+    className="c1"
+    id="testId"
+    size={32}
+  >
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-1.2s",
+          "WebkitTransform": "rotate(0deg) translate(146%)",
+          "animationDelay": "-1.2s",
+          "transform": "rotate(0deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-1.1s",
+          "WebkitTransform": "rotate(30deg) translate(146%)",
+          "animationDelay": "-1.1s",
+          "transform": "rotate(30deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-1s",
+          "WebkitTransform": "rotate(60deg) translate(146%)",
+          "animationDelay": "-1s",
+          "transform": "rotate(60deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.9s",
+          "WebkitTransform": "rotate(90deg) translate(146%)",
+          "animationDelay": "-0.9s",
+          "transform": "rotate(90deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.8s",
+          "WebkitTransform": "rotate(120deg) translate(146%)",
+          "animationDelay": "-0.8s",
+          "transform": "rotate(120deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.7s",
+          "WebkitTransform": "rotate(150deg) translate(146%)",
+          "animationDelay": "-0.7s",
+          "transform": "rotate(150deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.6s",
+          "WebkitTransform": "rotate(180deg) translate(146%)",
+          "animationDelay": "-0.6s",
+          "transform": "rotate(180deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.5s",
+          "WebkitTransform": "rotate(210deg) translate(146%)",
+          "animationDelay": "-0.5s",
+          "transform": "rotate(210deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.4s",
+          "WebkitTransform": "rotate(240deg) translate(146%)",
+          "animationDelay": "-0.4s",
+          "transform": "rotate(240deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.3s",
+          "WebkitTransform": "rotate(270deg) translate(146%)",
+          "animationDelay": "-0.3s",
+          "transform": "rotate(270deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.2s",
+          "WebkitTransform": "rotate(300deg) translate(146%)",
+          "animationDelay": "-0.2s",
+          "transform": "rotate(300deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.1s",
+          "WebkitTransform": "rotate(330deg) translate(146%)",
+          "animationDelay": "-0.1s",
+          "transform": "rotate(330deg) translate(146%)",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Loading Spinner sets style on the proper dom node when style obj is passed via wrapperStyle prop 1`] = `
+.c0 {
+  position: relative;
+  height: 16px;
+  width: 16px;
+  margin: 4px;
+}
+
+.c1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.c2 {
+  -webkit-animation: jVfXJg 1.2s linear infinite;
+  animation: jVfXJg 1.2s linear infinite;
+  position: absolute;
+  top: -3.9%;
+  left: -10%;
+  width: 20%;
+  height: 7.8%;
+  background-color: #0680cd;
+  border-radius: 5px;
+}
+
+<div
+  className="c0"
+  size={32}
+  style={
+    Object {
+      "padding": "8px",
+    }
+  }
+>
+  <div
+    className="c1"
+    size={32}
+  >
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-1.2s",
+          "WebkitTransform": "rotate(0deg) translate(146%)",
+          "animationDelay": "-1.2s",
+          "transform": "rotate(0deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-1.1s",
+          "WebkitTransform": "rotate(30deg) translate(146%)",
+          "animationDelay": "-1.1s",
+          "transform": "rotate(30deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-1s",
+          "WebkitTransform": "rotate(60deg) translate(146%)",
+          "animationDelay": "-1s",
+          "transform": "rotate(60deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.9s",
+          "WebkitTransform": "rotate(90deg) translate(146%)",
+          "animationDelay": "-0.9s",
+          "transform": "rotate(90deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.8s",
+          "WebkitTransform": "rotate(120deg) translate(146%)",
+          "animationDelay": "-0.8s",
+          "transform": "rotate(120deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.7s",
+          "WebkitTransform": "rotate(150deg) translate(146%)",
+          "animationDelay": "-0.7s",
+          "transform": "rotate(150deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.6s",
+          "WebkitTransform": "rotate(180deg) translate(146%)",
+          "animationDelay": "-0.6s",
+          "transform": "rotate(180deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.5s",
+          "WebkitTransform": "rotate(210deg) translate(146%)",
+          "animationDelay": "-0.5s",
+          "transform": "rotate(210deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.4s",
+          "WebkitTransform": "rotate(240deg) translate(146%)",
+          "animationDelay": "-0.4s",
+          "transform": "rotate(240deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.3s",
+          "WebkitTransform": "rotate(270deg) translate(146%)",
+          "animationDelay": "-0.3s",
+          "transform": "rotate(270deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.2s",
+          "WebkitTransform": "rotate(300deg) translate(146%)",
+          "animationDelay": "-0.2s",
+          "transform": "rotate(300deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.1s",
+          "WebkitTransform": "rotate(330deg) translate(146%)",
+          "animationDelay": "-0.1s",
+          "transform": "rotate(330deg) translate(146%)",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Loading Spinner sets the color of all 12 spinner bars via the color prop 1`] = `
+.c0 {
+  position: relative;
+  height: 16px;
+  width: 16px;
+  margin: 4px;
+}
+
+.c1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.c2 {
+  -webkit-animation: jVfXJg 1.2s linear infinite;
+  animation: jVfXJg 1.2s linear infinite;
+  position: absolute;
+  top: -3.9%;
+  left: -10%;
+  width: 20%;
+  height: 7.8%;
+  background-color: #cc3300;
+  border-radius: 5px;
+}
+
+<div
+  className="c0"
+  size={32}
+>
+  <div
+    className="c1"
+    size={32}
+  >
+    <div
+      className="c2"
+      color="#cc3300"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-1.2s",
+          "WebkitTransform": "rotate(0deg) translate(146%)",
+          "animationDelay": "-1.2s",
+          "transform": "rotate(0deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#cc3300"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-1.1s",
+          "WebkitTransform": "rotate(30deg) translate(146%)",
+          "animationDelay": "-1.1s",
+          "transform": "rotate(30deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#cc3300"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-1s",
+          "WebkitTransform": "rotate(60deg) translate(146%)",
+          "animationDelay": "-1s",
+          "transform": "rotate(60deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#cc3300"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.9s",
+          "WebkitTransform": "rotate(90deg) translate(146%)",
+          "animationDelay": "-0.9s",
+          "transform": "rotate(90deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#cc3300"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.8s",
+          "WebkitTransform": "rotate(120deg) translate(146%)",
+          "animationDelay": "-0.8s",
+          "transform": "rotate(120deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#cc3300"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.7s",
+          "WebkitTransform": "rotate(150deg) translate(146%)",
+          "animationDelay": "-0.7s",
+          "transform": "rotate(150deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#cc3300"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.6s",
+          "WebkitTransform": "rotate(180deg) translate(146%)",
+          "animationDelay": "-0.6s",
+          "transform": "rotate(180deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#cc3300"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.5s",
+          "WebkitTransform": "rotate(210deg) translate(146%)",
+          "animationDelay": "-0.5s",
+          "transform": "rotate(210deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#cc3300"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.4s",
+          "WebkitTransform": "rotate(240deg) translate(146%)",
+          "animationDelay": "-0.4s",
+          "transform": "rotate(240deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#cc3300"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.3s",
+          "WebkitTransform": "rotate(270deg) translate(146%)",
+          "animationDelay": "-0.3s",
+          "transform": "rotate(270deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#cc3300"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.2s",
+          "WebkitTransform": "rotate(300deg) translate(146%)",
+          "animationDelay": "-0.2s",
+          "transform": "rotate(300deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#cc3300"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.1s",
+          "WebkitTransform": "rotate(330deg) translate(146%)",
+          "animationDelay": "-0.1s",
+          "transform": "rotate(330deg) translate(146%)",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Loading Spinner sets the correct styles via size prop 1`] = `
+.c0 {
+  position: relative;
+  height: 12px;
+  width: 12px;
+  margin: 4px;
+}
+
+.c1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+}
+
+.c2 {
+  -webkit-animation: jVfXJg 1.2s linear infinite;
+  animation: jVfXJg 1.2s linear infinite;
+  position: absolute;
+  top: -3.9%;
+  left: -10%;
+  width: 20%;
+  height: 7.8%;
+  background-color: #0680cd;
+  border-radius: 5px;
+}
+
+<div
+  className="c0"
+  size={24}
+>
+  <div
+    className="c1"
+    size={24}
+  >
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-1.2s",
+          "WebkitTransform": "rotate(0deg) translate(146%)",
+          "animationDelay": "-1.2s",
+          "transform": "rotate(0deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-1.1s",
+          "WebkitTransform": "rotate(30deg) translate(146%)",
+          "animationDelay": "-1.1s",
+          "transform": "rotate(30deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-1s",
+          "WebkitTransform": "rotate(60deg) translate(146%)",
+          "animationDelay": "-1s",
+          "transform": "rotate(60deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.9s",
+          "WebkitTransform": "rotate(90deg) translate(146%)",
+          "animationDelay": "-0.9s",
+          "transform": "rotate(90deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.8s",
+          "WebkitTransform": "rotate(120deg) translate(146%)",
+          "animationDelay": "-0.8s",
+          "transform": "rotate(120deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.7s",
+          "WebkitTransform": "rotate(150deg) translate(146%)",
+          "animationDelay": "-0.7s",
+          "transform": "rotate(150deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.6s",
+          "WebkitTransform": "rotate(180deg) translate(146%)",
+          "animationDelay": "-0.6s",
+          "transform": "rotate(180deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.5s",
+          "WebkitTransform": "rotate(210deg) translate(146%)",
+          "animationDelay": "-0.5s",
+          "transform": "rotate(210deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.4s",
+          "WebkitTransform": "rotate(240deg) translate(146%)",
+          "animationDelay": "-0.4s",
+          "transform": "rotate(240deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.3s",
+          "WebkitTransform": "rotate(270deg) translate(146%)",
+          "animationDelay": "-0.3s",
+          "transform": "rotate(270deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.2s",
+          "WebkitTransform": "rotate(300deg) translate(146%)",
+          "animationDelay": "-0.2s",
+          "transform": "rotate(300deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.1s",
+          "WebkitTransform": "rotate(330deg) translate(146%)",
+          "animationDelay": "-0.1s",
+          "transform": "rotate(330deg) translate(146%)",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Loading Spinner sets the correct styles when margin prop is set to true 1`] = `
+.c0 {
+  position: relative;
+  height: 16px;
+  width: 16px;
+  margin: 8px;
+}
+
+.c1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.c2 {
+  -webkit-animation: jVfXJg 1.2s linear infinite;
+  animation: jVfXJg 1.2s linear infinite;
+  position: absolute;
+  top: -3.9%;
+  left: -10%;
+  width: 20%;
+  height: 7.8%;
+  background-color: #0680cd;
+  border-radius: 5px;
+}
+
+<div
+  className="c0"
+  size={32}
+>
+  <div
+    className="c1"
+    size={32}
+  >
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-1.2s",
+          "WebkitTransform": "rotate(0deg) translate(146%)",
+          "animationDelay": "-1.2s",
+          "transform": "rotate(0deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-1.1s",
+          "WebkitTransform": "rotate(30deg) translate(146%)",
+          "animationDelay": "-1.1s",
+          "transform": "rotate(30deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-1s",
+          "WebkitTransform": "rotate(60deg) translate(146%)",
+          "animationDelay": "-1s",
+          "transform": "rotate(60deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.9s",
+          "WebkitTransform": "rotate(90deg) translate(146%)",
+          "animationDelay": "-0.9s",
+          "transform": "rotate(90deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.8s",
+          "WebkitTransform": "rotate(120deg) translate(146%)",
+          "animationDelay": "-0.8s",
+          "transform": "rotate(120deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.7s",
+          "WebkitTransform": "rotate(150deg) translate(146%)",
+          "animationDelay": "-0.7s",
+          "transform": "rotate(150deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.6s",
+          "WebkitTransform": "rotate(180deg) translate(146%)",
+          "animationDelay": "-0.6s",
+          "transform": "rotate(180deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.5s",
+          "WebkitTransform": "rotate(210deg) translate(146%)",
+          "animationDelay": "-0.5s",
+          "transform": "rotate(210deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.4s",
+          "WebkitTransform": "rotate(240deg) translate(146%)",
+          "animationDelay": "-0.4s",
+          "transform": "rotate(240deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.3s",
+          "WebkitTransform": "rotate(270deg) translate(146%)",
+          "animationDelay": "-0.3s",
+          "transform": "rotate(270deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.2s",
+          "WebkitTransform": "rotate(300deg) translate(146%)",
+          "animationDelay": "-0.2s",
+          "transform": "rotate(300deg) translate(146%)",
+        }
+      }
+    />
+    <div
+      className="c2"
+      color="#0680cd"
+      style={
+        Object {
+          "WebkitAnimationDelay": "-0.1s",
+          "WebkitTransform": "rotate(330deg) translate(146%)",
+          "animationDelay": "-0.1s",
+          "transform": "rotate(330deg) translate(146%)",
+        }
+      }
+    />
+  </div>
+</div>
+`;

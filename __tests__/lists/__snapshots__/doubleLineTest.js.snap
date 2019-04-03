@@ -1,0 +1,1577 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Double Line List Item matches snapshot w/o a11y violations 1`] = `
+.c0 {
+  padding: 0;
+  margin: 0;
+}
+
+.c1 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 8px;
+  list-style-type: none;
+}
+
+.c1:focus {
+  outline: dotted 1px rgb(59,153,252);
+  outline-offset: -1px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.c4 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #545454;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  color: #131516;
+  min-height: 21px;
+  width: 100%;
+}
+
+.c5 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #696969;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  width: 100%;
+  min-height: 15px;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+<ul
+  className="c0"
+>
+  <li
+    className="c1"
+    onKeyUp={[Function]}
+    tabIndex={null}
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+      >
+        <h4
+          className="c4"
+        >
+          test title
+        </h4>
+        <h5
+          className="c5"
+        >
+          test subtitle
+        </h5>
+      </div>
+    </div>
+    <div
+      className="c6"
+    />
+  </li>
+</ul>
+`;
+
+exports[`Double Line List Item passes a child to the correct dom node in the list item 1`] = `
+.c6 {
+  fill: #ffd960;
+  vertical-align: top;
+}
+
+.c0 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 8px;
+  list-style-type: none;
+  border-bottom: solid 1px #e8e5e2;
+}
+
+.c0:focus {
+  outline: dotted 1px rgb(59,153,252);
+  outline-offset: -1px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.c3 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #545454;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  color: #131516;
+  min-height: 21px;
+  width: 100%;
+}
+
+.c4 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #696969;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  width: 100%;
+  min-height: 15px;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+<li
+  className="c0"
+  onKeyUp={[Function]}
+  tabIndex={null}
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <h4
+        className="c3"
+      >
+        test title
+      </h4>
+      <h5
+        className="c4"
+      >
+        test subtitle
+      </h5>
+    </div>
+  </div>
+  <div
+    className="c5"
+  >
+    <svg
+      aria-label="warning"
+      className="c6"
+      color="#ffd960"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        warning
+      </title>
+      <desc>
+        triangle with exclamation mark in center
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+      />
+    </svg>
+  </div>
+</li>
+`;
+
+exports[`Double Line List Item sets a border when bottomBorder prop = true 1`] = `
+.c0 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 8px;
+  list-style-type: none;
+  border-bottom: solid 1px #e8e5e2;
+}
+
+.c0:focus {
+  outline: dotted 1px rgb(59,153,252);
+  outline-offset: -1px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.c3 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #545454;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  color: #131516;
+  min-height: 21px;
+  width: 100%;
+}
+
+.c4 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #696969;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  width: 100%;
+  min-height: 15px;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+<li
+  className="c0"
+  onKeyUp={[Function]}
+  tabIndex={null}
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <h4
+        className="c3"
+      >
+        test title
+      </h4>
+      <h5
+        className="c4"
+      >
+        test subtitle
+      </h5>
+    </div>
+  </div>
+  <div
+    className="c5"
+  />
+</li>
+`;
+
+exports[`Double Line List Item sets a click handler on the left icon via onLeftIconClick prop 1`] = `
+.c5 {
+  fill: #ffd960;
+  vertical-align: top;
+}
+
+.c0 {
+  padding: 0;
+  margin: 0;
+}
+
+.c2 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 8px;
+  list-style-type: none;
+}
+
+.c2:focus {
+  outline: dotted 1px rgb(59,153,252);
+  outline-offset: -1px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.c4 {
+  padding: 0 16px 0 8px;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.c7 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #545454;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  color: #131516;
+  min-height: 21px;
+  width: 100%;
+}
+
+.c1:hover .kaKSME {
+  color: #53a4dc;
+}
+
+.c1:focus .kaKSME {
+  color: #53a4dc;
+}
+
+.c8 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #696969;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  width: 100%;
+  min-height: 15px;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+<ul
+  className="c0"
+>
+  <li
+    className="c1 c2"
+    onKeyUp={[Function]}
+    tabIndex={null}
+  >
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+        onClick={[Function]}
+        onKeyUp={[Function]}
+        tabIndex="0"
+      >
+        <svg
+          aria-label="warning"
+          className="c5"
+          color="#ffd960"
+          height={24}
+          role="img"
+          viewBox="0 0 24 24"
+          width={24}
+        >
+          <title>
+            warning
+          </title>
+          <desc>
+            triangle with exclamation mark in center
+          </desc>
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+          />
+        </svg>
+      </div>
+      <div
+        className="c6"
+      >
+        <h4
+          className="c7"
+        >
+          test title
+        </h4>
+        <h5
+          className="c8"
+        >
+          test subtitle
+        </h5>
+      </div>
+    </div>
+    <div
+      className="c9"
+    />
+  </li>
+</ul>
+`;
+
+exports[`Double Line List Item sets a left icon in the proper dom node when passed as leftIcon prop 1`] = `
+.c4 {
+  fill: #ffd960;
+  vertical-align: top;
+}
+
+.c1 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 8px;
+  list-style-type: none;
+}
+
+.c1:focus {
+  outline: dotted 1px rgb(59,153,252);
+  outline-offset: -1px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.c3 {
+  padding: 0 16px 0 8px;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.c6 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #545454;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  color: #131516;
+  min-height: 21px;
+  width: 100%;
+}
+
+.c0:hover .kaKSME {
+  color: #53a4dc;
+}
+
+.c0:focus .kaKSME {
+  color: #53a4dc;
+}
+
+.c7 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #696969;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  width: 100%;
+  min-height: 15px;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+<li
+  className="c0 c1"
+  onKeyUp={[Function]}
+  tabIndex={null}
+>
+  <div
+    className="c2"
+  >
+    <div
+      className="c3"
+      onKeyUp={[Function]}
+      tabIndex={null}
+    >
+      <svg
+        aria-label="warning"
+        className="c4"
+        color="#ffd960"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          warning
+        </title>
+        <desc>
+          triangle with exclamation mark in center
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+        />
+      </svg>
+    </div>
+    <div
+      className="c5"
+    >
+      <h4
+        className="c6"
+      >
+        test title
+      </h4>
+      <h5
+        className="c7"
+      >
+        test subtitle
+      </h5>
+    </div>
+  </div>
+  <div
+    className="c8"
+  />
+</li>
+`;
+
+exports[`Double Line List Item sets an onClick fn on correct dom node when passed via onClick prop 1`] = `
+.c0 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 8px;
+  list-style-type: none;
+}
+
+.c0:focus {
+  outline: dotted 1px rgb(59,153,252);
+  outline-offset: -1px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.c3 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #545454;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  color: #131516;
+  min-height: 21px;
+  width: 100%;
+}
+
+.c4 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #696969;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  width: 100%;
+  min-height: 15px;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+<li
+  className="c0"
+  onClick={[Function]}
+  onKeyUp={[Function]}
+  tabIndex={null}
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <h4
+        className="c3"
+      >
+        test title
+      </h4>
+      <h5
+        className="c4"
+      >
+        test subtitle
+      </h5>
+    </div>
+  </div>
+  <div
+    className="c5"
+  />
+</li>
+`;
+
+exports[`Double Line List Item sets content for line one on the correct dom node via the lineOne prop 1`] = `
+.c1 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 8px;
+  list-style-type: none;
+}
+
+.c1:focus {
+  outline: dotted 1px rgb(59,153,252);
+  outline-offset: -1px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.c4 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #545454;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  color: #131516;
+  min-height: 21px;
+  width: 100%;
+}
+
+.c0:hover .kaKSME {
+  color: #53a4dc;
+}
+
+.c0:focus .kaKSME {
+  color: #53a4dc;
+}
+
+.c5 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #696969;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  width: 100%;
+  min-height: 15px;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+<li
+  className="c0 c1"
+  onKeyUp={[Function]}
+  tabIndex={null}
+>
+  <div
+    className="c2"
+  >
+    <div
+      className="c3"
+    >
+      <h4
+        className="c4"
+      >
+        test title
+      </h4>
+      <h5
+        className="c5"
+      >
+        test subtitle
+      </h5>
+    </div>
+  </div>
+  <div
+    className="c6"
+  />
+</li>
+`;
+
+exports[`Double Line List Item sets content for line two on the correct dom node via the lineTwo prop 1`] = `
+.c1 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 8px;
+  list-style-type: none;
+}
+
+.c1:focus {
+  outline: dotted 1px rgb(59,153,252);
+  outline-offset: -1px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.c4 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #545454;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  color: #131516;
+  min-height: 21px;
+  width: 100%;
+}
+
+.c0:hover .kaKSME {
+  color: #53a4dc;
+}
+
+.c0:focus .kaKSME {
+  color: #53a4dc;
+}
+
+.c5 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #696969;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  width: 100%;
+  min-height: 15px;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+<li
+  className="c0 c1"
+  onKeyUp={[Function]}
+  tabIndex={null}
+>
+  <div
+    className="c2"
+  >
+    <div
+      className="c3"
+    >
+      <h4
+        className="c4"
+      >
+        test title
+      </h4>
+      <h5
+        className="c5"
+      >
+        test subtitle
+      </h5>
+    </div>
+  </div>
+  <div
+    className="c6"
+  />
+</li>
+`;
+
+exports[`Double Line List Item sets the proper styles when clickable prop = true 1`] = `
+.c0 {
+  padding: 0;
+  margin: 0;
+}
+
+.c2 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 8px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.c2:focus {
+  outline: dotted 1px rgb(59,153,252);
+  outline-offset: -1px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.c5 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #545454;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  color: #0680cd;
+  min-height: 21px;
+  width: 100%;
+}
+
+.c1:hover .c5 {
+  color: #53a4dc;
+}
+
+.c1:focus .c5 {
+  color: #53a4dc;
+}
+
+.c6 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #696969;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  width: 100%;
+  min-height: 15px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+<ul
+  className="c0"
+>
+  <li
+    className="c1 c2"
+    onClick={[Function]}
+    onKeyUp={[Function]}
+    tabIndex="0"
+  >
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <h4
+          className="c5"
+        >
+          test title
+        </h4>
+        <h5
+          className="c6"
+        >
+          test subtitle
+        </h5>
+      </div>
+    </div>
+    <div
+      className="c7"
+    />
+  </li>
+</ul>
+`;
+
+exports[`Double Line List Item sets the proper styles when dense prop is true 1`] = `
+.c4 {
+  fill: #ffd960;
+  vertical-align: top;
+}
+
+.c1 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 4px 8px;
+  list-style-type: none;
+}
+
+.c1:focus {
+  outline: dotted 1px rgb(59,153,252);
+  outline-offset: -1px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.c3 {
+  padding: 0 8px 0 0;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.c0:hover .kaKSME {
+  color: #53a4dc;
+}
+
+.c0:focus .kaKSME {
+  color: #53a4dc;
+}
+
+.c6 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #545454;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  color: #131516;
+  min-height: 21px;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.c7 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #696969;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+  width: 100%;
+  min-height: 15px;
+  margin-bottom: 0px;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+<li
+  className="c0 c1"
+  onKeyUp={[Function]}
+  tabIndex={null}
+>
+  <div
+    className="c2"
+  >
+    <div
+      className="c3"
+      onKeyUp={[Function]}
+      tabIndex={null}
+    >
+      <svg
+        aria-label="warning"
+        className="c4"
+        color="#ffd960"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          warning
+        </title>
+        <desc>
+          triangle with exclamation mark in center
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+        />
+      </svg>
+    </div>
+    <div
+      className="c5"
+    >
+      <h4
+        className="c6"
+      >
+        test title
+      </h4>
+      <h5
+        className="c7"
+      >
+        test subtitle
+      </h5>
+    </div>
+  </div>
+  <div
+    className="c8"
+  />
+</li>
+`;
