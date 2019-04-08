@@ -105,4 +105,4 @@ docker-compose build dracs
 
 ### Who do I talk to? ###
 
-byron.wall@duke.edu
+myresearchhome@duke.edu
