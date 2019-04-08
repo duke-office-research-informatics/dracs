@@ -101,7 +101,7 @@ docker-compose build dracs
 
 * Contributions are encouraged.  Any contribution must be approved via PR and must include the new/update component/feature, and the corresponding documentation and testing.
 
-* I am currently implementing a test framework for existing dracs components.  Once all existing components have been tested, I will write documentation on how to a) document and b) test a DRACS component to further encourage outside contribution.
+* We are currently implementing a test framework for existing dracs components.  Once all existing components have been tested, we will add documentation on how to a) document and b) test a DRACS component to further encourage outside contribution.
 
 ### Who do I talk to? ###
 
