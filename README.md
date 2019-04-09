@@ -17,7 +17,7 @@ The documentation application allows people who are interested in using DRACS co
 ### How do I use this library in my application? ###
 
 * Make sure that you have node and NPM installed -- and that your app is a `react.js` application that uses or can use `styled-components` for styling.
-* add the git repo to your `dependencies` list in your application's `package.json` like so : `"dracs": "git+ssh://git@gitlab.dhe.duke.edu:dracs/dracs.git"`
+* add the git repo to your `dependencies` list in your application's `package.json` like so : `"dracs": "git+ssh://git@github.com:duke-office-research-informatics/dracs.git"`
 * make sure that your application meets DRACS' peerDependencies (react v15.5.4 , react-dom v15.5.4, styled-components v3.0.0, lodash v4.17.4)
 * add styled-components' `themeProvider` (https://www.styled-components.com/docs/advanced#theming) to the root of your application, using the DRACS theme (`import { theme } from 'dracs'`) as the provided theme.
 * a css reset is highly recommended -- use the reset in `assets/reset.css` of this repo for guaranteed interoperablility with DRACS -- or feel free to use your own.
