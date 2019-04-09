@@ -26,7 +26,7 @@ The documentation application allows people who are interested in using DRACS co
 ### How do I set up the documentation? ###
 
 * Node and NPM are required to run this repo -- please install them if you have not previously.
-* Clone this repo `git clone git@bitbucket.org:dukerad/dracs.git`.
+* Clone this repo `git clone git@github.com:duke-office-research-informatics/dracs.git`.
 * Once cloned, enter the root directory and run `npm install` from your terminal.
 * once the dependencies have installed run `npm run storybook` from your terminal.
 * the application should be running at `localhost:9001`.
