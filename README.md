@@ -27,6 +27,12 @@ Special Note:
 If you are affiliated with a CTSA institution, please provide your name, email address and CTSA institution name. 
 We would like to keep up with these collaborations.
 
+```
+UL1TR002553 Boulware (PI) 05/02/18–4/30/23 
+Duke CTSA 
+The Duke CTSA catalyzes the translation of scientific discoveries into health benefits for communities through collaborative research. It provides key infrastructure, resources, and learning opportunities for translational researchers at Duke and its partners. The grant supports research through pilot funding, training and career development, and Cores with expertise in research design, regulatory, biomedical informatics, data sciences, recruitment, participant interactions, community engagement, special populations, team science,  and workforce development. 
+```
+
 ### How do I set up the documentation? ###
 
 * Node and NPM are required to run this repo -- please install them if you have not previously.
