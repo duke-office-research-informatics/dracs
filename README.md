@@ -23,6 +23,10 @@ The documentation application allows people who are interested in using DRACS co
 * a css reset is highly recommended -- use the reset in `assets/reset.css` of this repo for guaranteed interoperablility with DRACS -- or feel free to use your own.
 * start importing and using the components!  For more info on component API's, see the documentation provided in this repo.
 
+Special Note:
+If you are affiliated with a CTSA institution, please provide your name, email address and CTSA institution name. 
+We would like to keep up with these collaborations.
+
 ### How do I set up the documentation? ###
 
 * Node and NPM are required to run this repo -- please install them if you have not previously.
