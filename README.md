@@ -103,6 +103,4 @@ docker-compose build dracs
 
 * We are currently implementing a test framework for existing dracs components.  Once all existing components have been tested, we will add documentation on how to a) document and b) test a DRACS component to further encourage outside contribution.
 
-### Who do I talk to? ###
 
-myresearchhome@duke.edu
