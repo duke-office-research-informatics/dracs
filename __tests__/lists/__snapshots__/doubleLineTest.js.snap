@@ -538,11 +538,11 @@ exports[`Double Line List Item sets a click handler on the left icon via onLeftI
   width: 100%;
 }
 
-.c1:hover .kaKSME {
+.c1:hover .bMHUwg {
   color: #53a4dc;
 }
 
-.c1:focus .kaKSME {
+.c1:focus .bMHUwg {
   color: #53a4dc;
 }
 
@@ -724,11 +724,11 @@ exports[`Double Line List Item sets a left icon in the proper dom node when pass
   width: 100%;
 }
 
-.c0:hover .kaKSME {
+.c0:hover .bMHUwg {
   color: #53a4dc;
 }
 
-.c0:focus .kaKSME {
+.c0:focus .bMHUwg {
   color: #53a4dc;
 }
 
@@ -1032,11 +1032,11 @@ exports[`Double Line List Item sets content for line one on the correct dom node
   width: 100%;
 }
 
-.c0:hover .kaKSME {
+.c0:hover .bMHUwg {
   color: #53a4dc;
 }
 
-.c0:focus .kaKSME {
+.c0:focus .bMHUwg {
   color: #53a4dc;
 }
 
@@ -1175,11 +1175,11 @@ exports[`Double Line List Item sets content for line two on the correct dom node
   width: 100%;
 }
 
-.c0:hover .kaKSME {
+.c0:hover .bMHUwg {
   color: #53a4dc;
 }
 
-.c0:focus .kaKSME {
+.c0:focus .bMHUwg {
   color: #53a4dc;
 }
 
@@ -1468,11 +1468,11 @@ exports[`Double Line List Item sets the proper styles when dense prop is true 1`
   width: 100%;
 }
 
-.c0:hover .kaKSME {
+.c0:hover .bMHUwg {
   color: #53a4dc;
 }
 
-.c0:focus .kaKSME {
+.c0:focus .bMHUwg {
   color: #53a4dc;
 }
 

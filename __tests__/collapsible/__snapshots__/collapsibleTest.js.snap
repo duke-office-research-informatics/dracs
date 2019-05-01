@@ -711,7 +711,7 @@ exports[`Collapsible passes a title hover color via props 1`] = `
   letter-spacing: 0.025em;
 }
 
-.jfLYNq:hover .c2 {
+.bDEXfm:hover .c2 {
   color: #53a4dc;
 }
 
@@ -1056,7 +1056,7 @@ exports[`Collapsible sets a style object on the component wrapper via props 1`] 
   color: #53a4dc;
 }
 
-.kJjZNS:hover .c2 {
+.jMgmmj:hover .c2 {
   color: #696969;
 }
 

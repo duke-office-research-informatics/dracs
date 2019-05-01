@@ -632,11 +632,11 @@ exports[`Triple Line List Item sets a click handler on the left icon via onLeftI
   width: 100%;
 }
 
-.c1:hover .hFNsdO {
+.c1:hover .lpfNke {
   color: #53a4dc;
 }
 
-.c1:focus .hFNsdO {
+.c1:focus .lpfNke {
   color: #53a4dc;
 }
 
@@ -845,11 +845,11 @@ exports[`Triple Line List Item sets a left icon in the proper dom node when pass
   width: 100%;
 }
 
-.c0:hover .hFNsdO {
+.c0:hover .lpfNke {
   color: #53a4dc;
 }
 
-.c0:focus .hFNsdO {
+.c0:focus .lpfNke {
   color: #53a4dc;
 }
 
@@ -1207,11 +1207,11 @@ exports[`Triple Line List Item sets content for first line on correct dom node v
   width: 100%;
 }
 
-.c0:hover .hFNsdO {
+.c0:hover .lpfNke {
   color: #53a4dc;
 }
 
-.c0:focus .hFNsdO {
+.c0:focus .lpfNke {
   color: #53a4dc;
 }
 
@@ -1377,11 +1377,11 @@ exports[`Triple Line List Item sets content for second line on correct dom node 
   width: 100%;
 }
 
-.c0:hover .hFNsdO {
+.c0:hover .lpfNke {
   color: #53a4dc;
 }
 
-.c0:focus .hFNsdO {
+.c0:focus .lpfNke {
   color: #53a4dc;
 }
 
@@ -1547,11 +1547,11 @@ exports[`Triple Line List Item sets content for third line on correct dom node v
   width: 100%;
 }
 
-.c0:hover .hFNsdO {
+.c0:hover .lpfNke {
   color: #53a4dc;
 }
 
-.c0:focus .hFNsdO {
+.c0:focus .lpfNke {
   color: #53a4dc;
 }
 
