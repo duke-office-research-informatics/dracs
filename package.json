@@ -1,5 +1,5 @@
 {
-  "name": "dracs",
+  "name": "@duke-office-research-informatics/dracs",
   "sideEffects": true,
   "version": "0.0.21",
   "private": true,
@@ -142,5 +142,26 @@
       "lib/*.cjs.js",
       "lib/*.es.js"
     ]
-  }
+  },
+  "description": "Duke Research Application Component System v0.0.21",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duke-office-research-informatics/dracs.git"
+  },
+  "keywords": [
+    "Duke",
+    "React",
+    "JavaScript",
+    "Components",
+    "Design"
+  ],
+  "author": "Byron Wall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duke-office-research-informatics/dracs/issues"
+  },
+  "homepage": "https://github.com/duke-office-research-informatics/dracs#readme"
 }
