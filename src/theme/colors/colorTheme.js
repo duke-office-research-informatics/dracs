@@ -21,6 +21,8 @@ const colors = {
   tutorialHighlight: "rgb(255,215,0)",
   statusGreen: palette.status.kellyGreen,
   successGreen: "#4AC948",
+  ironweed: palette.sg.purple,
+  magnolia: "#1D6363",
 };
 
 export default colors;
