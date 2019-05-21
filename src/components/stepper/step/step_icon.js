@@ -8,6 +8,7 @@ const StepIcon = props => {
     active,
     completed,
     icon,
+    iconActiveColor,
     iconCompleteColor,
     iconIncompleteColor,
     iconTextColor,
@@ -20,6 +21,7 @@ const StepIcon = props => {
     return (
       <StepPositionIcon
         active={active}
+        iconActiveColor={iconActiveColor}
         iconCompleteColor={iconCompleteColor}
         iconIncompleteColor={iconIncompleteColor}
         iconTextColor={iconTextColor}
@@ -38,11 +40,13 @@ StepIcon.propTypes = {
   completed: PropTypes.bool,
   /** Icon displayed by stepLabel */
   icon: PropTypes.node.isRequired,
-  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when incomplete **/
+  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when actve **/
+  iconActiveColor: PropTypes.string,
+  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when complete **/
   iconCompleteColor: PropTypes.string,
-  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when complete **/
+  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when incomplete **/
   iconIncompleteColor: PropTypes.string,
-  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when complete **/
+  /** css-readable color string (hex, rgba, etc) that sets the text color of the icon **/
   iconTextColor: PropTypes.string,
   /** Sets whether default position icon displays numbers */
   numberIcons: PropTypes.bool,

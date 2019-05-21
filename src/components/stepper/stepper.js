@@ -18,14 +18,14 @@ const ComponentWrapper = styled.div`
         ? "center"
         : "flex-start"
       : p.orientation === "horizontal"
-        ? "center"
-        : null};
+      ? "center"
+      : null};
   justify-content: ${p =>
     p.justifyLabelsToBotom
       ? null
       : p.orientation === "vertical"
-        ? "flex-start"
-        : null};
+      ? "flex-start"
+      : null};
   padding: ${p => `${p.theme.sizing.base * 2}px`};
   width: 100%;
 `;
@@ -36,6 +36,7 @@ const Stepper = props => {
     children,
     controlSteps,
     customConnector,
+    iconActiveColor,
     iconCompleteColor,
     iconIncompleteColor,
     iconTextColor,
@@ -59,6 +60,7 @@ const Stepper = props => {
       completed: false,
       disabled: false,
       last: idx + 1 === stepperChildren.length,
+      iconActiveColor,
       iconCompleteColor,
       iconIncompleteColor,
       iconTextColor,
@@ -104,11 +106,13 @@ Stepper.propTypes = {
   controlSteps: PropTypes.bool,
   /** React element that will display between steps instead of the default connector */
   customConnector: PropTypes.element,
-  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when incomplete **/
+  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when actve **/
+  iconActiveColor: PropTypes.string,
+  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when complete **/
   iconCompleteColor: PropTypes.string,
-  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when complete **/
+  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when incomplete **/
   iconIncompleteColor: PropTypes.string,
-  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when complete **/
+  /** css-readable color string (hex, rgba, etc) that sets the text color of the icon **/
   iconTextColor: PropTypes.string,
   /** Sets whether the step labels justify to the bottom of the step or to the right */
   justifyLabelsToBottom: PropTypes.bool,
@@ -123,6 +127,7 @@ Stepper.propTypes = {
 Stepper.defaultProps = {
   controlSteps: false,
   customConnector: <StepConnector />,
+  iconActiveColor: theme.colors.action,
   iconCompleteColor: theme.colors.action,
   iconIncompleteColor: theme.colors.muted,
   iconTextColor: "#fff",

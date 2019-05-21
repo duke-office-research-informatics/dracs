@@ -29,8 +29,8 @@ const LabelText = styled.label`
     p.active
       ? p.theme.colors.base
       : p.completed
-        ? p.theme.colors.base
-        : p.theme.colors.subheading};
+      ? p.theme.colors.base
+      : p.theme.colors.subheading};
   text-align: ${p => (p.justifyLabelsToBottom ? "center" : null)};
   font-size: 0.875em;
   font-weight: ${p => (p.active ? 700 : 400)};
@@ -44,10 +44,12 @@ const StepLabel = props => {
     disabled,
     justifyLabelsToBottom,
     icon,
+    iconActiveColor,
     iconCompleteColor,
     iconIncompleteColor,
     iconTextColor,
     labelChild,
+    labelTextClassname,
     labelStyle,
     last, //eslint-disable-line no-unused-vars
     numberIcons,
@@ -67,6 +69,7 @@ const StepLabel = props => {
             active={active}
             completed={completed}
             icon={icon}
+            iconActiveColor={iconActiveColor}
             iconCompleteColor={iconCompleteColor}
             iconIncompleteColor={iconIncompleteColor}
             iconTextColor={iconTextColor}
@@ -78,6 +81,7 @@ const StepLabel = props => {
       <LabelContainer orientation={orientation}>
         <LabelText
           active={active}
+          className={labelTextClassname}
           completed={completed}
           justifyLabelsToBottom={justifyLabelsToBottom}
           style={labelStyle}
@@ -105,11 +109,13 @@ StepLabel.propTypes = {
     PropTypes.string,
     PropTypes.number,
   ]),
-  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when incomplete **/
+  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when actve **/
+  iconActiveColor: PropTypes.string,
+  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when complete **/
   iconCompleteColor: PropTypes.string,
-  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when complete **/
+  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when incomplete **/
   iconIncompleteColor: PropTypes.string,
-  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when complete **/
+  /** css-readable color string (hex, rgba, etc) that sets the text color of the icon **/
   iconTextColor: PropTypes.string,
   /** Sets whether the label is below or to the right of the icon -- passed via parent */
   justifyLabelsToBottom: PropTypes.bool,
@@ -117,6 +123,8 @@ StepLabel.propTypes = {
   last: PropTypes.bool,
   /** Optional child that will display next to the label text */
   labelChild: PropTypes.node,
+  /** CSS ClassName for the label */
+  labelTextClassname: PropTypes.string,
   /** JS style object for the label */
   labelStyle: PropTypes.object,
   /** Passed from Stepper component -- sets whether non-active steps will have numbers in them or not */

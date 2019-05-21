@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import styled from "styled-components";
 
 const PositionIcon = styled.svg`
-  fill: ${p => (p.active ? p.iconCompleteColor : p.iconIncompleteColor)};
+  fill: ${p => (p.active ? p.iconActiveColor : p.iconIncompleteColor)};
   height: 24px;
   width: 24px;
   vertical-align: top;
@@ -19,6 +19,7 @@ const PositionText = styled.text`
 const StepPositionIcon = props => {
   const {
     active,
+    iconActiveColor,
     iconCompleteColor,
     iconIncompleteColor,
     iconTextColor,
@@ -29,6 +30,7 @@ const StepPositionIcon = props => {
   return (
     <PositionIcon
       active={active}
+      iconActiveColor={iconActiveColor}
       iconCompleteColor={iconCompleteColor}
       iconIncompleteColor={iconIncompleteColor}
       viewBox="0 0 24 24"
@@ -55,11 +57,13 @@ const StepPositionIcon = props => {
 StepPositionIcon.propTypes = {
   /** sets whether the icon shows active styling -- set by parent */
   active: PropTypes.bool,
-  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when incomplete **/
+  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when actove **/
+  iconActiveColor: PropTypes.bool,
+  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when complete **/
   iconCompleteColor: PropTypes.string,
-  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when complete **/
+  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when incomplete **/
   iconIncompleteColor: PropTypes.string,
-  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when complete **/
+  /** css-readable color string (hex, rgba, etc) that sets the text color of the icon **/
   iconTextColor: PropTypes.string,
   /** sets whether the Icon shows a position number/text */
   numberIcons: PropTypes.bool,

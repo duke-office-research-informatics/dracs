@@ -50,6 +50,7 @@ const Step = props => {
     completed,
     customConnector,
     disabled,
+    iconActiveColor,
     iconCompleteColor,
     iconIncompleteColor,
     iconTextColor,
@@ -75,6 +76,7 @@ const Step = props => {
           completed,
           disabled,
           icon: child.props.icon ? child.props.icon : idx + 1,
+          iconActiveColor,
           iconCompleteColor,
           iconIncompleteColor,
           iconTextColor,
@@ -105,11 +107,13 @@ Step.propTypes = {
   customConnector: PropTypes.element,
   /** Step displays as 'disabled' -- passed to child components */
   disabled: PropTypes.bool,
-  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when incomplete **/
+  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when actove **/
+  iconActiveColor: PropTypes.bool,
+  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when complete **/
   iconCompleteColor: PropTypes.string,
-  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when complete **/
+  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when incomplete **/
   iconIncompleteColor: PropTypes.string,
-  /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when complete **/
+  /** css-readable color string (hex, rgba, etc) that sets the text color of the icon **/
   iconTextColor: PropTypes.string,
   /** Index set by Stepper parent component, used to track/number children */
   idx: PropTypes.number,
