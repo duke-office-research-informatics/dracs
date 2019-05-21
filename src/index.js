@@ -182,6 +182,7 @@ export { default as IconFinance } from "./icons/finance/finance.js";
 export { default as IconForm } from "./icons/form/form.js";
 export { default as IconHelp } from "./icons/help_open/help_open.js";
 export { default as IconInbox } from "./icons/inbox/inbox.js";
+export { default as IconInfo } from "./icons/info/info.js";
 export { default as IconLink } from "./icons/link/link.js";
 export { default as IconLogout } from "./icons/logout/logout.js";
 export { default as IconMenu } from "./icons/hamburger_menu/menu.js";
