@@ -43,6 +43,7 @@ const Stepper = props => {
     justifyLabelsToBottom,
     numberIcons,
     orientation,
+    wrapperClassname,
     wrapperStyle,
   } = props;
 
@@ -90,6 +91,7 @@ const Stepper = props => {
     <ComponentWrapper
       justifyLabelsToBottom={justifyLabelsToBottom}
       orientation={orientation}
+      className={wrapperClassname}
       style={wrapperStyle}
     >
       {steps}
@@ -120,6 +122,8 @@ Stepper.propTypes = {
   numberIcons: PropTypes.bool,
   /** Sets whether the stepper displays in a horizontal or vertical orientation */
   orientation: PropTypes.oneOf(["vertical", "horizontal"]),
+  /** CSS classname for top-level component wrapper */
+  wrapperClassname: PropTypes.string,
   /** Style object for the component wrapper */
   wrapperStyle: PropTypes.object,
 };
