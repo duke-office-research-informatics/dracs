@@ -33,8 +33,9 @@ const ConnectorContainer = styled.div`
   margin-left: ${p => (p.orientation === "horizontal" ? null : "12px")};
   padding: ${p =>
     p.orientation === "horizontal" ? null : `0 0 ${p.theme.sizing.base}px`};
+
   @media (max-width: 768px) {
-    display: ${p => (p.orientation === "horizontal" ? "none" : null)};
+    display: ${p => (p.orientation === "horizontal" ? "none" : "flex")};
   }
 `;
 

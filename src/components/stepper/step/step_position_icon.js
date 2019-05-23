@@ -3,7 +3,12 @@ import PropTypes from "prop-types";
 import styled from "styled-components";
 
 const PositionIcon = styled.svg`
-  fill: ${p => (p.active ? p.iconActiveColor : p.iconIncompleteColor)};
+  fill: ${p =>
+    p.active
+      ? p.iconActiveColor
+        ? p.iconActiveColor
+        : p.iconCompleteColor
+      : p.iconIncompleteColor};
   height: 24px;
   width: 24px;
   vertical-align: top;

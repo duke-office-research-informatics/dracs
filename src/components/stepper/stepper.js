@@ -131,7 +131,6 @@ Stepper.propTypes = {
 Stepper.defaultProps = {
   controlSteps: false,
   customConnector: <StepConnector />,
-  iconActiveColor: theme.colors.action,
   iconCompleteColor: theme.colors.action,
   iconIncompleteColor: theme.colors.muted,
   iconTextColor: "#fff",
