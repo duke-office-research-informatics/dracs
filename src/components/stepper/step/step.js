@@ -108,7 +108,7 @@ Step.propTypes = {
   /** Step displays as 'disabled' -- passed to child components */
   disabled: PropTypes.bool,
   /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when actove **/
-  iconActiveColor: PropTypes.bool,
+  iconActiveColor: PropTypes.string,
   /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when complete **/
   iconCompleteColor: PropTypes.string,
   /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when incomplete **/
