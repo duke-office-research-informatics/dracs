@@ -40,6 +40,10 @@ const StepWrapper = styled.div`
           : "0"
         : null};
   }
+  @media (max-width: 768px) {
+    display: ${p =>
+      p.orientation === "horizontal" ? (p.active ? "flex" : "none") : null};
+  }
 `;
 
 const Step = props => {
@@ -66,6 +70,7 @@ const Step = props => {
       justifyLabelsToBottom={justifyLabelsToBottom}
       orientation={orientation}
       style={wrapperStyle}
+      active={active}
       {...other}
     >
       {React.Children.map(children, child =>
