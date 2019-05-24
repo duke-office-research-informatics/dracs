@@ -77,10 +77,14 @@ export default class Collapsible extends React.Component {
     titleColor: propTypes.string,
     /** CSS-consumable (hex, rgba, etc) string that sets the hover color of the title on hover */
     titleHoverColor: propTypes.string,
+    /** CSS class for the title */
+    titleClassName: propTypes.string,
     /** Style object for the title **/
     titleStyle: propTypes.object,
     /** sets whether the toggle has a blue/gray border on hover */
     toggleBorder: propTypes.bool,
+    /** CSS class for the wrapper */
+    wrapperClassName: propTypes.string,
     /** Style object for the component wrapper */
     wrapperStyle: propTypes.object,
   };
@@ -128,15 +132,21 @@ export default class Collapsible extends React.Component {
       iconColor,
       justifyToggleButtonToTitle,
       title,
+      titleClassName,
       titleColor,
       titleHoverColor,
       titleStyle,
       toggleBorder,
+      wrapperClassName,
       wrapperStyle,
     } = this.props;
     const { active } = this.state;
     return (
-      <ElementWrap padding={componentWrapperPadding} style={wrapperStyle}>
+      <ElementWrap
+        className={wrapperClassName}
+        padding={componentWrapperPadding}
+        style={wrapperStyle}
+      >
         <ToggleWrap
           justifyToggleButtonToTitle={justifyToggleButtonToTitle}
           onClick={this.handleToggleClick}
@@ -144,7 +154,11 @@ export default class Collapsible extends React.Component {
           active={active}
           toggleBorder={toggleBorder}
         >
-          <TitleWrap titleColor={titleColor} style={titleStyle}>
+          <TitleWrap
+            className={titleClassName}
+            titleColor={titleColor}
+            style={titleStyle}
+          >
             {title}
           </TitleWrap>
           <CollapseToggle onClick={this.handleToggleClick}>
