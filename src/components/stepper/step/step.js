@@ -62,11 +62,13 @@ const Step = props => {
     last,
     numberIcons,
     orientation,
+    wrapperClassName,
     wrapperStyle,
     ...other
   } = props;
   return (
     <StepWrapper
+      className={wrapperClassName}
       justifyLabelsToBottom={justifyLabelsToBottom}
       orientation={orientation}
       style={wrapperStyle}
@@ -130,6 +132,8 @@ Step.propTypes = {
   numberIcons: PropTypes.bool,
   /** Passed from Stepper component -- sets orientation of stepper */
   orientation: PropTypes.oneOf(["horizontal", "vertical"]),
+  /**CSS classname for user-generated css for the wrapper */
+  wrapperClassName: PropTypes.string,
   /** JS style object for the Step wrapper div */
   wrapperStyle: PropTypes.object,
 };

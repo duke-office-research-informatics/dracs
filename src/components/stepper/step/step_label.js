@@ -47,6 +47,7 @@ const StepLabel = props => {
     iconActiveColor,
     iconCompleteColor,
     iconIncompleteColor,
+    iconTextClassName,
     iconTextColor,
     labelChild,
     labelTextClassname,
@@ -72,6 +73,7 @@ const StepLabel = props => {
             iconActiveColor={iconActiveColor}
             iconCompleteColor={iconCompleteColor}
             iconIncompleteColor={iconIncompleteColor}
+            iconTextClassName={iconTextClassName}
             iconTextColor={iconTextColor}
             justifyLabelsToBottom={justifyLabelsToBottom}
             numberIcons={numberIcons}
@@ -115,6 +117,8 @@ StepLabel.propTypes = {
   iconCompleteColor: PropTypes.string,
   /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when incomplete **/
   iconIncompleteColor: PropTypes.string,
+  /** CSS class for the icon text */
+  iconTextClassName: PropTypes.string,
   /** css-readable color string (hex, rgba, etc) that sets the text color of the icon **/
   iconTextColor: PropTypes.string,
   /** Sets whether the label is below or to the right of the icon -- passed via parent */

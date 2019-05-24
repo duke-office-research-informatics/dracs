@@ -73,12 +73,12 @@ export default class Collapsible extends React.Component {
     onToggleClick: propTypes.func,
     /** String or React element that sets the collapsible title */
     title: propTypes.oneOfType([propTypes.string, propTypes.node]),
+    /** CSS class for the title */
+    titleClassName: propTypes.string,
     /** CSS-consumable (hex, rgba, etc) string that sets the color of the title */
     titleColor: propTypes.string,
     /** CSS-consumable (hex, rgba, etc) string that sets the hover color of the title on hover */
     titleHoverColor: propTypes.string,
-    /** CSS class for the title */
-    titleClassName: propTypes.string,
     /** Style object for the title **/
     titleStyle: propTypes.object,
     /** sets whether the toggle has a blue/gray border on hover */

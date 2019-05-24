@@ -27,6 +27,7 @@ const StepPositionIcon = props => {
     iconActiveColor,
     iconCompleteColor,
     iconIncompleteColor,
+    iconTextClassName,
     iconTextColor,
     numberIcons,
     position,
@@ -51,6 +52,7 @@ const StepPositionIcon = props => {
           y="16"
           textAnchor="middle"
           iconTextColor={iconTextColor}
+          className={iconTextClassName}
         >
           {position}
         </PositionText>
@@ -68,6 +70,8 @@ StepPositionIcon.propTypes = {
   iconCompleteColor: PropTypes.string,
   /** css-readable color string (hex, rgba, etc) that sets the bg color of the icon when incomplete **/
   iconIncompleteColor: PropTypes.string,
+  /** CSS class for the icon text */
+  iconTextClassName: PropTypes.string,
   /** css-readable color string (hex, rgba, etc) that sets the text color of the icon **/
   iconTextColor: PropTypes.string,
   /** sets whether the Icon shows a position number/text */
