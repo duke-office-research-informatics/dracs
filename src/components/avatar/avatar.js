@@ -5,6 +5,7 @@ import styled from "styled-components";
 import IconProfile from "../../icons/profile/profile.js";
 
 const AvatarWrap = styled.div`
+  position: relative;
   ${p =>
     p.displayLetter
       ? "text-align: center;"
@@ -21,7 +22,6 @@ const AvatarWrap = styled.div`
   border-radius: 50%;
   color: transparent;
   font-size: 0;
-  overflow: hidden;
   ${p => (p.imgUrl ? `background-image: url(${p.imgUrl});` : null)};
 `;
 
@@ -34,6 +34,14 @@ const AvatarLetter = styled.span`
   font-size: ${p => `${p.size / 1.5}px`};
   line-height: 0.8;
   text-transform: uppercase;
+`;
+
+const StatusIcon = styled.div`
+  position: absolute;
+  bottom: -4px;
+  right: -8px;
+  border-radius: 50%;
+  overflow: hidden;
 `;
 
 const Avatar = props => {
@@ -55,6 +63,7 @@ const Avatar = props => {
           size={props.size - 2}
         />
       )}
+      {props.statusIcon ? <StatusIcon>{props.statusIcon}</StatusIcon> : null}
     </AvatarWrap>
   );
 };
@@ -72,6 +81,8 @@ Avatar.propTypes = {
   imgUrl: propTypes.string,
   /** number representing desired size (in px) of avatar */
   size: propTypes.number,
+  /**optional status icon - react element */
+  statusIcon: propTypes.object,
 };
 
 Avatar.defaultProps = {
