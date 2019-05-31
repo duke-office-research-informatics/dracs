@@ -113,6 +113,7 @@ exports[`AppHeader \`childrenLeft\` prop matches dom snapshot 1`] = `
 }
 
 .c2 {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -135,7 +136,6 @@ exports[`AppHeader \`childrenLeft\` prop matches dom snapshot 1`] = `
   border-radius: 50%;
   color: transparent;
   font-size: 0;
-  overflow: hidden;
 }
 
 <div
@@ -209,6 +209,7 @@ exports[`AppHeader \`childrenRight\` prop matches dom snapshot 1`] = `
 }
 
 .c3 {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -231,7 +232,6 @@ exports[`AppHeader \`childrenRight\` prop matches dom snapshot 1`] = `
   border-radius: 50%;
   color: transparent;
   font-size: 0;
-  overflow: hidden;
 }
 
 <div

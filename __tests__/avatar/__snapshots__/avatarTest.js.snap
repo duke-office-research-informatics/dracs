@@ -7,6 +7,7 @@ exports[`Avatar \`bgColor\` prop matches snapshot 1`] = `
 }
 
 .c0 {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -29,7 +30,6 @@ exports[`Avatar \`bgColor\` prop matches snapshot 1`] = `
   border-radius: 50%;
   color: transparent;
   font-size: 0;
-  overflow: hidden;
 }
 
 <div
@@ -57,6 +57,7 @@ exports[`Avatar \`bgColor\` prop matches snapshot 1`] = `
 
 exports[`Avatar \`displayLetter\` prop matches snapshot 1`] = `
 .c0 {
+  position: relative;
   text-align: center;
   width: 32px;
   height: 32px;
@@ -68,7 +69,6 @@ exports[`Avatar \`displayLetter\` prop matches snapshot 1`] = `
   border-radius: 50%;
   color: transparent;
   font-size: 0;
-  overflow: hidden;
 }
 
 .c1 {
@@ -96,6 +96,7 @@ exports[`Avatar \`displayLetter\` prop matches snapshot 1`] = `
 
 exports[`Avatar \`iconColor\` matches snapshot 1`] = `
 .c0 {
+  position: relative;
   text-align: center;
   width: 32px;
   height: 32px;
@@ -107,7 +108,6 @@ exports[`Avatar \`iconColor\` matches snapshot 1`] = `
   border-radius: 50%;
   color: transparent;
   font-size: 0;
-  overflow: hidden;
 }
 
 .c1 {
@@ -145,6 +145,7 @@ exports[`Avatar \`iconHoverColor\` matches snapshot 1`] = `
 }
 
 .c0 {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -167,7 +168,6 @@ exports[`Avatar \`iconHoverColor\` matches snapshot 1`] = `
   border-radius: 50%;
   color: transparent;
   font-size: 0;
-  overflow: hidden;
 }
 
 <div
@@ -195,6 +195,7 @@ exports[`Avatar \`iconHoverColor\` matches snapshot 1`] = `
 
 exports[`Avatar \`imgUrl\` matches snapshot 1`] = `
 .c0 {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -217,7 +218,6 @@ exports[`Avatar \`imgUrl\` matches snapshot 1`] = `
   border-radius: 50%;
   color: transparent;
   font-size: 0;
-  overflow: hidden;
   background-image: url(https://image.freepik.com/free-vector/soft-background-with-a-cute-blue-watercolor-stain_1048-5169.jpg);
 }
 
@@ -229,6 +229,7 @@ exports[`Avatar \`imgUrl\` matches snapshot 1`] = `
 
 exports[`Avatar \`size\` (larger than 32) matches snapshot 1`] = `
 .c0 {
+  position: relative;
   text-align: center;
   width: 40px;
   height: 40px;
@@ -240,7 +241,6 @@ exports[`Avatar \`size\` (larger than 32) matches snapshot 1`] = `
   border-radius: 50%;
   color: transparent;
   font-size: 0;
-  overflow: hidden;
 }
 
 .c1 {
@@ -273,6 +273,7 @@ exports[`Avatar matches snapshot 1`] = `
 }
 
 .c0 {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -295,7 +296,6 @@ exports[`Avatar matches snapshot 1`] = `
   border-radius: 50%;
   color: transparent;
   font-size: 0;
-  overflow: hidden;
 }
 
 <div

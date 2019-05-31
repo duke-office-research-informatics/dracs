@@ -40,7 +40,6 @@ describe("Avatar", () => {
       expect(div).toHaveStyleRule("border-radius", "50%");
       expect(div).toHaveStyleRule("color", "transparent");
       expect(div).toHaveStyleRule("font-size", "0");
-      expect(div).toHaveStyleRule("overflow", "hidden");
     });
     it("profile icon has correct styling", () => {
       const wrapper = mountWithTheme(<Avatar />);
