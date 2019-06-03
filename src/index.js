@@ -176,6 +176,7 @@ export {
 } from "./icons/dropdown-arrow/down-arrow.js";
 export { default as IconEdit } from "./icons/edit/edit.js";
 export { default as IconEmail } from "./icons/email/email.js";
+export { default as IconError } from "./icons/error/icon_error.js";
 export { default as IconFeedback } from "./icons/feedback/feedback.js";
 export { default as IconFilter } from "./icons/filter/filter.js";
 export { default as IconFinance } from "./icons/finance/finance.js";
