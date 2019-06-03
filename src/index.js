@@ -143,6 +143,9 @@ export { default as IconAddCircle } from "./icons/add_circle/addCircle.js";
 export {
   default as IconAddCircleFilled,
 } from "./icons/add_circle_filled/addCircleFilled.js";
+export {
+  default as IconAttestation,
+} from "./icons/attestation/icon_attestation.js";
 export { default as IconBackArrow } from "./icons/back/back.js";
 export { default as IconBooks } from "./icons/books/books.js";
 export { default as IconBriefcase } from "./icons/briefcase/briefcase.js";
