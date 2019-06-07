@@ -100,6 +100,7 @@ const RadioButton = props => {
       <label htmlFor={props.value} />
       {props.label ? (
         <span
+          className={props.labelClassName}
           style={props.labelStyle}
           onClick={props.changeOnLabelClick ? handleCheck : null}
           id={`${props.value}-label`}
@@ -129,6 +130,8 @@ RadioButton.propTypes = {
   disabled: propTypes.bool,
   /** String that acts as a text label for the button */
   label: propTypes.oneOfType([propTypes.string, propTypes.object]),
+  /**CSS classname for the label */
+  labelClassName: propTypes.string,
   /** CSS style-oject that styles the label */
   labelStyle: propTypes.object,
   /** HTML name atribute */

@@ -20,6 +20,8 @@ class RadioGroup extends React.Component {
     value: propTypes.oneOfType([propTypes.string, propTypes.number]),
     /** String that sets the HTML name attripbute of the radio group -- helpful for accessiblity and dom traversal */
     name: propTypes.string.isRequired,
+    /**CSS classname for radio group wrapper */
+    wrapperClassName: propTypes.string,
     /** CSS inline-style object to manipulate the style of the outer wrapper */
     wrapperStyle: propTypes.object,
   };
@@ -29,16 +31,14 @@ class RadioGroup extends React.Component {
   };
 
   renderRadioButtons = () => {
-    return React.Children.map(
-      this.props.children,
-      child =>
-        !child.props.isRadioButton
-          ? child
-          : React.cloneElement(child, {
-              checked: child.props.value === this.props.value,
-              disabled: this.props.disabled || child.props.disabled,
-              onChange: this.handleChange.bind(this, child.props.value),
-            })
+    return React.Children.map(this.props.children, child =>
+      !child.props.isRadioButton
+        ? child
+        : React.cloneElement(child, {
+            checked: child.props.value === this.props.value,
+            disabled: this.props.disabled || child.props.disabled,
+            onChange: this.handleChange.bind(this, child.props.value),
+          })
     );
   };
 
@@ -46,6 +46,7 @@ class RadioGroup extends React.Component {
     return (
       <RadioGroupWrap
         aria-activedescendant={this.props.value}
+        className={this.props.wrapperClassName}
         name={this.props.name}
         style={this.props.wrapperStyle}
         tabindex="0"
