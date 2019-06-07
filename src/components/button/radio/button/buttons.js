@@ -65,8 +65,8 @@ const RadioWrap = styled.div`
     cursor: not-allowed;
   }
   span {
-    margin-left: 12px;
-    font-size: 0.875em;
+    margin-left: 24px;
+    font-size: 1em;
     color: ${props =>
       props.disabled ? props.theme.colors.muted : props.theme.colors.base};
     cursor: ${p =>
