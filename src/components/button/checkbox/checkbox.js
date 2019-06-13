@@ -102,6 +102,7 @@ const BoxLabelWrap = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  width: 100%;
 `;
 
 const CheckboxLabel = styled.span`
