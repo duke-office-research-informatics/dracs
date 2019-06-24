@@ -72,8 +72,8 @@ exports[`Radio Button calls onChange handler on label click when \`changeOnLabel
 }
 
 .c0 span {
-  margin-left: 12px;
-  font-size: 0.875em;
+  margin-left: 24px;
+  font-size: 1em;
   color: #131516;
   cursor: pointer;
 }
@@ -175,8 +175,8 @@ exports[`Radio Button calls the onChange handler on input click 1`] = `
 }
 
 .c0 span {
-  margin-left: 12px;
-  font-size: 0.875em;
+  margin-left: 24px;
+  font-size: 1em;
   color: #131516;
 }
 
@@ -277,8 +277,8 @@ exports[`Radio Button disables itself when \`disabled\` is set to true 1`] = `
 }
 
 .c0 span {
-  margin-left: 12px;
-  font-size: 0.875em;
+  margin-left: 24px;
+  font-size: 1em;
   color: #696969;
   cursor: not-allowed;
 }
@@ -383,8 +383,8 @@ exports[`Radio Button matches snapshot 1`] = `
 }
 
 .c0 span {
-  margin-left: 12px;
-  font-size: 0.875em;
+  margin-left: 24px;
+  font-size: 1em;
   color: #131516;
 }
 
@@ -490,8 +490,8 @@ exports[`Radio Button renders a child 1`] = `
 }
 
 .c0 span {
-  margin-left: 12px;
-  font-size: 0.875em;
+  margin-left: 24px;
+  font-size: 1em;
   color: #131516;
 }
 

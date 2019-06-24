@@ -129,6 +129,7 @@ exports[`checkbox applies an onBlur function via props and calls function on blu
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  width: 100%;
 }
 
 .c3 {
@@ -304,6 +305,7 @@ exports[`checkbox applies an onFocus function via props and calls function on fo
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  width: 100%;
 }
 
 .c3 {
@@ -479,6 +481,7 @@ exports[`checkbox applies an onMouseEnter function via props and calls function 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  width: 100%;
 }
 
 .c3 {
@@ -654,6 +657,7 @@ exports[`checkbox applies an onMouseLeave function via props and calls function 
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  width: 100%;
 }
 
 .c3 {
@@ -829,6 +833,7 @@ exports[`checkbox calls the onChange handler when input is clicked 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  width: 100%;
 }
 
 .c3 {
@@ -1003,6 +1008,7 @@ exports[`checkbox calls the onChange handler when label is clicked when \`change
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  width: 100%;
 }
 
 .c3 {
@@ -1183,6 +1189,7 @@ exports[`checkbox inserts a child 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  width: 100%;
 }
 
 .c3 {
@@ -1380,6 +1387,7 @@ exports[`checkbox matches snapshot 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  width: 100%;
 }
 
 .c3 {
@@ -1554,6 +1562,7 @@ exports[`checkbox sets input as disabled via props 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  width: 100%;
 }
 
 .c3 {
@@ -1729,6 +1738,7 @@ exports[`checkbox sets labelStyle via style object passed as props 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  width: 100%;
 }
 
 .c3 {
@@ -1908,6 +1918,7 @@ exports[`checkbox sets wrapper style via object passed as props 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  width: 100%;
 }
 
 .c3 {
@@ -2087,6 +2098,7 @@ exports[`checkbox underlines the label on hover when \`underlineLabelOnHover\` i
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  width: 100%;
 }
 
 .c3 {

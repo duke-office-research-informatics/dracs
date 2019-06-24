@@ -86,8 +86,8 @@ exports[`RadioGroup applies styles to the wrapper via \`wrapperStyle\` prop 1`] 
 }
 
 .c1 span {
-  margin-left: 12px;
-  font-size: 0.875em;
+  margin-left: 24px;
+  font-size: 1em;
   color: #131516;
 }
 
@@ -240,8 +240,8 @@ exports[`RadioGroup matches snapshot 1`] = `
 }
 
 .c1 span {
-  margin-left: 12px;
-  font-size: 0.875em;
+  margin-left: 24px;
+  font-size: 1em;
   color: #131516;
 }
 
@@ -389,8 +389,8 @@ exports[`RadioGroup sets buttons as disabled when \`disabled\` is set to true 1`
 }
 
 .c1 span {
-  margin-left: 12px;
-  font-size: 0.875em;
+  margin-left: 24px;
+  font-size: 1em;
   color: #696969;
   cursor: not-allowed;
 }
