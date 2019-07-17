@@ -38,17 +38,17 @@ const MenuList = styled.ul`
       ? p.type === "coverButton"
         ? 0
         : p.type === "button"
-          ? "32px"
-          : "8px"
+        ? "32px"
+        : "8px"
       : null};
   top: ${p =>
     p.orientAbove
       ? null
       : p.type === "coverButton"
-        ? 0
-        : p.type === "button"
-          ? "30px"
-          : "28px"};
+      ? 0
+      : p.type === "button"
+      ? "30px"
+      : "28px"};
   left: ${p => (p.position === "left" ? null : 0)};
   right: ${p => (p.position === "right" ? null : 0)};
   width: ${p => (p.menuWidth ? p.menuWidth : "auto ")};
@@ -74,8 +74,8 @@ const MenuItem = styled.li`
         ? props.disabled
           ? null
           : props.itemHoverColor
-            ? props.itemHoverColor
-            : props.theme.colors.border
+          ? props.itemHoverColor
+          : props.theme.colors.border
         : null};
   }
   &:focus {
@@ -127,6 +127,8 @@ class Dropdown extends React.Component {
     labelKey: propTypes.string,
     /** String that sets whether the dropdown menu will justify to the right or left of the parent input */
     menuPosition: propTypes.oneOf(["left", "right"]),
+    /**CSS-compatible style object that modifies the dropdown menu wrapper */
+    menuStyle: propTypes.object,
     /** string that sets the width of the dropdown menu **/
     menuWidth: propTypes.string,
     /** String that sets the HTML name attribute of the dropdown, important for accessibliity */
@@ -511,6 +513,7 @@ class Dropdown extends React.Component {
       innerRef,
       type,
       orientAbove,
+      menuStyle,
       menuWidth,
       ...others //eslint-disable-line no-unused-vars
     } = this.props;
@@ -533,8 +536,8 @@ class Dropdown extends React.Component {
               selected && selected[labelKey]
                 ? selected[labelKey]
                 : inputValue
-                  ? inputValue
-                  : ""
+                ? inputValue
+                : ""
             }
           />
         ) : (
@@ -550,6 +553,7 @@ class Dropdown extends React.Component {
           position={menuPosition}
           role="menu"
           type={type}
+          style={menuStyle}
           menuWidth={menuWidth}
         >
           {source ? source.map(this.renderValue) : null}
