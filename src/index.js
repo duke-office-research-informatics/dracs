@@ -143,6 +143,7 @@ export { default as IconAddCircle } from "./icons/add_circle/addCircle.js";
 export {
   default as IconAddCircleFilled,
 } from "./icons/add_circle_filled/addCircleFilled.js";
+export { default as IconApps } from "./icons/apps/icon_apps.js";
 export {
   default as IconAttestation,
 } from "./icons/attestation/icon_attestation.js";
@@ -169,6 +170,7 @@ export {
   default as IconCloseCircleFilled,
 } from "./icons/close_circle_filled/closeCircleFilled.js";
 export { default as IconContacts } from "./icons/contacts/contacts.js";
+export { default as IconDashboard } from "./icons/dashboard/icon_dashboard.js";
 export { default as IconDescription } from "./icons/description/description.js";
 export { default as IconDetails } from "./icons/details/details.js";
 export {
