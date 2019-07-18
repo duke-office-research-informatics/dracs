@@ -1,4 +1,5 @@
-import "@babel/polyfill";
+import "core-js/stable";
+import "regenerator-runtime/runtime";
 import React from "react";
 import styled from "styled-components";
 import { configure, addDecorator } from "@storybook/react";
