@@ -484,8 +484,8 @@ class Dropdown extends React.Component {
     return (
       <MenuItem
         key={idx}
-        className={item.props.itemClassName}
-        style={item.props.itemStyle}
+        className={this.props.itemClassName}
+        style={this.props.itemStyle}
         onBlur={!item.props.disabled && this.handleItemBlur}
         onFocus={!item.props.disabled && this.handleItemFocus}
         onClick={e => {
