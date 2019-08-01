@@ -32,7 +32,7 @@ const MenuButton = styled.button.attrs({
 
 const MenuList = styled.ul`
   position: absolute;
-  display: ${props => (props.active ? "block" : "none")};
+  display: ${props => (props.active ? props.menuDisplay : "none")};
   bottom: ${p =>
     p.orientAbove
       ? p.type === "coverButton"
@@ -129,6 +129,8 @@ class Dropdown extends React.Component {
     label: propTypes.string,
     /** Key that sets which key in an object contains the value that will be rendered visually when menuItems are passed as an array and no template is passed */
     labelKey: propTypes.string,
+    /** CSS display value for menu when it is active, defaults to "block" (to allow for custom flex/grid layouts) */
+    menuDisplay: propTypes.string,
     /**CSS classname applied to the dropdown menu wrapper */
     menuClassName: propTypes.string,
     /** String that sets whether the dropdown menu will justify to the right or left of the parent input */
@@ -196,6 +198,7 @@ class Dropdown extends React.Component {
     disabled: false,
     labelKey: "label",
     menuPosition: "left",
+    menuDisplay: "block",
     orientAbove: false,
     required: false,
     type: "input",
@@ -526,6 +529,7 @@ class Dropdown extends React.Component {
       type,
       orientAbove,
       menuClassName,
+      menuDisplay,
       menuStyle,
       menuWidth,
       ...others //eslint-disable-line no-unused-vars
@@ -567,6 +571,7 @@ class Dropdown extends React.Component {
           position={menuPosition}
           role="menu"
           type={type}
+          menuDisplay={menuDisplay}
           style={menuStyle}
           menuWidth={menuWidth}
         >
