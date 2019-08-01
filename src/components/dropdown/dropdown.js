@@ -117,14 +117,20 @@ class Dropdown extends React.Component {
     inputRef: propTypes.func,
     /** string that sets the input's value */
     inputValue: propTypes.string,
+    /**css classname for dropdown items */
+    itemClassName: propTypes.string,
     /** Boolean that sets whether a menu item will display a gray background on hover */
     itemHover: propTypes.bool,
     /** CSS readable string that sets the color of the item hover */
     itemHoverColor: propTypes.string,
+    /**CSS-compatible style object that modifies a dropdown item */
+    itemStyle: propTypes.object,
     /** String that sets the Input label when dropdown type is 'input' */
     label: propTypes.string,
     /** Key that sets which key in an object contains the value that will be rendered visually when menuItems are passed as an array and no template is passed */
     labelKey: propTypes.string,
+    /**CSS classname applied to the dropdown menu wrapper */
+    menuClassName: propTypes.string,
     /** String that sets whether the dropdown menu will justify to the right or left of the parent input */
     menuPosition: propTypes.oneOf(["left", "right"]),
     /**CSS-compatible style object that modifies the dropdown menu wrapper */
@@ -445,12 +451,15 @@ class Dropdown extends React.Component {
       labelKey,
       valueKey,
       template,
+      itemClassName,
       itemHover,
       itemHoverColor,
+      itemStyle,
     } = this.props;
     return (
       <MenuItem
         key={idx}
+        className={itemClassName}
         onBlur={!item.disabled && this.handleItemBlur}
         onFocus={!item.disabled && this.handleItemFocus}
         onClick={!item.disabled && this.handleSelect.bind(this, item[valueKey])}
@@ -462,6 +471,7 @@ class Dropdown extends React.Component {
         itemHover={itemHover}
         itemHoverColor={itemHoverColor}
         role="menuitem"
+        style={itemStyle}
         tabIndex={-1}
         template={template}
       >
@@ -513,6 +523,7 @@ class Dropdown extends React.Component {
       innerRef,
       type,
       orientAbove,
+      menuClassName,
       menuStyle,
       menuWidth,
       ...others //eslint-disable-line no-unused-vars
@@ -549,6 +560,7 @@ class Dropdown extends React.Component {
           active={this.state.active}
           aria-hidden={!this.state.active}
           aria-label="submenu"
+          className={menuClassName}
           orientAbove={orientAbove}
           position={menuPosition}
           role="menu"
