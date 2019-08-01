@@ -188,6 +188,7 @@ export { default as IconFilter } from "./icons/filter/filter.js";
 export { default as IconFinance } from "./icons/finance/finance.js";
 export { default as IconForm } from "./icons/form/form.js";
 export { default as IconHelp } from "./icons/help_open/help_open.js";
+export { default as IconHide } from "./icons/hide/icon_hide.js";
 export { default as IconInbox } from "./icons/inbox/inbox.js";
 export { default as IconInfo } from "./icons/info/info.js";
 export { default as IconLink } from "./icons/link/link.js";
@@ -207,6 +208,7 @@ export {
 export { default as IconSelectDate } from "./icons/select_date/select_date.js";
 export { default as IconSettings } from "./icons/settings/icon_settings.js";
 export { default as IconShare } from "./icons/share/share.js";
+export { default as IconShow } from "./icons/show/icon_show.js";
 export { default as IconSponsored } from "./icons/sponsored/sponsored.js";
 export { default as IconStarFilled } from "./icons/star_filled/starFilled.js";
 export {
