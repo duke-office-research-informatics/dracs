@@ -26,6 +26,7 @@ const ActionButton = props => {
     <ActionBtn
       autoFocus={props.autoFocus}
       className={props.className}
+      data-testId={props["data-testId"]}
       disabled={props.disabled}
       innerRef={props.innerRef}
       mediaQuery={props.mediaQuery}
@@ -52,6 +53,8 @@ ActionButton.propTypes = {
   children: propTypes.node,
   /** CSS classname to add to component if needed */
   className: propTypes.string,
+  /**html data- attribute to add a testid to the action butons dom markup */
+  "data-testId": propTypes.string,
   /** Boolean that sets whether or not the button is disabled (including setting the HTML disabled property) */
   disabled: propTypes.bool,
   /** Ref (functional) that targets the button's html/dom node */

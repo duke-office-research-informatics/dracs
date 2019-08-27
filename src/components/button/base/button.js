@@ -118,6 +118,7 @@ const Button = props => {
       bgColor={props.bgColor}
       bgHoverColor={props.bgHoverColor}
       className={props.className}
+      data-testId={props["data-testId"]}
       dense={props.dense}
       id={props.id}
       innerRef={props.innerRef}
@@ -155,6 +156,8 @@ Button.propTypes = {
   children: propTypes.node,
   /** CSS classname to add to component if needed */
   className: propTypes.string,
+  /**html data- attribute to add a testid to the butons dom markup */
+  "data-testId": propTypes.string,
   /** Boolean that sets whether or not the button has 'dense' or regular sizing and spacing */
   dense: propTypes.bool,
   /** CSS/HTML ID element to add to component if needed */
