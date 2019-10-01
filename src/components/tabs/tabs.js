@@ -1,6 +1,7 @@
 import React from "react";
 import propTypes from "prop-types";
 import styled, { ThemeProvider } from "styled-components";
+import _ from "lodash";
 
 import TabPanel from "./panel/panel.js";
 import IconChevLeft from "../../icons/chevron_left/chevron_left.js";
@@ -61,7 +62,7 @@ const gridConfig = {
   },
 };
 
-class Tabs extends React.PureComponent {
+class Tabs extends React.Component {
   static propTypes = {
     children: propTypes.node,
     disableAnimatedUnderline: propTypes.bool,
@@ -122,6 +123,12 @@ class Tabs extends React.PureComponent {
       if (this.updateUnderlineAnimationFrame)
         cancelAnimationFrame(this.updateUnderlineAnimationFrame);
     }
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    return (
+      !_.isEqual(this.props, nextProps) || !_.isEqual(this.state, nextState)
+    );
   }
 
   handleResize = () => {
