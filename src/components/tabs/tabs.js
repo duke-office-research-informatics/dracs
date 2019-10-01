@@ -273,7 +273,6 @@ class Tabs extends React.PureComponent {
               >
                 {this.renderTabRow(tabRow)}
                 <Underline
-                  innerRef={node => (this.underline = node)}
                   position={this.state.underline}
                   animated={disableAnimatedUnderline}
                   fixed={fixed}
