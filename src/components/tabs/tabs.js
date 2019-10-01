@@ -34,9 +34,9 @@ const TabRow = styled.div`
 //this should be using tranform() translate() instead of absolute positioning
 const Underline = styled.span`
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
+  top: ${p => p.position.top};
+  left: ${p => p.position.left};
+  width: ${p => p.position.width};
   background-color: #000;
   height: 2px;
   transform: translateZ(0);
@@ -64,6 +64,7 @@ const gridConfig = {
 class Tabs extends React.PureComponent {
   static propTypes = {
     children: propTypes.node,
+    disableAnimatedUnderline: propTypes.bool,
     fixed: propTypes.bool,
     hide: propTypes.oneOf(["display", "unmounted"]),
     index: propTypes.number,
@@ -142,18 +143,16 @@ class Tabs extends React.PureComponent {
       const scrollLeft = this.navNode.scrollLeft;
       if (this.updateUnderlineAnimationFrame)
         cancelAnimationFrame(this.updateUnderlineAnimationFrame);
-      if (this.underline) {
-        this.updateUnderlineAnimationFrame = requestAnimationFrame(() => {
-          this.underline.style.top = `${nav.height.toFixed(3)}px`;
-          this.underline.style.left = `${(
-            label.left +
-            scrollLeft -
-            nav.left
-          ).toFixed(3)}px`;
-          this.underline.style.width = `${label.width.toFixed(3)}px`;
-        });
-        this.setState();
-      }
+      this.updateUnderlineAnimationFrame = requestAnimationFrame(() => {
+        this.setState(prevState => ({
+          underline: {
+            ...prevState.underline,
+            top: `${nav.height.toFixed(3)}px`,
+            left: `${(label.left + scrollLeft - nav.left).toFixed(3)}px`,
+            width: `${label.width.toFixed(3)}px`,
+          },
+        }));
+      });
     }
   };
 
@@ -247,7 +246,13 @@ class Tabs extends React.PureComponent {
   }
 
   render() {
-    const { fixed, inverse, separatePanel, wrapperStyle } = this.props;
+    const {
+      disableAnimatedUnderline,
+      fixed,
+      inverse,
+      separatePanel,
+      wrapperStyle,
+    } = this.props;
     const { left: hasLeftCaret, right: hasRightCaret } = this.state.carets;
     const { tabRow, panels } = this.parseChildren();
     return (
@@ -269,6 +274,8 @@ class Tabs extends React.PureComponent {
                 {this.renderTabRow(tabRow)}
                 <Underline
                   innerRef={node => (this.underline = node)}
+                  position={this.state.underline}
+                  animated={disableAnimatedUnderline}
                   fixed={fixed}
                   inverse={inverse}
                 />

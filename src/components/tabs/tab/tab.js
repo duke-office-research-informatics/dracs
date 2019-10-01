@@ -42,6 +42,8 @@ class Tab extends React.Component {
     onActive: propTypes.func,
     onClick: propTypes.func,
     onItemClick: propTypes.func,
+    unableToSetUnderline: propTypes.bool,
+    underline: propTypes.object,
   };
 
   static defaultProps = {
@@ -76,7 +78,7 @@ class Tab extends React.Component {
   };
 
   render() {
-    const { children, icon, label, innerRef, ...other } = this.props;
+    const { children, icon, label, innerRef, underline, ...other } = this.props;
     return (
       <TabWrap
         {...other}
@@ -85,6 +87,7 @@ class Tab extends React.Component {
         onClickCapture={this.handleClick}
         onKeyDown={this.handleKeyDown}
         innerRef={innerRef}
+        underline={underline}
       >
         {icon}
         {label}
