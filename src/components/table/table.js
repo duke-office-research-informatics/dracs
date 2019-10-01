@@ -219,7 +219,6 @@ class Table extends React.PureComponent {
   componentDidUpdate() {
     if (this.table) {
       this.onResize();
-      this.addScrollBarEventHandlers();
       this.setScrollBarWrapperDims();
     }
   }
@@ -256,21 +255,15 @@ class Table extends React.PureComponent {
             },
             () => {
               elementResizeEvent(this.stickyColumn, this.onColumnResize);
-              this.onResize();
             }
           );
         }
       } else if (ParentWidth >= TableWidth) {
         if (this.state.stickyColumn && this.state.stickyColumnCount !== 0) {
-          this.setState(
-            {
-              stickyColumn: false,
-              stickyColumnCount: 0,
-            },
-            () => {
-              this.onResize();
-            }
-          );
+          this.setState({
+            stickyColumn: false,
+            stickyColumnCount: 0,
+          });
         }
       }
     }
@@ -495,25 +488,31 @@ class Table extends React.PureComponent {
   handleRowMouseEnter = r => {
     requestAnimationFrame(() => {
       if (this.props.highlightRowOnHover) {
-        this[`tableRow_${r}`].style.backgroundColor = this.props.rowHoverColor;
-        if (this.stickyColumn)
+        requestAnimationFrame(() => {
           this[
-            `stickyColumnRow_${r}`
+            `tableRow_${r}`
           ].style.backgroundColor = this.props.rowHoverColor;
+          if (this.stickyColumn)
+            this[
+              `stickyColumnRow_${r}`
+            ].style.backgroundColor = this.props.rowHoverColor;
+        });
       }
-      if (this.props.onRowMouseEnter) this.props.onRowMouseEnter(r);
+      if (this.props.onRowMouseEnter)
+        requestAnimationFrame(() => this.props.onRowMouseEnter(r));
     });
   };
 
   handleRowMouseLeave = r => {
-    requestAnimationFrame(() => {
-      if (this.props.highlightRowOnHover) {
+    if (this.props.highlightRowOnHover) {
+      requestAnimationFrame(() => {
         this[`tableRow_${r}`].style.backgroundColor = "#fff";
         if (this.stickyColumn)
           this[`stickyColumnRow_${r}`].style.backgroundColor = "#fff";
-      }
-      if (this.props.onRowMouseLeave) this.props.onRowMouseLeave(r);
-    });
+      });
+    }
+    if (this.props.onRowMouseLeave)
+      requestAnimationFrame(() => this.props.onRowMouseLeave(r));
   };
 
   handleHeadSelect = value => {
