@@ -1,7 +1,6 @@
 import React from "react";
 import propTypes from "prop-types";
 import styled, { ThemeProvider } from "styled-components";
-import _ from "lodash";
 
 import TabPanel from "./panel/panel.js";
 import IconChevLeft from "../../icons/chevron_left/chevron_left.js";
@@ -35,9 +34,9 @@ const TabRow = styled.div`
 //this should be using tranform() translate() instead of absolute positioning
 const Underline = styled.span`
   position: absolute;
-  top: ${p => p.position.top};
-  left: ${p => p.position.left};
-  width: ${p => p.position.width};
+  top: 0;
+  left: 0;
+  width: 0;
   background-color: #000;
   height: 2px;
   transform: translateZ(0);
@@ -62,10 +61,9 @@ const gridConfig = {
   },
 };
 
-class Tabs extends React.Component {
+class Tabs extends React.PureComponent {
   static propTypes = {
     children: propTypes.node,
-    disableAnimatedUnderline: propTypes.bool,
     fixed: propTypes.bool,
     hide: propTypes.oneOf(["display", "unmounted"]),
     index: propTypes.number,
@@ -125,12 +123,6 @@ class Tabs extends React.Component {
     }
   }
 
-  shouldComponentUpdate(nextProps, nextState) {
-    return (
-      !_.isEqual(this.props, nextProps) || !_.isEqual(this.state, nextState)
-    );
-  }
-
   handleResize = () => {
     if (this.resizeTimeout) clearTimeout(this.resizeTimeout);
     this.resizeTimeout = setTimeout(() => {
@@ -150,16 +142,24 @@ class Tabs extends React.Component {
       const scrollLeft = this.navNode.scrollLeft;
       if (this.updateUnderlineAnimationFrame)
         cancelAnimationFrame(this.updateUnderlineAnimationFrame);
-      this.updateUnderlineAnimationFrame = requestAnimationFrame(() => {
-        this.setState(prevState => ({
-          underline: {
-            ...prevState.underline,
-            top: `${nav.height.toFixed(3)}px`,
-            left: `${(label.left + scrollLeft - nav.left).toFixed(3)}px`,
-            width: `${label.width.toFixed(3)}px`,
-          },
-        }));
-      });
+      if (this.underline)
+        this.updateUnderlineAnimationFrame = requestAnimationFrame(() => {
+          this.underline.style.top = `${nav.height.toFixed(3)}px`;
+          this.underline.style.left = `${(
+            label.left +
+            scrollLeft -
+            nav.left
+          ).toFixed(3)}px`;
+          this.underline.style.width = `${label.width.toFixed(3)}px`;
+          // this.setState(prevState => ({
+          //   underline: {
+          //     ...prevState.underline,
+          //     top: `${nav.height.toFixed(3)}px`,
+          //     left: `${(label.left + scrollLeft - nav.left).toFixed(3)}px`,
+          //     width: `${label.width.toFixed(3)}px`,
+          //   },
+          // }));
+        });
     }
   };
 
@@ -253,13 +253,7 @@ class Tabs extends React.Component {
   }
 
   render() {
-    const {
-      disableAnimatedUnderline,
-      fixed,
-      inverse,
-      separatePanel,
-      wrapperStyle,
-    } = this.props;
+    const { fixed, inverse, separatePanel, wrapperStyle } = this.props;
     const { left: hasLeftCaret, right: hasRightCaret } = this.state.carets;
     const { tabRow, panels } = this.parseChildren();
     return (
@@ -280,8 +274,7 @@ class Tabs extends React.Component {
               >
                 {this.renderTabRow(tabRow)}
                 <Underline
-                  position={this.state.underline}
-                  animated={disableAnimatedUnderline}
+                  innerRef={node => (this.underline = node)}
                   fixed={fixed}
                   inverse={inverse}
                 />
