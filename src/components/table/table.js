@@ -230,6 +230,19 @@ class Table extends React.PureComponent {
     }
   }
 
+  onResize = () => {
+    requestAnimationFrame(() => {
+      this.setRowHeights();
+      this.setColumnWidths();
+      this.setScrollBarDims();
+    });
+  };
+
+  onColumnResize = () => {
+    this.onResize();
+    this.setScrollBarWrapperDims();
+  };
+
   addStickyColumn = () => {
     if (this.props.responsiveStickyColumn && this.table && this.tableElement) {
       const TableWidth = this.tableElement.getBoundingClientRect().width;
@@ -269,8 +282,10 @@ class Table extends React.PureComponent {
     this.xWrapper.addEventListener("scroll", this.scrollXscrollBar);
     this.xScrollbar.addEventListener("scroll", () => {
       if (!Table.suppressScroll) {
-        Table.xWrapper.scrollLeft = Table.xScrollbar.scrollLeft;
-        Table.suppressScroll = true;
+        requestAnimationFrame(() => {
+          Table.xWrapper.scrollLeft = Table.xScrollbar.scrollLeft;
+          Table.suppressScroll = true;
+        });
       } else {
         Table.suppressScroll = false;
       }
@@ -279,8 +294,10 @@ class Table extends React.PureComponent {
     this.yWrapper.addEventListener("scroll", this.scrollYScrollbar);
     this.yScrollbar.addEventListener("scroll", () => {
       if (!Table.suppressScroll) {
-        Table.yWrapper.scrollTop = Table.yScrollbar.scrollTop;
-        Table.suppressScroll = true;
+        requestAnimationFrame(() => {
+          Table.yWrapper.scrollTop = Table.yScrollbar.scrollTop;
+          Table.suppressScroll = true;
+        });
       } else {
         Table.SuppressScroll = false;
       }
@@ -290,15 +307,19 @@ class Table extends React.PureComponent {
   onScrollX = () => {
     const scrollLeft = Math.max(this.xWrapper.scrollLeft, 0);
     if (this.stickyHeader) {
-      this.stickyHeader.style.transform =
-        "translate(" + -1 * scrollLeft + "px, 0)";
+      requestAnimationFrame(() => {
+        this.stickyHeader.style.transform =
+          "translate(" + -1 * scrollLeft + "px, 0)";
+      });
     }
   };
 
   scrollXScrollbar = () => {
     if (!this.suppressScroll) {
-      this.xScrollbar.scrollLeft = this.xWrapper.scrollLeft;
-      this.suppressScroll = true;
+      requestAnimationFrame(() => {
+        this.xScrollbar.scrollLeft = this.xWrapper.scrollLeft;
+        this.suppressScroll = true;
+      });
     } else {
       this.suppressScroll = false;
     }
@@ -306,37 +327,35 @@ class Table extends React.PureComponent {
 
   scrollYScrollbar = () => {
     if (!this.suppressScroll) {
-      this.yScrollbar.scrollTop = this.yWrapper.scrollTop;
-      this.suppressScroll = true;
+      requestAnimationFrame(() => {
+        this.yScrollbar.scrollTop = this.yWrapper.scrollTop;
+        this.suppressScroll = true;
+      });
     } else {
       this.suppressScroll = false;
     }
   };
 
-  onResize = () => {
-    this.setRowHeights();
-    this.setColumnWidths();
-    this.setScrollBarDims();
-  };
-
   setScrollBarWrapperDims = () => {
-    if (this.stickyColumn) {
-      this.xScrollbar.style.width =
-        "calc(100% - " + this.stickyColumn.offsetWidth + "px)";
-      this.xScrollbar.style.left = this.stickyColumn.offsetWidth + "px";
-    } else {
-      this.xScrollbar.style.width = "100%";
-      this.xScrollbar.style.left = 0;
-    }
+    requestAnimationFrame(() => {
+      if (this.stickyColumn) {
+        this.xScrollbar.style.width =
+          "calc(100% - " + this.stickyColumn.offsetWidth + "px)";
+        this.xScrollbar.style.left = this.stickyColumn.offsetWidth + "px";
+      } else {
+        this.xScrollbar.style.width = "100%";
+        this.xScrollbar.style.left = 0;
+      }
 
-    if (this.stickyHeader) {
-      this.yScrollbar.style.width =
-        "calc(100% - " + this.stickyHeader.offsetHeight + "px)";
-      this.yScrollbar.style.top = this.stickyHeader.offsetHeight + "px";
-    } else {
-      this.yScrollbar.style.width = "100%";
-      this.yScrollbar.style.top = 0;
-    }
+      if (this.stickyHeader) {
+        this.yScrollbar.style.width =
+          "calc(100% - " + this.stickyHeader.offsetHeight + "px)";
+        this.yScrollbar.style.top = this.stickyHeader.offsetHeight + "px";
+      } else {
+        this.yScrollbar.style.width = "100%";
+        this.yScrollbar.style.top = 0;
+      }
+    });
   };
 
   setScrollBarDims = () => {
@@ -361,12 +380,6 @@ class Table extends React.PureComponent {
     }
   };
 
-  onColumnResize = () => {
-    this.onResize();
-    this.setScrollBarWrapperDims();
-  };
-
-  setHeaderHeights = () => {};
   setRowHeights = () => {
     let r, cellToCopy, height;
 
@@ -480,23 +493,27 @@ class Table extends React.PureComponent {
   };
 
   handleRowMouseEnter = r => {
-    if (this.props.highlightRowOnHover) {
-      this[`tableRow_${r}`].style.backgroundColor = this.props.rowHoverColor;
-      if (this.stickyColumn)
-        this[
-          `stickyColumnRow_${r}`
-        ].style.backgroundColor = this.props.rowHoverColor;
-    }
-    if (this.props.onRowMouseEnter) this.props.onRowMouseEnter(r);
+    requestAnimationFrame(() => {
+      if (this.props.highlightRowOnHover) {
+        this[`tableRow_${r}`].style.backgroundColor = this.props.rowHoverColor;
+        if (this.stickyColumn)
+          this[
+            `stickyColumnRow_${r}`
+          ].style.backgroundColor = this.props.rowHoverColor;
+      }
+      if (this.props.onRowMouseEnter) this.props.onRowMouseEnter(r);
+    });
   };
 
   handleRowMouseLeave = r => {
-    if (this.props.highlightRowOnHover) {
-      this[`tableRow_${r}`].style.backgroundColor = "#fff";
-      if (this.stickyColumn)
-        this[`stickyColumnRow_${r}`].style.backgroundColor = "#fff";
-    }
-    if (this.props.onRowMouseLeave) this.props.onRowMouseLeave(r);
+    requestAnimationFrame(() => {
+      if (this.props.highlightRowOnHover) {
+        this[`tableRow_${r}`].style.backgroundColor = "#fff";
+        if (this.stickyColumn)
+          this[`stickyColumnRow_${r}`].style.backgroundColor = "#fff";
+      }
+      if (this.props.onRowMouseLeave) this.props.onRowMouseLeave(r);
+    });
   };
 
   handleHeadSelect = value => {
@@ -550,7 +567,7 @@ class Table extends React.PureComponent {
           filterReactChildren(child.props.children, isTableRow),
           (row, r) =>
             React.cloneElement(row, {
-              key: _.uniqueId(),
+              key: `tableHeaderRow_${r}`,
               innerRef: node => {
                 Table[`tableHeaderRow_${r}`] = node;
               },
@@ -572,7 +589,7 @@ class Table extends React.PureComponent {
           filterReactChildren(child.props.children, isTableRow),
           (row, r) =>
             React.cloneElement(row, {
-              key: _.uniqueId(),
+              key: `tableRow_${r}`,
               innerRef: node => {
                 Table[`tableRow_${r}`] = node;
               },

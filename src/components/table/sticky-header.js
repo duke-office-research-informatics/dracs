@@ -1,7 +1,6 @@
 import React from "react";
 import propTypes from "prop-types";
 import styled from "styled-components";
-import _ from "lodash";
 
 import TableWrap from "./table-container.js";
 import TableHead from "./head-container.js";
@@ -23,7 +22,7 @@ const StickyHeader = props => {
           innerRef: node => {
             props.cellRef(node, c);
           },
-          key: _.uniqueId(),
+          key: `stickyHeader-${c}`,
         })
       );
     });

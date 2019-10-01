@@ -1,7 +1,6 @@
 import React from "react";
 import propTypes from "prop-types";
 import styled from "styled-components";
-import _ from "lodash";
 
 import Row from "./row.js";
 import TableWrap from "./table-container.js";
@@ -26,7 +25,7 @@ const StickyCorner = props => {
           <Row
             {...row.props}
             innerRef={node => props.rowRef(node, r)}
-            key={_.uniqueId()}
+            key={`stickyCorner-${r}`}
           >
             {cells}
           </Row>

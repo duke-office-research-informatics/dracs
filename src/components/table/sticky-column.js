@@ -1,7 +1,6 @@
 import React from "react";
 import propTypes from "prop-types";
 import styled from "styled-components";
-import _ from "lodash";
 
 import TableWrap from "./table-container.js";
 import TableHead from "./head-container.js";
@@ -26,7 +25,7 @@ const StickyColumn = props => {
       stickyRows.push(
         <Row
           {...row.props}
-          key={_.uniqueId()}
+          key={`stickyColumnHeaderRow-${r}`}
           innerRef={node => {
             props.headerRowRef(node, r);
           }}
@@ -48,7 +47,7 @@ const StickyColumn = props => {
       stickyRows.push(
         <Row
           {...row.props}
-          key={_.uniqueId()}
+          key={`stickyColumnBodyRow-${r}`}
           innerRef={node => {
             props.bodyRowRef(node, r);
           }}
