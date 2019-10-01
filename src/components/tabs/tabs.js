@@ -142,7 +142,7 @@ class Tabs extends React.PureComponent {
       const scrollLeft = this.navNode.scrollLeft;
       if (this.updateUnderlineAnimationFrame)
         cancelAnimationFrame(this.updateUnderlineAnimationFrame);
-      if (this.underline)
+      if (this.underline) {
         this.updateUnderlineAnimationFrame = requestAnimationFrame(() => {
           this.underline.style.top = `${nav.height.toFixed(3)}px`;
           this.underline.style.left = `${(
@@ -151,15 +151,9 @@ class Tabs extends React.PureComponent {
             nav.left
           ).toFixed(3)}px`;
           this.underline.style.width = `${label.width.toFixed(3)}px`;
-          // this.setState(prevState => ({
-          //   underline: {
-          //     ...prevState.underline,
-          //     top: `${nav.height.toFixed(3)}px`,
-          //     left: `${(label.left + scrollLeft - nav.left).toFixed(3)}px`,
-          //     width: `${label.width.toFixed(3)}px`,
-          //   },
-          // }));
         });
+        this.setState();
+      }
     }
   };
 
