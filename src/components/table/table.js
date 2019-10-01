@@ -44,9 +44,6 @@ const ElementWrap = styled.div`
     z-index: 2;
     border-bottom: 2px solid #e5e5e5;
     transform: translateZ(0);
-     th {
-      transition: 0.2s;
-    }
   }
    ${StickyColumnWrap}{
     position: absolute;
