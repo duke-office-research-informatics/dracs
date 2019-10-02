@@ -40,6 +40,7 @@ const ActionButton = props => {
       onTouchStart={props.onTouchStart}
       onTouchEnd={props.onTouchEnd}
       style={props.style}
+      title={props.title}
     >
       {props.children}
     </ActionBtn>
@@ -81,6 +82,8 @@ ActionButton.propTypes = {
   onTouchEnd: propTypes.func,
   /** Object that accepts an inline css style object to customize the look and feel of the component */
   style: propTypes.object,
+  /**string that sets the title to that displays on hover of the button */
+  title: propTypes.string,
 };
 
 export default ActionButton;

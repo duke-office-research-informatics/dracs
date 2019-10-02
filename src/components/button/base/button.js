@@ -137,6 +137,7 @@ const Button = props => {
       onTouchStart={props.onTouchStart}
       onTouchEnd={props.onTouchEnd}
       style={props.style}
+      title={props.title}
       type={props.type}
     >
       {props.label}
@@ -194,6 +195,8 @@ Button.propTypes = {
   onTouchEnd: propTypes.func,
   /** Object that accepts an inline css style object to customize the look and feel of the component */
   style: propTypes.object,
+  /**string that sets the title to that displays on hover of the button */
+  title: propTypes.string,
   /** String that maps to one of 'raised', 'raiseOnHover', 'filled', 'inverted', 'error', 'errorFilled', 'disabled', 'disabledFilled', 'flat', and defaults to flat -- used to control presentational type of button */
   type: propTypes.oneOf([
     "raised",
