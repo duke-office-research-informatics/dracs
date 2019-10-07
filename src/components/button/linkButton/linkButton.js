@@ -30,8 +30,8 @@ const LinkButton = props => {
       onTouchEnd={props.onTouchEnd}
       style={props.style}
       title={props.title}
-      type={props.type}
-      htmlType={props.htmlType}
+      type={props.htmlType}
+      styleType={props.type}
     >
       {props.label}
       {props.children}

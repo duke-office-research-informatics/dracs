@@ -5,7 +5,7 @@ import styledMap from "styled-map";
 
 import colors from "../../../theme/colors/colorTheme.js";
 
-const bgColor = styledMap("type", {
+const bgColor = styledMap("styleType", {
   filled: colors.action,
   inverted: colors.bg,
   error: colors.bg,
@@ -15,7 +15,7 @@ const bgColor = styledMap("type", {
   flat: colors.bg,
 });
 
-const bgHoverColor = styledMap("type", {
+const bgHoverColor = styledMap("styleType", {
   filled: colors.actionHover,
   inverted: colors.bg,
   error: colors.bg,
@@ -25,7 +25,7 @@ const bgHoverColor = styledMap("type", {
   flat: colors.bg,
 });
 
-const color = styledMap("type", {
+const color = styledMap("styleType", {
   filled: colors.bg,
   inverted: colors.action,
   error: colors.error,
@@ -35,7 +35,7 @@ const color = styledMap("type", {
   flat: colors.action,
 });
 
-const hoverColor = styledMap("type", {
+const hoverColor = styledMap("styleType", {
   filled: colors.bg,
   inverted: colors.actionHover,
   error: "hsla(15,100%,40%,0.8)",
@@ -47,8 +47,9 @@ const hoverColor = styledMap("type", {
 
 export const StyledBtn = styled.button.attrs({
   disabled: props =>
-    props.type === "disabled" || props.type === "disabledFilled" ? true : false,
-  type: props => props.htmlType,
+    props.styleType === "disabled" || props.styleType === "disabledFilled"
+      ? true
+      : false,
 })`
   display: flex;
   flex: 0 0 auto;
@@ -66,7 +67,7 @@ export const StyledBtn = styled.button.attrs({
   transition: all 0.2s ease-in-out;
   backface-visibility: hidden;
   cursor: ${props =>
-    props.type === "disabled" || props.type === "disabledFilled"
+    props.styleType === "disabled" || props.styleType === "disabledFilled"
       ? "not-allowed"
       : "pointer"};
   border-radius: 2px;
@@ -78,11 +79,11 @@ export const StyledBtn = styled.button.attrs({
   user-select: none;
   color: ${props => (props.labelColor ? props.labelColor : color)};
   ${props =>
-    props.type === "raised"
+    props.styleType === "raised"
       ? `box-shadow: ${props.theme.boxShadow.button};`
       : null};
   ${props =>
-    props.type === "disabled" || props.type === "disabledFilled"
+    props.styleType === "disabled" || props.styleType === "disabledFilled"
       ? "opacity: .7;"
       : null};
   background-color: ${props => (props.bgColor ? props.bgColor : bgColor)};
@@ -97,7 +98,7 @@ export const StyledBtn = styled.button.attrs({
     background-color: ${props =>
       props.bgHoverColor ? props.bgHoverColor : bgHoverColor};
     ${props =>
-      props.type === "raiseOnHover"
+      props.styleType === "raiseOnHover"
         ? `box-shadow: ${props.theme.boxShadow.button};`
         : null};
     svg {
@@ -139,8 +140,8 @@ const Button = props => {
       onTouchEnd={props.onTouchEnd}
       style={props.style}
       title={props.title}
-      type={props.type}
-      htmlType={props.htmlType}
+      type={props.htmlType}
+      styleType={props.type}
     >
       {props.label}
       {props.children}
