@@ -48,6 +48,7 @@ const hoverColor = styledMap("type", {
 export const StyledBtn = styled.button.attrs({
   disabled: props =>
     props.type === "disabled" || props.type === "disabledFilled" ? true : false,
+  type: props => props.htmlType,
 })`
   display: flex;
   flex: 0 0 auto;
@@ -139,6 +140,7 @@ const Button = props => {
       style={props.style}
       title={props.title}
       type={props.type}
+      htmlType={props.htmlType}
     >
       {props.label}
       {props.children}
@@ -161,6 +163,8 @@ Button.propTypes = {
   "data-testid": propTypes.string,
   /** Boolean that sets whether or not the button has 'dense' or regular sizing and spacing */
   dense: propTypes.bool,
+  /** HTML value for the button type (submit, button) */
+  htmlType: propTypes.oneOf(["button", "submit", "reset"]),
   /** CSS/HTML ID element to add to component if needed */
   id: propTypes.string,
   /** Ref (functional) that targets the button's html/dom node */

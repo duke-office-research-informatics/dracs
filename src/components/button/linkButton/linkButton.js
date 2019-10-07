@@ -31,6 +31,7 @@ const LinkButton = props => {
       style={props.style}
       title={props.title}
       type={props.type}
+      htmlType={props.htmlType}
     >
       {props.label}
       {props.children}
@@ -51,6 +52,8 @@ LinkButton.propTypes = {
   className: propTypes.string,
   /** Boolean that sets whether or not the button has 'dense' or regular sizing and spacing */
   dense: propTypes.bool,
+  /** HTML value for the button type (submit, button) */
+  htmlType: propTypes.oneOf(["button", "submit", "reset"]),
   /** CSS/HTML ID element to add to component if needed */
   id: propTypes.string,
   /** Ref (functional) that targets the button's html/dom node */

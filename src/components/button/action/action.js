@@ -41,6 +41,7 @@ const ActionButton = props => {
       onTouchEnd={props.onTouchEnd}
       style={props.style}
       title={props.title}
+      type={props.htmlType}
     >
       {props.children}
     </ActionBtn>
@@ -58,6 +59,8 @@ ActionButton.propTypes = {
   "data-testid": propTypes.string,
   /** Boolean that sets whether or not the button is disabled (including setting the HTML disabled property) */
   disabled: propTypes.bool,
+  /** HTML value for the button type (submit, button) */
+  htmlType: propTypes.oneOf(["button", "submit", "reset"]),
   /** Ref (functional) that targets the button's html/dom node */
   innerRef: propTypes.func,
   /** CSS-consumable media query passed as a string */

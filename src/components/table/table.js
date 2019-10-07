@@ -289,7 +289,7 @@ class Table extends React.PureComponent {
           Table.suppressScroll = true;
         });
       } else {
-        Table.SuppressScroll = false;
+        Table.suppressScroll = false;
       }
     });
   };
@@ -423,7 +423,12 @@ class Table extends React.PureComponent {
   setColumnWidths = () => {
     let c, cellToCopy, width, cell;
     for (c = 0; c < this.columnCount; c++) {
-      if (this.tableHeaderRow_0.childNodes[c].tagName === "TH") {
+      if (
+        this.tableHeaderRow_0 &&
+        this.tableHeaderRow_0.childNodes &&
+        this.tableHeaderRow_0.childNodes[c] &&
+        this.tableHeaderRow_0.childNodes[c].tagName === "TH"
+      ) {
         cellToCopy = this.tableHeaderRow_0.childNodes[c];
       }
 
