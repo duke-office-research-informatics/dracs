@@ -484,33 +484,37 @@ class Dropdown extends React.Component {
   };
 
   renderChildren = (item, idx) => {
-    return (
-      <MenuItem
-        key={idx}
-        className={this.props.itemClassName}
-        style={this.props.itemStyle}
-        onBlur={!item.props.disabled && this.handleItemBlur}
-        onFocus={!item.props.disabled && this.handleItemFocus}
-        onClick={e => {
-          if (this.props.closeOnSelect) this.close();
-          if (this.props.onItemClick && !item.props.disabled)
-            this.props.onItemClick(e);
-        }}
-        onKeyDown={e => {
-          this.handleMenuItemKeydown(e);
-          if (e.keyCode === 13 && item.props.onClick && !item.props.disabled)
-            item.props.onClick(e);
-        }}
-        disabled={item.props.disabled}
-        itemHover={this.props.itemHover}
-        itemHoverColor={this.props.itemHoverColor}
-        role="menuitem"
-        tabIndex={-1}
-        template={true}
-      >
-        {item}
-      </MenuItem>
-    );
+    if (item.props.header) {
+      return item;
+    } else {
+      return (
+        <MenuItem
+          key={idx}
+          className={this.props.itemClassName}
+          style={this.props.itemStyle}
+          onBlur={!item.props.disabled && this.handleItemBlur}
+          onFocus={!item.props.disabled && this.handleItemFocus}
+          onClick={e => {
+            if (this.props.closeOnSelect) this.close();
+            if (this.props.onItemClick && !item.props.disabled)
+              this.props.onItemClick(e);
+          }}
+          onKeyDown={e => {
+            this.handleMenuItemKeydown(e);
+            if (e.keyCode === 13 && item.props.onClick && !item.props.disabled)
+              item.props.onClick(e);
+          }}
+          disabled={item.props.disabled}
+          itemHover={this.props.itemHover}
+          itemHoverColor={this.props.itemHoverColor}
+          role="menuitem"
+          tabIndex={-1}
+          template={true}
+        >
+          {item}
+        </MenuItem>
+      );
+    }
   };
 
   render() {
