@@ -217,7 +217,7 @@ class Dropdown extends React.Component {
   }
 
   componentDidMount() {
-    this.addChildrenToFocusGroup();
+    this.focusGroup.setMembers(this.menu.children);
     if (this.props.openMenu) {
       this.openWithoutActiveFocusGroup();
     }
@@ -236,7 +236,7 @@ class Dropdown extends React.Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
-    this.addChildrenToFocusGroup();
+    this.focusGroup.setMembers(this.menu.children);
     if (prevState.active && !this.state.active) {
       events.removeEventsFromDocument(this.getDocumentEvents());
     }
@@ -247,18 +247,6 @@ class Dropdown extends React.Component {
       events.removeEventsFromDocument(this.getDocumentEvents());
     }
   }
-
-  addChildrenToFocusGroup = () => {
-    if (this.menu && this.menu.children) {
-      console.log(this.menu.children);
-      const children = React.Children.toArray(this.menu.children);
-      console.log(children);
-      const focusableChildren = children.filter(
-        child => !child.props.hasOwnProperty("header")
-      );
-      this.focusGroup.setMembers(focusableChildren);
-    }
-  };
 
   getDocumentEvents = () => ({
     click: this.handleDocumentClick,
