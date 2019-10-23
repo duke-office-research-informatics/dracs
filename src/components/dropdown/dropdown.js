@@ -486,8 +486,15 @@ class Dropdown extends React.Component {
   renderChildren = (item, idx) => {
     const handleHeaderItemFocus = e => {
       if (item.props.header && this.focusGroup) {
-        console.log("sup");
-        this.focusGroup.focusNodeAtIndex(idx + 1);
+        if (e.keyCode === 38) {
+          if (idx > 0) {
+            this.focusGroup.focusNodeAtIndex(idx - 1);
+          } else {
+            this.focusGroup.focusNodeAtIndex(this.menu.children.length - 1);
+          }
+        } else {
+          this.focusGroup.focusNodeAtIndex(idx + 1);
+        }
       } else if (!item.props.disabled) {
         this.handleItemFocus(e);
       }
