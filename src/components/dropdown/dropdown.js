@@ -484,13 +484,26 @@ class Dropdown extends React.Component {
   };
 
   renderChildren = (item, idx) => {
+    const handleHeaderItemFocus = e => {
+      if (item.props.header) {
+        e.target.blur();
+      } else if (!item.props.disabled) {
+        this.handleItemFocus(e);
+      }
+    };
+
+    const handleBlur = e => {
+      if (!item.props.disabled) {
+        this.handleItemBlur(e);
+      }
+    };
     return (
       <MenuItem
         key={idx}
         className={this.props.itemClassName}
         style={this.props.itemStyle}
-        onBlur={!item.props.disabled && this.handleItemBlur}
-        onFocus={!item.props.disabled && this.handleItemFocus}
+        onBlur={handleBlur}
+        onFocus={handleHeaderItemFocus}
         onClick={e => {
           if (this.props.closeOnSelect) this.close();
           if (this.props.onItemClick && !item.props.disabled)
