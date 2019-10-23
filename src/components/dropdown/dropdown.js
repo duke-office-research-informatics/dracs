@@ -251,7 +251,9 @@ class Dropdown extends React.Component {
   addChildrenToFocusGroup = () => {
     if (this.menu && this.menu.children) {
       console.log(this.menu.children);
-      const focusableChildren = this.menu.children.filter(
+      const children = React.Children.toArray(this.menu.children);
+      console.log(children);
+      const focusableChildren = children.filter(
         child => !child.props.hasOwnProperty("header")
       );
       this.focusGroup.setMembers(focusableChildren);
