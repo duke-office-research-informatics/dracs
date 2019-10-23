@@ -487,7 +487,7 @@ class Dropdown extends React.Component {
     const handleHeaderItemFocus = e => {
       if (item.props.header && this.focusGroup) {
         console.log("sup");
-        this.focusGroup.moveFocusForward();
+        this.focusGroup.focusNodeAtIndex(idx + 1);
       } else if (!item.props.disabled) {
         this.handleItemFocus(e);
       }
