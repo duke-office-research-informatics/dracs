@@ -81,6 +81,8 @@ class Modal extends React.PureComponent {
       propTypes.element,
       propTypes.object,
     ]),
+    /**CSS classname to apply to the modal wrapper */
+    modalClassName: propTypes.string,
     /** Style object that applies custom styles to the modal wrapper */
     modalStyle: propTypes.object,
     /** Function that will be called when the user hits the `esc` key.  For accessibility reasons, this function should close the dialog */
@@ -93,6 +95,8 @@ class Modal extends React.PureComponent {
     onOverlayMouseMove: propTypes.func,
     /** Function that will be called when the user ends a click on the overlay. */
     onOverlayMouseUp: propTypes.func,
+    /**CSS classname to apply to the modal overlay */
+    overlayClassName: propTypes.string,
     /** Style object that overwrites the default overlay style with custom styling */
     overlayStyle: propTypes.object,
     /** CSS consumable (px, vh, em, etc) string that sets the padding of the component */
@@ -100,6 +104,8 @@ class Modal extends React.PureComponent {
     pauseFocusTrap: propTypes.bool,
     /** Dom node that is passed to the portal to denote which element the Modal should be a child of -- defaults to the document body */
     portalContainer: propTypes.oneOfType([propTypes.node, propTypes.object]),
+    /**CSS class to apply to the portal */
+    portalClassName: propTypes.string,
     /** Style object for overriding the default portal style */
     portalStyle: propTypes.object,
     /** CSS consumable (px, vw, em, etc) string that sets the width of the component */
@@ -138,7 +144,7 @@ class Modal extends React.PureComponent {
       <Portal
         container={this.props.portalContainer}
         style={this.props.portalStyle}
-        className="dracs-modal"
+        className={`dracs-modal ${this.props.overlayClassName}`}
       >
         <Transition
           appear
@@ -168,6 +174,7 @@ class Modal extends React.PureComponent {
               onMouseMove={this.props.onOverlayMouseMove}
               onMouseUp={this.props.onOverlayMouseUp}
               style={this.props.overlayStyle}
+              className={this.props.overlayClassName}
             />
             <ModalBody
               innerRef={node => (this.modalBody = node)}
@@ -183,6 +190,7 @@ class Modal extends React.PureComponent {
               minWidth={this.props.minWidth}
               maxWidth={this.props.maxWidth}
               style={this.props.modalStyle}
+              className={this.props.modalClassName}
             >
               {this.props.children}
             </ModalBody>
