@@ -12,6 +12,7 @@ const LinkButton = props => {
       bgHoverColor={props.bgHoverColor}
       className={props.className}
       dense={props.dense}
+      href={props.href}
       id={props.id}
       innerRef={props.innerRef}
       label={props.label}
@@ -29,6 +30,7 @@ const LinkButton = props => {
       onTouchStart={props.onTouchStart}
       onTouchEnd={props.onTouchEnd}
       style={props.style}
+      target={props.target}
       title={props.title}
       type={props.htmlType}
       styleType={props.type}
@@ -52,6 +54,8 @@ LinkButton.propTypes = {
   className: propTypes.string,
   /** Boolean that sets whether or not the button has 'dense' or regular sizing and spacing */
   dense: propTypes.bool,
+  /**HTML Href value for the link url */
+  href: propTypes.string,
   /** HTML value for the button type (submit, button) */
   htmlType: propTypes.oneOf(["button", "submit", "reset"]),
   /** CSS/HTML ID element to add to component if needed */
@@ -71,7 +75,7 @@ LinkButton.propTypes = {
   /** Function that will trigger when focus leaves the component */
   onBlur: propTypes.func,
   /** Function that will trigger when the component is clicked */
-  onClick: propTypes.func.isRequired,
+  onClick: propTypes.func,
   /** Function that will trigger when the component gains focus */
   onFocus: propTypes.func,
   /** Function that will trigger when the user presses down on the mouse button */
@@ -88,6 +92,8 @@ LinkButton.propTypes = {
   onTouchEnd: propTypes.func,
   /** Object that accepts an inline css style object to customize the look and feel of the component */
   style: propTypes.object,
+  /**HTML targe property to specify if link opens in tab, new window, this window, etc */
+  target: propTypes.string,
   /** string that is set as the title of the button, generally set on hover by browser */
   title: propTypes.string,
   /** String that maps to one of 'raised', 'raiseOnHover', 'filled', 'inverted', 'error', 'errorFilled', 'disabled', 'disabledFilled', 'flat', and defaults to flat -- used to control presentational type of button */
@@ -102,6 +108,10 @@ LinkButton.propTypes = {
     "disabledFilled",
     "flat",
   ]),
+};
+
+LinkButton.defaultProps = {
+  target: "_blank",
 };
 
 export default LinkButton;
