@@ -59,6 +59,9 @@ const TextareaInput = styled.textarea.attrs({
       color: ${placeholder};
     }
   }
+  &:required {
+    box-shadow: none;
+  }
 `;
 
 class TextArea extends React.Component {
