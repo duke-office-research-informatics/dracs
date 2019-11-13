@@ -22,6 +22,7 @@ const CardFooter = props => {
     <CardFooterWrap
       bgColor={props.bgColor}
       border={props.border}
+      className={props.className}
       innerRef={props.innerRef}
       multipleActions={props.multipleActions}
       style={props.style}
@@ -44,6 +45,8 @@ CardFooter.propTypes = {
   multipleActions: propTypes.bool,
   /** Style object for the footer */
   style: propTypes.object,
+  /**CSS classname to apply to the footer */
+  className: propTypes.string,
 };
 
 CardFooter.defaultProps = {

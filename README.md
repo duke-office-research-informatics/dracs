@@ -1,6 +1,6 @@
 # README
 
-Duke Research Application Component System v0.1.51
+Duke Research Application Component System v0.1.52
 
 This is the repository for Duke Research Application Component System (DRACS) components.
 
