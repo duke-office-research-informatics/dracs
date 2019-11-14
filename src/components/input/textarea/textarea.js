@@ -80,6 +80,8 @@ class TextArea extends React.Component {
     inputState: propTypes.oneOf(["primary", "error", "disabled"]),
     /** String that sets the text displayed in the floating label */
     labelText: propTypes.string.isRequired,
+    /**Number that sets the HTML maxlength property on the input */
+    maxLength: propTypes.number,
     /** String that sets the HTML name attribute of the textarea, useful for accessibility */
     name: propTypes.string.isRequired,
     /** Function that is called when the textarea node loses focus */
@@ -228,6 +230,7 @@ class TextArea extends React.Component {
             onKeyDown={this.props.onKeyDown}
             onKeyUp={this.props.onKeyUp}
             isFocused={this.state.isFocused}
+            maxLength={this.props.maxLength}
             name={this.props.name}
             placeholder={this.props.placeholder}
             inputState={this.props.inputState}

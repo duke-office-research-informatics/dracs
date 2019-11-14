@@ -63,6 +63,8 @@ class InputGroup extends React.Component {
     onIconLeftClick: propTypes.func,
     /** String that sets the text displayed in the floating label */
     labelText: propTypes.string,
+    /**Number that sets the HTML maxlength property on the input */
+    maxLength: propTypes.number,
     /** String that sets the HTML name attribute of the input, useful for accessibility */
     name: propTypes.string,
     /** Sets whether or not the input has a floating label */
@@ -210,6 +212,7 @@ class InputGroup extends React.Component {
             inputState={this.props.inputState}
             isFocused={this.state.isFocused}
             name={this.props.name}
+            maxLength={this.props.maxLength}
             noLabel={this.props.noLabel}
             onBlur={this.handleBlur}
             onClick={this.props.onClick}
