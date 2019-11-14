@@ -39,16 +39,16 @@ const InputField = styled.input.attrs({
     p.inputState === "disabled"
       ? "not-allowed"
       : p.datePicker
-        ? "pointer"
-        : "auto"};
+      ? "pointer"
+      : "auto"};
   &::placeholder {
     font-weight: 400;
     color: ${props =>
       props.noLabel
         ? placeholder
         : props.datepicker
-          ? placeholder
-          : "transparent"};
+        ? placeholder
+        : "transparent"};
     transition: 240ms;
   }
   &:focus {
@@ -86,6 +86,7 @@ const Input = props => {
       inputState={props.inputState}
       isFocused={props.isFocused}
       isTouched={props.isTouched}
+      maxLength={props.maxLength}
       name={props.name}
       noLabel={props.noLabel}
       onBlur={props.onBlur}
@@ -118,6 +119,7 @@ Input.propTypes = {
   value: propTypes.oneOfType([propTypes.string, propTypes.number]),
   defaultValue: propTypes.oneOfType([propTypes.string, propTypes.number]),
   placeholder: propTypes.string,
+  maxLength: propTypes.number,
   name: propTypes.string,
   onChange: propTypes.func,
   onClick: propTypes.func,
