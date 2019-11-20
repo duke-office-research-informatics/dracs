@@ -190,6 +190,10 @@ class Dropdown extends React.Component {
     value: propTypes.string,
     /** String that sets which key should be evaluated when items are set as an array of objects */
     valueKey: propTypes.string,
+    /**CSS classname applied to the dropdown component wrapper */
+    wrapperClassName: propTypes.string,
+    /**CSS-compatible style object that modifies the component wrapper */
+    wrapperStyle: propTypes.object,
   };
 
   static defaultProps = {
@@ -545,11 +549,18 @@ class Dropdown extends React.Component {
       menuDisplay,
       menuStyle,
       menuWidth,
+      wrapperClassName,
+      wrapperStyle,
       ...others //eslint-disable-line no-unused-vars
     } = this.props;
     const selected = this.getSelectedItem();
     return (
-      <DropdownWrap innerRef={innerRef} type={type}>
+      <DropdownWrap
+        innerRef={innerRef}
+        type={type}
+        className={wrapperClassName}
+        style={wrapperStyle}
+      >
         {type === "input" ? (
           <InputGroup
             {...others}
