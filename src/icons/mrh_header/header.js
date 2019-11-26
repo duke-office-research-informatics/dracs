@@ -20,8 +20,9 @@ const MrhHeaderIcon = props => {
       viewBox="0 0 301.1 42.41"
       color={props.color}
       hoverColor={props.hoverColor}
+      aria-label="go to app portal"
     >
-      <title>my research home logo ctsa</title>
+      <title>go to app portal</title>
       <desc>mrh logo with ctsa branding</desc>
       <path
         d="M4.42,28.07c-1,0-2.35.14-3.21.14-.18,0-.64,0-.64-.36s.25-.61,1.32-.79c.78-.14,1.6-.25,1.6-2.34V7.78c0-.68-1.5-.61-2.42-.68S0,7,0,6.63C0,6,1,6,1.39,6H4.63c1.75,0,3.42-.22,5.7-.22,7.48,0,13.54,3.75,13.54,12.43,0,5.41-4.92,9.84-11,9.84Zm2.14-4.5c0,2.52,2.24,3.64,4.56,3.64,2.78,0,9.4-2.34,9.4-9.66S14,6.88,9.55,6.88c-2.92,0-3,.65-3,1.15V23.57Z"
@@ -232,6 +233,7 @@ MrhHeaderIcon.propTypes = {
   size: propTypes.number,
   color: propTypes.oneOfType([propTypes.string, propTypes.func]),
   hoverColor: propTypes.oneOfType([propTypes.string, propTypes.func]),
+  style: propTypes.object,
 };
 
 export default MrhHeaderIcon;
