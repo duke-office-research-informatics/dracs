@@ -90,7 +90,7 @@ const Tutorial = (options = {}) => {
         }
       }
 
-      componentDidReceiveProps(prevProps) {
+      componentDidUpdate(prevProps) {
         if (
           this.props.tutorialPosition !== prevProps.tutorialPosition &&
           this.props.tutorialActive
