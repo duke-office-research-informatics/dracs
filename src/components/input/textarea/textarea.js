@@ -167,7 +167,7 @@ class TextArea extends React.Component {
     }
 
     if (this.props.onChange) {
-      this.props.onChange(e.target.value, e.target.name);
+      this.props.onChange(e.target.value, e.target.name, e);
     }
   };
 
