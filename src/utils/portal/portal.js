@@ -18,10 +18,10 @@ class Portal extends Component {
     this._renderOverlay();
   }
 
-  componentWillReceiveProps(nextProps) {
-    if (this._overlayTarget && nextProps.container !== this.props.container) {
+  componentDidUpdate(prevProps) {
+    if (this._overlayTarget && prevProps.container !== this.props.container) {
       this._portalContainerNode.removeChild(this._overlayTarget);
-      this._portalContainerNode = getContainer(nextProps.container);
+      this._portalContainerNode = getContainer(this.props.container);
       this._portalContainerNode.appendChild(this._overlayTarget);
     }
   }

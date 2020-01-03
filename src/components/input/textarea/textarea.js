@@ -144,11 +144,11 @@ class TextArea extends React.Component {
     };
   }
 
-  componentWillReceiveProps(nextProps) {
-    if (!this.state.isFocused && nextProps.value !== this.state.currentValue) {
-      this.setState({ isTouched: true, currentValue: nextProps.value });
+  componentDidUpdate(prevProps) {
+    if (!this.state.isFocused && this.props.value !== this.state.currentValue) {
+      this.setState({ isTouched: true, currentValue: this.props.value });
     }
-    if (nextProps.value !== this.props.value && nextProps.value === "") {
+    if (prevProps.value !== this.props.value && this.props.value === "") {
       this.setState({ isTouched: false });
     }
   }

@@ -53,9 +53,9 @@ class Tab extends React.Component {
     isTab: true,
   };
 
-  componentWillReceiveProps(nextProps) {
-    if (!this.props.active && nextProps.active && nextProps.onActive) {
-      nextProps.onActive();
+  componentDidUpdate(prevProps) {
+    if (!prevProps.active && this.props.active && this.props.onActive) {
+      this.props.onActive();
     }
   }
 

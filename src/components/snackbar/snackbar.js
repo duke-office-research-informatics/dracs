@@ -109,9 +109,9 @@ class Snackbar extends React.Component {
     }
   }
 
-  componentWillReceiveProps(nextProps) {
-    if (nextProps.active && nextProps.timeout && !this.props.active) {
-      this.scheduleTimeout(nextProps);
+  componentDidUpdate(prevProps) {
+    if (this.props.active && this.props.timeout && !prevProps.active) {
+      this.scheduleTimeout(this.props);
     }
   }
 

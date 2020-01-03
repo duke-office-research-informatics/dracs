@@ -20,9 +20,9 @@ const ActivableRendererFactory = (
       rendered: this.props.active,
     };
 
-    componentWillReceiveProps(nextProps) {
-      if (nextProps.active && !this.props.active) this.renderAndActivate();
-      if (!nextProps.active && this.props.active) this.deactivateAndUnrender();
+    componentDidUpdate(prevProps) {
+      if (!prevProps.active && this.props.active) this.renderAndActivate();
+      if (prevProps.active && !this.props.active) this.deactivateAndUnrender();
     }
 
     componentWillUnmount() {

@@ -105,13 +105,13 @@ class Tabs extends React.Component {
     }
   }
 
-  componentWillReceiveProps(nextProps) {
+  componentDidUpdate(prevProps) {
     if (!this.props.panel) {
       if (
-        this.props.value !== nextProps.value ||
-        this.props.children !== nextProps.children
+        this.props.value !== prevProps.value ||
+        this.props.children !== prevProps.children
       ) {
-        this.updateUnderline(nextProps.value);
+        this.updateUnderline(this.props.value);
       }
     }
   }

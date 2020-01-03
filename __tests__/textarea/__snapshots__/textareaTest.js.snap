@@ -123,6 +123,10 @@ exports[`Textarea applies the correct styles and attrs when \`inputState\`=defau
   color: hsla(0,0%,14.9%,0.5700000000000001);
 }
 
+.c3:required {
+  box-shadow: none;
+}
+
 <div
   className="c0"
 >
@@ -305,6 +309,10 @@ exports[`Textarea applies the correct styles and attrs when \`inputState\`=disab
 
 .c3:focus::placeholder {
   color: hsla(0,0%,14.9%,0.44999999999999996);
+}
+
+.c3:required {
+  box-shadow: none;
 }
 
 <div
@@ -491,6 +499,10 @@ exports[`Textarea applies the correct styles and attrs when \`inputState\`=error
   color: hsla(0,0%,14.9%,0.5700000000000001);
 }
 
+.c3:required {
+  box-shadow: none;
+}
+
 <div
   className="c0"
 >
@@ -663,6 +675,10 @@ exports[`Textarea matches snapshot 1`] = `
   color: hsla(0,0%,14.9%,0.5700000000000001);
 }
 
+.c3:required {
+  box-shadow: none;
+}
+
 <div
   className="c0"
 >
@@ -817,6 +833,10 @@ exports[`Textarea sets \`helpIcon\` via props 1`] = `
 
 .c3:focus::placeholder {
   color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:required {
+  box-shadow: none;
 }
 
 <div
@@ -991,6 +1011,10 @@ exports[`Textarea sets \`helpText\` via props 1`] = `
   color: hsla(0,0%,14.9%,0.5700000000000001);
 }
 
+.c3:required {
+  box-shadow: none;
+}
+
 <div
   className="c0"
 >
@@ -1135,6 +1159,10 @@ exports[`Textarea sets a style object on the component wrapper via props 1`] = `
 
 .c3:focus::placeholder {
   color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:required {
+  box-shadow: none;
 }
 
 <div
@@ -1286,6 +1314,10 @@ exports[`Textarea sets an onBlur func and sets state.isFocused to false on blur 
   color: hsla(0,0%,14.9%,0.5700000000000001);
 }
 
+.c3:required {
+  box-shadow: none;
+}
+
 <div
   className="c0"
 >
@@ -1430,6 +1462,10 @@ exports[`Textarea sets an onChange function on the input and sets state.isTouche
   color: hsla(0,0%,14.9%,0.5700000000000001);
 }
 
+.c3:required {
+  box-shadow: none;
+}
+
 <div
   className="c0"
 >
@@ -1572,6 +1608,10 @@ exports[`Textarea sets focus on the textarea when \`autoFocus\`=true 1`] = `
 
 .c3:focus::placeholder {
   color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:required {
+  box-shadow: none;
 }
 
 <div
@@ -1719,6 +1759,10 @@ exports[`Textarea sets id attr via props and propogages to relevant elements for
   color: hsla(0,0%,14.9%,0.5700000000000001);
 }
 
+.c3:required {
+  box-shadow: none;
+}
+
 <div
   className="c0"
 >
@@ -1861,6 +1905,10 @@ exports[`Textarea sets the components height via props 1`] = `
 
 .c3:focus::placeholder {
   color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:required {
+  box-shadow: none;
 }
 
 <div
@@ -2008,6 +2056,10 @@ exports[`Textarea sets the html type attr on the input via props 1`] = `
   color: hsla(0,0%,14.9%,0.5700000000000001);
 }
 
+.c3:required {
+  box-shadow: none;
+}
+
 <div
   className="c0"
 >
@@ -2153,6 +2205,10 @@ exports[`Textarea sets the inputs value via props 1`] = `
   color: hsla(0,0%,14.9%,0.5700000000000001);
 }
 
+.c3:required {
+  box-shadow: none;
+}
+
 <div
   className="c0"
 >
@@ -2295,6 +2351,10 @@ exports[`Textarea sets the inputs width via props 1`] = `
 
 .c3:focus::placeholder {
   color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:required {
+  box-shadow: none;
 }
 
 <div
@@ -2442,6 +2502,10 @@ exports[`Textarea sets the placeholder on input via props 1`] = `
   color: hsla(0,0%,14.9%,0.5700000000000001);
 }
 
+.c3:required {
+  box-shadow: none;
+}
+
 <div
   className="c0"
 >
@@ -2585,6 +2649,10 @@ exports[`Textarea sets the proper styles when state.isFocused=true 1`] = `
 
 .c3:focus::placeholder {
   color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:required {
+  box-shadow: none;
 }
 
 <div
@@ -2731,6 +2799,10 @@ exports[`Textarea sets the proper styles when state.isTouched=true 1`] = `
   color: hsla(0,0%,14.9%,0.5700000000000001);
 }
 
+.c3:required {
+  box-shadow: none;
+}
+
 <div
   className="c0"
 >
@@ -2873,6 +2945,10 @@ exports[`Textarea sets the readOnly attr on input via props 1`] = `
 
 .c3:focus::placeholder {
   color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:required {
+  box-shadow: none;
 }
 
 <div
@@ -3018,6 +3094,10 @@ exports[`Textarea sets the required attr via props and adds a star to the label 
 
 .c3:focus::placeholder {
   color: hsla(0,0%,14.9%,0.5700000000000001);
+}
+
+.c3:required {
+  box-shadow: none;
 }
 
 <div

@@ -128,14 +128,17 @@ class InputGroup extends React.Component {
     };
   }
 
-  componentWillReceiveProps(nextProps) {
+  componentDidUpdate(prevProps) {
     if (
-      nextProps.value !== this.props.value &&
-      nextProps.value === "" &&
+      prevProps.value !== this.props.value &&
+      this.props.value === "" &&
       !this.props.datepicker
     ) {
       this.setState({ isTouched: false });
-    } else if (nextProps.value !== this.props.value && nextProps.value !== "") {
+    } else if (
+      prevProps.value !== this.props.value &&
+      this.props.value !== ""
+    ) {
       this.setState({ isTouched: true });
     }
   }

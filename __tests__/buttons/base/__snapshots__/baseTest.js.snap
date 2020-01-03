@@ -1864,7 +1864,6 @@ exports[`base Button button type matches snapshot when button type = \`disabled\
   className="c0"
   disabled={true}
   label="hello"
-  type="disabled"
 >
   hello
 </button>
@@ -1947,7 +1946,6 @@ exports[`base Button button type matches snapshot when button type = \`disabledF
   className="c0"
   disabled={true}
   label="hello"
-  type="disabledFilled"
 >
   hello
 </button>
@@ -2029,7 +2027,6 @@ exports[`base Button button type matches snapshot when button type = \`error\` 1
   className="c0"
   disabled={false}
   label="hello"
-  type="error"
 >
   hello
 </button>
@@ -2111,7 +2108,6 @@ exports[`base Button button type matches snapshot when button type = \`errorFill
   className="c0"
   disabled={false}
   label="hello"
-  type="errorFilled"
 >
   hello
 </button>
@@ -2193,7 +2189,6 @@ exports[`base Button button type matches snapshot when button type = \`filled\` 
   className="c0"
   disabled={false}
   label="hello"
-  type="filled"
 >
   hello
 </button>
@@ -2275,7 +2270,6 @@ exports[`base Button button type matches snapshot when button type = \`flat\` 1`
   className="c0"
   disabled={false}
   label="hello"
-  type="flat"
 >
   hello
 </button>
@@ -2357,7 +2351,6 @@ exports[`base Button button type matches snapshot when button type = \`inverted\
   className="c0"
   disabled={false}
   label="hello"
-  type="inverted"
 >
   hello
 </button>

@@ -84,8 +84,8 @@ const Tutorial = (options = {}) => {
           this.setPositioning(this.calculatePosition());
       }
 
-      componentWillReceiveProps(nextProps) {
-        if (!this.props.tutorialActive && nextProps.tutorialActive) {
+      componentDidUpdate(prevProps) {
+        if (this.props.tutorialActive && !prevProps.tutorialActive) {
           this.setPositioning(this.calculatePosition());
         }
       }
