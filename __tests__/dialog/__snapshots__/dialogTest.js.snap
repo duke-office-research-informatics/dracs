@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Dialog matches snapshot 1`] = `
-.c5 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -52,34 +52,24 @@ exports[`Dialog matches snapshot 1`] = `
   -webkit-font-smoothing: inherit;
 }
 
-.c5 svg {
+.c4 svg {
   fill: #0680cd;
 }
 
-.c5:hover,
-.c5:focus {
+.c4:hover,
+.c4:focus {
   color: #53a4dc;
   background-color: #fff;
 }
 
-.c5:hover svg,
-.c5:focus svg {
+.c4:hover svg,
+.c4:focus svg {
   fill: #53a4dc;
 }
 
-.c5:focus {
+.c4:focus {
   outline-offset: 2px;
   outline: dotted 1px rgb(59,153,252);
-}
-
-.c3 {
-  font-family: "Roboto","Open-Sans",Sans-Serif;
-  font-size: 1.5em;
-  line-height: 1.35em;
-  color: #131516;
-  font-weight: 700;
-  margin: 4px 0;
-  padding: 0;
 }
 
 .c0 {
@@ -137,10 +127,17 @@ exports[`Dialog matches snapshot 1`] = `
 }
 
 .c2 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
   color: #131516;
 }
 
-.c4 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -155,46 +152,79 @@ exports[`Dialog matches snapshot 1`] = `
 }
 
 <div>
-  <div
-    className="c0"
+  <overlay__OverlayWrap
+    active={false}
     data-dracs="overlay"
+    delay={100}
+    lockScroll={true}
     onTouchStart={[Function]}
-  />
-  <section
+  >
+    <div
+      className="c0"
+      data-dracs="overlay"
+      onTouchStart={[Function]}
+    />
+  </overlay__OverlayWrap>
+  <dialog__DialogBody
+    active={false}
     aria-labelledby="dracs-dialog-title"
-    className="c1"
+    delay={300}
     role="dialog"
     tabIndex={-1}
   >
-    <h3
-      className="c2 c3"
-      id="dracs-dialog-title"
+    <section
+      aria-labelledby="dracs-dialog-title"
+      className="c1"
+      role="dialog"
+      tabIndex={-1}
     >
-      A dialog
-    </h3>
-    <nav
-      className="c4"
-    >
-      <button
-        className="c5"
-        disabled={false}
-        label="button"
-        onClick={[Function]}
-        style={
-          Object {
-            "marginLeft": "4px",
-          }
-        }
+      <dialog__DialogTitle
+        bold={true}
+        id="dracs-dialog-title"
       >
-        button
-      </button>
-    </nav>
-  </section>
+        <h3
+          className="c2"
+          id="dracs-dialog-title"
+        >
+          A dialog
+        </h3>
+      </dialog__DialogTitle>
+      <dialog__DialogActions>
+        <nav
+          className="c3"
+        >
+          <button__StyledBtn
+            label="button"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginLeft": "4px",
+              }
+            }
+          >
+            <button
+              className="c4"
+              disabled={false}
+              label="button"
+              onClick={[Function]}
+              style={
+                Object {
+                  "marginLeft": "4px",
+                }
+              }
+            >
+              button
+            </button>
+          </button__StyledBtn>
+        </nav>
+      </dialog__DialogActions>
+    </section>
+  </dialog__DialogBody>
 </div>
 `;
 
 exports[`Dialog passes an onOverlayMouseDown function to overlay via props 1`] = `
-.c5 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -245,34 +275,24 @@ exports[`Dialog passes an onOverlayMouseDown function to overlay via props 1`] =
   -webkit-font-smoothing: inherit;
 }
 
-.c5 svg {
+.c4 svg {
   fill: #0680cd;
 }
 
-.c5:hover,
-.c5:focus {
+.c4:hover,
+.c4:focus {
   color: #53a4dc;
   background-color: #fff;
 }
 
-.c5:hover svg,
-.c5:focus svg {
+.c4:hover svg,
+.c4:focus svg {
   fill: #53a4dc;
 }
 
-.c5:focus {
+.c4:focus {
   outline-offset: 2px;
   outline: dotted 1px rgb(59,153,252);
-}
-
-.c3 {
-  font-family: "Roboto","Open-Sans",Sans-Serif;
-  font-size: 1.5em;
-  line-height: 1.35em;
-  color: #131516;
-  font-weight: 700;
-  margin: 4px 0;
-  padding: 0;
 }
 
 .c0 {
@@ -330,10 +350,17 @@ exports[`Dialog passes an onOverlayMouseDown function to overlay via props 1`] =
 }
 
 .c2 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
   color: #131516;
 }
 
-.c4 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -348,47 +375,81 @@ exports[`Dialog passes an onOverlayMouseDown function to overlay via props 1`] =
 }
 
 <div>
-  <div
-    className="c0"
+  <overlay__OverlayWrap
+    active={false}
     data-dracs="overlay"
+    delay={100}
+    lockScroll={true}
     onMouseDown={[Function]}
     onTouchStart={[Function]}
-  />
-  <section
+  >
+    <div
+      className="c0"
+      data-dracs="overlay"
+      onMouseDown={[Function]}
+      onTouchStart={[Function]}
+    />
+  </overlay__OverlayWrap>
+  <dialog__DialogBody
+    active={false}
     aria-labelledby="dracs-dialog-title"
-    className="c1"
+    delay={300}
     role="dialog"
     tabIndex={-1}
   >
-    <h3
-      className="c2 c3"
-      id="dracs-dialog-title"
+    <section
+      aria-labelledby="dracs-dialog-title"
+      className="c1"
+      role="dialog"
+      tabIndex={-1}
     >
-      A dialog
-    </h3>
-    <nav
-      className="c4"
-    >
-      <button
-        className="c5"
-        disabled={false}
-        label="button"
-        onClick={[Function]}
-        style={
-          Object {
-            "marginLeft": "4px",
-          }
-        }
+      <dialog__DialogTitle
+        bold={true}
+        id="dracs-dialog-title"
       >
-        button
-      </button>
-    </nav>
-  </section>
+        <h3
+          className="c2"
+          id="dracs-dialog-title"
+        >
+          A dialog
+        </h3>
+      </dialog__DialogTitle>
+      <dialog__DialogActions>
+        <nav
+          className="c3"
+        >
+          <button__StyledBtn
+            label="button"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginLeft": "4px",
+              }
+            }
+          >
+            <button
+              className="c4"
+              disabled={false}
+              label="button"
+              onClick={[Function]}
+              style={
+                Object {
+                  "marginLeft": "4px",
+                }
+              }
+            >
+              button
+            </button>
+          </button__StyledBtn>
+        </nav>
+      </dialog__DialogActions>
+    </section>
+  </dialog__DialogBody>
 </div>
 `;
 
 exports[`Dialog passes an onOverlayMouseMove function to overlay via props 1`] = `
-.c5 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -439,34 +500,24 @@ exports[`Dialog passes an onOverlayMouseMove function to overlay via props 1`] =
   -webkit-font-smoothing: inherit;
 }
 
-.c5 svg {
+.c4 svg {
   fill: #0680cd;
 }
 
-.c5:hover,
-.c5:focus {
+.c4:hover,
+.c4:focus {
   color: #53a4dc;
   background-color: #fff;
 }
 
-.c5:hover svg,
-.c5:focus svg {
+.c4:hover svg,
+.c4:focus svg {
   fill: #53a4dc;
 }
 
-.c5:focus {
+.c4:focus {
   outline-offset: 2px;
   outline: dotted 1px rgb(59,153,252);
-}
-
-.c3 {
-  font-family: "Roboto","Open-Sans",Sans-Serif;
-  font-size: 1.5em;
-  line-height: 1.35em;
-  color: #131516;
-  font-weight: 700;
-  margin: 4px 0;
-  padding: 0;
 }
 
 .c0 {
@@ -524,10 +575,17 @@ exports[`Dialog passes an onOverlayMouseMove function to overlay via props 1`] =
 }
 
 .c2 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
   color: #131516;
 }
 
-.c4 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -542,47 +600,81 @@ exports[`Dialog passes an onOverlayMouseMove function to overlay via props 1`] =
 }
 
 <div>
-  <div
-    className="c0"
+  <overlay__OverlayWrap
+    active={false}
     data-dracs="overlay"
+    delay={100}
+    lockScroll={true}
     onMouseMove={[Function]}
     onTouchStart={[Function]}
-  />
-  <section
+  >
+    <div
+      className="c0"
+      data-dracs="overlay"
+      onMouseMove={[Function]}
+      onTouchStart={[Function]}
+    />
+  </overlay__OverlayWrap>
+  <dialog__DialogBody
+    active={false}
     aria-labelledby="dracs-dialog-title"
-    className="c1"
+    delay={300}
     role="dialog"
     tabIndex={-1}
   >
-    <h3
-      className="c2 c3"
-      id="dracs-dialog-title"
+    <section
+      aria-labelledby="dracs-dialog-title"
+      className="c1"
+      role="dialog"
+      tabIndex={-1}
     >
-      A dialog
-    </h3>
-    <nav
-      className="c4"
-    >
-      <button
-        className="c5"
-        disabled={false}
-        label="button"
-        onClick={[Function]}
-        style={
-          Object {
-            "marginLeft": "4px",
-          }
-        }
+      <dialog__DialogTitle
+        bold={true}
+        id="dracs-dialog-title"
       >
-        button
-      </button>
-    </nav>
-  </section>
+        <h3
+          className="c2"
+          id="dracs-dialog-title"
+        >
+          A dialog
+        </h3>
+      </dialog__DialogTitle>
+      <dialog__DialogActions>
+        <nav
+          className="c3"
+        >
+          <button__StyledBtn
+            label="button"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginLeft": "4px",
+              }
+            }
+          >
+            <button
+              className="c4"
+              disabled={false}
+              label="button"
+              onClick={[Function]}
+              style={
+                Object {
+                  "marginLeft": "4px",
+                }
+              }
+            >
+              button
+            </button>
+          </button__StyledBtn>
+        </nav>
+      </dialog__DialogActions>
+    </section>
+  </dialog__DialogBody>
 </div>
 `;
 
 exports[`Dialog passes an onOverlayMouseUp function to overlay via props 1`] = `
-.c5 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -633,34 +725,24 @@ exports[`Dialog passes an onOverlayMouseUp function to overlay via props 1`] = `
   -webkit-font-smoothing: inherit;
 }
 
-.c5 svg {
+.c4 svg {
   fill: #0680cd;
 }
 
-.c5:hover,
-.c5:focus {
+.c4:hover,
+.c4:focus {
   color: #53a4dc;
   background-color: #fff;
 }
 
-.c5:hover svg,
-.c5:focus svg {
+.c4:hover svg,
+.c4:focus svg {
   fill: #53a4dc;
 }
 
-.c5:focus {
+.c4:focus {
   outline-offset: 2px;
   outline: dotted 1px rgb(59,153,252);
-}
-
-.c3 {
-  font-family: "Roboto","Open-Sans",Sans-Serif;
-  font-size: 1.5em;
-  line-height: 1.35em;
-  color: #131516;
-  font-weight: 700;
-  margin: 4px 0;
-  padding: 0;
 }
 
 .c0 {
@@ -718,10 +800,17 @@ exports[`Dialog passes an onOverlayMouseUp function to overlay via props 1`] = `
 }
 
 .c2 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
   color: #131516;
 }
 
-.c4 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -736,47 +825,81 @@ exports[`Dialog passes an onOverlayMouseUp function to overlay via props 1`] = `
 }
 
 <div>
-  <div
-    className="c0"
+  <overlay__OverlayWrap
+    active={false}
     data-dracs="overlay"
+    delay={100}
+    lockScroll={true}
     onMouseUp={[Function]}
     onTouchStart={[Function]}
-  />
-  <section
+  >
+    <div
+      className="c0"
+      data-dracs="overlay"
+      onMouseUp={[Function]}
+      onTouchStart={[Function]}
+    />
+  </overlay__OverlayWrap>
+  <dialog__DialogBody
+    active={false}
     aria-labelledby="dracs-dialog-title"
-    className="c1"
+    delay={300}
     role="dialog"
     tabIndex={-1}
   >
-    <h3
-      className="c2 c3"
-      id="dracs-dialog-title"
+    <section
+      aria-labelledby="dracs-dialog-title"
+      className="c1"
+      role="dialog"
+      tabIndex={-1}
     >
-      A dialog
-    </h3>
-    <nav
-      className="c4"
-    >
-      <button
-        className="c5"
-        disabled={false}
-        label="button"
-        onClick={[Function]}
-        style={
-          Object {
-            "marginLeft": "4px",
-          }
-        }
+      <dialog__DialogTitle
+        bold={true}
+        id="dracs-dialog-title"
       >
-        button
-      </button>
-    </nav>
-  </section>
+        <h3
+          className="c2"
+          id="dracs-dialog-title"
+        >
+          A dialog
+        </h3>
+      </dialog__DialogTitle>
+      <dialog__DialogActions>
+        <nav
+          className="c3"
+        >
+          <button__StyledBtn
+            label="button"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginLeft": "4px",
+              }
+            }
+          >
+            <button
+              className="c4"
+              disabled={false}
+              label="button"
+              onClick={[Function]}
+              style={
+                Object {
+                  "marginLeft": "4px",
+                }
+              }
+            >
+              button
+            </button>
+          </button__StyledBtn>
+        </nav>
+      </dialog__DialogActions>
+    </section>
+  </dialog__DialogBody>
 </div>
 `;
 
 exports[`Dialog passes onOverlayClick function to overlay via props 1`] = `
-.c5 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -827,34 +950,24 @@ exports[`Dialog passes onOverlayClick function to overlay via props 1`] = `
   -webkit-font-smoothing: inherit;
 }
 
-.c5 svg {
+.c4 svg {
   fill: #0680cd;
 }
 
-.c5:hover,
-.c5:focus {
+.c4:hover,
+.c4:focus {
   color: #53a4dc;
   background-color: #fff;
 }
 
-.c5:hover svg,
-.c5:focus svg {
+.c4:hover svg,
+.c4:focus svg {
   fill: #53a4dc;
 }
 
-.c5:focus {
+.c4:focus {
   outline-offset: 2px;
   outline: dotted 1px rgb(59,153,252);
-}
-
-.c3 {
-  font-family: "Roboto","Open-Sans",Sans-Serif;
-  font-size: 1.5em;
-  line-height: 1.35em;
-  color: #131516;
-  font-weight: 700;
-  margin: 4px 0;
-  padding: 0;
 }
 
 .c0 {
@@ -912,10 +1025,17 @@ exports[`Dialog passes onOverlayClick function to overlay via props 1`] = `
 }
 
 .c2 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
   color: #131516;
 }
 
-.c4 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -930,47 +1050,81 @@ exports[`Dialog passes onOverlayClick function to overlay via props 1`] = `
 }
 
 <div>
-  <div
-    className="c0"
+  <overlay__OverlayWrap
+    active={false}
     data-dracs="overlay"
+    delay={100}
+    lockScroll={true}
     onClick={[Function]}
     onTouchStart={[Function]}
-  />
-  <section
+  >
+    <div
+      className="c0"
+      data-dracs="overlay"
+      onClick={[Function]}
+      onTouchStart={[Function]}
+    />
+  </overlay__OverlayWrap>
+  <dialog__DialogBody
+    active={false}
     aria-labelledby="dracs-dialog-title"
-    className="c1"
+    delay={300}
     role="dialog"
     tabIndex={-1}
   >
-    <h3
-      className="c2 c3"
-      id="dracs-dialog-title"
+    <section
+      aria-labelledby="dracs-dialog-title"
+      className="c1"
+      role="dialog"
+      tabIndex={-1}
     >
-      A dialog
-    </h3>
-    <nav
-      className="c4"
-    >
-      <button
-        className="c5"
-        disabled={false}
-        label="button"
-        onClick={[Function]}
-        style={
-          Object {
-            "marginLeft": "4px",
-          }
-        }
+      <dialog__DialogTitle
+        bold={true}
+        id="dracs-dialog-title"
       >
-        button
-      </button>
-    </nav>
-  </section>
+        <h3
+          className="c2"
+          id="dracs-dialog-title"
+        >
+          A dialog
+        </h3>
+      </dialog__DialogTitle>
+      <dialog__DialogActions>
+        <nav
+          className="c3"
+        >
+          <button__StyledBtn
+            label="button"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginLeft": "4px",
+              }
+            }
+          >
+            <button
+              className="c4"
+              disabled={false}
+              label="button"
+              onClick={[Function]}
+              style={
+                Object {
+                  "marginLeft": "4px",
+                }
+              }
+            >
+              button
+            </button>
+          </button__StyledBtn>
+        </nav>
+      </dialog__DialogActions>
+    </section>
+  </dialog__DialogBody>
 </div>
 `;
 
 exports[`Dialog sets width to 25vw when type=quarterScreen 1`] = `
-.c5 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1021,34 +1175,24 @@ exports[`Dialog sets width to 25vw when type=quarterScreen 1`] = `
   -webkit-font-smoothing: inherit;
 }
 
-.c5 svg {
+.c4 svg {
   fill: #0680cd;
 }
 
-.c5:hover,
-.c5:focus {
+.c4:hover,
+.c4:focus {
   color: #53a4dc;
   background-color: #fff;
 }
 
-.c5:hover svg,
-.c5:focus svg {
+.c4:hover svg,
+.c4:focus svg {
   fill: #53a4dc;
 }
 
-.c5:focus {
+.c4:focus {
   outline-offset: 2px;
   outline: dotted 1px rgb(59,153,252);
-}
-
-.c3 {
-  font-family: "Roboto","Open-Sans",Sans-Serif;
-  font-size: 1.5em;
-  line-height: 1.35em;
-  color: #131516;
-  font-weight: 700;
-  margin: 4px 0;
-  padding: 0;
 }
 
 .c0 {
@@ -1106,10 +1250,17 @@ exports[`Dialog sets width to 25vw when type=quarterScreen 1`] = `
 }
 
 .c2 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
   color: #131516;
 }
 
-.c4 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1124,47 +1275,81 @@ exports[`Dialog sets width to 25vw when type=quarterScreen 1`] = `
 }
 
 <div>
-  <div
-    className="c0"
+  <overlay__OverlayWrap
+    active={false}
     data-dracs="overlay"
+    delay={100}
+    lockScroll={true}
     onTouchStart={[Function]}
-  />
-  <section
+  >
+    <div
+      className="c0"
+      data-dracs="overlay"
+      onTouchStart={[Function]}
+    />
+  </overlay__OverlayWrap>
+  <dialog__DialogBody
+    active={false}
     aria-labelledby="dracs-dialog-title"
-    className="c1"
+    delay={300}
     role="dialog"
     tabIndex={-1}
     type="quarterScreen"
   >
-    <h3
-      className="c2 c3"
-      id="dracs-dialog-title"
+    <section
+      aria-labelledby="dracs-dialog-title"
+      className="c1"
+      role="dialog"
+      tabIndex={-1}
+      type="quarterScreen"
     >
-      A dialog
-    </h3>
-    <nav
-      className="c4"
-    >
-      <button
-        className="c5"
-        disabled={false}
-        label="button"
-        onClick={[Function]}
-        style={
-          Object {
-            "marginLeft": "4px",
-          }
-        }
+      <dialog__DialogTitle
+        bold={true}
+        id="dracs-dialog-title"
       >
-        button
-      </button>
-    </nav>
-  </section>
+        <h3
+          className="c2"
+          id="dracs-dialog-title"
+        >
+          A dialog
+        </h3>
+      </dialog__DialogTitle>
+      <dialog__DialogActions>
+        <nav
+          className="c3"
+        >
+          <button__StyledBtn
+            label="button"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginLeft": "4px",
+              }
+            }
+          >
+            <button
+              className="c4"
+              disabled={false}
+              label="button"
+              onClick={[Function]}
+              style={
+                Object {
+                  "marginLeft": "4px",
+                }
+              }
+            >
+              button
+            </button>
+          </button__StyledBtn>
+        </nav>
+      </dialog__DialogActions>
+    </section>
+  </dialog__DialogBody>
 </div>
 `;
 
 exports[`Dialog sets width to 30vw when type=thirtyPctScreen 1`] = `
-.c5 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1215,34 +1400,24 @@ exports[`Dialog sets width to 30vw when type=thirtyPctScreen 1`] = `
   -webkit-font-smoothing: inherit;
 }
 
-.c5 svg {
+.c4 svg {
   fill: #0680cd;
 }
 
-.c5:hover,
-.c5:focus {
+.c4:hover,
+.c4:focus {
   color: #53a4dc;
   background-color: #fff;
 }
 
-.c5:hover svg,
-.c5:focus svg {
+.c4:hover svg,
+.c4:focus svg {
   fill: #53a4dc;
 }
 
-.c5:focus {
+.c4:focus {
   outline-offset: 2px;
   outline: dotted 1px rgb(59,153,252);
-}
-
-.c3 {
-  font-family: "Roboto","Open-Sans",Sans-Serif;
-  font-size: 1.5em;
-  line-height: 1.35em;
-  color: #131516;
-  font-weight: 700;
-  margin: 4px 0;
-  padding: 0;
 }
 
 .c0 {
@@ -1300,10 +1475,17 @@ exports[`Dialog sets width to 30vw when type=thirtyPctScreen 1`] = `
 }
 
 .c2 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
   color: #131516;
 }
 
-.c4 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1318,47 +1500,81 @@ exports[`Dialog sets width to 30vw when type=thirtyPctScreen 1`] = `
 }
 
 <div>
-  <div
-    className="c0"
+  <overlay__OverlayWrap
+    active={false}
     data-dracs="overlay"
+    delay={100}
+    lockScroll={true}
     onTouchStart={[Function]}
-  />
-  <section
+  >
+    <div
+      className="c0"
+      data-dracs="overlay"
+      onTouchStart={[Function]}
+    />
+  </overlay__OverlayWrap>
+  <dialog__DialogBody
+    active={false}
     aria-labelledby="dracs-dialog-title"
-    className="c1"
+    delay={300}
     role="dialog"
     tabIndex={-1}
     type="thirtyPctScreen"
   >
-    <h3
-      className="c2 c3"
-      id="dracs-dialog-title"
+    <section
+      aria-labelledby="dracs-dialog-title"
+      className="c1"
+      role="dialog"
+      tabIndex={-1}
+      type="thirtyPctScreen"
     >
-      A dialog
-    </h3>
-    <nav
-      className="c4"
-    >
-      <button
-        className="c5"
-        disabled={false}
-        label="button"
-        onClick={[Function]}
-        style={
-          Object {
-            "marginLeft": "4px",
-          }
-        }
+      <dialog__DialogTitle
+        bold={true}
+        id="dracs-dialog-title"
       >
-        button
-      </button>
-    </nav>
-  </section>
+        <h3
+          className="c2"
+          id="dracs-dialog-title"
+        >
+          A dialog
+        </h3>
+      </dialog__DialogTitle>
+      <dialog__DialogActions>
+        <nav
+          className="c3"
+        >
+          <button__StyledBtn
+            label="button"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginLeft": "4px",
+              }
+            }
+          >
+            <button
+              className="c4"
+              disabled={false}
+              label="button"
+              onClick={[Function]}
+              style={
+                Object {
+                  "marginLeft": "4px",
+                }
+              }
+            >
+              button
+            </button>
+          </button__StyledBtn>
+        </nav>
+      </dialog__DialogActions>
+    </section>
+  </dialog__DialogBody>
 </div>
 `;
 
 exports[`Dialog sets width to 50vw when type=halfScreen 1`] = `
-.c5 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1409,34 +1625,24 @@ exports[`Dialog sets width to 50vw when type=halfScreen 1`] = `
   -webkit-font-smoothing: inherit;
 }
 
-.c5 svg {
+.c4 svg {
   fill: #0680cd;
 }
 
-.c5:hover,
-.c5:focus {
+.c4:hover,
+.c4:focus {
   color: #53a4dc;
   background-color: #fff;
 }
 
-.c5:hover svg,
-.c5:focus svg {
+.c4:hover svg,
+.c4:focus svg {
   fill: #53a4dc;
 }
 
-.c5:focus {
+.c4:focus {
   outline-offset: 2px;
   outline: dotted 1px rgb(59,153,252);
-}
-
-.c3 {
-  font-family: "Roboto","Open-Sans",Sans-Serif;
-  font-size: 1.5em;
-  line-height: 1.35em;
-  color: #131516;
-  font-weight: 700;
-  margin: 4px 0;
-  padding: 0;
 }
 
 .c0 {
@@ -1494,10 +1700,17 @@ exports[`Dialog sets width to 50vw when type=halfScreen 1`] = `
 }
 
 .c2 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
   color: #131516;
 }
 
-.c4 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1512,47 +1725,81 @@ exports[`Dialog sets width to 50vw when type=halfScreen 1`] = `
 }
 
 <div>
-  <div
-    className="c0"
+  <overlay__OverlayWrap
+    active={false}
     data-dracs="overlay"
+    delay={100}
+    lockScroll={true}
     onTouchStart={[Function]}
-  />
-  <section
+  >
+    <div
+      className="c0"
+      data-dracs="overlay"
+      onTouchStart={[Function]}
+    />
+  </overlay__OverlayWrap>
+  <dialog__DialogBody
+    active={false}
     aria-labelledby="dracs-dialog-title"
-    className="c1"
+    delay={300}
     role="dialog"
     tabIndex={-1}
     type="halfScreen"
   >
-    <h3
-      className="c2 c3"
-      id="dracs-dialog-title"
+    <section
+      aria-labelledby="dracs-dialog-title"
+      className="c1"
+      role="dialog"
+      tabIndex={-1}
+      type="halfScreen"
     >
-      A dialog
-    </h3>
-    <nav
-      className="c4"
-    >
-      <button
-        className="c5"
-        disabled={false}
-        label="button"
-        onClick={[Function]}
-        style={
-          Object {
-            "marginLeft": "4px",
-          }
-        }
+      <dialog__DialogTitle
+        bold={true}
+        id="dracs-dialog-title"
       >
-        button
-      </button>
-    </nav>
-  </section>
+        <h3
+          className="c2"
+          id="dracs-dialog-title"
+        >
+          A dialog
+        </h3>
+      </dialog__DialogTitle>
+      <dialog__DialogActions>
+        <nav
+          className="c3"
+        >
+          <button__StyledBtn
+            label="button"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginLeft": "4px",
+              }
+            }
+          >
+            <button
+              className="c4"
+              disabled={false}
+              label="button"
+              onClick={[Function]}
+              style={
+                Object {
+                  "marginLeft": "4px",
+                }
+              }
+            >
+              button
+            </button>
+          </button__StyledBtn>
+        </nav>
+      </dialog__DialogActions>
+    </section>
+  </dialog__DialogBody>
 </div>
 `;
 
 exports[`Dialog sets width to 96vw when type=large 1`] = `
-.c5 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1603,34 +1850,24 @@ exports[`Dialog sets width to 96vw when type=large 1`] = `
   -webkit-font-smoothing: inherit;
 }
 
-.c5 svg {
+.c4 svg {
   fill: #0680cd;
 }
 
-.c5:hover,
-.c5:focus {
+.c4:hover,
+.c4:focus {
   color: #53a4dc;
   background-color: #fff;
 }
 
-.c5:hover svg,
-.c5:focus svg {
+.c4:hover svg,
+.c4:focus svg {
   fill: #53a4dc;
 }
 
-.c5:focus {
+.c4:focus {
   outline-offset: 2px;
   outline: dotted 1px rgb(59,153,252);
-}
-
-.c3 {
-  font-family: "Roboto","Open-Sans",Sans-Serif;
-  font-size: 1.5em;
-  line-height: 1.35em;
-  color: #131516;
-  font-weight: 700;
-  margin: 4px 0;
-  padding: 0;
 }
 
 .c0 {
@@ -1688,10 +1925,17 @@ exports[`Dialog sets width to 96vw when type=large 1`] = `
 }
 
 .c2 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
   color: #131516;
 }
 
-.c4 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1706,47 +1950,81 @@ exports[`Dialog sets width to 96vw when type=large 1`] = `
 }
 
 <div>
-  <div
-    className="c0"
+  <overlay__OverlayWrap
+    active={false}
     data-dracs="overlay"
+    delay={100}
+    lockScroll={true}
     onTouchStart={[Function]}
-  />
-  <section
+  >
+    <div
+      className="c0"
+      data-dracs="overlay"
+      onTouchStart={[Function]}
+    />
+  </overlay__OverlayWrap>
+  <dialog__DialogBody
+    active={false}
     aria-labelledby="dracs-dialog-title"
-    className="c1"
+    delay={300}
     role="dialog"
     tabIndex={-1}
     type="large"
   >
-    <h3
-      className="c2 c3"
-      id="dracs-dialog-title"
+    <section
+      aria-labelledby="dracs-dialog-title"
+      className="c1"
+      role="dialog"
+      tabIndex={-1}
+      type="large"
     >
-      A dialog
-    </h3>
-    <nav
-      className="c4"
-    >
-      <button
-        className="c5"
-        disabled={false}
-        label="button"
-        onClick={[Function]}
-        style={
-          Object {
-            "marginLeft": "4px",
-          }
-        }
+      <dialog__DialogTitle
+        bold={true}
+        id="dracs-dialog-title"
       >
-        button
-      </button>
-    </nav>
-  </section>
+        <h3
+          className="c2"
+          id="dracs-dialog-title"
+        >
+          A dialog
+        </h3>
+      </dialog__DialogTitle>
+      <dialog__DialogActions>
+        <nav
+          className="c3"
+        >
+          <button__StyledBtn
+            label="button"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginLeft": "4px",
+              }
+            }
+          >
+            <button
+              className="c4"
+              disabled={false}
+              label="button"
+              onClick={[Function]}
+              style={
+                Object {
+                  "marginLeft": "4px",
+                }
+              }
+            >
+              button
+            </button>
+          </button__StyledBtn>
+        </nav>
+      </dialog__DialogActions>
+    </section>
+  </dialog__DialogBody>
 </div>
 `;
 
 exports[`Dialog sets width to 300px when type=small 1`] = `
-.c5 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1797,34 +2075,24 @@ exports[`Dialog sets width to 300px when type=small 1`] = `
   -webkit-font-smoothing: inherit;
 }
 
-.c5 svg {
+.c4 svg {
   fill: #0680cd;
 }
 
-.c5:hover,
-.c5:focus {
+.c4:hover,
+.c4:focus {
   color: #53a4dc;
   background-color: #fff;
 }
 
-.c5:hover svg,
-.c5:focus svg {
+.c4:hover svg,
+.c4:focus svg {
   fill: #53a4dc;
 }
 
-.c5:focus {
+.c4:focus {
   outline-offset: 2px;
   outline: dotted 1px rgb(59,153,252);
-}
-
-.c3 {
-  font-family: "Roboto","Open-Sans",Sans-Serif;
-  font-size: 1.5em;
-  line-height: 1.35em;
-  color: #131516;
-  font-weight: 700;
-  margin: 4px 0;
-  padding: 0;
 }
 
 .c0 {
@@ -1882,10 +2150,17 @@ exports[`Dialog sets width to 300px when type=small 1`] = `
 }
 
 .c2 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
   color: #131516;
 }
 
-.c4 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1900,47 +2175,81 @@ exports[`Dialog sets width to 300px when type=small 1`] = `
 }
 
 <div>
-  <div
-    className="c0"
+  <overlay__OverlayWrap
+    active={false}
     data-dracs="overlay"
+    delay={100}
+    lockScroll={true}
     onTouchStart={[Function]}
-  />
-  <section
+  >
+    <div
+      className="c0"
+      data-dracs="overlay"
+      onTouchStart={[Function]}
+    />
+  </overlay__OverlayWrap>
+  <dialog__DialogBody
+    active={false}
     aria-labelledby="dracs-dialog-title"
-    className="c1"
+    delay={300}
     role="dialog"
     tabIndex={-1}
     type="small"
   >
-    <h3
-      className="c2 c3"
-      id="dracs-dialog-title"
+    <section
+      aria-labelledby="dracs-dialog-title"
+      className="c1"
+      role="dialog"
+      tabIndex={-1}
+      type="small"
     >
-      A dialog
-    </h3>
-    <nav
-      className="c4"
-    >
-      <button
-        className="c5"
-        disabled={false}
-        label="button"
-        onClick={[Function]}
-        style={
-          Object {
-            "marginLeft": "4px",
-          }
-        }
+      <dialog__DialogTitle
+        bold={true}
+        id="dracs-dialog-title"
       >
-        button
-      </button>
-    </nav>
-  </section>
+        <h3
+          className="c2"
+          id="dracs-dialog-title"
+        >
+          A dialog
+        </h3>
+      </dialog__DialogTitle>
+      <dialog__DialogActions>
+        <nav
+          className="c3"
+        >
+          <button__StyledBtn
+            label="button"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginLeft": "4px",
+              }
+            }
+          >
+            <button
+              className="c4"
+              disabled={false}
+              label="button"
+              onClick={[Function]}
+              style={
+                Object {
+                  "marginLeft": "4px",
+                }
+              }
+            >
+              button
+            </button>
+          </button__StyledBtn>
+        </nav>
+      </dialog__DialogActions>
+    </section>
+  </dialog__DialogBody>
 </div>
 `;
 
 exports[`Dialog sets width to 700px when type=medium 1`] = `
-.c5 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1991,34 +2300,24 @@ exports[`Dialog sets width to 700px when type=medium 1`] = `
   -webkit-font-smoothing: inherit;
 }
 
-.c5 svg {
+.c4 svg {
   fill: #0680cd;
 }
 
-.c5:hover,
-.c5:focus {
+.c4:hover,
+.c4:focus {
   color: #53a4dc;
   background-color: #fff;
 }
 
-.c5:hover svg,
-.c5:focus svg {
+.c4:hover svg,
+.c4:focus svg {
   fill: #53a4dc;
 }
 
-.c5:focus {
+.c4:focus {
   outline-offset: 2px;
   outline: dotted 1px rgb(59,153,252);
-}
-
-.c3 {
-  font-family: "Roboto","Open-Sans",Sans-Serif;
-  font-size: 1.5em;
-  line-height: 1.35em;
-  color: #131516;
-  font-weight: 700;
-  margin: 4px 0;
-  padding: 0;
 }
 
 .c0 {
@@ -2076,10 +2375,17 @@ exports[`Dialog sets width to 700px when type=medium 1`] = `
 }
 
 .c2 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
   color: #131516;
 }
 
-.c4 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2094,47 +2400,81 @@ exports[`Dialog sets width to 700px when type=medium 1`] = `
 }
 
 <div>
-  <div
-    className="c0"
+  <overlay__OverlayWrap
+    active={false}
     data-dracs="overlay"
+    delay={100}
+    lockScroll={true}
     onTouchStart={[Function]}
-  />
-  <section
+  >
+    <div
+      className="c0"
+      data-dracs="overlay"
+      onTouchStart={[Function]}
+    />
+  </overlay__OverlayWrap>
+  <dialog__DialogBody
+    active={false}
     aria-labelledby="dracs-dialog-title"
-    className="c1"
+    delay={300}
     role="dialog"
     tabIndex={-1}
     type="medium"
   >
-    <h3
-      className="c2 c3"
-      id="dracs-dialog-title"
+    <section
+      aria-labelledby="dracs-dialog-title"
+      className="c1"
+      role="dialog"
+      tabIndex={-1}
+      type="medium"
     >
-      A dialog
-    </h3>
-    <nav
-      className="c4"
-    >
-      <button
-        className="c5"
-        disabled={false}
-        label="button"
-        onClick={[Function]}
-        style={
-          Object {
-            "marginLeft": "4px",
-          }
-        }
+      <dialog__DialogTitle
+        bold={true}
+        id="dracs-dialog-title"
       >
-        button
-      </button>
-    </nav>
-  </section>
+        <h3
+          className="c2"
+          id="dracs-dialog-title"
+        >
+          A dialog
+        </h3>
+      </dialog__DialogTitle>
+      <dialog__DialogActions>
+        <nav
+          className="c3"
+        >
+          <button__StyledBtn
+            label="button"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginLeft": "4px",
+              }
+            }
+          >
+            <button
+              className="c4"
+              disabled={false}
+              label="button"
+              onClick={[Function]}
+              style={
+                Object {
+                  "marginLeft": "4px",
+                }
+              }
+            >
+              button
+            </button>
+          </button__StyledBtn>
+        </nav>
+      </dialog__DialogActions>
+    </section>
+  </dialog__DialogBody>
 </div>
 `;
 
 exports[`Dialog sets width to auto when type=auto 1`] = `
-.c5 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2185,34 +2525,24 @@ exports[`Dialog sets width to auto when type=auto 1`] = `
   -webkit-font-smoothing: inherit;
 }
 
-.c5 svg {
+.c4 svg {
   fill: #0680cd;
 }
 
-.c5:hover,
-.c5:focus {
+.c4:hover,
+.c4:focus {
   color: #53a4dc;
   background-color: #fff;
 }
 
-.c5:hover svg,
-.c5:focus svg {
+.c4:hover svg,
+.c4:focus svg {
   fill: #53a4dc;
 }
 
-.c5:focus {
+.c4:focus {
   outline-offset: 2px;
   outline: dotted 1px rgb(59,153,252);
-}
-
-.c3 {
-  font-family: "Roboto","Open-Sans",Sans-Serif;
-  font-size: 1.5em;
-  line-height: 1.35em;
-  color: #131516;
-  font-weight: 700;
-  margin: 4px 0;
-  padding: 0;
 }
 
 .c0 {
@@ -2270,10 +2600,17 @@ exports[`Dialog sets width to auto when type=auto 1`] = `
 }
 
 .c2 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  color: #131516;
+  font-weight: 700;
+  margin: 4px 0;
+  padding: 0;
   color: #131516;
 }
 
-.c4 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2288,41 +2625,75 @@ exports[`Dialog sets width to auto when type=auto 1`] = `
 }
 
 <div>
-  <div
-    className="c0"
+  <overlay__OverlayWrap
+    active={false}
     data-dracs="overlay"
+    delay={100}
+    lockScroll={true}
     onTouchStart={[Function]}
-  />
-  <section
+  >
+    <div
+      className="c0"
+      data-dracs="overlay"
+      onTouchStart={[Function]}
+    />
+  </overlay__OverlayWrap>
+  <dialog__DialogBody
+    active={false}
     aria-labelledby="dracs-dialog-title"
-    className="c1"
+    delay={300}
     role="dialog"
     tabIndex={-1}
     type="auto"
   >
-    <h3
-      className="c2 c3"
-      id="dracs-dialog-title"
+    <section
+      aria-labelledby="dracs-dialog-title"
+      className="c1"
+      role="dialog"
+      tabIndex={-1}
+      type="auto"
     >
-      A dialog
-    </h3>
-    <nav
-      className="c4"
-    >
-      <button
-        className="c5"
-        disabled={false}
-        label="button"
-        onClick={[Function]}
-        style={
-          Object {
-            "marginLeft": "4px",
-          }
-        }
+      <dialog__DialogTitle
+        bold={true}
+        id="dracs-dialog-title"
       >
-        button
-      </button>
-    </nav>
-  </section>
+        <h3
+          className="c2"
+          id="dracs-dialog-title"
+        >
+          A dialog
+        </h3>
+      </dialog__DialogTitle>
+      <dialog__DialogActions>
+        <nav
+          className="c3"
+        >
+          <button__StyledBtn
+            label="button"
+            onClick={[Function]}
+            style={
+              Object {
+                "marginLeft": "4px",
+              }
+            }
+          >
+            <button
+              className="c4"
+              disabled={false}
+              label="button"
+              onClick={[Function]}
+              style={
+                Object {
+                  "marginLeft": "4px",
+                }
+              }
+            >
+              button
+            </button>
+          </button__StyledBtn>
+        </nav>
+      </dialog__DialogActions>
+    </section>
+  </dialog__DialogBody>
 </div>
 `;

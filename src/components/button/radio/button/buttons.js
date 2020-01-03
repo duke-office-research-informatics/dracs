@@ -7,9 +7,9 @@ import RadioButtonUnchecked from "./radio_button_unchecked.svg";
 import RadioButtonCheckedDisabled from "./radio_button_checked_disabled.svg";
 import RadioButtonUncheckedDisabled from "./radio_button_unchecked_disabled.svg";
 
-const RadioInput = styled.input.attrs({
-  disabled: props => (props.disabled ? true : false),
-})``;
+const RadioInput = styled.input.attrs(props => ({
+  disabled: props.disabled ? true : false,
+}))``;
 
 const RadioWrap = styled.div`
   display: inline-flex;

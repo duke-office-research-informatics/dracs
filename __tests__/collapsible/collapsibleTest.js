@@ -16,6 +16,10 @@ describe("Collapsible", () => {
     );
   });
 
+  afterEach(() => {
+    jest.resetAllMocks();
+  });
+
   it("matches snapshot", () => {
     expect(wrapper).toMatchSnapshot();
   });
@@ -101,9 +105,10 @@ describe("Collapsible", () => {
   it("passes a title color via props", () => {
     wrapper.setProps({ titleColor: theme.colors.base });
     expect(wrapper).toMatchSnapshot();
-    expect(
-      wrapper.find("collapsible__ToggleWrap").find("typography__H4")
-    ).toHaveStyleRule("color", theme.colors.base);
+    expect(wrapper.find("collapsible__TitleWrap")).toHaveStyleRule(
+      "color",
+      theme.colors.base
+    );
   });
 
   it("passes a title hover color via props", () => {

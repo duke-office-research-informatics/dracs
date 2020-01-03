@@ -29,14 +29,22 @@ exports[`AppHeader \`backgroundColor\` prop matches dom snapshot 1`] = `
   width: 100vw;
 }
 
-<div
-  className="c0"
->
-  <header
-    className="c1"
-    height={56}
-  />
-</div>
+<header__HeaderWrap>
+  <div
+    className="c0"
+  >
+    <header__Header
+      backgroundColor="#696969"
+      backgroundImage={null}
+      height={56}
+    >
+      <header
+        className="c1"
+        height={56}
+      />
+    </header__Header>
+  </div>
+</header__HeaderWrap>
 `;
 
 exports[`AppHeader \`backgroundImage\` prop matches dom snapshot 1`] = `
@@ -68,14 +76,22 @@ exports[`AppHeader \`backgroundImage\` prop matches dom snapshot 1`] = `
   width: 100vw;
 }
 
-<div
-  className="c0"
->
-  <header
-    className="c1"
-    height={56}
-  />
-</div>
+<header__HeaderWrap>
+  <div
+    className="c0"
+  >
+    <header__Header
+      backgroundColor="#0680cd"
+      backgroundImage="https://image.freepik.com/free-vector/soft-background-with-a-cute-blue-watercolor-stain_1048-5169.jpg"
+      height={56}
+    >
+      <header
+        className="c1"
+        height={56}
+      />
+    </header__Header>
+  </div>
+</header__HeaderWrap>
 `;
 
 exports[`AppHeader \`childrenLeft\` prop matches dom snapshot 1`] = `
@@ -138,36 +154,58 @@ exports[`AppHeader \`childrenLeft\` prop matches dom snapshot 1`] = `
   font-size: 0;
 }
 
-<div
-  className="c0"
->
-  <header
-    className="c1"
-    height={56}
+<header__HeaderWrap>
+  <div
+    className="c0"
   >
-    <div
-      className="c2"
-      size={32}
+    <header__Header
+      backgroundColor="#0680cd"
+      backgroundImage={null}
+      height={56}
     >
-      <svg
-        aria-label="profile icon"
-        className="c3"
-        color="#fff"
-        height={30}
-        role="img"
-        viewBox="0 0 50 50"
-        width={30}
+      <header
+        className="c1"
+        height={56}
       >
-        <title>
-          profile icon
-        </title>
-        <path
-          d="M34.8,33.8c-1.7-0.7-3.8-1.6-3.8-2.3V27c2.5-1.9,4-4.9,4-8v-6c0-5.5-4.5-10-10-10c-5.5,0-10,4.5-10,10v6c0,3.1,1.5,6.2,4,8  v4.5c0,0.6-2.1,1.5-3.8,2.3C11.1,35.5,5,38.1,5,45v1h40v-1C45,38.1,38.9,35.5,34.8,33.8z"
-        />
-      </svg>
-    </div>
-  </header>
-</div>
+        <avatar__AvatarWrap
+          bgColor="transparent"
+          size={32}
+        >
+          <div
+            className="c2"
+            size={32}
+          >
+            <icon_wrapper__Icon
+              aria-label="profile icon"
+              color="#fff"
+              height={30}
+              role="img"
+              viewBox="0 0 50 50"
+              width={30}
+            >
+              <svg
+                aria-label="profile icon"
+                className="c3"
+                color="#fff"
+                height={30}
+                role="img"
+                viewBox="0 0 50 50"
+                width={30}
+              >
+                <title>
+                  profile icon
+                </title>
+                <path
+                  d="M34.8,33.8c-1.7-0.7-3.8-1.6-3.8-2.3V27c2.5-1.9,4-4.9,4-8v-6c0-5.5-4.5-10-10-10c-5.5,0-10,4.5-10,10v6c0,3.1,1.5,6.2,4,8  v4.5c0,0.6-2.1,1.5-3.8,2.3C11.1,35.5,5,38.1,5,45v1h40v-1C45,38.1,38.9,35.5,34.8,33.8z"
+                />
+              </svg>
+            </icon_wrapper__Icon>
+          </div>
+        </avatar__AvatarWrap>
+      </header>
+    </header__Header>
+  </div>
+</header__HeaderWrap>
 `;
 
 exports[`AppHeader \`childrenRight\` prop matches dom snapshot 1`] = `
@@ -234,40 +272,66 @@ exports[`AppHeader \`childrenRight\` prop matches dom snapshot 1`] = `
   font-size: 0;
 }
 
-<div
-  className="c0"
->
-  <header
-    className="c1"
-    height={56}
+<header__HeaderWrap>
+  <div
+    className="c0"
   >
-    <div
-      className="c2"
+    <header__Header
+      backgroundColor="#0680cd"
+      backgroundImage={null}
+      height={56}
     >
-      <div
-        className="c3"
-        size={32}
+      <header
+        className="c1"
+        height={56}
       >
-        <svg
-          aria-label="profile icon"
-          className="c4"
-          color="#fff"
-          height={30}
-          role="img"
-          viewBox="0 0 50 50"
-          width={30}
+        <header__IconRightDiv
+          rightIcon={false}
         >
-          <title>
-            profile icon
-          </title>
-          <path
-            d="M34.8,33.8c-1.7-0.7-3.8-1.6-3.8-2.3V27c2.5-1.9,4-4.9,4-8v-6c0-5.5-4.5-10-10-10c-5.5,0-10,4.5-10,10v6c0,3.1,1.5,6.2,4,8  v4.5c0,0.6-2.1,1.5-3.8,2.3C11.1,35.5,5,38.1,5,45v1h40v-1C45,38.1,38.9,35.5,34.8,33.8z"
-          />
-        </svg>
-      </div>
-    </div>
-  </header>
-</div>
+          <div
+            className="c2"
+          >
+            <avatar__AvatarWrap
+              bgColor="transparent"
+              size={32}
+            >
+              <div
+                className="c3"
+                size={32}
+              >
+                <icon_wrapper__Icon
+                  aria-label="profile icon"
+                  color="#fff"
+                  height={30}
+                  role="img"
+                  viewBox="0 0 50 50"
+                  width={30}
+                >
+                  <svg
+                    aria-label="profile icon"
+                    className="c4"
+                    color="#fff"
+                    height={30}
+                    role="img"
+                    viewBox="0 0 50 50"
+                    width={30}
+                  >
+                    <title>
+                      profile icon
+                    </title>
+                    <path
+                      d="M34.8,33.8c-1.7-0.7-3.8-1.6-3.8-2.3V27c2.5-1.9,4-4.9,4-8v-6c0-5.5-4.5-10-10-10c-5.5,0-10,4.5-10,10v6c0,3.1,1.5,6.2,4,8  v4.5c0,0.6-2.1,1.5-3.8,2.3C11.1,35.5,5,38.1,5,45v1h40v-1C45,38.1,38.9,35.5,34.8,33.8z"
+                    />
+                  </svg>
+                </icon_wrapper__Icon>
+              </div>
+            </avatar__AvatarWrap>
+          </div>
+        </header__IconRightDiv>
+      </header>
+    </header__Header>
+  </div>
+</header__HeaderWrap>
 `;
 
 exports[`AppHeader \`fixed\` prop set to true matches dom snapshot 1`] = `
@@ -306,18 +370,31 @@ exports[`AppHeader \`fixed\` prop set to true matches dom snapshot 1`] = `
   width: 100vw;
 }
 
-<div
-  className="c0"
->
+<header__HeaderWrap>
   <div
-    className="c1"
-    height={56}
-  />
-  <header
-    className="c2"
-    height={56}
-  />
-</div>
+    className="c0"
+  >
+    <header__FixedUnderlay
+      height={56}
+    >
+      <div
+        className="c1"
+        height={56}
+      />
+    </header__FixedUnderlay>
+    <header__Header
+      backgroundColor="#0680cd"
+      backgroundImage={null}
+      fixed={true}
+      height={56}
+    >
+      <header
+        className="c2"
+        height={56}
+      />
+    </header__Header>
+  </div>
+</header__HeaderWrap>
 `;
 
 exports[`AppHeader \`leftIcon\` props with click handler matches dom snapshot 1`] = `
@@ -354,44 +431,66 @@ exports[`AppHeader \`leftIcon\` props with click handler matches dom snapshot 1`
   vertical-align: top;
 }
 
-<div
-  className="c0"
->
-  <header
-    className="c1"
-    height={56}
+<header__HeaderWrap>
+  <div
+    className="c0"
   >
-    <button
-      className=""
-      onClick={[Function]}
-      tabIndex={0}
+    <header__Header
+      backgroundColor="#0680cd"
+      backgroundImage={null}
+      height={56}
     >
-      <svg
-        aria-label="open customize and profile menu"
-        className="c2"
-        color="#fff"
-        height={24}
-        role="img"
-        viewBox="0 0 24 24"
-        width={24}
+      <header
+        className="c1"
+        height={56}
       >
-        <title>
-          menu icon
-        </title>
-        <desc>
-          hamburger menu icon
-        </desc>
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-        <path
-          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-        />
-      </svg>
-    </button>
-  </header>
-</div>
+        <header__IconLeftButton
+          onClick={[Function]}
+          tabIndex={0}
+        >
+          <button
+            className=""
+            onClick={[Function]}
+            tabIndex={0}
+          >
+            <icon_wrapper__Icon
+              aria-label="open customize and profile menu"
+              color="#fff"
+              height={24}
+              role="img"
+              viewBox="0 0 24 24"
+              width={24}
+            >
+              <svg
+                aria-label="open customize and profile menu"
+                className="c2"
+                color="#fff"
+                height={24}
+                role="img"
+                viewBox="0 0 24 24"
+                width={24}
+              >
+                <title>
+                  menu icon
+                </title>
+                <desc>
+                  hamburger menu icon
+                </desc>
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+                <path
+                  d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+                />
+              </svg>
+            </icon_wrapper__Icon>
+          </button>
+        </header__IconLeftButton>
+      </header>
+    </header__Header>
+  </div>
+</header__HeaderWrap>
 `;
 
 exports[`AppHeader \`leftIcon\` props without click handler matches dom snapshot 1`] = `
@@ -428,38 +527,55 @@ exports[`AppHeader \`leftIcon\` props without click handler matches dom snapshot
   vertical-align: top;
 }
 
-<div
-  className="c0"
->
-  <header
-    className="c1"
-    height={56}
+<header__HeaderWrap>
+  <div
+    className="c0"
   >
-    <svg
-      aria-label="open customize and profile menu"
-      className="c2"
-      color="#fff"
-      height={24}
-      role="img"
-      viewBox="0 0 24 24"
-      width={24}
+    <header__Header
+      backgroundColor="#0680cd"
+      backgroundImage={null}
+      height={56}
     >
-      <title>
-        menu icon
-      </title>
-      <desc>
-        hamburger menu icon
-      </desc>
-      <path
-        d="M0 0h24v24H0z"
-        fill="none"
-      />
-      <path
-        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-      />
-    </svg>
-  </header>
-</div>
+      <header
+        className="c1"
+        height={56}
+      >
+        <icon_wrapper__Icon
+          aria-label="open customize and profile menu"
+          color="#fff"
+          height={24}
+          role="img"
+          viewBox="0 0 24 24"
+          width={24}
+        >
+          <svg
+            aria-label="open customize and profile menu"
+            className="c2"
+            color="#fff"
+            height={24}
+            role="img"
+            viewBox="0 0 24 24"
+            width={24}
+          >
+            <title>
+              menu icon
+            </title>
+            <desc>
+              hamburger menu icon
+            </desc>
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </icon_wrapper__Icon>
+      </header>
+    </header__Header>
+  </div>
+</header__HeaderWrap>
 `;
 
 exports[`AppHeader \`mediaQuery\` string passed via prop matches dom snapshot 1`] = `
@@ -497,14 +613,24 @@ exports[`AppHeader \`mediaQuery\` string passed via prop matches dom snapshot 1`
   }
 }
 
-<div
-  className="c0"
+<header__HeaderWrap
+  mediaQuery="@media(max-width:768px){background-color:#fff}"
 >
-  <header
-    className="c1"
-    height={56}
-  />
-</div>
+  <div
+    className="c0"
+  >
+    <header__Header
+      backgroundColor="#0680cd"
+      backgroundImage={null}
+      height={56}
+    >
+      <header
+        className="c1"
+        height={56}
+      />
+    </header__Header>
+  </div>
+</header__HeaderWrap>
 `;
 
 exports[`AppHeader \`raised\` set to true matches dom snapshot 1`] = `
@@ -537,14 +663,23 @@ exports[`AppHeader \`raised\` set to true matches dom snapshot 1`] = `
   width: 100vw;
 }
 
-<div
-  className="c0"
->
-  <header
-    className="c1"
-    height={56}
-  />
-</div>
+<header__HeaderWrap>
+  <div
+    className="c0"
+  >
+    <header__Header
+      backgroundColor="#0680cd"
+      backgroundImage={null}
+      height={56}
+      raised={true}
+    >
+      <header
+        className="c1"
+        height={56}
+      />
+    </header__Header>
+  </div>
+</header__HeaderWrap>
 `;
 
 exports[`AppHeader \`rightIcon\` props with click handler matches dom snapshot 1`] = `
@@ -585,44 +720,66 @@ exports[`AppHeader \`rightIcon\` props with click handler matches dom snapshot 1
   vertical-align: top;
 }
 
-<div
-  className="c0"
->
-  <header
-    className="c1"
-    height={56}
+<header__HeaderWrap>
+  <div
+    className="c0"
   >
-    <button
-      className="c2"
-      onClick={[Function]}
-      tabIndex={0}
+    <header__Header
+      backgroundColor="#0680cd"
+      backgroundImage={null}
+      height={56}
     >
-      <svg
-        aria-label="open customize and profile menu"
-        className="c3"
-        color="#fff"
-        height={24}
-        role="img"
-        viewBox="0 0 24 24"
-        width={24}
+      <header
+        className="c1"
+        height={56}
       >
-        <title>
-          menu icon
-        </title>
-        <desc>
-          hamburger menu icon
-        </desc>
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-        <path
-          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-        />
-      </svg>
-    </button>
-  </header>
-</div>
+        <header__IconRightButton
+          onClick={[Function]}
+          tabIndex={0}
+        >
+          <button
+            className="c2"
+            onClick={[Function]}
+            tabIndex={0}
+          >
+            <icon_wrapper__Icon
+              aria-label="open customize and profile menu"
+              color="#fff"
+              height={24}
+              role="img"
+              viewBox="0 0 24 24"
+              width={24}
+            >
+              <svg
+                aria-label="open customize and profile menu"
+                className="c3"
+                color="#fff"
+                height={24}
+                role="img"
+                viewBox="0 0 24 24"
+                width={24}
+              >
+                <title>
+                  menu icon
+                </title>
+                <desc>
+                  hamburger menu icon
+                </desc>
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+                <path
+                  d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+                />
+              </svg>
+            </icon_wrapper__Icon>
+          </button>
+        </header__IconRightButton>
+      </header>
+    </header__Header>
+  </div>
+</header__HeaderWrap>
 `;
 
 exports[`AppHeader \`rightIcon\` props without click handler matches dom snapshot 1`] = `
@@ -663,42 +820,61 @@ exports[`AppHeader \`rightIcon\` props without click handler matches dom snapsho
   vertical-align: top;
 }
 
-<div
-  className="c0"
->
-  <header
-    className="c1"
-    height={56}
+<header__HeaderWrap>
+  <div
+    className="c0"
   >
-    <div
-      className="c2"
+    <header__Header
+      backgroundColor="#0680cd"
+      backgroundImage={null}
+      height={56}
     >
-      <svg
-        aria-label="open customize and profile menu"
-        className="c3"
-        color="#fff"
-        height={24}
-        role="img"
-        viewBox="0 0 24 24"
-        width={24}
+      <header
+        className="c1"
+        height={56}
       >
-        <title>
-          menu icon
-        </title>
-        <desc>
-          hamburger menu icon
-        </desc>
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-        <path
-          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-        />
-      </svg>
-    </div>
-  </header>
-</div>
+        <header__IconRightDiv>
+          <div
+            className="c2"
+          >
+            <icon_wrapper__Icon
+              aria-label="open customize and profile menu"
+              color="#fff"
+              height={24}
+              role="img"
+              viewBox="0 0 24 24"
+              width={24}
+            >
+              <svg
+                aria-label="open customize and profile menu"
+                className="c3"
+                color="#fff"
+                height={24}
+                role="img"
+                viewBox="0 0 24 24"
+                width={24}
+              >
+                <title>
+                  menu icon
+                </title>
+                <desc>
+                  hamburger menu icon
+                </desc>
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+                <path
+                  d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+                />
+              </svg>
+            </icon_wrapper__Icon>
+          </div>
+        </header__IconRightDiv>
+      </header>
+    </header__Header>
+  </div>
+</header__HeaderWrap>
 `;
 
 exports[`AppHeader \`width\` set via prop matches dom snapshot 1`] = `
@@ -730,15 +906,24 @@ exports[`AppHeader \`width\` set via prop matches dom snapshot 1`] = `
   width: 100vw;
 }
 
-<div
-  className="c0"
->
-  <header
-    className="c1"
-    height={56}
-    width="200px"
-  />
-</div>
+<header__HeaderWrap>
+  <div
+    className="c0"
+  >
+    <header__Header
+      backgroundColor="#0680cd"
+      backgroundImage={null}
+      height={56}
+      width="200px"
+    >
+      <header
+        className="c1"
+        height={56}
+        width="200px"
+      />
+    </header__Header>
+  </div>
+</header__HeaderWrap>
 `;
 
 exports[`AppHeader matches dom snapshot 1`] = `
@@ -770,12 +955,20 @@ exports[`AppHeader matches dom snapshot 1`] = `
   width: 100vw;
 }
 
-<div
-  className="c0"
->
-  <header
-    className="c1"
-    height={56}
-  />
-</div>
+<header__HeaderWrap>
+  <div
+    className="c0"
+  >
+    <header__Header
+      backgroundColor="#0680cd"
+      backgroundImage={null}
+      height={56}
+    >
+      <header
+        className="c1"
+        height={56}
+      />
+    </header__Header>
+  </div>
+</header__HeaderWrap>
 `;

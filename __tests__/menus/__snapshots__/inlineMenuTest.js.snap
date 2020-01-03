@@ -93,53 +93,78 @@ exports[`Inline Menu does not mount the menu on initial component mount 1`] = `
   outline: dotted 1px rgb(59,153,252);
 }
 
-<div
-  className="c0"
->
+<inline_menu__ComponentWrap>
   <div
-    aria-expanded={false}
-    aria-haspopup={true}
-    className="c1"
-    disabled={false}
-    onClick={[Function]}
-    onTouchEnd={[Function]}
-    role="button"
-    tabIndex="0"
+    className="c0"
   >
-    <h4
-      className="c2"
+    <inline_menu__TriggerWrap
+      aria-expanded={false}
+      aria-haspopup={true}
+      displayTrigger={true}
+      onClick={[Function]}
+      onTouchEnd={[Function]}
+      role="button"
+      tabIndex="0"
     >
-      Test trigger
-    </h4>
-    <div
-      className="c3 c4"
-    >
-      <svg
-        aria-label="edit icon"
-        className="c5"
-        color="#53a4dc"
-        height={16}
-        role="img"
-        viewBox="0 0 24 24"
-        width={16}
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="c1"
+        disabled={false}
+        onClick={[Function]}
+        onTouchEnd={[Function]}
+        role="button"
+        tabIndex="0"
       >
-        <title>
-          edit icon
-        </title>
-        <desc>
-          pencil
-        </desc>
-        <path
-          d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
-        />
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-      </svg>
-    </div>
+        <typography__H4>
+          <h4
+            className="c2"
+          >
+            Test trigger
+          </h4>
+        </typography__H4>
+        <inline_menu__MenuTrigger>
+          <div
+            className="c3 c4"
+          >
+            <icon_wrapper__Icon
+              aria-label="edit icon"
+              color="#53a4dc"
+              height={16}
+              role="img"
+              viewBox="0 0 24 24"
+              width={16}
+            >
+              <svg
+                aria-label="edit icon"
+                className="c5"
+                color="#53a4dc"
+                height={16}
+                role="img"
+                viewBox="0 0 24 24"
+                width={16}
+              >
+                <title>
+                  edit icon
+                </title>
+                <desc>
+                  pencil
+                </desc>
+                <path
+                  d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </icon_wrapper__Icon>
+          </div>
+        </inline_menu__MenuTrigger>
+      </div>
+    </inline_menu__TriggerWrap>
   </div>
-</div>
+</inline_menu__ComponentWrap>
 `;
 
 exports[`Inline Menu matches snapshot and returns no a11y violations 1`] = `
@@ -235,53 +260,78 @@ exports[`Inline Menu matches snapshot and returns no a11y violations 1`] = `
   outline: dotted 1px rgb(59,153,252);
 }
 
-<div
-  className="c0"
->
+<inline_menu__ComponentWrap>
   <div
-    aria-expanded={false}
-    aria-haspopup={true}
-    className="c1"
-    disabled={false}
-    onClick={[Function]}
-    onTouchEnd={[Function]}
-    role="button"
-    tabIndex="0"
+    className="c0"
   >
-    <h4
-      className="c2"
+    <inline_menu__TriggerWrap
+      aria-expanded={false}
+      aria-haspopup={true}
+      displayTrigger={true}
+      onClick={[Function]}
+      onTouchEnd={[Function]}
+      role="button"
+      tabIndex="0"
     >
-      Test trigger
-    </h4>
-    <div
-      className="c3 c4"
-    >
-      <svg
-        aria-label="edit icon"
-        className="c5"
-        color="#53a4dc"
-        height={16}
-        role="img"
-        viewBox="0 0 24 24"
-        width={16}
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="c1"
+        disabled={false}
+        onClick={[Function]}
+        onTouchEnd={[Function]}
+        role="button"
+        tabIndex="0"
       >
-        <title>
-          edit icon
-        </title>
-        <desc>
-          pencil
-        </desc>
-        <path
-          d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
-        />
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-      </svg>
-    </div>
+        <typography__H4>
+          <h4
+            className="c2"
+          >
+            Test trigger
+          </h4>
+        </typography__H4>
+        <inline_menu__MenuTrigger>
+          <div
+            className="c3 c4"
+          >
+            <icon_wrapper__Icon
+              aria-label="edit icon"
+              color="#53a4dc"
+              height={16}
+              role="img"
+              viewBox="0 0 24 24"
+              width={16}
+            >
+              <svg
+                aria-label="edit icon"
+                className="c5"
+                color="#53a4dc"
+                height={16}
+                role="img"
+                viewBox="0 0 24 24"
+                width={16}
+              >
+                <title>
+                  edit icon
+                </title>
+                <desc>
+                  pencil
+                </desc>
+                <path
+                  d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </icon_wrapper__Icon>
+          </div>
+        </inline_menu__MenuTrigger>
+      </div>
+    </inline_menu__TriggerWrap>
   </div>
-</div>
+</inline_menu__ComponentWrap>
 `;
 
 exports[`Inline Menu mounts items passed as children in the proper dom node 1`] = `
@@ -301,7 +351,7 @@ exports[`Inline Menu mounts items passed as children in the proper dom node 1`] 
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  left: undefinedpx;
+  left: 0px;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
@@ -322,31 +372,20 @@ exports[`Inline Menu mounts items passed as children in the proper dom node 1`] 
   width: auto;
   z-index: 1000;
   will-change: transform;
-  -webkit-transform: scale(0) translateX(-100%) translateZ(0);
-  -ms-transform: scale(0) translateX(-100%) translateZ(0);
-  transform: scale(0) translateX(-100%) translateZ(0);
-  -webkit-transform-origin: bottom left;
-  -ms-transform-origin: bottom left;
-  transform-origin: bottom left;
+  -webkit-transform: scale(1) translateX(-100%) translateZ(0);
+  -ms-transform: scale(1) translateX(-100%) translateZ(0);
+  transform: scale(1) translateX(-100%) translateZ(0);
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
 
-<div
-  aria-hidden={true}
-  className="c0"
-  role="menu"
->
-  <p
-    className="c1"
-  >
-    Test menu
-  </p>
-</div>
-`;
-
-exports[`Inline Menu mounts the menu on trigger click 1`] = `
-.c1 {
+<Portal
+  containerInfo={
+    <body>
+      .c1 {
   font-family: "Roboto","Open-Sans",Sans-Serif;
   font-size: 0.875em;
   line-height: 1.15em;
@@ -362,7 +401,7 @@ exports[`Inline Menu mounts the menu on trigger click 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  left: undefinedpx;
+  left: 0px;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
@@ -383,33 +422,88 @@ exports[`Inline Menu mounts the menu on trigger click 1`] = `
   width: auto;
   z-index: 1000;
   will-change: transform;
-  -webkit-transform: scale(0) translateX(-100%) translateZ(0);
-  -ms-transform: scale(0) translateX(-100%) translateZ(0);
-  transform: scale(0) translateX(-100%) translateZ(0);
-  -webkit-transform-origin: bottom left;
-  -ms-transform-origin: bottom left;
-  transform-origin: bottom left;
+  -webkit-transform: scale(1) translateX(-100%) translateZ(0);
+  -ms-transform: scale(1) translateX(-100%) translateZ(0);
+  transform: scale(1) translateX(-100%) translateZ(0);
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
 
 <div
-  aria-hidden={true}
-  className="c0"
-  role="menu"
+        class=""
+        style="display: flex; flex: 1 1 auto; position: absolute; top: 0px;"
+      >
+        <div
+          aria-hidden="false"
+          class="c0"
+          role="menu"
+        >
+          <p
+            class="c1"
+          >
+            Test menu
+          </p>
+        </div>
+      </div>
+    </body>
+  }
 >
-  <p
-    className="c1"
+  <div
+    className=""
+    style={
+      Object {
+        "display": "flex",
+        "flex": "1 1 auto",
+        "position": "absolute",
+        "top": 0,
+      }
+    }
   >
-    Test menu
-  </p>
-</div>
+    <inline_menu__MenuWrap
+      active={true}
+      animateMenu={true}
+      aria-hidden={false}
+      left={0}
+      position="belowright"
+      role="menu"
+      top={0}
+      visible={true}
+    >
+      <div
+        aria-hidden={false}
+        className="c0"
+        role="menu"
+      >
+        <typography__P>
+          <p
+            className="c1"
+          >
+            Test menu
+          </p>
+        </typography__P>
+      </div>
+    </inline_menu__MenuWrap>
+  </div>
+</Portal>
 `;
 
-exports[`Inline Menu mounts the menu when active prop is true 1`] = `
+exports[`Inline Menu mounts the menu on trigger click 1`] = `
 .c5 {
   fill: #53a4dc;
   vertical-align: top;
+}
+
+.c7 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #131516;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
 }
 
 .c2 {
@@ -499,53 +593,648 @@ exports[`Inline Menu mounts the menu when active prop is true 1`] = `
   outline: dotted 1px rgb(59,153,252);
 }
 
+.c6 {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.14),0 3px 3px -2px rgba(0,0,0,0.2),0 1px 8px 0 rgba(0,0,0,0.12);
+  height: auto;
+  width: auto;
+  z-index: 1000;
+  will-change: transform;
+  -webkit-transform: scale(1) translateX(-100%) translateZ(0);
+  -ms-transform: scale(1) translateX(-100%) translateZ(0);
+  transform: scale(1) translateX(-100%) translateZ(0);
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+<inline_menu__ComponentWrap>
+  <div
+    className="c0"
+  >
+    <inline_menu__TriggerWrap
+      aria-expanded={true}
+      aria-haspopup={true}
+      displayTrigger={true}
+      onClick={[Function]}
+      onTouchEnd={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      <div
+        aria-expanded={true}
+        aria-haspopup={true}
+        className="c1"
+        disabled={false}
+        onClick={[Function]}
+        onTouchEnd={[Function]}
+        role="button"
+        tabIndex="0"
+      >
+        <typography__H4>
+          <h4
+            className="c2"
+          >
+            Test trigger
+          </h4>
+        </typography__H4>
+        <inline_menu__MenuTrigger>
+          <div
+            className="c3 c4"
+          >
+            <icon_wrapper__Icon
+              aria-label="edit icon"
+              color="#53a4dc"
+              height={16}
+              role="img"
+              viewBox="0 0 24 24"
+              width={16}
+            >
+              <svg
+                aria-label="edit icon"
+                className="c5"
+                color="#53a4dc"
+                height={16}
+                role="img"
+                viewBox="0 0 24 24"
+                width={16}
+              >
+                <title>
+                  edit icon
+                </title>
+                <desc>
+                  pencil
+                </desc>
+                <path
+                  d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </icon_wrapper__Icon>
+          </div>
+        </inline_menu__MenuTrigger>
+      </div>
+    </inline_menu__TriggerWrap>
+    <Portal
+      containerInfo={
+        <body>
+          .c1 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #131516;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+}
+
+.c0 {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.14),0 3px 3px -2px rgba(0,0,0,0.2),0 1px 8px 0 rgba(0,0,0,0.12);
+  height: auto;
+  width: auto;
+  z-index: 1000;
+  will-change: transform;
+  -webkit-transform: scale(1) translateX(-100%) translateZ(0);
+  -ms-transform: scale(1) translateX(-100%) translateZ(0);
+  transform: scale(1) translateX(-100%) translateZ(0);
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
 <div
-  className="c0"
+            class=""
+            style="display: flex; flex: 1 1 auto; position: absolute; top: 0px;"
+          >
+            <div
+              aria-hidden="false"
+              class="c0"
+              role="menu"
+            >
+              <p
+                class="c1"
+              >
+                Test menu
+              </p>
+            </div>
+          </div>
+        </body>
+      }
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "display": "flex",
+            "flex": "1 1 auto",
+            "position": "absolute",
+            "top": 0,
+          }
+        }
+      >
+        <inline_menu__MenuWrap
+          active={true}
+          animateMenu={true}
+          aria-hidden={false}
+          left={0}
+          position="belowright"
+          role="menu"
+          top={0}
+          visible={true}
+        >
+          <div
+            aria-hidden={false}
+            className="c6"
+            role="menu"
+          >
+            <typography__P>
+              <p
+                className="c7"
+              >
+                Test menu
+              </p>
+            </typography__P>
+          </div>
+        </inline_menu__MenuWrap>
+      </div>
+    </Portal>
+  </div>
+</inline_menu__ComponentWrap>
+`;
+
+exports[`Inline Menu mounts the menu on trigger click 2`] = `
+.c1 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #131516;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+}
+
+.c0 {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.14),0 3px 3px -2px rgba(0,0,0,0.2),0 1px 8px 0 rgba(0,0,0,0.12);
+  height: auto;
+  width: auto;
+  z-index: 1000;
+  will-change: transform;
+  -webkit-transform: scale(1) translateX(-100%) translateZ(0);
+  -ms-transform: scale(1) translateX(-100%) translateZ(0);
+  transform: scale(1) translateX(-100%) translateZ(0);
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+<Portal
+  containerInfo={
+    <body>
+      <div
+        class=""
+        style="display: flex; flex: 1 1 auto; position: absolute; top: 0px;"
+      >
+        <div
+          aria-hidden="false"
+          class="c0"
+          role="menu"
+        >
+          <p
+            class="c1"
+          >
+            Test menu
+          </p>
+        </div>
+      </div>
+    </body>
+  }
 >
   <div
-    aria-expanded={false}
-    aria-haspopup={true}
-    className="c1"
-    disabled={false}
-    onClick={[Function]}
-    onTouchEnd={[Function]}
-    role="button"
-    tabIndex="0"
+    className=""
+    style={
+      Object {
+        "display": "flex",
+        "flex": "1 1 auto",
+        "position": "absolute",
+        "top": 0,
+      }
+    }
   >
-    <h4
-      className="c2"
+    <inline_menu__MenuWrap
+      active={true}
+      animateMenu={true}
+      aria-hidden={false}
+      left={0}
+      position="belowright"
+      role="menu"
+      top={0}
+      visible={true}
     >
-      Test trigger
-    </h4>
-    <div
-      className="c3 c4"
-    >
-      <svg
-        aria-label="edit icon"
-        className="c5"
-        color="#53a4dc"
-        height={16}
-        role="img"
-        viewBox="0 0 24 24"
-        width={16}
+      <div
+        aria-hidden={false}
+        className="c0"
+        role="menu"
       >
-        <title>
-          edit icon
-        </title>
-        <desc>
-          pencil
-        </desc>
-        <path
-          d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
-        />
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-      </svg>
-    </div>
+        <typography__P>
+          <p
+            className="c1"
+          >
+            Test menu
+          </p>
+        </typography__P>
+      </div>
+    </inline_menu__MenuWrap>
   </div>
-</div>
+</Portal>
+`;
+
+exports[`Inline Menu mounts the menu when active prop is true 1`] = `
+.c5 {
+  fill: #53a4dc;
+  vertical-align: top;
+}
+
+.c7 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #131516;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+}
+
+.c2 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #545454;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+
+.c4 {
+  position: absolute;
+  right: 0;
+  bottom: -21px;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  vertical-align: top;
+  cursor: pointer;
+  border: solid 1px #53a4dc;
+  border-radius: 0 0 3px 3px;
+  z-index: 1000;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.2),0 1px 5px 0 rgba(0,0,0,0.12);
+  background-color: #fff;
+  height: 18px;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  border-bottom: solid 4px transparent;
+  cursor: pointer;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.c1:hover,
+.c1:focus {
+  border-bottom: solid 4px #53a4dc;
+}
+
+.c1:hover .c3,
+.c1:focus .c3 {
+  opacity: 1;
+}
+
+.c1:focus::before {
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c6 {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  left: undefinedpx;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.14),0 3px 3px -2px rgba(0,0,0,0.2),0 1px 8px 0 rgba(0,0,0,0.12);
+  height: auto;
+  width: auto;
+  z-index: 1000;
+  will-change: transform;
+  -webkit-transform: scale(0) translateX(-100%) translateZ(0);
+  -ms-transform: scale(0) translateX(-100%) translateZ(0);
+  transform: scale(0) translateX(-100%) translateZ(0);
+  -webkit-transform-origin: bottom left;
+  -ms-transform-origin: bottom left;
+  transform-origin: bottom left;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+<inline_menu__ComponentWrap>
+  <div
+    className="c0"
+  >
+    <inline_menu__TriggerWrap
+      aria-expanded={false}
+      aria-haspopup={true}
+      displayTrigger={true}
+      onClick={[Function]}
+      onTouchEnd={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="c1"
+        disabled={false}
+        onClick={[Function]}
+        onTouchEnd={[Function]}
+        role="button"
+        tabIndex="0"
+      >
+        <typography__H4>
+          <h4
+            className="c2"
+          >
+            Test trigger
+          </h4>
+        </typography__H4>
+        <inline_menu__MenuTrigger>
+          <div
+            className="c3 c4"
+          >
+            <icon_wrapper__Icon
+              aria-label="edit icon"
+              color="#53a4dc"
+              height={16}
+              role="img"
+              viewBox="0 0 24 24"
+              width={16}
+            >
+              <svg
+                aria-label="edit icon"
+                className="c5"
+                color="#53a4dc"
+                height={16}
+                role="img"
+                viewBox="0 0 24 24"
+                width={16}
+              >
+                <title>
+                  edit icon
+                </title>
+                <desc>
+                  pencil
+                </desc>
+                <path
+                  d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </icon_wrapper__Icon>
+          </div>
+        </inline_menu__MenuTrigger>
+      </div>
+    </inline_menu__TriggerWrap>
+    <Portal
+      containerInfo={
+        .c1 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #131516;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+}
+
+.c0 {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  left: undefinedpx;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.14),0 3px 3px -2px rgba(0,0,0,0.2),0 1px 8px 0 rgba(0,0,0,0.12);
+  height: auto;
+  width: auto;
+  z-index: 1000;
+  will-change: transform;
+  -webkit-transform: scale(0) translateX(-100%) translateZ(0);
+  -ms-transform: scale(0) translateX(-100%) translateZ(0);
+  transform: scale(0) translateX(-100%) translateZ(0);
+  -webkit-transform-origin: bottom left;
+  -ms-transform-origin: bottom left;
+  transform-origin: bottom left;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+<body>
+          <div
+            class=""
+            style="display: flex; flex: 1 1 auto; position: absolute; top: 0px;"
+          >
+            <div
+              aria-hidden="true"
+              class="c0"
+              role="menu"
+            >
+              <p
+                class="c1"
+              >
+                Test menu
+              </p>
+            </div>
+          </div>
+        </body>
+      }
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "display": "flex",
+            "flex": "1 1 auto",
+            "position": "absolute",
+            "top": 0,
+          }
+        }
+      >
+        <inline_menu__MenuWrap
+          active={false}
+          animateMenu={true}
+          aria-hidden={true}
+          position="belowright"
+          role="menu"
+          visible={true}
+        >
+          <div
+            aria-hidden={true}
+            className="c6"
+            role="menu"
+          >
+            <typography__P>
+              <p
+                className="c7"
+              >
+                Test menu
+              </p>
+            </typography__P>
+          </div>
+        </inline_menu__MenuWrap>
+      </div>
+    </Portal>
+  </div>
+</inline_menu__ComponentWrap>
 `;
 
 exports[`Inline Menu mounts the menu when active prop is true 2`] = `
@@ -596,15 +1285,441 @@ exports[`Inline Menu mounts the menu when active prop is true 2`] = `
   transition: all 0.3s linear;
 }
 
-<div
-  aria-hidden={true}
-  className="c0"
-  role="menu"
+<Portal
+  containerInfo={
+    <body>
+      <div
+        class=""
+        style="display: flex; flex: 1 1 auto; position: absolute; top: 0px;"
+      >
+        <div
+          aria-hidden="true"
+          class="c0"
+          role="menu"
+        >
+          <p
+            class="c1"
+          >
+            Test menu
+          </p>
+        </div>
+      </div>
+    </body>
+  }
 >
-  <p
-    className="c1"
+  <div
+    className=""
+    style={
+      Object {
+        "display": "flex",
+        "flex": "1 1 auto",
+        "position": "absolute",
+        "top": 0,
+      }
+    }
   >
-    Test menu
-  </p>
-</div>
+    <inline_menu__MenuWrap
+      active={false}
+      animateMenu={true}
+      aria-hidden={true}
+      position="belowright"
+      role="menu"
+      visible={true}
+    >
+      <div
+        aria-hidden={true}
+        className="c0"
+        role="menu"
+      >
+        <typography__P>
+          <p
+            className="c1"
+          >
+            Test menu
+          </p>
+        </typography__P>
+      </div>
+    </inline_menu__MenuWrap>
+  </div>
+</Portal>
+`;
+
+exports[`Inline Menu mounts the menu when active prop is true 3`] = `
+.c5 {
+  fill: #53a4dc;
+  vertical-align: top;
+}
+
+.c7 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #131516;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+}
+
+.c2 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #545454;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+
+.c4 {
+  position: absolute;
+  right: 0;
+  bottom: -21px;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  vertical-align: top;
+  cursor: pointer;
+  border: solid 1px #53a4dc;
+  border-radius: 0 0 3px 3px;
+  z-index: 1000;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.2),0 1px 5px 0 rgba(0,0,0,0.12);
+  background-color: #fff;
+  height: 18px;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  border-bottom: solid 4px transparent;
+  cursor: pointer;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.c1:hover,
+.c1:focus {
+  border-bottom: solid 4px #53a4dc;
+}
+
+.c1:hover .c3,
+.c1:focus .c3 {
+  opacity: 1;
+}
+
+.c1:focus::before {
+  outline: dotted 1px rgb(59,153,252);
+}
+
+.c6 {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0px;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.14),0 3px 3px -2px rgba(0,0,0,0.2),0 1px 8px 0 rgba(0,0,0,0.12);
+  height: auto;
+  width: auto;
+  z-index: 1000;
+  will-change: transform;
+  -webkit-transform: scale(1) translateX(-100%) translateZ(0);
+  -ms-transform: scale(1) translateX(-100%) translateZ(0);
+  transform: scale(1) translateX(-100%) translateZ(0);
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+<inline_menu__ComponentWrap>
+  <div
+    className="c0"
+  >
+    <inline_menu__TriggerWrap
+      aria-expanded={true}
+      aria-haspopup={true}
+      displayTrigger={true}
+      onClick={[Function]}
+      onTouchEnd={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      <div
+        aria-expanded={true}
+        aria-haspopup={true}
+        className="c1"
+        disabled={false}
+        onClick={[Function]}
+        onTouchEnd={[Function]}
+        role="button"
+        tabIndex="0"
+      >
+        <typography__H4>
+          <h4
+            className="c2"
+          >
+            Test trigger
+          </h4>
+        </typography__H4>
+        <inline_menu__MenuTrigger>
+          <div
+            className="c3 c4"
+          >
+            <icon_wrapper__Icon
+              aria-label="edit icon"
+              color="#53a4dc"
+              height={16}
+              role="img"
+              viewBox="0 0 24 24"
+              width={16}
+            >
+              <svg
+                aria-label="edit icon"
+                className="c5"
+                color="#53a4dc"
+                height={16}
+                role="img"
+                viewBox="0 0 24 24"
+                width={16}
+              >
+                <title>
+                  edit icon
+                </title>
+                <desc>
+                  pencil
+                </desc>
+                <path
+                  d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </icon_wrapper__Icon>
+          </div>
+        </inline_menu__MenuTrigger>
+      </div>
+    </inline_menu__TriggerWrap>
+    <Portal
+      containerInfo={
+        <body>
+          <div
+            class=""
+            style="display: flex; flex: 1 1 auto; position: absolute; top: 0px;"
+          >
+            <div
+              aria-hidden="false"
+              class="c6"
+              role="menu"
+            >
+              <p
+                class="c7"
+              >
+                Test menu
+              </p>
+            </div>
+          </div>
+        </body>
+      }
+    >
+      <div
+        className=""
+        style={
+          Object {
+            "display": "flex",
+            "flex": "1 1 auto",
+            "position": "absolute",
+            "top": 0,
+          }
+        }
+      >
+        <inline_menu__MenuWrap
+          active={true}
+          animateMenu={true}
+          aria-hidden={false}
+          left={0}
+          position="belowright"
+          role="menu"
+          top={0}
+          visible={true}
+        >
+          <div
+            aria-hidden={false}
+            className="c6"
+            role="menu"
+          >
+            <typography__P>
+              <p
+                className="c7"
+              >
+                Test menu
+              </p>
+            </typography__P>
+          </div>
+        </inline_menu__MenuWrap>
+      </div>
+    </Portal>
+  </div>
+</inline_menu__ComponentWrap>
+`;
+
+exports[`Inline Menu mounts the menu when active prop is true 4`] = `
+.c1 {
+  font-family: "Roboto","Open-Sans",Sans-Serif;
+  font-size: 0.875em;
+  line-height: 1.15em;
+  color: #131516;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 0;
+}
+
+.c0 {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  left: undefinedpx;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.14),0 3px 3px -2px rgba(0,0,0,0.2),0 1px 8px 0 rgba(0,0,0,0.12);
+  height: auto;
+  width: auto;
+  z-index: 1000;
+  will-change: transform;
+  -webkit-transform: scale(0) translateX(-100%) translateZ(0);
+  -ms-transform: scale(0) translateX(-100%) translateZ(0);
+  transform: scale(0) translateX(-100%) translateZ(0);
+  -webkit-transform-origin: bottom left;
+  -ms-transform-origin: bottom left;
+  transform-origin: bottom left;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+<Portal
+  containerInfo={
+    <body>
+      <div
+        class=""
+        style="display: flex; flex: 1 1 auto; position: absolute; top: 0px;"
+      >
+        <div
+          aria-hidden="false"
+          class=""
+          role="menu"
+        >
+          <p
+            class="c1"
+          >
+            Test menu
+          </p>
+        </div>
+      </div>
+    </body>
+  }
+>
+  <div
+    className=""
+    style={
+      Object {
+        "display": "flex",
+        "flex": "1 1 auto",
+        "position": "absolute",
+        "top": 0,
+      }
+    }
+  >
+    <inline_menu__MenuWrap
+      active={false}
+      animateMenu={true}
+      aria-hidden={true}
+      position="belowright"
+      role="menu"
+      visible={true}
+    >
+      <div
+        aria-hidden={true}
+        className="c0"
+        role="menu"
+      >
+        <typography__P>
+          <p
+            className="c1"
+          >
+            Test menu
+          </p>
+        </typography__P>
+      </div>
+    </inline_menu__MenuWrap>
+  </div>
+</Portal>
 `;

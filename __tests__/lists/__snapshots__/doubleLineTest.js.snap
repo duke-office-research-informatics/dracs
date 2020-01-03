@@ -111,37 +111,54 @@ exports[`Double Line List Item matches snapshot w/o a11y violations 1`] = `
   justify-content: flex-end;
 }
 
-<ul
-  className="c0"
->
-  <li
-    className="c1"
-    onKeyUp={[Function]}
-    tabIndex={null}
+<list__ListWrap>
+  <ul
+    className="c0"
   >
-    <div
-      className="c2"
+    <double_line__ItemWrap
+      onKeyUp={[Function]}
+      tabIndex={null}
     >
-      <div
-        className="c3"
+      <li
+        className="c1"
+        onKeyUp={[Function]}
+        tabIndex={null}
       >
-        <h4
-          className="c4"
-        >
-          test title
-        </h4>
-        <h5
-          className="c5"
-        >
-          test subtitle
-        </h5>
-      </div>
-    </div>
-    <div
-      className="c6"
-    />
-  </li>
-</ul>
+        <double_line__ItemLeftContainer>
+          <div
+            className="c2"
+          >
+            <double_line__TextContainer>
+              <div
+                className="c3"
+              >
+                <double_line__LineOne>
+                  <h4
+                    className="c4"
+                  >
+                    test title
+                  </h4>
+                </double_line__LineOne>
+                <double_line__LineTwo>
+                  <h5
+                    className="c5"
+                  >
+                    test subtitle
+                  </h5>
+                </double_line__LineTwo>
+              </div>
+            </double_line__TextContainer>
+          </div>
+        </double_line__ItemLeftContainer>
+        <double_line__ItemRightContainer>
+          <div
+            className="c6"
+          />
+        </double_line__ItemRightContainer>
+      </li>
+    </double_line__ItemWrap>
+  </ul>
+</list__ListWrap>
 `;
 
 exports[`Double Line List Item passes a child to the correct dom node in the list item 1`] = `
@@ -256,57 +273,82 @@ exports[`Double Line List Item passes a child to the correct dom node in the lis
   justify-content: flex-end;
 }
 
-<li
-  className="c0"
+<double_line__ItemWrap
+  bottomBorder={true}
   onKeyUp={[Function]}
   tabIndex={null}
 >
-  <div
-    className="c1"
+  <li
+    className="c0"
+    onKeyUp={[Function]}
+    tabIndex={null}
   >
-    <div
-      className="c2"
-    >
-      <h4
-        className="c3"
+    <double_line__ItemLeftContainer>
+      <div
+        className="c1"
       >
-        test title
-      </h4>
-      <h5
-        className="c4"
+        <double_line__TextContainer>
+          <div
+            className="c2"
+          >
+            <double_line__LineOne>
+              <h4
+                className="c3"
+              >
+                test title
+              </h4>
+            </double_line__LineOne>
+            <double_line__LineTwo>
+              <h5
+                className="c4"
+              >
+                test subtitle
+              </h5>
+            </double_line__LineTwo>
+          </div>
+        </double_line__TextContainer>
+      </div>
+    </double_line__ItemLeftContainer>
+    <double_line__ItemRightContainer>
+      <div
+        className="c5"
       >
-        test subtitle
-      </h5>
-    </div>
-  </div>
-  <div
-    className="c5"
-  >
-    <svg
-      aria-label="warning"
-      className="c6"
-      color="#ffd960"
-      height={24}
-      role="img"
-      viewBox="0 0 24 24"
-      width={24}
-    >
-      <title>
-        warning
-      </title>
-      <desc>
-        triangle with exclamation mark in center
-      </desc>
-      <path
-        d="M0 0h24v24H0z"
-        fill="none"
-      />
-      <path
-        d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
-      />
-    </svg>
-  </div>
-</li>
+        <icon_wrapper__Icon
+          aria-label="warning"
+          color="#ffd960"
+          height={24}
+          role="img"
+          viewBox="0 0 24 24"
+          width={24}
+        >
+          <svg
+            aria-label="warning"
+            className="c6"
+            color="#ffd960"
+            height={24}
+            role="img"
+            viewBox="0 0 24 24"
+            width={24}
+          >
+            <title>
+              warning
+            </title>
+            <desc>
+              triangle with exclamation mark in center
+            </desc>
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+            />
+          </svg>
+        </icon_wrapper__Icon>
+      </div>
+    </double_line__ItemRightContainer>
+  </li>
+</double_line__ItemWrap>
 `;
 
 exports[`Double Line List Item sets a border when bottomBorder prop = true 1`] = `
@@ -416,33 +458,49 @@ exports[`Double Line List Item sets a border when bottomBorder prop = true 1`] =
   justify-content: flex-end;
 }
 
-<li
-  className="c0"
+<double_line__ItemWrap
+  bottomBorder={true}
   onKeyUp={[Function]}
   tabIndex={null}
 >
-  <div
-    className="c1"
+  <li
+    className="c0"
+    onKeyUp={[Function]}
+    tabIndex={null}
   >
-    <div
-      className="c2"
-    >
-      <h4
-        className="c3"
+    <double_line__ItemLeftContainer>
+      <div
+        className="c1"
       >
-        test title
-      </h4>
-      <h5
-        className="c4"
-      >
-        test subtitle
-      </h5>
-    </div>
-  </div>
-  <div
-    className="c5"
-  />
-</li>
+        <double_line__TextContainer>
+          <div
+            className="c2"
+          >
+            <double_line__LineOne>
+              <h4
+                className="c3"
+              >
+                test title
+              </h4>
+            </double_line__LineOne>
+            <double_line__LineTwo>
+              <h5
+                className="c4"
+              >
+                test subtitle
+              </h5>
+            </double_line__LineTwo>
+          </div>
+        </double_line__TextContainer>
+      </div>
+    </double_line__ItemLeftContainer>
+    <double_line__ItemRightContainer>
+      <div
+        className="c5"
+      />
+    </double_line__ItemRightContainer>
+  </li>
+</double_line__ItemWrap>
 `;
 
 exports[`Double Line List Item sets a click handler on the left icon via onLeftIconClick prop 1`] = `
@@ -538,11 +596,11 @@ exports[`Double Line List Item sets a click handler on the left icon via onLeftI
   width: 100%;
 }
 
-.c1:hover .bMHUwg {
+.c1:hover .c10 {
   color: #53a4dc;
 }
 
-.c1:focus .bMHUwg {
+.c1:focus .c10 {
   color: #53a4dc;
 }
 
@@ -573,67 +631,99 @@ exports[`Double Line List Item sets a click handler on the left icon via onLeftI
   justify-content: flex-end;
 }
 
-<ul
-  className="c0"
->
-  <li
-    className="c1 c2"
-    onKeyUp={[Function]}
-    tabIndex={null}
+<list__ListWrap>
+  <ul
+    className="c0"
   >
-    <div
-      className="c3"
+    <double_line__ItemWrap
+      onKeyUp={[Function]}
+      tabIndex={null}
     >
-      <div
-        className="c4"
-        onClick={[Function]}
+      <li
+        className="c1 c2"
         onKeyUp={[Function]}
-        tabIndex="0"
+        tabIndex={null}
       >
-        <svg
-          aria-label="warning"
-          className="c5"
-          color="#ffd960"
-          height={24}
-          role="img"
-          viewBox="0 0 24 24"
-          width={24}
-        >
-          <title>
-            warning
-          </title>
-          <desc>
-            triangle with exclamation mark in center
-          </desc>
-          <path
-            d="M0 0h24v24H0z"
-            fill="none"
+        <double_line__ItemLeftContainer>
+          <div
+            className="c3"
+          >
+            <double_line__LeftItemWrap
+              onClick={[Function]}
+              onKeyUp={[Function]}
+              tabIndex="0"
+            >
+              <div
+                className="c4"
+                onClick={[Function]}
+                onKeyUp={[Function]}
+                tabIndex="0"
+              >
+                <icon_wrapper__Icon
+                  aria-label="warning"
+                  color="#ffd960"
+                  height={24}
+                  role="img"
+                  viewBox="0 0 24 24"
+                  width={24}
+                >
+                  <svg
+                    aria-label="warning"
+                    className="c5"
+                    color="#ffd960"
+                    height={24}
+                    role="img"
+                    viewBox="0 0 24 24"
+                    width={24}
+                  >
+                    <title>
+                      warning
+                    </title>
+                    <desc>
+                      triangle with exclamation mark in center
+                    </desc>
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+                    />
+                  </svg>
+                </icon_wrapper__Icon>
+              </div>
+            </double_line__LeftItemWrap>
+            <double_line__TextContainer>
+              <div
+                className="c6"
+              >
+                <double_line__LineOne>
+                  <h4
+                    className="c7"
+                  >
+                    test title
+                  </h4>
+                </double_line__LineOne>
+                <double_line__LineTwo>
+                  <h5
+                    className="c8"
+                  >
+                    test subtitle
+                  </h5>
+                </double_line__LineTwo>
+              </div>
+            </double_line__TextContainer>
+          </div>
+        </double_line__ItemLeftContainer>
+        <double_line__ItemRightContainer>
+          <div
+            className="c9"
           />
-          <path
-            d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
-          />
-        </svg>
-      </div>
-      <div
-        className="c6"
-      >
-        <h4
-          className="c7"
-        >
-          test title
-        </h4>
-        <h5
-          className="c8"
-        >
-          test subtitle
-        </h5>
-      </div>
-    </div>
-    <div
-      className="c9"
-    />
-  </li>
-</ul>
+        </double_line__ItemRightContainer>
+      </li>
+    </double_line__ItemWrap>
+  </ul>
+</list__ListWrap>
 `;
 
 exports[`Double Line List Item sets a left icon in the proper dom node when passed as leftIcon prop 1`] = `
@@ -724,11 +814,11 @@ exports[`Double Line List Item sets a left icon in the proper dom node when pass
   width: 100%;
 }
 
-.c0:hover .bMHUwg {
+.c0:hover .c9 {
   color: #53a4dc;
 }
 
-.c0:focus .bMHUwg {
+.c0:focus .c9 {
   color: #53a4dc;
 }
 
@@ -759,62 +849,91 @@ exports[`Double Line List Item sets a left icon in the proper dom node when pass
   justify-content: flex-end;
 }
 
-<li
-  className="c0 c1"
+<double_line__ItemWrap
   onKeyUp={[Function]}
   tabIndex={null}
 >
-  <div
-    className="c2"
+  <li
+    className="c0 c1"
+    onKeyUp={[Function]}
+    tabIndex={null}
   >
-    <div
-      className="c3"
-      onKeyUp={[Function]}
-      tabIndex={null}
-    >
-      <svg
-        aria-label="warning"
-        className="c4"
-        color="#ffd960"
-        height={24}
-        role="img"
-        viewBox="0 0 24 24"
-        width={24}
+    <double_line__ItemLeftContainer>
+      <div
+        className="c2"
       >
-        <title>
-          warning
-        </title>
-        <desc>
-          triangle with exclamation mark in center
-        </desc>
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-        <path
-          d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
-        />
-      </svg>
-    </div>
-    <div
-      className="c5"
-    >
-      <h4
-        className="c6"
-      >
-        test title
-      </h4>
-      <h5
-        className="c7"
-      >
-        test subtitle
-      </h5>
-    </div>
-  </div>
-  <div
-    className="c8"
-  />
-</li>
+        <double_line__LeftItemWrap
+          onKeyUp={[Function]}
+          tabIndex={null}
+        >
+          <div
+            className="c3"
+            onKeyUp={[Function]}
+            tabIndex={null}
+          >
+            <icon_wrapper__Icon
+              aria-label="warning"
+              color="#ffd960"
+              height={24}
+              role="img"
+              viewBox="0 0 24 24"
+              width={24}
+            >
+              <svg
+                aria-label="warning"
+                className="c4"
+                color="#ffd960"
+                height={24}
+                role="img"
+                viewBox="0 0 24 24"
+                width={24}
+              >
+                <title>
+                  warning
+                </title>
+                <desc>
+                  triangle with exclamation mark in center
+                </desc>
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+                <path
+                  d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+                />
+              </svg>
+            </icon_wrapper__Icon>
+          </div>
+        </double_line__LeftItemWrap>
+        <double_line__TextContainer>
+          <div
+            className="c5"
+          >
+            <double_line__LineOne>
+              <h4
+                className="c6"
+              >
+                test title
+              </h4>
+            </double_line__LineOne>
+            <double_line__LineTwo>
+              <h5
+                className="c7"
+              >
+                test subtitle
+              </h5>
+            </double_line__LineTwo>
+          </div>
+        </double_line__TextContainer>
+      </div>
+    </double_line__ItemLeftContainer>
+    <double_line__ItemRightContainer>
+      <div
+        className="c8"
+      />
+    </double_line__ItemRightContainer>
+  </li>
+</double_line__ItemWrap>
 `;
 
 exports[`Double Line List Item sets an onClick fn on correct dom node when passed via onClick prop 1`] = `
@@ -923,34 +1042,50 @@ exports[`Double Line List Item sets an onClick fn on correct dom node when passe
   justify-content: flex-end;
 }
 
-<li
-  className="c0"
+<double_line__ItemWrap
   onClick={[Function]}
   onKeyUp={[Function]}
   tabIndex={null}
 >
-  <div
-    className="c1"
+  <li
+    className="c0"
+    onClick={[Function]}
+    onKeyUp={[Function]}
+    tabIndex={null}
   >
-    <div
-      className="c2"
-    >
-      <h4
-        className="c3"
+    <double_line__ItemLeftContainer>
+      <div
+        className="c1"
       >
-        test title
-      </h4>
-      <h5
-        className="c4"
-      >
-        test subtitle
-      </h5>
-    </div>
-  </div>
-  <div
-    className="c5"
-  />
-</li>
+        <double_line__TextContainer>
+          <div
+            className="c2"
+          >
+            <double_line__LineOne>
+              <h4
+                className="c3"
+              >
+                test title
+              </h4>
+            </double_line__LineOne>
+            <double_line__LineTwo>
+              <h5
+                className="c4"
+              >
+                test subtitle
+              </h5>
+            </double_line__LineTwo>
+          </div>
+        </double_line__TextContainer>
+      </div>
+    </double_line__ItemLeftContainer>
+    <double_line__ItemRightContainer>
+      <div
+        className="c5"
+      />
+    </double_line__ItemRightContainer>
+  </li>
+</double_line__ItemWrap>
 `;
 
 exports[`Double Line List Item sets content for line one on the correct dom node via the lineOne prop 1`] = `
@@ -1032,11 +1167,11 @@ exports[`Double Line List Item sets content for line one on the correct dom node
   width: 100%;
 }
 
-.c0:hover .bMHUwg {
+.c0:hover .c7 {
   color: #53a4dc;
 }
 
-.c0:focus .bMHUwg {
+.c0:focus .c7 {
   color: #53a4dc;
 }
 
@@ -1067,33 +1202,48 @@ exports[`Double Line List Item sets content for line one on the correct dom node
   justify-content: flex-end;
 }
 
-<li
-  className="c0 c1"
+<double_line__ItemWrap
   onKeyUp={[Function]}
   tabIndex={null}
 >
-  <div
-    className="c2"
+  <li
+    className="c0 c1"
+    onKeyUp={[Function]}
+    tabIndex={null}
   >
-    <div
-      className="c3"
-    >
-      <h4
-        className="c4"
+    <double_line__ItemLeftContainer>
+      <div
+        className="c2"
       >
-        test title
-      </h4>
-      <h5
-        className="c5"
-      >
-        test subtitle
-      </h5>
-    </div>
-  </div>
-  <div
-    className="c6"
-  />
-</li>
+        <double_line__TextContainer>
+          <div
+            className="c3"
+          >
+            <double_line__LineOne>
+              <h4
+                className="c4"
+              >
+                test title
+              </h4>
+            </double_line__LineOne>
+            <double_line__LineTwo>
+              <h5
+                className="c5"
+              >
+                test subtitle
+              </h5>
+            </double_line__LineTwo>
+          </div>
+        </double_line__TextContainer>
+      </div>
+    </double_line__ItemLeftContainer>
+    <double_line__ItemRightContainer>
+      <div
+        className="c6"
+      />
+    </double_line__ItemRightContainer>
+  </li>
+</double_line__ItemWrap>
 `;
 
 exports[`Double Line List Item sets content for line two on the correct dom node via the lineTwo prop 1`] = `
@@ -1175,11 +1325,11 @@ exports[`Double Line List Item sets content for line two on the correct dom node
   width: 100%;
 }
 
-.c0:hover .bMHUwg {
+.c0:hover .c7 {
   color: #53a4dc;
 }
 
-.c0:focus .bMHUwg {
+.c0:focus .c7 {
   color: #53a4dc;
 }
 
@@ -1210,33 +1360,48 @@ exports[`Double Line List Item sets content for line two on the correct dom node
   justify-content: flex-end;
 }
 
-<li
-  className="c0 c1"
+<double_line__ItemWrap
   onKeyUp={[Function]}
   tabIndex={null}
 >
-  <div
-    className="c2"
+  <li
+    className="c0 c1"
+    onKeyUp={[Function]}
+    tabIndex={null}
   >
-    <div
-      className="c3"
-    >
-      <h4
-        className="c4"
+    <double_line__ItemLeftContainer>
+      <div
+        className="c2"
       >
-        test title
-      </h4>
-      <h5
-        className="c5"
-      >
-        test subtitle
-      </h5>
-    </div>
-  </div>
-  <div
-    className="c6"
-  />
-</li>
+        <double_line__TextContainer>
+          <div
+            className="c3"
+          >
+            <double_line__LineOne>
+              <h4
+                className="c4"
+              >
+                test title
+              </h4>
+            </double_line__LineOne>
+            <double_line__LineTwo>
+              <h5
+                className="c5"
+              >
+                test subtitle
+              </h5>
+            </double_line__LineTwo>
+          </div>
+        </double_line__TextContainer>
+      </div>
+    </double_line__ItemLeftContainer>
+    <double_line__ItemRightContainer>
+      <div
+        className="c6"
+      />
+    </double_line__ItemRightContainer>
+  </li>
+</double_line__ItemWrap>
 `;
 
 exports[`Double Line List Item sets the proper styles when clickable prop = true 1`] = `
@@ -1359,38 +1524,59 @@ exports[`Double Line List Item sets the proper styles when clickable prop = true
   justify-content: flex-end;
 }
 
-<ul
-  className="c0"
->
-  <li
-    className="c1 c2"
-    onClick={[Function]}
-    onKeyUp={[Function]}
-    tabIndex="0"
+<list__ListWrap>
+  <ul
+    className="c0"
   >
-    <div
-      className="c3"
+    <double_line__ItemWrap
+      clickable={true}
+      onClick={[Function]}
+      onKeyUp={[Function]}
+      tabIndex="0"
     >
-      <div
-        className="c4"
+      <li
+        className="c1 c2"
+        onClick={[Function]}
+        onKeyUp={[Function]}
+        tabIndex="0"
       >
-        <h4
-          className="c5"
-        >
-          test title
-        </h4>
-        <h5
-          className="c6"
-        >
-          test subtitle
-        </h5>
-      </div>
-    </div>
-    <div
-      className="c7"
-    />
-  </li>
-</ul>
+        <double_line__ItemLeftContainer>
+          <div
+            className="c3"
+          >
+            <double_line__TextContainer>
+              <div
+                className="c4"
+              >
+                <double_line__LineOne
+                  clickable={true}
+                >
+                  <h4
+                    className="c5"
+                  >
+                    test title
+                  </h4>
+                </double_line__LineOne>
+                <double_line__LineTwo>
+                  <h5
+                    className="c6"
+                  >
+                    test subtitle
+                  </h5>
+                </double_line__LineTwo>
+              </div>
+            </double_line__TextContainer>
+          </div>
+        </double_line__ItemLeftContainer>
+        <double_line__ItemRightContainer>
+          <div
+            className="c7"
+          />
+        </double_line__ItemRightContainer>
+      </li>
+    </double_line__ItemWrap>
+  </ul>
+</list__ListWrap>
 `;
 
 exports[`Double Line List Item sets the proper styles when dense prop is true 1`] = `
@@ -1468,11 +1654,11 @@ exports[`Double Line List Item sets the proper styles when dense prop is true 1`
   width: 100%;
 }
 
-.c0:hover .bMHUwg {
+.c0:hover .c9 {
   color: #53a4dc;
 }
 
-.c0:focus .bMHUwg {
+.c0:focus .c9 {
   color: #53a4dc;
 }
 
@@ -1518,60 +1704,95 @@ exports[`Double Line List Item sets the proper styles when dense prop is true 1`
   justify-content: flex-end;
 }
 
-<li
-  className="c0 c1"
+<double_line__ItemWrap
+  dense={true}
   onKeyUp={[Function]}
   tabIndex={null}
 >
-  <div
-    className="c2"
+  <li
+    className="c0 c1"
+    onKeyUp={[Function]}
+    tabIndex={null}
   >
-    <div
-      className="c3"
-      onKeyUp={[Function]}
-      tabIndex={null}
-    >
-      <svg
-        aria-label="warning"
-        className="c4"
-        color="#ffd960"
-        height={24}
-        role="img"
-        viewBox="0 0 24 24"
-        width={24}
+    <double_line__ItemLeftContainer>
+      <div
+        className="c2"
       >
-        <title>
-          warning
-        </title>
-        <desc>
-          triangle with exclamation mark in center
-        </desc>
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-        <path
-          d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
-        />
-      </svg>
-    </div>
-    <div
-      className="c5"
-    >
-      <h4
-        className="c6"
-      >
-        test title
-      </h4>
-      <h5
-        className="c7"
-      >
-        test subtitle
-      </h5>
-    </div>
-  </div>
-  <div
-    className="c8"
-  />
-</li>
+        <double_line__LeftItemWrap
+          dense={true}
+          onKeyUp={[Function]}
+          tabIndex={null}
+        >
+          <div
+            className="c3"
+            onKeyUp={[Function]}
+            tabIndex={null}
+          >
+            <icon_wrapper__Icon
+              aria-label="warning"
+              color="#ffd960"
+              height={24}
+              role="img"
+              viewBox="0 0 24 24"
+              width={24}
+            >
+              <svg
+                aria-label="warning"
+                className="c4"
+                color="#ffd960"
+                height={24}
+                role="img"
+                viewBox="0 0 24 24"
+                width={24}
+              >
+                <title>
+                  warning
+                </title>
+                <desc>
+                  triangle with exclamation mark in center
+                </desc>
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+                <path
+                  d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+                />
+              </svg>
+            </icon_wrapper__Icon>
+          </div>
+        </double_line__LeftItemWrap>
+        <double_line__TextContainer>
+          <div
+            className="c5"
+          >
+            <double_line__LineOne
+              dense={true}
+            >
+              <h4
+                className="c6"
+              >
+                test title
+              </h4>
+            </double_line__LineOne>
+            <double_line__LineTwo
+              dense={true}
+            >
+              <h5
+                className="c7"
+              >
+                test subtitle
+              </h5>
+            </double_line__LineTwo>
+          </div>
+        </double_line__TextContainer>
+      </div>
+    </double_line__ItemLeftContainer>
+    <double_line__ItemRightContainer>
+      <div
+        className="c8"
+      />
+    </double_line__ItemRightContainer>
+  </li>
+</double_line__ItemWrap>
 `;

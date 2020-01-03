@@ -2,7 +2,7 @@ import React from "react";
 import { mountWithTheme } from "../../config/scUtils.js";
 import { axe } from "jest-axe";
 import { InlineMenu, H4, P, Portal } from "../../lib/dracs.es.js";
-import { doesNotThrow } from "assert";
+
 const triggerText = "Test trigger";
 const menuText = "Test menu";
 describe("Inline Menu", () => {
@@ -25,20 +25,24 @@ describe("Inline Menu", () => {
     expect(trigger).toMatchSnapshot();
     expect(trigger.find(Portal).length).toBe(0);
   });
-  it("mounts the menu when active prop is true", () => {
+  it("mounts the menu when active prop is true", done => {
     const trigger = mountWithTheme(
-      <InlineMenu active triggerChild={<H4>{triggerText}</H4>}>
+      <InlineMenu active={true} triggerChild={<H4>{triggerText}</H4>}>
         <P>{menuText}</P>
       </InlineMenu>
     );
+    const menu = trigger.find(Portal);
     expect(trigger).toMatchSnapshot();
-    const portalInstance = trigger.find(Portal).instance();
-    const menu = mountWithTheme(portalInstance.props.children);
     expect(menu).toMatchSnapshot();
-    trigger.unmount();
-    menu.unmount();
+    setTimeout(() => {
+      trigger.update();
+      expect(trigger).toMatchSnapshot();
+      expect(menu).toMatchSnapshot();
+      done();
+      trigger.unmount();
+    }, 400);
   });
-  it("mounts the menu on trigger click", () => {
+  it("mounts the menu on trigger click", done => {
     const trigger = mountWithTheme(
       <InlineMenu triggerChild={<H4>{triggerText}</H4>}>
         <P>{menuText}</P>
@@ -46,25 +50,34 @@ describe("Inline Menu", () => {
     );
     expect(trigger.find(Portal).length).toBe(0);
     trigger.find("inline_menu__TriggerWrap").simulate("click");
-    expect(trigger.find(Portal).length).toBe(1);
-    const portalInstance = trigger.find(Portal).instance();
-    const menu = mountWithTheme(portalInstance.props.children);
-    expect(menu).toMatchSnapshot();
+    trigger.update();
+    setTimeout(() => {
+      trigger.update();
+      const menu = trigger.find(Portal);
+      expect(menu.length).toBe(1);
+      expect(trigger).toMatchSnapshot();
+      expect(menu).toMatchSnapshot();
+      done();
+      trigger.unmount();
+    }, 400);
   });
-  it("applies the proper styles when animateMenu prop is true", () => {
+  it("applies the proper styles when animateMenu prop is true", done => {
     const trigger = mountWithTheme(
       <InlineMenu active triggerChild={<H4>{triggerText}</H4>}>
         <P>{menuText}</P>
       </InlineMenu>
     );
-    const portalInstance = trigger.find(Portal).instance();
-    const menu = mountWithTheme(portalInstance.props.children);
-    expect(menu.find("inline_menu__MenuWrap")).toHaveStyleRule(
-      "transition",
-      "all 0.3s linear"
-    );
+    setTimeout(() => {
+      const menu = trigger.find(Portal);
+      expect(menu.find("inline_menu__MenuWrap")).toHaveStyleRule(
+        "transition",
+        "all 0.3s linear"
+      );
+      done();
+      trigger.unmount();
+    }, 400);
   });
-  it("applies the proper styles when animateMenu prop is false", () => {
+  it("applies the proper styles when animateMenu prop is false", done => {
     const trigger = mountWithTheme(
       <InlineMenu
         active
@@ -74,36 +87,35 @@ describe("Inline Menu", () => {
         <P>{menuText}</P>
       </InlineMenu>
     );
-    const portalInstance = trigger.find(Portal).instance();
-    const menu = mountWithTheme(portalInstance.props.children);
-    expect(menu.find("inline_menu__MenuWrap")).toHaveStyleRule(
-      "transition",
-      "transform-origin 1ms"
-    );
+    setTimeout(() => {
+      const menu = trigger.find(Portal);
+      expect(menu.find("inline_menu__MenuWrap")).toHaveStyleRule(
+        "transition",
+        "transform-origin 1ms"
+      );
+      done();
+      trigger.unmount();
+    }, 400);
   });
-  it("mounts items passed as children in the proper dom node", () => {
+  it("mounts items passed as children in the proper dom node", done => {
     const trigger = mountWithTheme(
       <InlineMenu active triggerChild={<H4>{triggerText}</H4>}>
         <P>{menuText}</P>
       </InlineMenu>
     );
-    const portalInstance = trigger.find(Portal).instance();
-    const menu = mountWithTheme(portalInstance.props.children);
-    expect(menu).toMatchSnapshot();
-    expect(menu.find("inline_menu__MenuWrap").find(P).length).toBe(1);
-    expect(
-      menu
-        .find("inline_menu__MenuWrap")
-        .find(P)
-        .text()
-    ).toBe(menuText);
+    setTimeout(() => {
+      trigger.update();
+      const menu = trigger.find(Portal);
+      expect(menu).toMatchSnapshot();
+      expect(menu.find("inline_menu__MenuWrap").find(P).length).toBe(1);
+      expect(
+        menu
+          .find("inline_menu__MenuWrap")
+          .find(P)
+          .text()
+      ).toBe(menuText);
+      done();
+      trigger.unmount();
+    }, 400);
   });
-  // it("attaches the proper event handlers to the dom when closeMenuOnOutsideClick prop is true", () => {
-  //   const trigger = mountWithTheme(
-  //     <InlineMenu active triggerChild={<H4>{triggerText}</H4>}>
-  //       <P>{menuText}</P>
-  //     </InlineMenu>
-  //   );
-  //   console.log(document);
-  // });
 });

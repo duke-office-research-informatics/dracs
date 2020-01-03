@@ -16,15 +16,15 @@ const IconLeftWrapper = styled.div`
           ? null
           : "-12px"
         : p.helpText
-          ? null
-          : "-8px"
+        ? null
+        : "-8px"
       : null};
   cursor: ${props =>
     props.inputState === "disabled"
       ? "not-allowed"
       : props.active
-        ? "pointer"
-        : "auto"};
+      ? "pointer"
+      : "auto"};
   &:focus {
     outline: dotted 1px rgb(59, 153, 252);
   }

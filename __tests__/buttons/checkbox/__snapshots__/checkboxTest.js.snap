@@ -137,43 +137,68 @@ exports[`checkbox applies an onBlur function via props and calls function on blu
   color: #131516;
 }
 
-<div
-  className="c0"
->
+<checkbox__ElWrap>
   <div
-    className="c1"
+    className="c0"
   >
-    <div
-      className="c2"
-    >
-      <input
-        aria-labelledby="testCheckbox-label"
-        checked={false}
-        className=""
-        disabled={false}
-        id="testCheckbox"
-        name="testCheckbox"
-        onBlur={[Function]}
-        onChange={[Function]}
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        type="checkbox"
-      />
-      <label
-        aria-checked={false}
-        htmlFor="testCheckbox"
-      />
-    </div>
-    <span
-      className="c3"
-      disabled={false}
-      id="testCheckbox-label"
-      onClick={null}
-    >
-      hello
-    </span>
+    <checkbox__BoxLabelWrap>
+      <div
+        className="c1"
+      >
+        <checkbox__CheckboxWrapper>
+          <div
+            className="c2"
+          >
+            <checkbox__CheckboxInput
+              aria-labelledby="testCheckbox-label"
+              checked={false}
+              disabled={false}
+              id="testCheckbox"
+              name="testCheckbox"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              type="checkbox"
+            >
+              <input
+                aria-labelledby="testCheckbox-label"
+                checked={false}
+                className=""
+                disabled={false}
+                id="testCheckbox"
+                name="testCheckbox"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                type="checkbox"
+              />
+            </checkbox__CheckboxInput>
+            <label
+              aria-checked={false}
+              htmlFor="testCheckbox"
+            />
+          </div>
+        </checkbox__CheckboxWrapper>
+        <checkbox__CheckboxLabel
+          disabled={false}
+          id="testCheckbox-label"
+          onClick={null}
+        >
+          <span
+            className="c3"
+            disabled={false}
+            id="testCheckbox-label"
+            onClick={null}
+          >
+            hello
+          </span>
+        </checkbox__CheckboxLabel>
+      </div>
+    </checkbox__BoxLabelWrap>
   </div>
-</div>
+</checkbox__ElWrap>
 `;
 
 exports[`checkbox applies an onFocus function via props and calls function on focus 1`] = `
@@ -313,43 +338,68 @@ exports[`checkbox applies an onFocus function via props and calls function on fo
   color: #131516;
 }
 
-<div
-  className="c0"
->
+<checkbox__ElWrap>
   <div
-    className="c1"
+    className="c0"
   >
-    <div
-      className="c2"
-    >
-      <input
-        aria-labelledby="testCheckbox-label"
-        checked={false}
-        className=""
-        disabled={false}
-        id="testCheckbox"
-        name="testCheckbox"
-        onChange={[Function]}
-        onClick={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        type="checkbox"
-      />
-      <label
-        aria-checked={false}
-        htmlFor="testCheckbox"
-      />
-    </div>
-    <span
-      className="c3"
-      disabled={false}
-      id="testCheckbox-label"
-      onClick={null}
-    >
-      hello
-    </span>
+    <checkbox__BoxLabelWrap>
+      <div
+        className="c1"
+      >
+        <checkbox__CheckboxWrapper>
+          <div
+            className="c2"
+          >
+            <checkbox__CheckboxInput
+              aria-labelledby="testCheckbox-label"
+              checked={false}
+              disabled={false}
+              id="testCheckbox"
+              name="testCheckbox"
+              onChange={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              type="checkbox"
+            >
+              <input
+                aria-labelledby="testCheckbox-label"
+                checked={false}
+                className=""
+                disabled={false}
+                id="testCheckbox"
+                name="testCheckbox"
+                onChange={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                type="checkbox"
+              />
+            </checkbox__CheckboxInput>
+            <label
+              aria-checked={false}
+              htmlFor="testCheckbox"
+            />
+          </div>
+        </checkbox__CheckboxWrapper>
+        <checkbox__CheckboxLabel
+          disabled={false}
+          id="testCheckbox-label"
+          onClick={null}
+        >
+          <span
+            className="c3"
+            disabled={false}
+            id="testCheckbox-label"
+            onClick={null}
+          >
+            hello
+          </span>
+        </checkbox__CheckboxLabel>
+      </div>
+    </checkbox__BoxLabelWrap>
   </div>
-</div>
+</checkbox__ElWrap>
 `;
 
 exports[`checkbox applies an onMouseEnter function via props and calls function on mouseenter 1`] = `
@@ -489,43 +539,69 @@ exports[`checkbox applies an onMouseEnter function via props and calls function 
   color: #131516;
 }
 
-<div
-  className="c0"
->
+<checkbox__ElWrap>
   <div
-    className="c1"
+    className="c0"
   >
-    <div
-      className="c2"
-      onMouseEnter={[Function]}
-    >
-      <input
-        aria-labelledby="testCheckbox-label"
-        checked={false}
-        className=""
-        disabled={false}
-        id="testCheckbox"
-        name="testCheckbox"
-        onChange={[Function]}
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        type="checkbox"
-      />
-      <label
-        aria-checked={false}
-        htmlFor="testCheckbox"
-      />
-    </div>
-    <span
-      className="c3"
-      disabled={false}
-      id="testCheckbox-label"
-      onClick={null}
-    >
-      hello
-    </span>
+    <checkbox__BoxLabelWrap>
+      <div
+        className="c1"
+      >
+        <checkbox__CheckboxWrapper
+          onMouseEnter={[Function]}
+        >
+          <div
+            className="c2"
+            onMouseEnter={[Function]}
+          >
+            <checkbox__CheckboxInput
+              aria-labelledby="testCheckbox-label"
+              checked={false}
+              disabled={false}
+              id="testCheckbox"
+              name="testCheckbox"
+              onChange={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              type="checkbox"
+            >
+              <input
+                aria-labelledby="testCheckbox-label"
+                checked={false}
+                className=""
+                disabled={false}
+                id="testCheckbox"
+                name="testCheckbox"
+                onChange={[Function]}
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                type="checkbox"
+              />
+            </checkbox__CheckboxInput>
+            <label
+              aria-checked={false}
+              htmlFor="testCheckbox"
+            />
+          </div>
+        </checkbox__CheckboxWrapper>
+        <checkbox__CheckboxLabel
+          disabled={false}
+          id="testCheckbox-label"
+          onClick={null}
+        >
+          <span
+            className="c3"
+            disabled={false}
+            id="testCheckbox-label"
+            onClick={null}
+          >
+            hello
+          </span>
+        </checkbox__CheckboxLabel>
+      </div>
+    </checkbox__BoxLabelWrap>
   </div>
-</div>
+</checkbox__ElWrap>
 `;
 
 exports[`checkbox applies an onMouseLeave function via props and calls function on mouseleave 1`] = `
@@ -665,43 +741,69 @@ exports[`checkbox applies an onMouseLeave function via props and calls function 
   color: #131516;
 }
 
-<div
-  className="c0"
->
+<checkbox__ElWrap>
   <div
-    className="c1"
+    className="c0"
   >
-    <div
-      className="c2"
-      onMouseLeave={[Function]}
-    >
-      <input
-        aria-labelledby="testCheckbox-label"
-        checked={false}
-        className=""
-        disabled={false}
-        id="testCheckbox"
-        name="testCheckbox"
-        onChange={[Function]}
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        type="checkbox"
-      />
-      <label
-        aria-checked={false}
-        htmlFor="testCheckbox"
-      />
-    </div>
-    <span
-      className="c3"
-      disabled={false}
-      id="testCheckbox-label"
-      onClick={null}
-    >
-      hello
-    </span>
+    <checkbox__BoxLabelWrap>
+      <div
+        className="c1"
+      >
+        <checkbox__CheckboxWrapper
+          onMouseLeave={[Function]}
+        >
+          <div
+            className="c2"
+            onMouseLeave={[Function]}
+          >
+            <checkbox__CheckboxInput
+              aria-labelledby="testCheckbox-label"
+              checked={false}
+              disabled={false}
+              id="testCheckbox"
+              name="testCheckbox"
+              onChange={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              type="checkbox"
+            >
+              <input
+                aria-labelledby="testCheckbox-label"
+                checked={false}
+                className=""
+                disabled={false}
+                id="testCheckbox"
+                name="testCheckbox"
+                onChange={[Function]}
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                type="checkbox"
+              />
+            </checkbox__CheckboxInput>
+            <label
+              aria-checked={false}
+              htmlFor="testCheckbox"
+            />
+          </div>
+        </checkbox__CheckboxWrapper>
+        <checkbox__CheckboxLabel
+          disabled={false}
+          id="testCheckbox-label"
+          onClick={null}
+        >
+          <span
+            className="c3"
+            disabled={false}
+            id="testCheckbox-label"
+            onClick={null}
+          >
+            hello
+          </span>
+        </checkbox__CheckboxLabel>
+      </div>
+    </checkbox__BoxLabelWrap>
   </div>
-</div>
+</checkbox__ElWrap>
 `;
 
 exports[`checkbox calls the onChange handler when input is clicked 1`] = `
@@ -841,42 +943,66 @@ exports[`checkbox calls the onChange handler when input is clicked 1`] = `
   color: #131516;
 }
 
-<div
-  className="c0"
->
+<checkbox__ElWrap>
   <div
-    className="c1"
+    className="c0"
   >
-    <div
-      className="c2"
-    >
-      <input
-        aria-labelledby="testCheckbox-label"
-        checked={false}
-        className=""
-        disabled={false}
-        id="testCheckbox"
-        name="testCheckbox"
-        onChange={[Function]}
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        type="checkbox"
-      />
-      <label
-        aria-checked={false}
-        htmlFor="testCheckbox"
-      />
-    </div>
-    <span
-      className="c3"
-      disabled={false}
-      id="testCheckbox-label"
-      onClick={null}
-    >
-      hello
-    </span>
+    <checkbox__BoxLabelWrap>
+      <div
+        className="c1"
+      >
+        <checkbox__CheckboxWrapper>
+          <div
+            className="c2"
+          >
+            <checkbox__CheckboxInput
+              aria-labelledby="testCheckbox-label"
+              checked={false}
+              disabled={false}
+              id="testCheckbox"
+              name="testCheckbox"
+              onChange={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              type="checkbox"
+            >
+              <input
+                aria-labelledby="testCheckbox-label"
+                checked={false}
+                className=""
+                disabled={false}
+                id="testCheckbox"
+                name="testCheckbox"
+                onChange={[Function]}
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                type="checkbox"
+              />
+            </checkbox__CheckboxInput>
+            <label
+              aria-checked={false}
+              htmlFor="testCheckbox"
+            />
+          </div>
+        </checkbox__CheckboxWrapper>
+        <checkbox__CheckboxLabel
+          disabled={false}
+          id="testCheckbox-label"
+          onClick={null}
+        >
+          <span
+            className="c3"
+            disabled={false}
+            id="testCheckbox-label"
+            onClick={null}
+          >
+            hello
+          </span>
+        </checkbox__CheckboxLabel>
+      </div>
+    </checkbox__BoxLabelWrap>
   </div>
-</div>
+</checkbox__ElWrap>
 `;
 
 exports[`checkbox calls the onChange handler when label is clicked when \`changeOnLabelClick\` is true 1`] = `
@@ -1017,42 +1143,67 @@ exports[`checkbox calls the onChange handler when label is clicked when \`change
   color: #131516;
 }
 
-<div
-  className="c0"
->
+<checkbox__ElWrap>
   <div
-    className="c1"
+    className="c0"
   >
-    <div
-      className="c2"
-    >
-      <input
-        aria-labelledby="testCheckbox-label"
-        checked={false}
-        className=""
-        disabled={false}
-        id="testCheckbox"
-        name="testCheckbox"
-        onChange={[Function]}
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        type="checkbox"
-      />
-      <label
-        aria-checked={false}
-        htmlFor="testCheckbox"
-      />
-    </div>
-    <span
-      className="c3"
-      disabled={false}
-      id="testCheckbox-label"
-      onClick={[Function]}
-    >
-      hello
-    </span>
+    <checkbox__BoxLabelWrap>
+      <div
+        className="c1"
+      >
+        <checkbox__CheckboxWrapper>
+          <div
+            className="c2"
+          >
+            <checkbox__CheckboxInput
+              aria-labelledby="testCheckbox-label"
+              checked={false}
+              disabled={false}
+              id="testCheckbox"
+              name="testCheckbox"
+              onChange={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              type="checkbox"
+            >
+              <input
+                aria-labelledby="testCheckbox-label"
+                checked={false}
+                className=""
+                disabled={false}
+                id="testCheckbox"
+                name="testCheckbox"
+                onChange={[Function]}
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                type="checkbox"
+              />
+            </checkbox__CheckboxInput>
+            <label
+              aria-checked={false}
+              htmlFor="testCheckbox"
+            />
+          </div>
+        </checkbox__CheckboxWrapper>
+        <checkbox__CheckboxLabel
+          changeOnLabelClick={true}
+          disabled={false}
+          id="testCheckbox-label"
+          onClick={[Function]}
+        >
+          <span
+            className="c3"
+            disabled={false}
+            id="testCheckbox-label"
+            onClick={[Function]}
+          >
+            hello
+          </span>
+        </checkbox__CheckboxLabel>
+      </div>
+    </checkbox__BoxLabelWrap>
   </div>
-</div>
+</checkbox__ElWrap>
 `;
 
 exports[`checkbox inserts a child 1`] = `
@@ -1197,65 +1348,98 @@ exports[`checkbox inserts a child 1`] = `
   color: #131516;
 }
 
-<div
-  className="c0"
->
+<checkbox__ElWrap>
   <div
-    className="c1"
+    className="c0"
   >
-    <div
-      className="c2"
+    <checkbox__BoxLabelWrap>
+      <div
+        className="c1"
+      >
+        <checkbox__CheckboxWrapper>
+          <div
+            className="c2"
+          >
+            <checkbox__CheckboxInput
+              aria-labelledby="testCheckbox-label"
+              checked={false}
+              disabled={false}
+              id="testCheckbox"
+              name="testCheckbox"
+              onChange={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              type="checkbox"
+            >
+              <input
+                aria-labelledby="testCheckbox-label"
+                checked={false}
+                className=""
+                disabled={false}
+                id="testCheckbox"
+                name="testCheckbox"
+                onChange={[Function]}
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                type="checkbox"
+              />
+            </checkbox__CheckboxInput>
+            <label
+              aria-checked={false}
+              htmlFor="testCheckbox"
+            />
+          </div>
+        </checkbox__CheckboxWrapper>
+        <checkbox__CheckboxLabel
+          disabled={false}
+          id="testCheckbox-label"
+          onClick={null}
+        >
+          <span
+            className="c3"
+            disabled={false}
+            id="testCheckbox-label"
+            onClick={null}
+          >
+            hello
+          </span>
+        </checkbox__CheckboxLabel>
+      </div>
+    </checkbox__BoxLabelWrap>
+    <icon_wrapper__Icon
+      aria-label="open customize and profile menu"
+      color="#fff"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
     >
-      <input
-        aria-labelledby="testCheckbox-label"
-        checked={false}
-        className=""
-        disabled={false}
-        id="testCheckbox"
-        name="testCheckbox"
-        onChange={[Function]}
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        type="checkbox"
-      />
-      <label
-        aria-checked={false}
-        htmlFor="testCheckbox"
-      />
-    </div>
-    <span
-      className="c3"
-      disabled={false}
-      id="testCheckbox-label"
-      onClick={null}
-    >
-      hello
-    </span>
+      <svg
+        aria-label="open customize and profile menu"
+        className="c4"
+        color="#fff"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </icon_wrapper__Icon>
   </div>
-  <svg
-    aria-label="open customize and profile menu"
-    className="c4"
-    color="#fff"
-    height={24}
-    role="img"
-    viewBox="0 0 24 24"
-    width={24}
-  >
-    <title>
-      menu icon
-    </title>
-    <desc>
-      hamburger menu icon
-    </desc>
-    <path
-      d="M0 0h24v24H0z"
-      fill="none"
-    />
-    <path
-      d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-    />
-  </svg>
-</div>
+</checkbox__ElWrap>
 `;
 
 exports[`checkbox matches snapshot 1`] = `
@@ -1395,42 +1579,66 @@ exports[`checkbox matches snapshot 1`] = `
   color: #131516;
 }
 
-<div
-  className="c0"
->
+<checkbox__ElWrap>
   <div
-    className="c1"
+    className="c0"
   >
-    <div
-      className="c2"
-    >
-      <input
-        aria-labelledby="testCheckbox-label"
-        checked={false}
-        className=""
-        disabled={false}
-        id="testCheckbox"
-        name="testCheckbox"
-        onChange={[Function]}
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        type="checkbox"
-      />
-      <label
-        aria-checked={false}
-        htmlFor="testCheckbox"
-      />
-    </div>
-    <span
-      className="c3"
-      disabled={false}
-      id="testCheckbox-label"
-      onClick={null}
-    >
-      hello
-    </span>
+    <checkbox__BoxLabelWrap>
+      <div
+        className="c1"
+      >
+        <checkbox__CheckboxWrapper>
+          <div
+            className="c2"
+          >
+            <checkbox__CheckboxInput
+              aria-labelledby="testCheckbox-label"
+              checked={false}
+              disabled={false}
+              id="testCheckbox"
+              name="testCheckbox"
+              onChange={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              type="checkbox"
+            >
+              <input
+                aria-labelledby="testCheckbox-label"
+                checked={false}
+                className=""
+                disabled={false}
+                id="testCheckbox"
+                name="testCheckbox"
+                onChange={[Function]}
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                type="checkbox"
+              />
+            </checkbox__CheckboxInput>
+            <label
+              aria-checked={false}
+              htmlFor="testCheckbox"
+            />
+          </div>
+        </checkbox__CheckboxWrapper>
+        <checkbox__CheckboxLabel
+          disabled={false}
+          id="testCheckbox-label"
+          onClick={null}
+        >
+          <span
+            className="c3"
+            disabled={false}
+            id="testCheckbox-label"
+            onClick={null}
+          >
+            hello
+          </span>
+        </checkbox__CheckboxLabel>
+      </div>
+    </checkbox__BoxLabelWrap>
   </div>
-</div>
+</checkbox__ElWrap>
 `;
 
 exports[`checkbox sets input as disabled via props 1`] = `
@@ -1571,42 +1779,66 @@ exports[`checkbox sets input as disabled via props 1`] = `
   color: #696969;
 }
 
-<div
-  className="c0"
->
+<checkbox__ElWrap>
   <div
-    className="c1"
+    className="c0"
   >
-    <div
-      className="c2"
-    >
-      <input
-        aria-labelledby="testCheckbox-label"
-        checked={false}
-        className=""
-        disabled={true}
-        id="testCheckbox"
-        name="testCheckbox"
-        onChange={[Function]}
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        type="checkbox"
-      />
-      <label
-        aria-checked={false}
-        htmlFor="testCheckbox"
-      />
-    </div>
-    <span
-      className="c3"
-      disabled={true}
-      id="testCheckbox-label"
-      onClick={null}
-    >
-      hello
-    </span>
+    <checkbox__BoxLabelWrap>
+      <div
+        className="c1"
+      >
+        <checkbox__CheckboxWrapper>
+          <div
+            className="c2"
+          >
+            <checkbox__CheckboxInput
+              aria-labelledby="testCheckbox-label"
+              checked={false}
+              disabled={true}
+              id="testCheckbox"
+              name="testCheckbox"
+              onChange={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              type="checkbox"
+            >
+              <input
+                aria-labelledby="testCheckbox-label"
+                checked={false}
+                className=""
+                disabled={true}
+                id="testCheckbox"
+                name="testCheckbox"
+                onChange={[Function]}
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                type="checkbox"
+              />
+            </checkbox__CheckboxInput>
+            <label
+              aria-checked={false}
+              htmlFor="testCheckbox"
+            />
+          </div>
+        </checkbox__CheckboxWrapper>
+        <checkbox__CheckboxLabel
+          disabled={true}
+          id="testCheckbox-label"
+          onClick={null}
+        >
+          <span
+            className="c3"
+            disabled={true}
+            id="testCheckbox-label"
+            onClick={null}
+          >
+            hello
+          </span>
+        </checkbox__CheckboxLabel>
+      </div>
+    </checkbox__BoxLabelWrap>
   </div>
-</div>
+</checkbox__ElWrap>
 `;
 
 exports[`checkbox sets labelStyle via style object passed as props 1`] = `
@@ -1746,47 +1978,76 @@ exports[`checkbox sets labelStyle via style object passed as props 1`] = `
   color: #131516;
 }
 
-<div
-  className="c0"
->
+<checkbox__ElWrap>
   <div
-    className="c1"
+    className="c0"
   >
-    <div
-      className="c2"
-    >
-      <input
-        aria-labelledby="testCheckbox-label"
-        checked={false}
-        className=""
-        disabled={false}
-        id="testCheckbox"
-        name="testCheckbox"
-        onChange={[Function]}
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        type="checkbox"
-      />
-      <label
-        aria-checked={false}
-        htmlFor="testCheckbox"
-      />
-    </div>
-    <span
-      className="c3"
-      disabled={false}
-      id="testCheckbox-label"
-      onClick={null}
-      style={
-        Object {
-          "color": "#0680cd",
-        }
-      }
-    >
-      hello
-    </span>
+    <checkbox__BoxLabelWrap>
+      <div
+        className="c1"
+      >
+        <checkbox__CheckboxWrapper>
+          <div
+            className="c2"
+          >
+            <checkbox__CheckboxInput
+              aria-labelledby="testCheckbox-label"
+              checked={false}
+              disabled={false}
+              id="testCheckbox"
+              name="testCheckbox"
+              onChange={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              type="checkbox"
+            >
+              <input
+                aria-labelledby="testCheckbox-label"
+                checked={false}
+                className=""
+                disabled={false}
+                id="testCheckbox"
+                name="testCheckbox"
+                onChange={[Function]}
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                type="checkbox"
+              />
+            </checkbox__CheckboxInput>
+            <label
+              aria-checked={false}
+              htmlFor="testCheckbox"
+            />
+          </div>
+        </checkbox__CheckboxWrapper>
+        <checkbox__CheckboxLabel
+          disabled={false}
+          id="testCheckbox-label"
+          onClick={null}
+          style={
+            Object {
+              "color": "#0680cd",
+            }
+          }
+        >
+          <span
+            className="c3"
+            disabled={false}
+            id="testCheckbox-label"
+            onClick={null}
+            style={
+              Object {
+                "color": "#0680cd",
+              }
+            }
+          >
+            hello
+          </span>
+        </checkbox__CheckboxLabel>
+      </div>
+    </checkbox__BoxLabelWrap>
   </div>
-</div>
+</checkbox__ElWrap>
 `;
 
 exports[`checkbox sets wrapper style via object passed as props 1`] = `
@@ -1926,8 +2187,7 @@ exports[`checkbox sets wrapper style via object passed as props 1`] = `
   color: #131516;
 }
 
-<div
-  className="c0"
+<checkbox__ElWrap
   style={
     Object {
       "color": "#0680cd",
@@ -1935,38 +2195,69 @@ exports[`checkbox sets wrapper style via object passed as props 1`] = `
   }
 >
   <div
-    className="c1"
+    className="c0"
+    style={
+      Object {
+        "color": "#0680cd",
+      }
+    }
   >
-    <div
-      className="c2"
-    >
-      <input
-        aria-labelledby="testCheckbox-label"
-        checked={false}
-        className=""
-        disabled={false}
-        id="testCheckbox"
-        name="testCheckbox"
-        onChange={[Function]}
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        type="checkbox"
-      />
-      <label
-        aria-checked={false}
-        htmlFor="testCheckbox"
-      />
-    </div>
-    <span
-      className="c3"
-      disabled={false}
-      id="testCheckbox-label"
-      onClick={null}
-    >
-      hello
-    </span>
+    <checkbox__BoxLabelWrap>
+      <div
+        className="c1"
+      >
+        <checkbox__CheckboxWrapper>
+          <div
+            className="c2"
+          >
+            <checkbox__CheckboxInput
+              aria-labelledby="testCheckbox-label"
+              checked={false}
+              disabled={false}
+              id="testCheckbox"
+              name="testCheckbox"
+              onChange={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              type="checkbox"
+            >
+              <input
+                aria-labelledby="testCheckbox-label"
+                checked={false}
+                className=""
+                disabled={false}
+                id="testCheckbox"
+                name="testCheckbox"
+                onChange={[Function]}
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                type="checkbox"
+              />
+            </checkbox__CheckboxInput>
+            <label
+              aria-checked={false}
+              htmlFor="testCheckbox"
+            />
+          </div>
+        </checkbox__CheckboxWrapper>
+        <checkbox__CheckboxLabel
+          disabled={false}
+          id="testCheckbox-label"
+          onClick={null}
+        >
+          <span
+            className="c3"
+            disabled={false}
+            id="testCheckbox-label"
+            onClick={null}
+          >
+            hello
+          </span>
+        </checkbox__CheckboxLabel>
+      </div>
+    </checkbox__BoxLabelWrap>
   </div>
-</div>
+</checkbox__ElWrap>
 `;
 
 exports[`checkbox underlines the label on hover when \`underlineLabelOnHover\` is set to true 1`] = `
@@ -2111,40 +2402,65 @@ exports[`checkbox underlines the label on hover when \`underlineLabelOnHover\` i
   text-decoration: underline;
 }
 
-<div
-  className="c0"
->
+<checkbox__ElWrap>
   <div
-    className="c1"
+    className="c0"
   >
-    <div
-      className="c2"
-    >
-      <input
-        aria-labelledby="testCheckbox-label"
-        checked={false}
-        className=""
-        disabled={false}
-        id="testCheckbox"
-        name="testCheckbox"
-        onChange={[Function]}
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        type="checkbox"
-      />
-      <label
-        aria-checked={false}
-        htmlFor="testCheckbox"
-      />
-    </div>
-    <span
-      className="c3"
-      disabled={false}
-      id="testCheckbox-label"
-      onClick={null}
-    >
-      hello
-    </span>
+    <checkbox__BoxLabelWrap>
+      <div
+        className="c1"
+      >
+        <checkbox__CheckboxWrapper>
+          <div
+            className="c2"
+          >
+            <checkbox__CheckboxInput
+              aria-labelledby="testCheckbox-label"
+              checked={false}
+              disabled={false}
+              id="testCheckbox"
+              name="testCheckbox"
+              onChange={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              type="checkbox"
+            >
+              <input
+                aria-labelledby="testCheckbox-label"
+                checked={false}
+                className=""
+                disabled={false}
+                id="testCheckbox"
+                name="testCheckbox"
+                onChange={[Function]}
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                type="checkbox"
+              />
+            </checkbox__CheckboxInput>
+            <label
+              aria-checked={false}
+              htmlFor="testCheckbox"
+            />
+          </div>
+        </checkbox__CheckboxWrapper>
+        <checkbox__CheckboxLabel
+          disabled={false}
+          id="testCheckbox-label"
+          onClick={null}
+          underlineLabelOnHover={true}
+        >
+          <span
+            className="c3"
+            disabled={false}
+            id="testCheckbox-label"
+            onClick={null}
+          >
+            hello
+          </span>
+        </checkbox__CheckboxLabel>
+      </div>
+    </checkbox__BoxLabelWrap>
   </div>
-</div>
+</checkbox__ElWrap>
 `;

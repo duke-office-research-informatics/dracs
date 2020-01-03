@@ -30,10 +30,10 @@ const DrawerEl = styled.aside`
     p.insideTree
       ? null
       : p.active
-        ? "translateX(0)"
-        : p.type === "right"
-          ? "translateX(100%)"
-          : "translateX(calc(-1 * 100%))"};
+      ? "translateX(0)"
+      : p.type === "right"
+      ? "translateX(100%)"
+      : "translateX(calc(-1 * 100%))"};
   transform-origin: ${p => p.type};
   @media (max-width: 768px) {
     width: 280px;
@@ -117,7 +117,7 @@ class Drawer extends React.PureComponent {
           active={this.state.visible}
           backgroundColor={backgroundColor}
           delay={delay}
-          innerRef={innerRef}
+          ref={innerRef}
           insideTree={insideTree}
           style={drawerStyle}
           tabIndex={-1}

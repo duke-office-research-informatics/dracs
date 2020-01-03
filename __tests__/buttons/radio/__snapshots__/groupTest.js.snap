@@ -91,67 +91,108 @@ exports[`RadioGroup applies styles to the wrapper via \`wrapperStyle\` prop 1`] 
   color: #131516;
 }
 
-<div
+<group__RadioGroupWrap
   aria-activedescendant="button1"
-  className="c0"
   name="testGroup"
   style={
     Object {
       "color": "#0680cd",
     }
   }
+  tabindex="0"
 >
   <div
-    className="c1"
+    aria-activedescendant="button1"
+    className="c0"
+    name="testGroup"
+    style={
+      Object {
+        "color": "#0680cd",
+      }
+    }
   >
-    <input
-      aria-checked={true}
-      aria-labelledby="button1-label"
-      checked={true}
-      className=""
-      id="button1"
-      name="button1"
-      onChange={[Function]}
-      onClick={[Function]}
-      type="radio"
-      value="button1"
-    />
-    <label
-      htmlFor="button1"
-    />
-    <span
-      id="button1-label"
-      onClick={null}
-    >
-      button 1
-    </span>
+    <buttons__RadioWrap>
+      <div
+        className="c1"
+      >
+        <buttons__RadioInput
+          aria-checked={true}
+          aria-labelledby="button1-label"
+          checked={true}
+          id="button1"
+          name="button1"
+          onChange={[Function]}
+          onClick={[Function]}
+          type="radio"
+          value="button1"
+        >
+          <input
+            aria-checked={true}
+            aria-labelledby="button1-label"
+            checked={true}
+            className=""
+            disabled={false}
+            id="button1"
+            name="button1"
+            onChange={[Function]}
+            onClick={[Function]}
+            type="radio"
+            value="button1"
+          />
+        </buttons__RadioInput>
+        <label
+          htmlFor="button1"
+        />
+        <span
+          id="button1-label"
+          onClick={null}
+        >
+          button 1
+        </span>
+      </div>
+    </buttons__RadioWrap>
+    <buttons__RadioWrap>
+      <div
+        className="c1"
+      >
+        <buttons__RadioInput
+          aria-checked={false}
+          aria-labelledby="button2-label"
+          checked={false}
+          id="button2"
+          name="button2"
+          onChange={[Function]}
+          onClick={[Function]}
+          type="radio"
+          value="button2"
+        >
+          <input
+            aria-checked={false}
+            aria-labelledby="button2-label"
+            checked={false}
+            className=""
+            disabled={false}
+            id="button2"
+            name="button2"
+            onChange={[Function]}
+            onClick={[Function]}
+            type="radio"
+            value="button2"
+          />
+        </buttons__RadioInput>
+        <label
+          htmlFor="button2"
+        />
+        <span
+          id="button2-label"
+          onClick={null}
+        >
+          button 2
+        </span>
+      </div>
+    </buttons__RadioWrap>
   </div>
-  <div
-    className="c1"
-  >
-    <input
-      aria-checked={false}
-      aria-labelledby="button2-label"
-      checked={false}
-      className=""
-      id="button2"
-      name="button2"
-      onChange={[Function]}
-      onClick={[Function]}
-      type="radio"
-      value="button2"
-    />
-    <label
-      htmlFor="button2"
-    />
-    <span
-      id="button2-label"
-      onClick={null}
-    >
-      button 2
-    </span>
-  </div>
-</div>
+</group__RadioGroupWrap>
 `;
 
 exports[`RadioGroup matches snapshot 1`] = `
@@ -245,62 +286,98 @@ exports[`RadioGroup matches snapshot 1`] = `
   color: #131516;
 }
 
-<div
+<group__RadioGroupWrap
   aria-activedescendant="button1"
-  className="c0"
   name="testGroup"
+  tabindex="0"
 >
   <div
-    className="c1"
+    aria-activedescendant="button1"
+    className="c0"
+    name="testGroup"
   >
-    <input
-      aria-checked={true}
-      aria-labelledby="button1-label"
-      checked={true}
-      className=""
-      id="button1"
-      name="button1"
-      onChange={[Function]}
-      onClick={[Function]}
-      type="radio"
-      value="button1"
-    />
-    <label
-      htmlFor="button1"
-    />
-    <span
-      id="button1-label"
-      onClick={null}
-    >
-      button 1
-    </span>
+    <buttons__RadioWrap>
+      <div
+        className="c1"
+      >
+        <buttons__RadioInput
+          aria-checked={true}
+          aria-labelledby="button1-label"
+          checked={true}
+          id="button1"
+          name="button1"
+          onChange={[Function]}
+          onClick={[Function]}
+          type="radio"
+          value="button1"
+        >
+          <input
+            aria-checked={true}
+            aria-labelledby="button1-label"
+            checked={true}
+            className=""
+            disabled={false}
+            id="button1"
+            name="button1"
+            onChange={[Function]}
+            onClick={[Function]}
+            type="radio"
+            value="button1"
+          />
+        </buttons__RadioInput>
+        <label
+          htmlFor="button1"
+        />
+        <span
+          id="button1-label"
+          onClick={null}
+        >
+          button 1
+        </span>
+      </div>
+    </buttons__RadioWrap>
+    <buttons__RadioWrap>
+      <div
+        className="c1"
+      >
+        <buttons__RadioInput
+          aria-checked={false}
+          aria-labelledby="button2-label"
+          checked={false}
+          id="button2"
+          name="button2"
+          onChange={[Function]}
+          onClick={[Function]}
+          type="radio"
+          value="button2"
+        >
+          <input
+            aria-checked={false}
+            aria-labelledby="button2-label"
+            checked={false}
+            className=""
+            disabled={false}
+            id="button2"
+            name="button2"
+            onChange={[Function]}
+            onClick={[Function]}
+            type="radio"
+            value="button2"
+          />
+        </buttons__RadioInput>
+        <label
+          htmlFor="button2"
+        />
+        <span
+          id="button2-label"
+          onClick={null}
+        >
+          button 2
+        </span>
+      </div>
+    </buttons__RadioWrap>
   </div>
-  <div
-    className="c1"
-  >
-    <input
-      aria-checked={false}
-      aria-labelledby="button2-label"
-      checked={false}
-      className=""
-      id="button2"
-      name="button2"
-      onChange={[Function]}
-      onClick={[Function]}
-      type="radio"
-      value="button2"
-    />
-    <label
-      htmlFor="button2"
-    />
-    <span
-      id="button2-label"
-      onClick={null}
-    >
-      button 2
-    </span>
-  </div>
-</div>
+</group__RadioGroupWrap>
 `;
 
 exports[`RadioGroup sets buttons as disabled when \`disabled\` is set to true 1`] = `
@@ -395,66 +472,106 @@ exports[`RadioGroup sets buttons as disabled when \`disabled\` is set to true 1`
   cursor: not-allowed;
 }
 
-<div
+<group__RadioGroupWrap
   aria-activedescendant="button1"
-  className="c0"
   name="testGroup"
+  tabindex="0"
 >
   <div
-    className="c1"
-    disabled={true}
+    aria-activedescendant="button1"
+    className="c0"
+    name="testGroup"
   >
-    <input
-      aria-checked={true}
-      aria-labelledby="button1-label"
-      checked={true}
-      className=""
+    <buttons__RadioWrap
       disabled={true}
-      id="button1"
-      name="button1"
-      onChange={[Function]}
-      onClick={[Function]}
-      type="radio"
-      value="button1"
-    />
-    <label
-      htmlFor="button1"
-    />
-    <span
-      disabled={true}
-      id="button1-label"
-      onClick={null}
     >
-      button 1
-    </span>
-  </div>
-  <div
-    className="c1"
-    disabled={true}
-  >
-    <input
-      aria-checked={false}
-      aria-labelledby="button2-label"
-      checked={false}
-      className=""
+      <div
+        className="c1"
+        disabled={true}
+      >
+        <buttons__RadioInput
+          aria-checked={true}
+          aria-labelledby="button1-label"
+          checked={true}
+          disabled={true}
+          id="button1"
+          name="button1"
+          onChange={[Function]}
+          onClick={[Function]}
+          type="radio"
+          value="button1"
+        >
+          <input
+            aria-checked={true}
+            aria-labelledby="button1-label"
+            checked={true}
+            className=""
+            disabled={true}
+            id="button1"
+            name="button1"
+            onChange={[Function]}
+            onClick={[Function]}
+            type="radio"
+            value="button1"
+          />
+        </buttons__RadioInput>
+        <label
+          htmlFor="button1"
+        />
+        <span
+          disabled={true}
+          id="button1-label"
+          onClick={null}
+        >
+          button 1
+        </span>
+      </div>
+    </buttons__RadioWrap>
+    <buttons__RadioWrap
       disabled={true}
-      id="button2"
-      name="button2"
-      onChange={[Function]}
-      onClick={[Function]}
-      type="radio"
-      value="button2"
-    />
-    <label
-      htmlFor="button2"
-    />
-    <span
-      disabled={true}
-      id="button2-label"
-      onClick={null}
     >
-      button 2
-    </span>
+      <div
+        className="c1"
+        disabled={true}
+      >
+        <buttons__RadioInput
+          aria-checked={false}
+          aria-labelledby="button2-label"
+          checked={false}
+          disabled={true}
+          id="button2"
+          name="button2"
+          onChange={[Function]}
+          onClick={[Function]}
+          type="radio"
+          value="button2"
+        >
+          <input
+            aria-checked={false}
+            aria-labelledby="button2-label"
+            checked={false}
+            className=""
+            disabled={true}
+            id="button2"
+            name="button2"
+            onChange={[Function]}
+            onClick={[Function]}
+            type="radio"
+            value="button2"
+          />
+        </buttons__RadioInput>
+        <label
+          htmlFor="button2"
+        />
+        <span
+          disabled={true}
+          id="button2-label"
+          onClick={null}
+        >
+          button 2
+        </span>
+      </div>
+    </buttons__RadioWrap>
   </div>
-</div>
+</group__RadioGroupWrap>
 `;

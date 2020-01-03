@@ -48,9 +48,12 @@ class Overlay extends React.Component {
 
   componentDidMount() {
     const { active, lockScroll, onEscKeyDown } = this.props;
-    if (onEscKeyDown)
+    if (onEscKeyDown) {
       document.body.addEventListener("keydown", this.handleEscPress);
-    if (active && lockScroll) document.body.style.overflow = "hidden";
+    }
+    if (active && lockScroll) {
+      document.body.style.overflow = "hidden";
+    }
   }
 
   componentDidUpdate(prevProps) {
@@ -126,7 +129,7 @@ class Overlay extends React.Component {
           bgOpacity={bgOpacity}
           onClick={this.handleClick}
           onTouchStart={this.handleClick}
-          innerRef={node => (this.overlay = node)}
+          ref={node => (this.overlay = node)}
           {...other}
         />
       </Transition>

@@ -15,9 +15,9 @@ const DropdownWrap = styled.div`
   ${p => (p.type === "button" ? "display: inline-flex" : null)};
 `;
 
-const MenuButton = styled.button.attrs({
-  disabled: p => (p.disabled ? true : false),
-})`
+const MenuButton = styled.button.attrs(props => ({
+  disabled: props.disabled ? true : false,
+}))`
   margin: 0;
   padding: 0;
   vertical-align: top;
@@ -431,7 +431,7 @@ class Dropdown extends React.Component {
         onMouseUp={this.props.onMouseUp}
         onTouchStart={this.props.onTouchStart}
         onTouchEnd={this.props.onTouchEnd}
-        innerRef={node => (this.menuButton = node)}
+        ref={node => (this.menuButton = node)}
         aria-haspopup={true}
         aria-expanded={this.state.active}
         onKeyDown={this.handleMenuButtonKeydown}
@@ -553,7 +553,7 @@ class Dropdown extends React.Component {
     const selected = this.getSelectedItem();
     return (
       <DropdownWrap
-        innerRef={innerRef}
+        ref={innerRef}
         type={type}
         className={wrapperClassName}
         style={wrapperStyle}
@@ -583,7 +583,7 @@ class Dropdown extends React.Component {
         )}
 
         <MenuList
-          innerRef={node => (this.menu = node)}
+          ref={node => (this.menu = node)}
           active={this.state.active}
           aria-hidden={!this.state.active}
           aria-label="submenu"

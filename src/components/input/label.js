@@ -19,8 +19,8 @@ const LabelField = styled.label`
         ? "2px"
         : "12px"
       : props.isFocused || props.isTouched
-        ? labelTopFocus
-        : labelTop};
+      ? labelTopFocus
+      : labelTop};
   left: ${p => (p.textAreaLabel ? "8px" : null)};
   font-size: ${props => (props.isFocused || props.isTouched ? "12px" : "16px")};
   pointer-events: none;

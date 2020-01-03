@@ -59,9 +59,9 @@ const BackgroundCircle = styled.circle`
   stroke: ${p => p.color};
 `;
 
-const ProgressCircle = styled.circle.attrs({
-  transform: p => (p.transform ? p.transform : null),
-})`
+const ProgressCircle = styled.circle.attrs(props => ({
+  transform: props.transform ? props.transform : null,
+}))`
   fill: none;
   stroke: ${p => p.color};
   stroke-linecap: round;
@@ -71,12 +71,10 @@ const ProgressCircle = styled.circle.attrs({
   transition: ${p => `${p.controlledAnimationDuration}ms all linear 0ms`};
   animation: ${p =>
     p.type === "uncontrolled"
-      ? `${CircularDash} ${
-          p.uncontrolledAnimationDuration
-        }ms ease-in-out infinite`
+      ? `${CircularDash} ${p.uncontrolledAnimationDuration}ms ease-in-out infinite`
       : p.animateOnMount
-        ? `${load} 3s`
-        : null};
+      ? `${load} 3s`
+      : null};
 `;
 
 const InnerText = styled.text`
@@ -179,8 +177,8 @@ const CircularProgress = props => {
             {insideLabel || insideLabel === 0
               ? insideLabel
               : textProps.relVal || textProps.relVal === 0
-                ? `${textProps.relVal}%`
-                : null}
+              ? `${textProps.relVal}%`
+              : null}
           </InnerText>
         ) : null}
       </SvgContainer>

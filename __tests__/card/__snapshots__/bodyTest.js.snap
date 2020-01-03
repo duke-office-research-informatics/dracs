@@ -27,14 +27,22 @@ exports[`CardBody applies a style object via props 1`] = `
   display: none;
 }
 
-<article
-  className="c0"
+<body__CardBodyWrap
   style={
     Object {
       "margin": "8px",
     }
   }
-/>
+>
+  <article
+    className="c0"
+    style={
+      Object {
+        "margin": "8px",
+      }
+    }
+  />
+</body__CardBodyWrap>
 `;
 
 exports[`CardBody matches snapshot 1`] = `
@@ -64,9 +72,11 @@ exports[`CardBody matches snapshot 1`] = `
   display: none;
 }
 
-<article
-  className="c0"
-/>
+<body__CardBodyWrap>
+  <article
+    className="c0"
+  />
+</body__CardBodyWrap>
 `;
 
 exports[`CardBody passes className via props 1`] = `
@@ -96,9 +106,13 @@ exports[`CardBody passes className via props 1`] = `
   display: none;
 }
 
-<article
-  className="testClass c0"
-/>
+<body__CardBodyWrap
+  className="testClass"
+>
+  <article
+    className="c0 testClass"
+  />
+</body__CardBodyWrap>
 `;
 
 exports[`CardBody passes height via props 1`] = `
@@ -129,10 +143,14 @@ exports[`CardBody passes height via props 1`] = `
   display: none;
 }
 
-<article
-  className="c0"
+<body__CardBodyWrap
   height="100px"
-/>
+>
+  <article
+    className="c0"
+    height="100px"
+  />
+</body__CardBodyWrap>
 `;
 
 exports[`CardBody renders children 1`] = `
@@ -167,33 +185,44 @@ exports[`CardBody renders children 1`] = `
   display: none;
 }
 
-<article
-  className="c0"
->
-  <svg
-    aria-label="open customize and profile menu"
-    className="c1"
-    color="#fff"
-    height={24}
-    role="img"
-    viewBox="0 0 24 24"
-    width={24}
+<body__CardBodyWrap>
+  <article
+    className="c0"
   >
-    <title>
-      menu icon
-    </title>
-    <desc>
-      hamburger menu icon
-    </desc>
-    <path
-      d="M0 0h24v24H0z"
-      fill="none"
-    />
-    <path
-      d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-    />
-  </svg>
-</article>
+    <icon_wrapper__Icon
+      aria-label="open customize and profile menu"
+      color="#fff"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c1"
+        color="#fff"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </icon_wrapper__Icon>
+  </article>
+</body__CardBodyWrap>
 `;
 
 exports[`CardBody sets padding via props 1`] = `
@@ -223,7 +252,11 @@ exports[`CardBody sets padding via props 1`] = `
   display: none;
 }
 
-<article
-  className="c0"
-/>
+<body__CardBodyWrap
+  padding="8px"
+>
+  <article
+    className="c0"
+  />
+</body__CardBodyWrap>
 `;

@@ -45,12 +45,12 @@ const hoverColor = styledMap("styleType", {
   flat: colors.actionHover,
 });
 
-export const StyledBtn = styled.button.attrs({
-  disabled: props =>
+export const StyledBtn = styled.button.attrs(props => ({
+  disabled:
     props.styleType === "disabled" || props.styleType === "disabledFilled"
       ? true
       : false,
-})`
+}))`
   display: flex;
   flex: 0 0 auto;
   justify-content: center;
@@ -123,7 +123,7 @@ const Button = props => {
       data-testid={props["data-testid"]}
       dense={props.dense}
       id={props.id}
-      innerRef={props.innerRef}
+      ref={props.innerRef}
       label={props.label}
       labelColor={props.labelColor}
       labelHoverColor={props.labelHoverColor}

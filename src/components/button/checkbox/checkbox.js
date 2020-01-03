@@ -8,10 +8,10 @@ import IconCheckboxDisabled from "./check_box_disabled.svg";
 import IconCheckboxOutlineDisabled from "./check_box_outline_disabled.svg";
 import IconCheckboxIndeterminate from "./check_box_indeterminate.svg";
 
-const CheckboxInput = styled.input.attrs({
-  disabled: props => (props.disabled ? true : false),
-  checked: props => (props.checked ? true : false),
-})``;
+const CheckboxInput = styled.input.attrs(props => ({
+  disabled: props.disabled ? true : false,
+  checked: props.checked ? true : false,
+}))``;
 
 const CheckboxWrapper = styled.div`
   display: inline-flex;
@@ -209,7 +209,7 @@ class Checkbox extends React.Component {
               disabled={disabled}
               id={name}
               indeterminate={indeterminate}
-              innerRef={node => (this.inputNode = node)}
+              ref={node => (this.inputNode = node)}
               name={name}
               onBlur={onBlur}
               onChange={() => {}}

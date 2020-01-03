@@ -9,7 +9,7 @@ const ListWrap = styled.ul`
 
 const List = props => {
   return (
-    <ListWrap innerRef={props.innerRef} style={props.style}>
+    <ListWrap ref={props.innerRef} style={props.style}>
       {props.children}
     </ListWrap>
   );

@@ -23,7 +23,7 @@ const CardBody = props => {
       className={props.className}
       height={props.height}
       id={props.id}
-      innerRef={props.innerRef}
+      ref={props.innerRef}
       style={props.style}
       padding={props.padding}
     >

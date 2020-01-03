@@ -86,16 +86,16 @@ describe("Double Line List Item", () => {
       <DoubleLineListItem lineOne={title} lineTwo={subtitle} />
     );
     expect(item).toMatchSnapshot();
-    expect(item.find("typography__H4").length).toBe(1);
-    expect(item.find("typography__H4").text()).toBe(title);
+    expect(item.find("double_line__LineOne").length).toBe(1);
+    expect(item.find("double_line__LineOne").text()).toBe(title);
   });
   it("sets content for line two on the correct dom node via the lineTwo prop", () => {
     const item = mountWithTheme(
       <DoubleLineListItem lineOne={title} lineTwo={subtitle} />
     );
     expect(item).toMatchSnapshot();
-    expect(item.find("typography__H5").length).toBe(1);
-    expect(item.find("typography__H5").text()).toBe(subtitle);
+    expect(item.find("double_line__LineTwo").length).toBe(1);
+    expect(item.find("double_line__LineTwo").text()).toBe(subtitle);
   });
 
   it("sets a left icon in the proper dom node when passed as leftIcon prop", () => {
@@ -159,8 +159,8 @@ describe("Double Line List Item", () => {
         lineOneStyle={style}
       />
     );
-    expect(item.find("typography__H4").length).toBe(1);
-    expect(item.find("typography__H4").props().style).toHaveProperty(
+    expect(item.find("double_line__LineOne").length).toBe(1);
+    expect(item.find("double_line__LineOne").props().style).toHaveProperty(
       "margin",
       "8px"
     );
@@ -173,8 +173,8 @@ describe("Double Line List Item", () => {
         lineTwoStyle={style}
       />
     );
-    expect(item.find("typography__H5").length).toBe(1);
-    expect(item.find("typography__H5").props().style).toHaveProperty(
+    expect(item.find("double_line__LineTwo").length).toBe(1);
+    expect(item.find("double_line__LineTwo").props().style).toHaveProperty(
       "margin",
       "8px"
     );

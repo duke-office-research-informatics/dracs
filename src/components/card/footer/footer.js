@@ -23,7 +23,7 @@ const CardFooter = props => {
       bgColor={props.bgColor}
       border={props.border}
       className={props.className}
-      innerRef={props.innerRef}
+      ref={props.innerRef}
       multipleActions={props.multipleActions}
       style={props.style}
     >

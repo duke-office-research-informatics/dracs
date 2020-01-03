@@ -56,9 +56,9 @@ const MenuTrigger = styled.div`
   height: 18px;
 `;
 
-const TriggerWrap = styled.div.attrs({
-  disabled: p => (p.disabled ? true : false),
-})`
+const TriggerWrap = styled.div.attrs(props => ({
+  disabled: props.disabled ? true : false,
+}))`
   position: relative;
   display: inline-flex;
   flex: 1 1 auto;
@@ -506,7 +506,7 @@ class InlineMenu extends React.Component {
 
     return (
       <ComponentWrap
-        innerRef={node => (this.componentWrapper = node)}
+        ref={node => (this.componentWrapper = node)}
         style={wrapperStyle}
         width={triggerWidth}
       >
@@ -519,7 +519,7 @@ class InlineMenu extends React.Component {
               : null
           }
           displayTrigger={displayTrigger}
-          innerRef={node => {
+          ref={node => {
             if (triggerRef) triggerRef(node);
             this.trigger = node;
           }}
@@ -557,7 +557,7 @@ class InlineMenu extends React.Component {
               role="menu"
               className={menuClassName}
               id={menuId}
-              innerRef={node => (this.menuNode = node)}
+              ref={node => (this.menuNode = node)}
               left={left}
               position={position}
               style={menuStyle}

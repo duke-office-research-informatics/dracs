@@ -2,9 +2,9 @@ import React from "react";
 import propTypes from "prop-types";
 import styled from "styled-components";
 
-const ActionBtn = styled.button.attrs({
-  disabled: props => (props.disabled ? true : false),
-})`
+const ActionBtn = styled.button.attrs(props => ({
+  disabled: props.disabled ? true : false,
+}))`
   align-items: center;
   margin: 4px;
   transition: all 0.2s ease-in-out;
@@ -28,7 +28,7 @@ const ActionButton = props => {
       className={props.className}
       data-testid={props["data-testid"]}
       disabled={props.disabled}
-      innerRef={props.innerRef}
+      ref={props.innerRef}
       mediaQuery={props.mediaQuery}
       onBlur={props.onBlur}
       onClick={props.onClick}

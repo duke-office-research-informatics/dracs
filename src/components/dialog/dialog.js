@@ -158,7 +158,7 @@ export class Dialog extends React.PureComponent {
               delay={this.props.delay}
               type={this.props.type}
               role="dialog" //eslint-disable-line
-              innerRef={node => (this.body = node)}
+              ref={node => (this.body = node)}
               tabIndex={-1}
             >
               {this.props.title ? (

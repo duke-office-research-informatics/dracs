@@ -2,9 +2,9 @@ import React from "react";
 import propTypes from "prop-types";
 import styled from "styled-components";
 
-const TabWrap = styled.div.attrs({
-  disabled: props => (props.disabled ? true : false),
-})`
+const TabWrap = styled.div.attrs(props => ({
+  disabled: props.disabled ? true : false,
+}))`
   display: ${p => (p.hidden ? "none" : "flex")};
   flex: ${p => (p.fixed ? "1 0 auto" : "0 0 auto")};
   justify-content: center;

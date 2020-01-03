@@ -108,8 +108,8 @@ describe("Triple Line List Item", () => {
       />
     );
     expect(item).toMatchSnapshot();
-    expect(item.find("typography__H4").length).toBe(1);
-    expect(item.find("typography__H4").text()).toBe(title);
+    expect(item.find("triple_line__LineOne").length).toBe(1);
+    expect(item.find("triple_line__LineOne").text()).toBe(title);
   });
   it("sets content for second line on correct dom node via lineTwo prop", () => {
     const item = mountWithTheme(
@@ -120,8 +120,8 @@ describe("Triple Line List Item", () => {
       />
     );
     expect(item).toMatchSnapshot();
-    expect(item.find("typography__P").length).toBe(1);
-    expect(item.find("typography__P").text()).toBe(subtitle);
+    expect(item.find("triple_line__LineTwo").length).toBe(1);
+    expect(item.find("triple_line__LineTwo").text()).toBe(subtitle);
   });
   it("sets content for third line on correct dom node via lineThree prop", () => {
     const item = mountWithTheme(
@@ -132,8 +132,8 @@ describe("Triple Line List Item", () => {
       />
     );
     expect(item).toMatchSnapshot();
-    expect(item.find("typography__H5").length).toBe(1);
-    expect(item.find("typography__H5").text()).toBe(thirdLine);
+    expect(item.find("triple_line__LineThree").length).toBe(1);
+    expect(item.find("triple_line__LineThree").text()).toBe(thirdLine);
   });
   it("sets a left icon in the proper dom node when passed as leftIcon prop", () => {
     const item = mountWithTheme(
@@ -199,8 +199,8 @@ describe("Triple Line List Item", () => {
         lineOneStyle={style}
       />
     );
-    expect(item.find("typography__H4").length).toBe(1);
-    expect(item.find("typography__H4").props().style).toHaveProperty(
+    expect(item.find("triple_line__LineOne").length).toBe(1);
+    expect(item.find("triple_line__LineOne").props().style).toHaveProperty(
       "margin",
       "8px"
     );
@@ -214,8 +214,8 @@ describe("Triple Line List Item", () => {
         lineTwoStyle={style}
       />
     );
-    expect(item.find("typography__P").length).toBe(1);
-    expect(item.find("typography__P").props().style).toHaveProperty(
+    expect(item.find("triple_line__LineTwo").length).toBe(1);
+    expect(item.find("triple_line__LineTwo").props().style).toHaveProperty(
       "margin",
       "8px"
     );
@@ -229,8 +229,8 @@ describe("Triple Line List Item", () => {
         lineThreeStyle={style}
       />
     );
-    expect(item.find("typography__H5").length).toBe(1);
-    expect(item.find("typography__H5").props().style).toHaveProperty(
+    expect(item.find("triple_line__LineThree").length).toBe(1);
+    expect(item.find("triple_line__LineThree").props().style).toHaveProperty(
       "margin",
       "8px"
     );

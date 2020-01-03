@@ -72,13 +72,18 @@ exports[`base Button applies a :hover(background-color) via props 1`] = `
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
+  bgHoverColor="#696969"
   label="hello"
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={false}
+    label="hello"
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button applies a background color via props 1`] = `
@@ -153,13 +158,18 @@ exports[`base Button applies a background color via props 1`] = `
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
+  bgColor="#696969"
   label="hello"
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={false}
+    label="hello"
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button applies a classname via props 1`] = `
@@ -234,13 +244,18 @@ exports[`base Button applies a classname via props 1`] = `
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="aclass c0"
-  disabled={false}
+<button__StyledBtn
+  className="aclass"
   label="hello"
 >
-  hello
-</button>
+  <button
+    className="c0 aclass"
+    disabled={false}
+    label="hello"
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button applies a label color via props 1`] = `
@@ -315,13 +330,18 @@ exports[`base Button applies a label color via props 1`] = `
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
   label="hello"
+  labelColor="#696969"
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={false}
+    label="hello"
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button applies a label hover color via props 1`] = `
@@ -396,13 +416,18 @@ exports[`base Button applies a label hover color via props 1`] = `
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
   label="hello"
+  labelHoverColor="#696969"
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={false}
+    label="hello"
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button applies a media query via props 1`] = `
@@ -483,13 +508,18 @@ exports[`base Button applies a media query via props 1`] = `
   }
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
   label="hello"
+  mediaQuery="@media(max-width:768px){width:30px}"
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={false}
+    label="hello"
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button applies a style object via props 1`] = `
@@ -564,9 +594,7 @@ exports[`base Button applies a style object via props 1`] = `
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
   label="hello"
   style={
     Object {
@@ -574,8 +602,19 @@ exports[`base Button applies a style object via props 1`] = `
     }
   }
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={false}
+    label="hello"
+    style={
+      Object {
+        "width": "30px",
+      }
+    }
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button applies an html id via props 1`] = `
@@ -650,14 +689,19 @@ exports[`base Button applies an html id via props 1`] = `
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
   id="anid"
   label="hello"
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={false}
+    id="anid"
+    label="hello"
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button applies an onBlur function via props and triggers that function on blur 1`] = `
@@ -732,14 +776,19 @@ exports[`base Button applies an onBlur function via props and triggers that func
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
   label="hello"
   onBlur={[Function]}
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={false}
+    label="hello"
+    onBlur={[Function]}
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button applies an onClick function via props and triggers that function on click 1`] = `
@@ -814,14 +863,19 @@ exports[`base Button applies an onClick function via props and triggers that fun
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
   label="hello"
   onClick={[Function]}
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={false}
+    label="hello"
+    onClick={[Function]}
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button applies an onFocus function via props and triggers that function on focus 1`] = `
@@ -896,14 +950,19 @@ exports[`base Button applies an onFocus function via props and triggers that fun
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
   label="hello"
   onFocus={[Function]}
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={false}
+    label="hello"
+    onFocus={[Function]}
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button applies an onMouseDown function via props and triggers that function on MouseDown 1`] = `
@@ -978,14 +1037,19 @@ exports[`base Button applies an onMouseDown function via props and triggers that
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
   label="hello"
   onMouseDown={[Function]}
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={false}
+    label="hello"
+    onMouseDown={[Function]}
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button applies an onMouseEnter function via props and triggers that function on MouseEnter 1`] = `
@@ -1060,14 +1124,19 @@ exports[`base Button applies an onMouseEnter function via props and triggers tha
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
   label="hello"
   onMouseEnter={[Function]}
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={false}
+    label="hello"
+    onMouseEnter={[Function]}
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button applies an onMouseLeave function via props and triggers that function on MouseLeave 1`] = `
@@ -1142,14 +1211,19 @@ exports[`base Button applies an onMouseLeave function via props and triggers tha
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
   label="hello"
   onMouseLeave={[Function]}
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={false}
+    label="hello"
+    onMouseLeave={[Function]}
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button applies an onMouseUp function via props and triggers that function on MouseUp 1`] = `
@@ -1224,14 +1298,19 @@ exports[`base Button applies an onMouseUp function via props and triggers that f
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
   label="hello"
   onMouseUp={[Function]}
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={false}
+    label="hello"
+    onMouseUp={[Function]}
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button applies an onTouchEnd function via props and triggers that function on TouchEnd 1`] = `
@@ -1306,14 +1385,19 @@ exports[`base Button applies an onTouchEnd function via props and triggers that 
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
   label="hello"
   onBlur={[Function]}
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={false}
+    label="hello"
+    onBlur={[Function]}
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button applies an onTouchStart function via props and triggers that function on TouchStart 1`] = `
@@ -1388,14 +1472,19 @@ exports[`base Button applies an onTouchStart function via props and triggers tha
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
   label="hello"
   onTouchStart={[Function]}
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={false}
+    label="hello"
+    onTouchStart={[Function]}
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button applies the correct styles when \`dense\` is set to true 1`] = `
@@ -1470,13 +1559,18 @@ exports[`base Button applies the correct styles when \`dense\` is set to true 1`
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
+  dense={true}
   label="hello"
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={false}
+    label="hello"
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button applies the html name attribute via props 1`] = `
@@ -1551,14 +1645,19 @@ exports[`base Button applies the html name attribute via props 1`] = `
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
   label="hello"
   name="testName"
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={false}
+    label="hello"
+    name="testName"
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button applies the labelColor as the fill color to an svg passed via the label prop 1`] = `
@@ -1638,9 +1737,7 @@ exports[`base Button applies the labelColor as the fill color to an svg passed v
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
   label={
     <IconMenu
       color="#fff"
@@ -1648,30 +1745,50 @@ exports[`base Button applies the labelColor as the fill color to an svg passed v
     />
   }
 >
-  <svg
-    aria-label="open customize and profile menu"
-    className="c1"
-    color="#fff"
-    height={24}
-    role="img"
-    viewBox="0 0 24 24"
-    width={24}
+  <button
+    className="c0"
+    disabled={false}
+    label={
+      <IconMenu
+        color="#fff"
+        size={24}
+      />
+    }
   >
-    <title>
-      menu icon
-    </title>
-    <desc>
-      hamburger menu icon
-    </desc>
-    <path
-      d="M0 0h24v24H0z"
-      fill="none"
-    />
-    <path
-      d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-    />
-  </svg>
-</button>
+    <icon_wrapper__Icon
+      aria-label="open customize and profile menu"
+      color="#fff"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c1"
+        color="#fff"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </icon_wrapper__Icon>
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button applies the labelHoverColor as the fill color to an svg passed via the label prop 1`] = `
@@ -1751,9 +1868,7 @@ exports[`base Button applies the labelHoverColor as the fill color to an svg pas
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
   label={
     <IconMenu
       color="#fff"
@@ -1761,30 +1876,50 @@ exports[`base Button applies the labelHoverColor as the fill color to an svg pas
     />
   }
 >
-  <svg
-    aria-label="open customize and profile menu"
-    className="c1"
-    color="#fff"
-    height={24}
-    role="img"
-    viewBox="0 0 24 24"
-    width={24}
+  <button
+    className="c0"
+    disabled={false}
+    label={
+      <IconMenu
+        color="#fff"
+        size={24}
+      />
+    }
   >
-    <title>
-      menu icon
-    </title>
-    <desc>
-      hamburger menu icon
-    </desc>
-    <path
-      d="M0 0h24v24H0z"
-      fill="none"
-    />
-    <path
-      d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-    />
-  </svg>
-</button>
+    <icon_wrapper__Icon
+      aria-label="open customize and profile menu"
+      color="#fff"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c1"
+        color="#fff"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </icon_wrapper__Icon>
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button button type matches snapshot when button type = \`disabled\` 1`] = `
@@ -1860,13 +1995,18 @@ exports[`base Button button type matches snapshot when button type = \`disabled\
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={true}
+<button__StyledBtn
   label="hello"
+  styleType="disabled"
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={true}
+    label="hello"
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button button type matches snapshot when button type = \`disabledFilled\` 1`] = `
@@ -1942,13 +2082,18 @@ exports[`base Button button type matches snapshot when button type = \`disabledF
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={true}
+<button__StyledBtn
   label="hello"
+  styleType="disabledFilled"
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={true}
+    label="hello"
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button button type matches snapshot when button type = \`error\` 1`] = `
@@ -2023,13 +2168,18 @@ exports[`base Button button type matches snapshot when button type = \`error\` 1
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
   label="hello"
+  styleType="error"
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={false}
+    label="hello"
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button button type matches snapshot when button type = \`errorFilled\` 1`] = `
@@ -2104,13 +2254,18 @@ exports[`base Button button type matches snapshot when button type = \`errorFill
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
   label="hello"
+  styleType="errorFilled"
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={false}
+    label="hello"
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button button type matches snapshot when button type = \`filled\` 1`] = `
@@ -2185,13 +2340,18 @@ exports[`base Button button type matches snapshot when button type = \`filled\` 
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
   label="hello"
+  styleType="filled"
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={false}
+    label="hello"
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button button type matches snapshot when button type = \`flat\` 1`] = `
@@ -2266,13 +2426,18 @@ exports[`base Button button type matches snapshot when button type = \`flat\` 1`
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
   label="hello"
+  styleType="flat"
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={false}
+    label="hello"
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button button type matches snapshot when button type = \`inverted\` 1`] = `
@@ -2347,13 +2512,18 @@ exports[`base Button button type matches snapshot when button type = \`inverted\
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
   label="hello"
+  styleType="inverted"
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={false}
+    label="hello"
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;
 
 exports[`base Button matches snapshot 1`] = `
@@ -2428,11 +2598,15 @@ exports[`base Button matches snapshot 1`] = `
   outline: dotted 1px rgb(59,153,252);
 }
 
-<button
-  className="c0"
-  disabled={false}
+<button__StyledBtn
   label="hello"
 >
-  hello
-</button>
+  <button
+    className="c0"
+    disabled={false}
+    label="hello"
+  >
+    hello
+  </button>
+</button__StyledBtn>
 `;

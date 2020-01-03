@@ -31,12 +31,12 @@ const TextareaWrapper = styled.div`
   box-sizing: border-box;
 `;
 
-const TextareaInput = styled.textarea.attrs({
-  disabled: props => (props.inputState === "disabled" ? true : false),
-  required: props => props.required,
-  readOnly: props => props.readOnly,
-  type: props => props.type,
-})`
+const TextareaInput = styled.textarea.attrs(props => ({
+  disabled: props.inputState === "disabled" ? true : false,
+  required: props.required,
+  readOnly: props.readOnly,
+  type: props.type,
+}))`
   padding: ${p => (p.isFocused ? "0 7px 7px 7px" : "0 8px 8px 8px")};
   min-height: 64px;
   height: 100%;
@@ -222,7 +222,7 @@ class TextArea extends React.Component {
             }
             autoFocus={this.props.autoFocus}
             id={this.props.id ? this.props.id : this.props.name}
-            innerRef={this.props.inputRef}
+            ref={this.props.inputRef}
             value={this.state.currentValue}
             onChange={this.handleChange}
             onFocus={this.handleFocus}

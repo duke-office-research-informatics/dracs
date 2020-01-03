@@ -1,8 +1,9 @@
 import React from "react";
 import propTypes from "prop-types";
 import { StyledBtn } from "../base/button.js";
+import styled from "styled-components";
 
-const ButtonWithLink = StyledBtn.withComponent("a");
+const ButtonWithLink = styled(StyledBtn).attrs(() => ({ as: "a" }));
 
 const LinkButton = props => {
   return (
@@ -14,7 +15,7 @@ const LinkButton = props => {
       dense={props.dense}
       href={props.href}
       id={props.id}
-      innerRef={props.innerRef}
+      ref={props.innerRef}
       label={props.label}
       labelColor={props.labelColor}
       labelHoverColor={props.labelHoverColor}

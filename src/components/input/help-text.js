@@ -38,7 +38,7 @@ const HelpText = props => {
     <HelpLabel
       dense={props.dense}
       id={`${props.htmlFor}-statusText`}
-      innerRef={props.helpLabelRef}
+      ref={props.helpLabelRef}
       inputState={props.inputState}
       isFocused={props.isFocused}
       isTouched={props.isTouched}

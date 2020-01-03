@@ -13,12 +13,12 @@ import {
   elFontsize,
 } from "./input_style_maps.js";
 
-const InputField = styled.input.attrs({
-  disabled: props => (props.inputState === "disabled" ? true : false),
-  readOnly: props => (props.readOnly ? "readonly" : false),
-  type: props => props.type,
-  required: props => props.required,
-})`
+const InputField = styled.input.attrs(props => ({
+  disabled: props.inputState === "disabled" ? true : false,
+  readOnly: props.readOnly ? "readonly" : false,
+  type: props.type,
+  required: props.required,
+}))`
   box-sizing: border-box;
   display: block;
   color: ${text};
@@ -82,7 +82,7 @@ const Input = props => {
       dense={props.dense}
       iconRight={props.iconRight}
       id={props.id ? props.id : props.name}
-      innerRef={props.innerRef}
+      ref={props.innerRef}
       inputState={props.inputState}
       isFocused={props.isFocused}
       isTouched={props.isTouched}

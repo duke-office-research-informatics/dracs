@@ -13,8 +13,8 @@ const IconRightWrapper = styled.div`
     props.inputState === "disabled"
       ? "not-allowed"
       : props.active
-        ? "pointer"
-        : "auto"};
+      ? "pointer"
+      : "auto"};
   &:focus {
     outline: dotted 1px rgb(59, 153, 252);
   }

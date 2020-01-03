@@ -1,25 +1,20 @@
-import React from 'react';
-import { ThemeProvider } from 'styled-components';
-import { mount, shallow } from 'enzyme';
-import { theme } from '../lib/dracs.es.js';
+import React from "react";
+import { ThemeProvider } from "styled-components";
+import { mount, shallow } from "enzyme";
+import { theme as defaultTheme } from "../lib/dracs.es.js";
 
-export const shallowWithTheme = (tree) => {
-  const context = shallow(<ThemeProvider theme={theme} />)
-    .instance()
-    .getChildContext();
-  return shallow(tree, { context });
+export const shallowWithTheme = (children, customTheme) => {
+  const theme = customTheme || defaultTheme;
+  return shallow(children, { context: theme });
 };
 
-export const mountWithTheme = (tree) => {
-  const context = shallow(<ThemeProvider theme={theme} />)
-    .instance()
-    .getChildContext();
-
-  return mount(tree, {
-    context,
-    childContextTypes: ThemeProvider.childContextTypes // Needed so child components receive the theme prop
+export function mountWithTheme(child) {
+  return mount(child, {
+    wrappingComponent: ({ children }) => (
+      <ThemeProvider theme={defaultTheme}>{children}</ThemeProvider>
+    ),
   });
-};
+}
 
 //FOR ACCESSING PORTALS VIA ENZYME -- import portal from dracs
 // https://github.com/airbnb/enzyme/issues/1202#issuecomment-351639783

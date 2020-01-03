@@ -1,12 +1,12 @@
 import React from "react";
-import { shallowWithTheme } from "../../config/scUtils.js";
+import { mountWithTheme, shallowWithTheme } from "../../config/scUtils.js";
 import { axe } from "jest-axe";
 import { H1, H2, H3, H4, H5, P, theme } from "../../lib/dracs.es.js";
 
 describe("H1", () => {
   let wrapper;
   beforeEach(() => {
-    wrapper = shallowWithTheme(<H1>An H1 is you</H1>);
+    wrapper = mountWithTheme(<H1>An H1 is you</H1>);
   });
 
   it("matches dom snapshot", () => {
@@ -38,7 +38,7 @@ describe("H1", () => {
   });
 
   it("displays correct color when `color` prop is declared", () => {
-    const el = shallowWithTheme(
+    const el = mountWithTheme(
       <H1 color={theme.colors.action}>An H1 is you</H1>
     );
     expect(el).toMatchSnapshot();
@@ -46,19 +46,19 @@ describe("H1", () => {
   });
 
   it("sets the top/bottom margin when `margin` prop is declared", () => {
-    const el = shallowWithTheme(<H1 margin={8}>An H1 is you</H1>);
+    const el = mountWithTheme(<H1 margin={8}>An H1 is you</H1>);
     expect(el).toMatchSnapshot();
     expect(el).toHaveStyleRule("margin", "8px 0");
   });
 
   it("bolds when `bold` prop is set to true", () => {
-    const el = shallowWithTheme(<H1 bold>An H1 is you</H1>);
+    const el = mountWithTheme(<H1 bold>An H1 is you</H1>);
     expect(el).toMatchSnapshot();
     expect(el).toHaveStyleRule("font-weight", "700");
   });
 
   it("italicizes when `italic` prop is set to true", () => {
-    const el = shallowWithTheme(<H1 italic>An H1 is you</H1>);
+    const el = mountWithTheme(<H1 italic>An H1 is you</H1>);
     expect(el).toMatchSnapshot();
     expect(el).toHaveStyleRule("font-style", "italic");
   });
@@ -67,7 +67,7 @@ describe("H1", () => {
 describe("H2", () => {
   let wrapper;
   beforeEach(() => {
-    wrapper = shallowWithTheme(<H2>An H2 is you</H2>);
+    wrapper = mountWithTheme(<H2>An H2 is you</H2>);
   });
 
   it("matches dom snapshot", () => {
@@ -99,7 +99,7 @@ describe("H2", () => {
   });
 
   it("displays correct color when `color` prop is declared", () => {
-    const el = shallowWithTheme(
+    const el = mountWithTheme(
       <H2 color={theme.colors.action}>An H2 is you</H2>
     );
     expect(el).toMatchSnapshot();
@@ -107,19 +107,19 @@ describe("H2", () => {
   });
 
   it("sets the top/bottom margin when `margin` prop is declared", () => {
-    const el = shallowWithTheme(<H2 margin={8}>An H2 is you</H2>);
+    const el = mountWithTheme(<H2 margin={8}>An H2 is you</H2>);
     expect(el).toMatchSnapshot();
     expect(el).toHaveStyleRule("margin", "8px 0");
   });
 
   it("bolds when `bold` prop is set to true", () => {
-    const el = shallowWithTheme(<H2 bold>An H2 is you</H2>);
+    const el = mountWithTheme(<H2 bold>An H2 is you</H2>);
     expect(el).toMatchSnapshot();
     expect(el).toHaveStyleRule("font-weight", "700");
   });
 
   it("italicizes when `italic` prop is set to true", () => {
-    const el = shallowWithTheme(<H2 italic>An H2 is you</H2>);
+    const el = mountWithTheme(<H2 italic>An H2 is you</H2>);
     expect(el).toMatchSnapshot();
     expect(el).toHaveStyleRule("font-style", "italic");
   });
@@ -128,7 +128,7 @@ describe("H2", () => {
 describe("H3", () => {
   let wrapper;
   beforeEach(() => {
-    wrapper = shallowWithTheme(<H3>An H3 is you</H3>);
+    wrapper = mountWithTheme(<H3>An H3 is you</H3>);
   });
 
   it("matches dom snapshot", () => {
@@ -160,7 +160,7 @@ describe("H3", () => {
   });
 
   it("displays correct color when `color` prop is declared", () => {
-    const el = shallowWithTheme(
+    const el = mountWithTheme(
       <H3 color={theme.colors.action}>An H3 is you</H3>
     );
     expect(el).toMatchSnapshot();
@@ -168,19 +168,19 @@ describe("H3", () => {
   });
 
   it("sets the top/bottom margin when `margin` prop is declared", () => {
-    const el = shallowWithTheme(<H3 margin={8}>An H3 is you</H3>);
+    const el = mountWithTheme(<H3 margin={8}>An H3 is you</H3>);
     expect(el).toMatchSnapshot();
     expect(el).toHaveStyleRule("margin", "8px 0");
   });
 
   it("bolds when `bold` prop is set to true", () => {
-    const el = shallowWithTheme(<H3 bold>An H3 is you</H3>);
+    const el = mountWithTheme(<H3 bold>An H3 is you</H3>);
     expect(el).toMatchSnapshot();
     expect(el).toHaveStyleRule("font-weight", "700");
   });
 
   it("italicizes when `italic` prop is set to true", () => {
-    const el = shallowWithTheme(<H3 italic>An H3 is you</H3>);
+    const el = mountWithTheme(<H3 italic>An H3 is you</H3>);
     expect(el).toMatchSnapshot();
     expect(el).toHaveStyleRule("font-style", "italic");
   });
@@ -189,7 +189,7 @@ describe("H3", () => {
 describe("H4", () => {
   let wrapper;
   beforeEach(() => {
-    wrapper = shallowWithTheme(<H4>An H4 is you</H4>);
+    wrapper = mountWithTheme(<H4>An H4 is you</H4>);
   });
 
   it("matches dom snapshot", () => {
@@ -221,7 +221,7 @@ describe("H4", () => {
   });
 
   it("displays correct color when `color` prop is declared", () => {
-    const el = shallowWithTheme(
+    const el = mountWithTheme(
       <H4 color={theme.colors.action}>An H4 is you</H4>
     );
     expect(el).toMatchSnapshot();
@@ -229,19 +229,19 @@ describe("H4", () => {
   });
 
   it("sets the top/bottom margin when `margin` prop is declared", () => {
-    const el = shallowWithTheme(<H4 margin={8}>An H4 is you</H4>);
+    const el = mountWithTheme(<H4 margin={8}>An H4 is you</H4>);
     expect(el).toMatchSnapshot();
     expect(el).toHaveStyleRule("margin", "8px 0");
   });
 
   it("bolds when `bold` prop is set to true", () => {
-    const el = shallowWithTheme(<H4 bold>An H4 is you</H4>);
+    const el = mountWithTheme(<H4 bold>An H4 is you</H4>);
     expect(el).toMatchSnapshot();
     expect(el).toHaveStyleRule("font-weight", "700");
   });
 
   it("italicizes when `italic` prop is set to true", () => {
-    const el = shallowWithTheme(<H4 italic>An H4 is you</H4>);
+    const el = mountWithTheme(<H4 italic>An H4 is you</H4>);
     expect(el).toMatchSnapshot();
     expect(el).toHaveStyleRule("font-style", "italic");
   });
@@ -250,7 +250,7 @@ describe("H4", () => {
 describe("H5", () => {
   let wrapper;
   beforeEach(() => {
-    wrapper = shallowWithTheme(<H5>An H5 is you</H5>);
+    wrapper = mountWithTheme(<H5>An H5 is you</H5>);
   });
 
   it("matches dom snapshot", () => {
@@ -282,13 +282,13 @@ describe("H5", () => {
   });
 
   it("line-height: 1.43em when `expanded` is set to true", () => {
-    const el = shallowWithTheme(<H5 expanded>An H5 is you</H5>);
+    const el = mountWithTheme(<H5 expanded>An H5 is you</H5>);
     expect(el).toMatchSnapshot();
     expect(el).toHaveStyleRule("line-height", "1.43em");
   });
 
   it("displays correct color when `color` prop is declared", () => {
-    const el = shallowWithTheme(
+    const el = mountWithTheme(
       <H5 color={theme.colors.action}>An H5 is you</H5>
     );
     expect(el).toMatchSnapshot();
@@ -296,19 +296,19 @@ describe("H5", () => {
   });
 
   it("sets the top/bottom margin when `margin` prop is declared", () => {
-    const el = shallowWithTheme(<H5 margin={8}>An H5 is you</H5>);
+    const el = mountWithTheme(<H5 margin={8}>An H5 is you</H5>);
     expect(el).toMatchSnapshot();
     expect(el).toHaveStyleRule("margin", "8px 0");
   });
 
   it("bolds when `bold` prop is set to true", () => {
-    const el = shallowWithTheme(<H5 bold>An H5 is you</H5>);
+    const el = mountWithTheme(<H5 bold>An H5 is you</H5>);
     expect(el).toMatchSnapshot();
     expect(el).toHaveStyleRule("font-weight", "700");
   });
 
   it("italicizes when `italic` prop is set to true", () => {
-    const el = shallowWithTheme(<H5 italic>An H5 is you</H5>);
+    const el = mountWithTheme(<H5 italic>An H5 is you</H5>);
     expect(el).toMatchSnapshot();
     expect(el).toHaveStyleRule("font-style", "italic");
   });
@@ -317,7 +317,7 @@ describe("H5", () => {
 describe("P", () => {
   let wrapper;
   beforeEach(() => {
-    wrapper = shallowWithTheme(<P>An P is you</P>);
+    wrapper = mountWithTheme(<P>An P is you</P>);
   });
 
   it("matches dom snapshot", () => {
@@ -349,31 +349,31 @@ describe("P", () => {
   });
 
   it("line-height: 1.43em when `expanded` is set to true", () => {
-    const el = shallowWithTheme(<P expanded>An P is you</P>);
+    const el = mountWithTheme(<P expanded>An P is you</P>);
     expect(el).toMatchSnapshot();
     expect(el).toHaveStyleRule("line-height", "1.43em");
   });
 
   it("displays correct color when `color` prop is declared", () => {
-    const el = shallowWithTheme(<P color={theme.colors.action}>An P is you</P>);
+    const el = mountWithTheme(<P color={theme.colors.action}>An P is you</P>);
     expect(el).toMatchSnapshot();
     expect(el).toHaveStyleRule("color", theme.colors.action);
   });
 
   it("sets the top/bottom margin when `margin` prop is declared", () => {
-    const el = shallowWithTheme(<P margin={8}>An P is you</P>);
+    const el = mountWithTheme(<P margin={8}>An P is you</P>);
     expect(el).toMatchSnapshot();
     expect(el).toHaveStyleRule("margin", "8px 0");
   });
 
   it("bolds when `bold` prop is set to true", () => {
-    const el = shallowWithTheme(<P bold>An P is you</P>);
+    const el = mountWithTheme(<P bold>An P is you</P>);
     expect(el).toMatchSnapshot();
     expect(el).toHaveStyleRule("font-weight", "700");
   });
 
   it("italicizes when `italic` prop is set to true", () => {
-    const el = shallowWithTheme(<P italic>An P is you</P>);
+    const el = mountWithTheme(<P italic>An P is you</P>);
     expect(el).toMatchSnapshot();
     expect(el).toHaveStyleRule("font-style", "italic");
   });

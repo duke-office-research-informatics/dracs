@@ -53,7 +53,7 @@ const Card = props => {
       mediaQuery={props.mediaQuery}
       onClick={props.onClick}
       padding={props.padding}
-      innerRef={props.innerRef}
+      ref={props.innerRef}
       style={props.style}
     >
       {props.children}

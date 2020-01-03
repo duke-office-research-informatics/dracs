@@ -30,14 +30,25 @@ exports[`BottomSheet \`active\` true \`bgColor\` prop matches snapshot 1`] = `
   overflow: hidden;
 }
 
-<div
-  className="c0"
+<bottom_sheet__SheetOverlay
+  delay={300}
 >
   <div
-    className="c1"
-    onClick={[Function]}
-  />
-</div>
+    className="c0"
+  >
+    <bottom_sheet__SheetBody
+      bgColor="#0680cd"
+      delay={300}
+      onClick={[Function]}
+      visible={true}
+    >
+      <div
+        className="c1"
+        onClick={[Function]}
+      />
+    </bottom_sheet__SheetBody>
+  </div>
+</bottom_sheet__SheetOverlay>
 `;
 
 exports[`BottomSheet \`active\` true \`bodyStyle\` matches snapshot 1`] = `
@@ -68,19 +79,34 @@ exports[`BottomSheet \`active\` true \`bodyStyle\` matches snapshot 1`] = `
   overflow: hidden;
 }
 
-<div
-  className="c0"
+<bottom_sheet__SheetOverlay
+  delay={300}
 >
   <div
-    className="c1"
-    onClick={[Function]}
-    style={
-      Object {
-        "maxHeight": "100px",
+    className="c0"
+  >
+    <bottom_sheet__SheetBody
+      delay={300}
+      onClick={[Function]}
+      style={
+        Object {
+          "maxHeight": "100px",
+        }
       }
-    }
-  />
-</div>
+      visible={true}
+    >
+      <div
+        className="c1"
+        onClick={[Function]}
+        style={
+          Object {
+            "maxHeight": "100px",
+          }
+        }
+      />
+    </bottom_sheet__SheetBody>
+  </div>
+</bottom_sheet__SheetOverlay>
 `;
 
 exports[`BottomSheet \`active\` true \`children\` matches snapshot 1`] = `
@@ -116,38 +142,57 @@ exports[`BottomSheet \`active\` true \`children\` matches snapshot 1`] = `
   overflow: hidden;
 }
 
-<div
-  className="c0"
+<bottom_sheet__SheetOverlay
+  delay={300}
 >
   <div
-    className="c1"
-    onClick={[Function]}
+    className="c0"
   >
-    <svg
-      aria-label="open customize and profile menu"
-      className="c2"
-      color="#fff"
-      height={24}
-      role="img"
-      viewBox="0 0 24 24"
-      width={24}
+    <bottom_sheet__SheetBody
+      delay={300}
+      onClick={[Function]}
+      visible={true}
     >
-      <title>
-        menu icon
-      </title>
-      <desc>
-        hamburger menu icon
-      </desc>
-      <path
-        d="M0 0h24v24H0z"
-        fill="none"
-      />
-      <path
-        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-      />
-    </svg>
+      <div
+        className="c1"
+        onClick={[Function]}
+      >
+        <icon_wrapper__Icon
+          aria-label="open customize and profile menu"
+          color="#fff"
+          height={24}
+          role="img"
+          viewBox="0 0 24 24"
+          width={24}
+        >
+          <svg
+            aria-label="open customize and profile menu"
+            className="c2"
+            color="#fff"
+            height={24}
+            role="img"
+            viewBox="0 0 24 24"
+            width={24}
+          >
+            <title>
+              menu icon
+            </title>
+            <desc>
+              hamburger menu icon
+            </desc>
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </icon_wrapper__Icon>
+      </div>
+    </bottom_sheet__SheetBody>
   </div>
-</div>
+</bottom_sheet__SheetOverlay>
 `;
 
 exports[`BottomSheet \`active\` true \`delay\` matches snapshot 1`] = `
@@ -178,14 +223,24 @@ exports[`BottomSheet \`active\` true \`delay\` matches snapshot 1`] = `
   overflow: hidden;
 }
 
-<div
-  className="c0"
+<bottom_sheet__SheetOverlay
+  delay={0}
 >
   <div
-    className="c1"
-    onClick={[Function]}
-  />
-</div>
+    className="c0"
+  >
+    <bottom_sheet__SheetBody
+      delay={0}
+      onClick={[Function]}
+      visible={true}
+    >
+      <div
+        className="c1"
+        onClick={[Function]}
+      />
+    </bottom_sheet__SheetBody>
+  </div>
+</bottom_sheet__SheetOverlay>
 `;
 
 exports[`BottomSheet \`active\` true \`height\` matches snapshot 1`] = `
@@ -217,15 +272,26 @@ exports[`BottomSheet \`active\` true \`height\` matches snapshot 1`] = `
   overflow: hidden;
 }
 
-<div
-  className="c0"
+<bottom_sheet__SheetOverlay
+  delay={300}
 >
   <div
-    className="c1"
-    height="10em"
-    onClick={[Function]}
-  />
-</div>
+    className="c0"
+  >
+    <bottom_sheet__SheetBody
+      delay={300}
+      height="10em"
+      onClick={[Function]}
+      visible={true}
+    >
+      <div
+        className="c1"
+        height="10em"
+        onClick={[Function]}
+      />
+    </bottom_sheet__SheetBody>
+  </div>
+</bottom_sheet__SheetOverlay>
 `;
 
 exports[`BottomSheet \`active\` true \`onOverlayClick\` matches snapshot 1`] = `
@@ -256,15 +322,26 @@ exports[`BottomSheet \`active\` true \`onOverlayClick\` matches snapshot 1`] = `
   overflow: hidden;
 }
 
-<div
-  className="c0"
+<bottom_sheet__SheetOverlay
+  delay={300}
   onClick={[Function]}
 >
   <div
-    className="c1"
+    className="c0"
     onClick={[Function]}
-  />
-</div>
+  >
+    <bottom_sheet__SheetBody
+      delay={300}
+      onClick={[Function]}
+      visible={true}
+    >
+      <div
+        className="c1"
+        onClick={[Function]}
+      />
+    </bottom_sheet__SheetBody>
+  </div>
+</bottom_sheet__SheetOverlay>
 `;
 
 exports[`BottomSheet \`active\` true \`overlayStyle\` matches snapshot 1`] = `
@@ -295,8 +372,8 @@ exports[`BottomSheet \`active\` true \`overlayStyle\` matches snapshot 1`] = `
   overflow: hidden;
 }
 
-<div
-  className="c0"
+<bottom_sheet__SheetOverlay
+  delay={300}
   style={
     Object {
       "border": "solid 1px #e8e5e2",
@@ -304,10 +381,25 @@ exports[`BottomSheet \`active\` true \`overlayStyle\` matches snapshot 1`] = `
   }
 >
   <div
-    className="c1"
-    onClick={[Function]}
-  />
-</div>
+    className="c0"
+    style={
+      Object {
+        "border": "solid 1px #e8e5e2",
+      }
+    }
+  >
+    <bottom_sheet__SheetBody
+      delay={300}
+      onClick={[Function]}
+      visible={true}
+    >
+      <div
+        className="c1"
+        onClick={[Function]}
+      />
+    </bottom_sheet__SheetBody>
+  </div>
+</bottom_sheet__SheetOverlay>
 `;
 
 exports[`BottomSheet \`active\` true \`textColor\` matches snapshot 1`] = `
@@ -339,14 +431,25 @@ exports[`BottomSheet \`active\` true \`textColor\` matches snapshot 1`] = `
   overflow: hidden;
 }
 
-<div
-  className="c0"
+<bottom_sheet__SheetOverlay
+  delay={300}
 >
   <div
-    className="c1"
-    onClick={[Function]}
-  />
-</div>
+    className="c0"
+  >
+    <bottom_sheet__SheetBody
+      delay={300}
+      onClick={[Function]}
+      textColor="#fff"
+      visible={true}
+    >
+      <div
+        className="c1"
+        onClick={[Function]}
+      />
+    </bottom_sheet__SheetBody>
+  </div>
+</bottom_sheet__SheetOverlay>
 `;
 
 exports[`BottomSheet \`active\` true matches snapshot 1`] = `
@@ -377,12 +480,22 @@ exports[`BottomSheet \`active\` true matches snapshot 1`] = `
   overflow: hidden;
 }
 
-<div
-  className="c0"
+<bottom_sheet__SheetOverlay
+  delay={300}
 >
   <div
-    className="c1"
-    onClick={[Function]}
-  />
-</div>
+    className="c0"
+  >
+    <bottom_sheet__SheetBody
+      delay={300}
+      onClick={[Function]}
+      visible={false}
+    >
+      <div
+        className="c1"
+        onClick={[Function]}
+      />
+    </bottom_sheet__SheetBody>
+  </div>
+</bottom_sheet__SheetOverlay>
 `;

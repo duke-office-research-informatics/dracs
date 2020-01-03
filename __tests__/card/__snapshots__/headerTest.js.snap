@@ -33,9 +33,13 @@ exports[`CardHeader applies the proper styles for drag-n-drop when \`dragHandle\
   background-color: rgba(0,0,0,0.1);
 }
 
-<header
-  className="c0"
-/>
+<header__CardHeaderWrap
+  dragHandle={true}
+>
+  <header
+    className="c0"
+  />
+</header__CardHeaderWrap>
 `;
 
 exports[`CardHeader attaches a style object to the header 1`] = `
@@ -66,14 +70,22 @@ exports[`CardHeader attaches a style object to the header 1`] = `
   align-self: flex-start;
 }
 
-<header
-  className="c0"
+<header__CardHeaderWrap
   style={
     Object {
       "backgroundColor": "#fff",
     }
   }
-/>
+>
+  <header
+    className="c0"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+      }
+    }
+  />
+</header__CardHeaderWrap>
 `;
 
 exports[`CardHeader matches snapshot 1`] = `
@@ -104,9 +116,11 @@ exports[`CardHeader matches snapshot 1`] = `
   align-self: flex-start;
 }
 
-<header
-  className="c0"
-/>
+<header__CardHeaderWrap>
+  <header
+    className="c0"
+  />
+</header__CardHeaderWrap>
 `;
 
 exports[`CardHeader passes a classname via props 1`] = `
@@ -137,9 +151,13 @@ exports[`CardHeader passes a classname via props 1`] = `
   align-self: flex-start;
 }
 
-<header
-  className="testClass c0"
-/>
+<header__CardHeaderWrap
+  className="testClass"
+>
+  <header
+    className="c0 testClass"
+  />
+</header__CardHeaderWrap>
 `;
 
 exports[`CardHeader renders children 1`] = `
@@ -175,33 +193,44 @@ exports[`CardHeader renders children 1`] = `
   align-self: flex-start;
 }
 
-<header
-  className="c0"
->
-  <svg
-    aria-label="open customize and profile menu"
-    className="c1"
-    color="#fff"
-    height={24}
-    role="img"
-    viewBox="0 0 24 24"
-    width={24}
+<header__CardHeaderWrap>
+  <header
+    className="c0"
   >
-    <title>
-      menu icon
-    </title>
-    <desc>
-      hamburger menu icon
-    </desc>
-    <path
-      d="M0 0h24v24H0z"
-      fill="none"
-    />
-    <path
-      d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-    />
-  </svg>
-</header>
+    <icon_wrapper__Icon
+      aria-label="open customize and profile menu"
+      color="#fff"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c1"
+        color="#fff"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </icon_wrapper__Icon>
+  </header>
+</header__CardHeaderWrap>
 `;
 
 exports[`CardHeader sets a bottom border when \`border\` is set to true 1`] = `
@@ -233,9 +262,13 @@ exports[`CardHeader sets a bottom border when \`border\` is set to true 1`] = `
   align-self: flex-start;
 }
 
-<header
-  className="c0"
-/>
+<header__CardHeaderWrap
+  border={true}
+>
+  <header
+    className="c0"
+  />
+</header__CardHeaderWrap>
 `;
 
 exports[`CardHeader sets an html title via props 1`] = `
@@ -281,18 +314,29 @@ exports[`CardHeader sets an html title via props 1`] = `
   margin-left: 8px;
 }
 
-<header
-  className="c0"
->
-  <h3
-    className="c1"
-    dangerouslySetInnerHTML={
-      Object {
-        "__html": "<div id=\\"title\\">title</div>",
+<header__CardHeaderWrap>
+  <header
+    className="c0"
+  >
+    <header__Title
+      bold={true}
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "<div id=\\"title\\">title</div>",
+        }
       }
-    }
-  />
-</header>
+    >
+      <h3
+        className="c1"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<div id=\\"title\\">title</div>",
+          }
+        }
+      />
+    </header__Title>
+  </header>
+</header__CardHeaderWrap>
 `;
 
 exports[`CardHeader sets the icon via props 1`] = `
@@ -328,31 +372,42 @@ exports[`CardHeader sets the icon via props 1`] = `
   align-self: flex-start;
 }
 
-<header
-  className="c0"
->
-  <svg
-    aria-label="open customize and profile menu"
-    className="c1"
-    color="#fff"
-    height={24}
-    role="img"
-    viewBox="0 0 24 24"
-    width={24}
+<header__CardHeaderWrap>
+  <header
+    className="c0"
   >
-    <title>
-      menu icon
-    </title>
-    <desc>
-      hamburger menu icon
-    </desc>
-    <path
-      d="M0 0h24v24H0z"
-      fill="none"
-    />
-    <path
-      d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-    />
-  </svg>
-</header>
+    <icon_wrapper__Icon
+      aria-label="open customize and profile menu"
+      color="#fff"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c1"
+        color="#fff"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </icon_wrapper__Icon>
+  </header>
+</header__CardHeaderWrap>
 `;
