@@ -225,15 +225,15 @@ class InlineMenu extends React.Component {
     }
   }
 
-  componentWillUpdate(nextProps) {
-    if (nextProps.active !== this.props.active) {
+  componentDidUpdate(prevProps) {
+    if (prevProps.active !== this.props.active) {
       if (
-        nextProps.active === true &&
-        this.props.active === false &&
+        prevProps.active === false &&
+        this.props.active === true &&
         this.componentWrapper
       ) {
         this.setMenu();
-      } else if (nextProps.active === false && this.props.active === true) {
+      } else if (prevProps.active === true && this.props.active === false) {
         this.deactivate();
       }
     }
@@ -441,8 +441,8 @@ class InlineMenu extends React.Component {
     if (
       this.state.active &&
       this.componentWrapper &&
-      (!events.targetIsDescendant(e, this.menuNode) &&
-        !events.targetIsDescendant(e, this.componentWrapper))
+      !events.targetIsDescendant(e, this.menuNode) &&
+      !events.targetIsDescendant(e, this.componentWrapper)
     ) {
       this.deactivate(e);
     }

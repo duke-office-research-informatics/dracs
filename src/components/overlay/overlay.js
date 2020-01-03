@@ -53,10 +53,17 @@ class Overlay extends React.Component {
     if (active && lockScroll) document.body.style.overflow = "hidden";
   }
 
-  componentWillUpdate(nextProps) {
+  componentDidUpdate(prevProps) {
+    if (this.props.onEscKeyDown) {
+      if (this.props.active && !prevProps.active) {
+        document.body.addEventListener("keydown", this.handleEscPress);
+      } else if (!this.props.active && prevProps.active) {
+        document.body.removeEventListener("keydown", this.handleEscPress);
+      }
+    }
     if (this.props.lockScroll) {
-      const activating = nextProps.active && !this.props.active;
-      const deactivating = !nextProps.active && this.props.active;
+      const activating = !prevProps.active && this.props.active;
+      const deactivating = prevProps.active && !this.props.active;
 
       if (activating) {
         document.body.style.overflow = "hidden";
@@ -67,16 +74,6 @@ class Overlay extends React.Component {
         !document.querySelectorAll('[data-dracs="overlay"]')[1]
       ) {
         document.body.style.overflow = "";
-      }
-    }
-  }
-
-  componentDidUpdate(prevProps) {
-    if (this.props.onEscKeyDown) {
-      if (this.props.active && !prevProps.active) {
-        document.body.addEventListener("keydown", this.handleEscPress);
-      } else if (!this.props.active && prevProps.active) {
-        document.body.removeEventListener("keydown", this.handleEscPress);
       }
     }
   }

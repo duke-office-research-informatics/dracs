@@ -227,22 +227,19 @@ class Dropdown extends React.Component {
     }
   }
 
-  componentWillUpdate(nextProps, nextState) {
-    if (!this.state.active && nextState.active) {
-      events.addEventsToDocument(this.getDocumentEvents());
-    }
-    if (!this.props.openMenu && nextProps.openMenu) {
-      this.openWithoutActiveFocusGroup();
-    }
-    if (this.props.openMenu && !nextProps.openMenu) {
-      this.close();
-    }
-  }
-
   componentDidUpdate(prevProps, prevState) {
     this.focusGroup.setMembers(this.menu.children);
     if (prevState.active && !this.state.active) {
       events.removeEventsFromDocument(this.getDocumentEvents());
+    }
+    if (this.state.active && !prevState.active) {
+      events.addEventsToDocument(this.getDocumentEvents());
+    }
+    if (this.props.openMenu && !prevProps.openMenu) {
+      this.openWithoutActiveFocusGroup();
+    }
+    if (!this.props.openMenu && prevProps.openMenu) {
+      this.close();
     }
   }
 
