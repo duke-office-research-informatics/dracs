@@ -14,7 +14,7 @@ const ElementWrap = styled.div`
   padding: ${p => (p.padding ? p.padding : `${p.theme.sizing.base}px`)};
 `;
 
-const TitleWrap = H4.extend`
+const TitleWrap = styled(H4)`
   color: ${p => (p.titleColor ? p.titleColor : p.theme.colors.action)};
   text-transform: uppercase;
   overflow: hidden;

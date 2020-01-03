@@ -49,7 +49,7 @@ const TextContainer = styled.div`
   width: 100%;
 `;
 
-const LineOne = H4.extend`
+const LineOne = styled(H4)`
   color: ${p => (p.clickable ? p.theme.colors.action : p.theme.colors.base)};
   min-height: 21px;
   margin-bottom: ${p => (p.dense ? "0px" : null)};
@@ -65,7 +65,7 @@ const LineOne = H4.extend`
   }
 `;
 
-const LineTwo = P.extend`
+const LineTwo = styled(P)`
   color: ${p => p.theme.colors.subheading};
   min-height: 15px;
   margin-bottom: ${p => (p.dense ? "0px" : null)};
@@ -73,7 +73,7 @@ const LineTwo = P.extend`
   width: 100%;
 `;
 
-const LineThree = H5.extend`
+const LineThree = styled(H5)`
   min-height: 15px;
   width: 100%;
   strong {

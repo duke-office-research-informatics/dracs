@@ -19,7 +19,7 @@ const TutBody = styled.div`
   backface-visibility: hidden;
 `;
 
-const TextWrap = H4.extend`
+const TextWrap = styled(H4)`
   color: ${p => p.theme.colors.subheading};
   max-width: 288px;
   white-space: normal;

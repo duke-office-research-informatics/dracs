@@ -19,7 +19,7 @@ const TutHeader = styled.header`
   backface-visibility: hidden;
 `;
 
-const TitleWrap = H4.extend`
+const TitleWrap = styled(H4)`
   color: ${p => p.theme.colors.bg};
   align-self: flex-start;
   font-weight: 400;

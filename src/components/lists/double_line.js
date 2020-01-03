@@ -48,7 +48,7 @@ const TextContainer = styled.div`
   width: 100%;
 `;
 
-const LineOne = H4.extend`
+const LineOne = styled(H4)`
   color: ${p => (p.clickable ? p.theme.colors.action : p.theme.colors.base)};
   min-height: 21px;
   margin-bottom: ${p => (p.dense ? "0px" : null)};
@@ -61,7 +61,7 @@ const LineOne = H4.extend`
   }
 `;
 
-const LineTwo = H5.extend`
+const LineTwo = styled(H5)`
   width: 100%;
   min-height: 15px;
   margin-bottom: ${p => (p.dense ? "0px" : null)};

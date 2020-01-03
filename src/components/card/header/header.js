@@ -25,7 +25,7 @@ const CardHeaderWrap = styled.header`
   }
 `;
 
-const Title = H3.extend`
+const Title = styled(H3)`
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
