@@ -27,6 +27,7 @@ describe("Collapsible", () => {
 
   it("matches snapshot and returns no a11y violations when active is set to true", async () => {
     wrapper.setProps({ active: true });
+    wrapper.update();
     const results = await axe(wrapper.html());
     expect(results).toHaveNoViolations();
     expect(wrapper).toMatchSnapshot();

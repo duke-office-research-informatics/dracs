@@ -124,6 +124,7 @@ describe("Dropdown", () => {
 
     it("closes menu on outside click", () => {
       wrapper.setProps({ openMenu: true });
+      wrapper.update();
       expect(wrapper.find("dropdown__MenuList")).toHaveStyleRule(
         "display",
         "block"
@@ -140,6 +141,7 @@ describe("Dropdown", () => {
 
     it("moves a selected item to top of array, displays it first and prev item 2nd in the menu", () => {
       wrapper.setProps({ openMenu: true, onItemClick: mockClickFn });
+      wrapper.update();
       expect(wrapper.find("dropdown__MenuList")).toHaveStyleRule(
         "display",
         "block"
@@ -166,12 +168,14 @@ describe("Dropdown", () => {
 
     it("Does not set an initial value on the input if value is null and allowBlank is true", () => {
       wrapper.setProps({ value: undefined });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       expect(wrapper.find(Input).props().value).toBe("");
     });
 
     it("Sets an initial value in the input when value is null and allowBlank is false", () => {
       wrapper.setProps({ allowBlank: false });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       expect(wrapper.find(Input).props().value).toBe(oldArray[0].longName);
     });
@@ -183,6 +187,7 @@ describe("Dropdown", () => {
 
     it("does not mount an input when type=button and inserts the Dropdown arrow as the button", () => {
       wrapper.setProps({ type: "button" });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       expect(wrapper.find(Input).length).toBe(0);
       expect(wrapper.find(Input).find(IconDropdownArrow).length).toBe(0);
@@ -194,12 +199,14 @@ describe("Dropdown", () => {
 
     it("does not return a11y violations when type=button", async () => {
       wrapper.setProps({ type: "button" });
+      wrapper.update();
       const results = await axe(wrapper.html());
       expect(results).toHaveNoViolations();
     });
 
     it("passes buttonLabel to menu button when type=button", () => {
       wrapper.setProps({ type: "button", buttonLabel: <IconMenu /> });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       expect(
         wrapper.find("dropdown__MenuButton").find(IconDropdownArrow).length
@@ -235,6 +242,7 @@ describe("Dropdown", () => {
         "none"
       );
       wrapper.setProps({ openMenu: true });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       expect(wrapper.find("dropdown__MenuList")).toHaveStyleRule(
         "display",
@@ -244,6 +252,7 @@ describe("Dropdown", () => {
 
     it("closes menu when an item is selected and `closeOnSelect`=true", () => {
       wrapper.setProps({ openMenu: true });
+      wrapper.update();
       expect(wrapper.find("dropdown__MenuList")).toHaveStyleRule(
         "display",
         "block"
@@ -260,6 +269,7 @@ describe("Dropdown", () => {
 
     it("does not close menu when item is selected and `closeOnSelect`=false", () => {
       wrapper.setProps({ openMenu: true, closeOnSelect: false });
+      wrapper.update();
       expect(wrapper.find("dropdown__MenuList")).toHaveStyleRule(
         "display",
         "block"
@@ -276,6 +286,7 @@ describe("Dropdown", () => {
 
     it("disables the input, menu button, and does not open menu when `disabled`=true", async () => {
       wrapper.setProps({ disabled: true });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       const input = wrapper.find(Input);
       const menuBtn = wrapper.find(Input).find("dropdown__MenuButton");
@@ -304,6 +315,7 @@ describe("Dropdown", () => {
 
     it("sets the input to an error state and displays the error text when string is passed via `error` prop", () => {
       wrapper.setProps({ error: "an error" });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       expect(wrapper.find(Input).props().inputState).toBe("error");
       expect(
@@ -316,6 +328,7 @@ describe("Dropdown", () => {
 
     it("applies a default background-color on hover to each item when `itemHover`=true", () => {
       wrapper.setProps({ itemHover: true });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       wrapper.find("dropdown__MenuItem").forEach(item => {
         expect(item).toHaveStyleRule("background-color", theme.colors.border, {
@@ -329,6 +342,7 @@ describe("Dropdown", () => {
         itemHover: true,
         itemHoverColor: theme.colors.actionHover,
       });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       wrapper.find("dropdown__MenuItem").forEach(item => {
         expect(item).toHaveStyleRule(
@@ -352,6 +366,7 @@ describe("Dropdown", () => {
 
     it("sets the value of each item to its labelKey when template is not passed", () => {
       wrapper.setProps({ template: null });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       wrapper.find("dropdown__MenuItem").forEach((item, i) => {
         expect(item.text()).toBe(startArray[i].longName);
@@ -361,6 +376,7 @@ describe("Dropdown", () => {
     it("sets the position of the menu to the left or right side of the input via props", () => {
       expect(wrapper.find("dropdown__MenuList")).toHaveStyleRule("right", "0");
       wrapper.setProps({ menuPosition: "right" });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       expect(wrapper.find("dropdown__MenuList")).not.toHaveStyleRule(
         "right",
@@ -371,9 +387,11 @@ describe("Dropdown", () => {
 
     it("sets the html name attr of the input/button via props", () => {
       wrapper.setProps({ name: "testName" });
+      wrapper.update();
       expect(wrapper.find(Input).props().name).toBe("testName");
       expect(wrapper).toMatchSnapshot();
       wrapper.setProps({ type: "button", name: "testName" });
+      wrapper.update();
       expect(wrapper.find("dropdown__MenuButton").props().name).toBe(
         "testName"
       );
@@ -382,6 +400,7 @@ describe("Dropdown", () => {
 
     it("attaches an onBlur prop to the input button", () => {
       wrapper.setProps({ onBlur: mockClickFn });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       wrapper
         .find(Input)
@@ -392,6 +411,7 @@ describe("Dropdown", () => {
 
     it("attaches an onBlur func to button when type=button", () => {
       wrapper.setProps({ type: "button", onBlur: mockClickFn });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       expect(wrapper.find(Input).find("dropdown__MenuButton").length).toBe(0);
       wrapper.find("dropdown__MenuButton").simulate("blur");
@@ -400,6 +420,7 @@ describe("Dropdown", () => {
 
     it("attaches onClick func to menuButton", () => {
       wrapper.setProps({ onClick: mockClickFn });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       wrapper
         .find(Input)
@@ -410,6 +431,7 @@ describe("Dropdown", () => {
 
     it("attaches onFocus func to input button", () => {
       wrapper.setProps({ onFocus: mockClickFn });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       wrapper
         .find(Input)
@@ -420,6 +442,7 @@ describe("Dropdown", () => {
 
     it("attaches onMouseDown func to input button", () => {
       wrapper.setProps({ onMouseDown: mockClickFn });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       wrapper
         .find(Input)
@@ -430,6 +453,7 @@ describe("Dropdown", () => {
 
     it("attaches onMouseEnter func to input button", () => {
       wrapper.setProps({ onMouseEnter: mockClickFn });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       wrapper
         .find(Input)
@@ -440,6 +464,7 @@ describe("Dropdown", () => {
 
     it("attaches onMouseLeave func to input button", () => {
       wrapper.setProps({ onMouseLeave: mockClickFn });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       wrapper
         .find(Input)
@@ -450,6 +475,7 @@ describe("Dropdown", () => {
 
     it("attaches onMouseUp func to input button", () => {
       wrapper.setProps({ onMouseUp: mockClickFn });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       wrapper
         .find(Input)
@@ -460,6 +486,7 @@ describe("Dropdown", () => {
 
     it("attaches onTouchStart func to input button", () => {
       wrapper.setProps({ onTouchStart: mockClickFn });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       wrapper
         .find(Input)
@@ -470,6 +497,7 @@ describe("Dropdown", () => {
 
     it("attaches onTouchEnd func to input button", () => {
       wrapper.setProps({ onTouchEnd: mockClickFn });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       wrapper
         .find(Input)
@@ -480,6 +508,7 @@ describe("Dropdown", () => {
 
     it("attaches an onBlur function to each item via onItemBlur", () => {
       wrapper.setProps({ openMenu: true, onItemBlur: mockClickFn });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       wrapper.find("dropdown__MenuItem").forEach(item => {
         item.simulate("blur");
@@ -490,6 +519,7 @@ describe("Dropdown", () => {
 
     it("attaches an onClick function to each item via onItemClick", () => {
       wrapper.setProps({ openMenu: true, onItemClick: mockClickFn });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       wrapper.find("dropdown__MenuItem").forEach(item => {
         item.simulate("click");
@@ -500,6 +530,7 @@ describe("Dropdown", () => {
 
     it("attaches an onFocus function to each item via onItemFocus", () => {
       wrapper.setProps({ openMenu: true, onItemFocus: mockClickFn });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       wrapper.find("dropdown__MenuItem").forEach(item => {
         item.simulate("focus");
@@ -510,6 +541,7 @@ describe("Dropdown", () => {
 
     it("sets the input as required via props", () => {
       wrapper.setProps({ required: true });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       expect(wrapper.find(Input).props().required).toBe(true);
     });
@@ -532,6 +564,7 @@ describe("Dropdown", () => {
 
     it("closes the menu when esc is pressed", () => {
       wrapper.setProps({ openMenu: true });
+      wrapper.update();
       expect(wrapper.find("dropdown__MenuList")).toHaveStyleRule(
         "display",
         "block"
@@ -548,6 +581,7 @@ describe("Dropdown", () => {
 
     it("closes the menu when up arrow is pressed", () => {
       wrapper.setProps({ openMenu: true });
+      wrapper.update();
       expect(wrapper.find("dropdown__MenuList")).toHaveStyleRule(
         "display",
         "block"
@@ -564,6 +598,7 @@ describe("Dropdown", () => {
 
     it("closes menu when menu item is focused and tab key is pressed", () => {
       wrapper.setProps({ openMenu: true });
+      wrapper.update();
       expect(wrapper.find("dropdown__MenuList")).toHaveStyleRule(
         "display",
         "block"
@@ -580,6 +615,7 @@ describe("Dropdown", () => {
 
     it("closes menu when menu item is focused and esc key is pressed", () => {
       wrapper.setProps({ openMenu: true });
+      wrapper.update();
       expect(wrapper.find("dropdown__MenuList")).toHaveStyleRule(
         "display",
         "block"
@@ -597,6 +633,7 @@ describe("Dropdown", () => {
     it("selects the focused item when enter is pressed", () => {
       const oldArray = Object.assign({}, startArray);
       wrapper.setProps({ openMenu: true, onItemClick: mockClickFn });
+      wrapper.update();
       expect(wrapper.find("dropdown__MenuList")).toHaveStyleRule(
         "display",
         "block"
@@ -658,6 +695,7 @@ describe("Dropdown", () => {
 
     it("closes the menu when an item is selected", () => {
       wrapper.setProps({ openMenu: true });
+      wrapper.update();
       expect(wrapper.find("dropdown__MenuList")).toHaveStyleRule(
         "display",
         "block"
@@ -674,6 +712,7 @@ describe("Dropdown", () => {
 
     it("does not close menu when closeOnSelect=false", () => {
       wrapper.setProps({ openMenu: true, closeOnSelect: false });
+      wrapper.update();
       expect(wrapper.find("dropdown__MenuList")).toHaveStyleRule(
         "display",
         "block"
@@ -690,6 +729,7 @@ describe("Dropdown", () => {
 
     it("attaches an onBlur function to each item via onItemBlur", () => {
       wrapper.setProps({ openMenu: true, onItemBlur: mockClickFn });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       wrapper.find("dropdown__MenuItem").forEach(item => {
         item.simulate("blur");
@@ -700,6 +740,7 @@ describe("Dropdown", () => {
 
     it("attaches an onClick function to each item via onItemClick", () => {
       wrapper.setProps({ openMenu: true, onItemClick: mockClickFn });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       wrapper.find("dropdown__MenuItem").forEach(item => {
         item.simulate("click");
@@ -710,6 +751,7 @@ describe("Dropdown", () => {
 
     it("attaches an onFocus function to each item via onItemFocus", () => {
       wrapper.setProps({ openMenu: true, onItemFocus: mockClickFn });
+      wrapper.update();
       expect(wrapper).toMatchSnapshot();
       wrapper.find("dropdown__MenuItem").forEach(item => {
         item.simulate("focus");
@@ -720,6 +762,7 @@ describe("Dropdown", () => {
 
     it("closes menu when menu item is focused and tab key is pressed", () => {
       wrapper.setProps({ openMenu: true });
+      wrapper.update();
       expect(wrapper.find("dropdown__MenuList")).toHaveStyleRule(
         "display",
         "block"
@@ -736,6 +779,7 @@ describe("Dropdown", () => {
 
     it("closes menu when menu item is focused and esc key is pressed", () => {
       wrapper.setProps({ openMenu: true });
+      wrapper.update();
       expect(wrapper.find("dropdown__MenuList")).toHaveStyleRule(
         "display",
         "block"
@@ -752,6 +796,7 @@ describe("Dropdown", () => {
 
     it("closes the menu when enter is pressed", () => {
       wrapper.setProps({ openMenu: true, onItemClick: mockClickFn });
+      wrapper.update();
       expect(wrapper.find("dropdown__MenuList")).toHaveStyleRule(
         "display",
         "block"

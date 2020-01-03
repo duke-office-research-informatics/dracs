@@ -5,7 +5,7 @@ import propTypes from "prop-types";
 import colors from "../../theme/colors/colorTheme.js";
 import { help, helpPadding } from "./input_style_maps.js";
 
-const HelpLabel = styled.label`
+const HelpLabel = styled.div`
   position: relative;
   display: flex;
   justify-content: flex-start;

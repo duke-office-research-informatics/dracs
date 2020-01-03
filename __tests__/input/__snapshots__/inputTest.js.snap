@@ -182,13 +182,13 @@ exports[`Input applies \`helpText\` via props and has no a11y violations 1`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
     >
       help text
-    </label>
+    </div>
   </div>
 </div>
 `;
@@ -380,7 +380,7 @@ exports[`Input applies \`helpText\` via props and has no a11y violations 2`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -408,7 +408,7 @@ exports[`Input applies \`helpText\` via props and has no a11y violations 2`] = `
           d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
         />
       </svg>
-    </label>
+    </div>
   </div>
 </div>
 `;
@@ -607,7 +607,7 @@ exports[`Input applies the correct styles and attrs when \`inputState\`=default 
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -639,7 +639,7 @@ exports[`Input applies the correct styles and attrs when \`inputState\`=default 
           />
         </svg>
       </span>
-    </label>
+    </div>
   </div>
 </div>
 `;
@@ -925,7 +925,7 @@ exports[`Input applies the correct styles and attrs when \`inputState\`=disabled
         />
       </svg>
     </div>
-    <label
+    <div
       className="c7"
       id="testInput-statusText"
       role="status"
@@ -957,7 +957,7 @@ exports[`Input applies the correct styles and attrs when \`inputState\`=disabled
           />
         </svg>
       </span>
-    </label>
+    </div>
   </div>
 </div>
 `;
@@ -1156,7 +1156,7 @@ exports[`Input applies the correct styles when \`inputState\`=error 1`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -1188,7 +1188,7 @@ exports[`Input applies the correct styles when \`inputState\`=error 1`] = `
           />
         </svg>
       </span>
-    </label>
+    </div>
   </div>
 </div>
 `;
@@ -1463,7 +1463,7 @@ exports[`Input applies the correct styling when \`dense\`=true and has no a11y v
         />
       </svg>
     </div>
-    <label
+    <div
       className="c7"
       id="testInput-statusText"
       role="status"
@@ -1745,7 +1745,7 @@ exports[`Input applies the correct syles and attrs when \`datepicker\`=true 1`] 
         />
       </svg>
     </div>
-    <label
+    <div
       className="c7"
       id="testInput-statusText"
       role="status"
@@ -1948,7 +1948,7 @@ exports[`Input attaches \`helpIcon\` as function via props 1`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -1980,7 +1980,7 @@ exports[`Input attaches \`helpIcon\` as function via props 1`] = `
           />
         </svg>
       </span>
-    </label>
+    </div>
   </div>
 </div>
 `;
@@ -2214,7 +2214,7 @@ exports[`Input attaches \`iconLeft\` as a function with correct styles 1`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c6"
       id="testInput-statusText"
       role="status"
@@ -2455,7 +2455,7 @@ exports[`Input attaches \`iconLeftChild\` as an instantiated object with correct
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c6"
       id="testInput-statusText"
       role="status"
@@ -2692,7 +2692,7 @@ exports[`Input attaches \`iconRight\` as a function with correct styles 1`] = `
         />
       </svg>
     </div>
-    <label
+    <div
       className="c6"
       id="testInput-statusText"
       role="status"
@@ -2932,7 +2932,7 @@ exports[`Input attaches \`iconRightChild\` as an instantiated object with correc
         hello
       </span>
     </div>
-    <label
+    <div
       className="c6"
       id="testInput-statusText"
       role="status"
@@ -3094,7 +3094,7 @@ exports[`Input attaches an aria-label via props with no a11y violations when \`n
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c3"
       id="testInput-statusText"
       role="status"
@@ -3285,7 +3285,7 @@ exports[`Input attaches an html id attr to input and propagates to relevant elem
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testId-statusText"
       role="status"
@@ -3476,7 +3476,7 @@ exports[`Input matches snapshot 1`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -3714,7 +3714,7 @@ exports[`Input passes a function to the rightIcon and sets tabIndex and keyUp li
         />
       </svg>
     </div>
-    <label
+    <div
       className="c6"
       id="testInput-statusText"
       role="status"
@@ -3953,7 +3953,7 @@ exports[`Input passes func to leftIcon and sets tabIndex and keyup listeners via
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c6"
       id="testInput-statusText"
       role="status"
@@ -4144,7 +4144,7 @@ exports[`Input sets an onBlur func on the input via props and sets state.isFocus
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -4335,7 +4335,7 @@ exports[`Input sets an onChange function on the input and sets state.isTouched t
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -4526,7 +4526,7 @@ exports[`Input sets an onFocus func on input via props and sets state.isFocused 
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -4718,7 +4718,7 @@ exports[`Input sets an onKeyDown func on the input 1`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -4910,7 +4910,7 @@ exports[`Input sets an onKeyUp func on the input 1`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -5102,7 +5102,7 @@ exports[`Input sets an onMouseDown func on the input 1`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -5294,7 +5294,7 @@ exports[`Input sets an onMouseEnter func on the input 1`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -5486,7 +5486,7 @@ exports[`Input sets an onMouseLeave func on the input 1`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -5678,7 +5678,7 @@ exports[`Input sets an onMouseUp func on the input 1`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -5870,7 +5870,7 @@ exports[`Input sets an onTouchEnd func on the input 1`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -6062,7 +6062,7 @@ exports[`Input sets an onTouchStart func on the input 1`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -6254,7 +6254,7 @@ exports[`Input sets focus on the input when \`autoFocus\` is set to true 1`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -6447,7 +6447,7 @@ exports[`Input sets the component width via props 1`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -6639,7 +6639,7 @@ exports[`Input sets the html type attr on the input via props 1`] = `
       type="search"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -6731,8 +6731,8 @@ exports[`Input sets the inputs value via props 1`] = `
   display: inline-block;
   position: absolute;
   color: hsla(0,0%,14.9%,0.5700000000000001);
-  top: -12px;
-  font-size: 12px;
+  top: 8px;
+  font-size: 16px;
   pointer-events: none;
   position: absolute;
   -webkit-transform: translate3d(0,24px,0) scale( 1 );
@@ -6830,7 +6830,7 @@ exports[`Input sets the inputs value via props 1`] = `
       tabIndex="0"
       value="test"
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -7021,7 +7021,7 @@ exports[`Input sets the proper styling when state.isFocused = true 1`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -7212,7 +7212,7 @@ exports[`Input sets the proper styling when state.isFocused = true 2`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -7403,7 +7403,7 @@ exports[`Input sets the proper styling when state.isFocused = true 3`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -7594,7 +7594,7 @@ exports[`Input sets the proper styling when state.isFocused = true 4`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -7785,7 +7785,7 @@ exports[`Input sets the proper styling when state.isTouched is true 1`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -7976,7 +7976,7 @@ exports[`Input sets the proper styling when state.isTouched is true 2`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -8167,7 +8167,7 @@ exports[`Input sets the proper styling when state.isTouched is true 3`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -8358,7 +8358,7 @@ exports[`Input sets the proper styling when state.isTouched is true 4`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -8550,7 +8550,7 @@ exports[`Input sets the readOnly attribute on the input via props 1`] = `
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"
@@ -8752,7 +8752,7 @@ exports[`Input sets the required attr via props and adds a star to the label 1`]
       tabIndex="0"
       value=""
     />
-    <label
+    <div
       className="c4"
       id="testInput-statusText"
       role="status"

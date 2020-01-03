@@ -333,7 +333,7 @@ exports[`Dropdown Items passed as array Does not set an initial value on the inp
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -780,7 +780,7 @@ exports[`Dropdown Items passed as array Sets an initial value in the input when 
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -1231,7 +1231,7 @@ exports[`Dropdown Items passed as array applies a custom background-color via \`
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -1682,7 +1682,7 @@ exports[`Dropdown Items passed as array applies a default background-color on ho
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -2371,7 +2371,7 @@ exports[`Dropdown Items passed as array attaches an onBlur function to each item
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -2818,7 +2818,7 @@ exports[`Dropdown Items passed as array attaches an onBlur prop to the input but
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -3265,7 +3265,7 @@ exports[`Dropdown Items passed as array attaches an onClick function to each ite
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -3712,7 +3712,7 @@ exports[`Dropdown Items passed as array attaches an onFocus function to each ite
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -4159,7 +4159,7 @@ exports[`Dropdown Items passed as array attaches onClick func to menuButton 1`] 
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -4606,7 +4606,7 @@ exports[`Dropdown Items passed as array attaches onFocus func to input button 1`
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -5055,7 +5055,7 @@ exports[`Dropdown Items passed as array attaches onMouseDown func to input butto
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -5504,7 +5504,7 @@ exports[`Dropdown Items passed as array attaches onMouseEnter func to input butt
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -5953,7 +5953,7 @@ exports[`Dropdown Items passed as array attaches onMouseLeave func to input butt
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -6402,7 +6402,7 @@ exports[`Dropdown Items passed as array attaches onMouseUp func to input button 
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -6851,7 +6851,7 @@ exports[`Dropdown Items passed as array attaches onTouchEnd func to input button
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -7300,7 +7300,7 @@ exports[`Dropdown Items passed as array attaches onTouchStart func to input butt
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -7750,7 +7750,7 @@ exports[`Dropdown Items passed as array disables the input, menu button, and doe
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -8197,7 +8197,7 @@ exports[`Dropdown Items passed as array displays the menu when \`openMenu\` is t
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -8644,7 +8644,7 @@ exports[`Dropdown Items passed as array displays the menu when menu button is cl
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -9333,7 +9333,7 @@ exports[`Dropdown Items passed as array matches snapshot 1`] = `
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -9780,7 +9780,7 @@ exports[`Dropdown Items passed as array moves a selected item to top of array, d
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -10227,7 +10227,7 @@ exports[`Dropdown Items passed as array opens the menu when down arrow is presse
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -10916,7 +10916,7 @@ exports[`Dropdown Items passed as array selects the focused item when enter is p
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -11363,7 +11363,7 @@ exports[`Dropdown Items passed as array sets the html name attr of the input/but
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="testName-statusText"
         role="status"
@@ -12063,7 +12063,7 @@ exports[`Dropdown Items passed as array sets the input as required via props 1`]
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -12510,13 +12510,13 @@ exports[`Dropdown Items passed as array sets the input to an error state and dis
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
       >
         an error
-      </label>
+      </div>
     </div>
   </div>
   <ul
@@ -12959,7 +12959,7 @@ exports[`Dropdown Items passed as array sets the position of the menu to the lef
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"
@@ -13368,7 +13368,7 @@ exports[`Dropdown Items passed as array sets the value of each item to its label
           </svg>
         </button>
       </div>
-      <label
+      <div
         className="c8"
         id="dropdownInput-statusText"
         role="status"

@@ -351,6 +351,7 @@ describe("Textarea", () => {
 
   it("sets the inputs value via props", () => {
     wrapper.setProps({ value: "test" });
+    wrapper.update();
     expect(wrapper).toMatchSnapshot();
     expect(wrapper.find("textarea__TextareaInput").props().value).toBe("test");
     expect(wrapper.find("textarea__TextareaInput").getDOMNode().value).toBe(

@@ -152,7 +152,7 @@ exports[`Textarea applies the correct styles and attrs when \`inputState\`=defau
       value=""
     />
   </div>
-  <label
+  <div
     className="c4"
     id="testLabelName-statusText"
     role="status"
@@ -184,7 +184,7 @@ exports[`Textarea applies the correct styles and attrs when \`inputState\`=defau
         />
       </svg>
     </span>
-  </label>
+  </div>
 </div>
 `;
 
@@ -340,7 +340,7 @@ exports[`Textarea applies the correct styles and attrs when \`inputState\`=disab
       value=""
     />
   </div>
-  <label
+  <div
     className="c4"
     id="testLabelName-statusText"
     role="status"
@@ -372,7 +372,7 @@ exports[`Textarea applies the correct styles and attrs when \`inputState\`=disab
         />
       </svg>
     </span>
-  </label>
+  </div>
 </div>
 `;
 
@@ -528,7 +528,7 @@ exports[`Textarea applies the correct styles and attrs when \`inputState\`=error
       value=""
     />
   </div>
-  <label
+  <div
     className="c4"
     id="testLabelName-statusText"
     role="status"
@@ -560,7 +560,7 @@ exports[`Textarea applies the correct styles and attrs when \`inputState\`=error
         />
       </svg>
     </span>
-  </label>
+  </div>
 </div>
 `;
 
@@ -704,7 +704,7 @@ exports[`Textarea matches snapshot 1`] = `
       value=""
     />
   </div>
-  <label
+  <div
     className="c4"
     id="testLabelName-statusText"
     role="status"
@@ -864,7 +864,7 @@ exports[`Textarea sets \`helpIcon\` via props 1`] = `
       value=""
     />
   </div>
-  <label
+  <div
     className="c4"
     id="testLabelName-statusText"
     role="status"
@@ -896,7 +896,7 @@ exports[`Textarea sets \`helpIcon\` via props 1`] = `
         />
       </svg>
     </span>
-  </label>
+  </div>
 </div>
 `;
 
@@ -1040,13 +1040,13 @@ exports[`Textarea sets \`helpText\` via props 1`] = `
       value=""
     />
   </div>
-  <label
+  <div
     className="c4"
     id="testLabelName-statusText"
     role="status"
   >
     test help
-  </label>
+  </div>
 </div>
 `;
 
@@ -1195,7 +1195,7 @@ exports[`Textarea sets a style object on the component wrapper via props 1`] = `
       value=""
     />
   </div>
-  <label
+  <div
     className="c4"
     id="testLabelName-statusText"
     role="status"
@@ -1343,7 +1343,7 @@ exports[`Textarea sets an onBlur func and sets state.isFocused to false on blur 
       value=""
     />
   </div>
-  <label
+  <div
     className="c4"
     id="testLabelName-statusText"
     role="status"
@@ -1491,7 +1491,7 @@ exports[`Textarea sets an onChange function on the input and sets state.isTouche
       value=""
     />
   </div>
-  <label
+  <div
     className="c4"
     id="testLabelName-statusText"
     role="status"
@@ -1640,7 +1640,7 @@ exports[`Textarea sets focus on the textarea when \`autoFocus\`=true 1`] = `
       value=""
     />
   </div>
-  <label
+  <div
     className="c4"
     id="testLabelName-statusText"
     role="status"
@@ -1788,7 +1788,7 @@ exports[`Textarea sets id attr via props and propogages to relevant elements for
       value=""
     />
   </div>
-  <label
+  <div
     className="c4"
     id="testId-statusText"
     role="status"
@@ -1937,7 +1937,7 @@ exports[`Textarea sets the components height via props 1`] = `
       value=""
     />
   </div>
-  <label
+  <div
     className="c4"
     id="testLabelName-statusText"
     role="status"
@@ -2086,7 +2086,7 @@ exports[`Textarea sets the html type attr on the input via props 1`] = `
       value=""
     />
   </div>
-  <label
+  <div
     className="c4"
     id="testLabelName-statusText"
     role="status"
@@ -2234,7 +2234,7 @@ exports[`Textarea sets the inputs value via props 1`] = `
       value="test"
     />
   </div>
-  <label
+  <div
     className="c4"
     id="testLabelName-statusText"
     role="status"
@@ -2383,7 +2383,7 @@ exports[`Textarea sets the inputs width via props 1`] = `
       value=""
     />
   </div>
-  <label
+  <div
     className="c4"
     id="testLabelName-statusText"
     role="status"
@@ -2532,7 +2532,7 @@ exports[`Textarea sets the placeholder on input via props 1`] = `
       value=""
     />
   </div>
-  <label
+  <div
     className="c4"
     id="testLabelName-statusText"
     role="status"
@@ -2680,7 +2680,7 @@ exports[`Textarea sets the proper styles when state.isFocused=true 1`] = `
       value=""
     />
   </div>
-  <label
+  <div
     className="c4"
     id="testLabelName-statusText"
     role="status"
@@ -2828,7 +2828,7 @@ exports[`Textarea sets the proper styles when state.isTouched=true 1`] = `
       value=""
     />
   </div>
-  <label
+  <div
     className="c4"
     id="testLabelName-statusText"
     role="status"
@@ -2977,7 +2977,7 @@ exports[`Textarea sets the readOnly attr on input via props 1`] = `
       value=""
     />
   </div>
-  <label
+  <div
     className="c4"
     id="testLabelName-statusText"
     role="status"
@@ -3136,7 +3136,7 @@ exports[`Textarea sets the required attr via props and adds a star to the label 
       value=""
     />
   </div>
-  <label
+  <div
     className="c4"
     id="testLabelName-statusText"
     role="status"
