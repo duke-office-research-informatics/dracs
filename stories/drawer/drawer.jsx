@@ -1,5 +1,5 @@
-import React from 'react';
-import { storiesOf } from '@storybook/react';
+import React from "react";
+import { storiesOf } from "@storybook/react";
 import {
   withKnobs,
   number,
@@ -8,34 +8,34 @@ import {
   boolean,
   object,
   select,
-} from '@storybook/addon-knobs/react';
-import { withInfo } from '@storybook/addon-info';
-import { Drawer, P, theme } from '../../src/index.js';
+} from "@storybook/addon-knobs/react";
+import { withInfo } from "@storybook/addon-info";
+import { Drawer, P, theme } from "../../src/index.js";
 
-const stories = storiesOf('Drawer', module);
+const stories = storiesOf("Drawer", module);
 
 stories.addDecorator(withKnobs);
 
 const FuncOptions = {
-  none: 'no click handler declared',
-  withHandler: 'with click handler declared',
+  none: "no click handler declared",
+  withHandler: "with click handler declared",
 };
 /* eslint-disable no-unreachable */
 const FuncReturn = value => {
   switch (value) {
-  case 'none':
-    return null;
-    break;
-  case 'withHandler':
-    return () => alert('click handler declared');
-    break;
-  default:
-    return null;
+    case "none":
+      return null;
+      break;
+    case "withHandler":
+      return () => alert("click handler declared");
+      break;
+    default:
+      return null;
   }
 };
 /* eslint-enable no-unreachable */
 stories.add(
-  'Drawer',
+  "Drawer",
   withInfo(`
     The drawer comes in form the side and displays information.
 
@@ -64,7 +64,7 @@ stories.add(
     /** Number (in miliseconds) that will delay the drawer mount and dismount to allow for animations to render */
     delay: propTypes.number,
     /** Ref (functional) that targets the drawer's html/dom node */
-    innerRef: propTypes.func,
+    ref: propTypes.func,
     /** Boolean that sets whether or not Drawer uses a portal */
     insideTree: propTypes.bool,
     /** Function that will be called when the user hits the \`esc\` key.  For accessibility reasons, this function should close the drawer */
@@ -79,34 +79,34 @@ stories.add(
     withOverlay: propTypes.bool,
     ~~~
   `)(() => {
-    const escKey = select('onEscKeyDown', FuncOptions, 'none');
-    const overlayClick = select('onOverlayClick', FuncOptions, 'none');
+    const escKey = select("onEscKeyDown", FuncOptions, "none");
+    const overlayClick = select("onOverlayClick", FuncOptions, "none");
     return (
       <div
         style={{
-          width: '500px',
-          height: '500px',
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          justifyContent: 'center',
-          textAlign: 'center',
+          width: "500px",
+          height: "500px",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          textAlign: "center",
         }}
       >
         <Drawer
-          active={boolean('active', true)}
-          withOverlay={boolean('withOverlay', true)}
-          insideTree={boolean('insideTree', false)}
-          type={select('type', ['left', 'right'], 'left')}
-          drawerStyle={object('drawerStyle', { padding: '8px' })}
-          backgroundColor={color('backgroundColor', theme.colors.actionHover)}
-          textColor={color('textColor', '#fff')}
-          delay={number('delay', 400)}
+          active={boolean("active", true)}
+          withOverlay={boolean("withOverlay", true)}
+          insideTree={boolean("insideTree", false)}
+          type={select("type", ["left", "right"], "left")}
+          drawerStyle={object("drawerStyle", { padding: "8px" })}
+          backgroundColor={color("backgroundColor", theme.colors.actionHover)}
+          textColor={color("textColor", "#fff")}
+          delay={number("delay", 400)}
           onEscKeyDown={FuncReturn(escKey)}
           onOverlayClick={FuncReturn(overlayClick)}
         >
-          {text('child text', 'I am the drawer\'s child text')}
-          <P>{text('wrapped text', 'I am child text wrapped in a P-tag')}</P>
+          {text("child text", "I am the drawer's child text")}
+          <P>{text("wrapped text", "I am child text wrapped in a P-tag")}</P>
         </Drawer>
       </div>
     );

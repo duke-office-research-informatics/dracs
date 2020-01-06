@@ -36,7 +36,7 @@ class Tab extends React.Component {
     hidden: propTypes.bool,
     icon: propTypes.node,
     index: propTypes.number,
-    innerRef: propTypes.func,
+    ref: propTypes.func,
     label: propTypes.node,
     name: propTypes.string,
     onActive: propTypes.func,
@@ -78,7 +78,7 @@ class Tab extends React.Component {
   };
 
   render() {
-    const { children, icon, label, innerRef, underline, ...other } = this.props;
+    const { children, icon, label, ref, underline, ...other } = this.props;
     return (
       <TabWrap
         {...other}
@@ -86,7 +86,7 @@ class Tab extends React.Component {
         tabIndex="0"
         onClickCapture={this.handleClick}
         onKeyDown={this.handleKeyDown}
-        innerRef={innerRef}
+        ref={ref}
         underline={underline}
       >
         {icon}

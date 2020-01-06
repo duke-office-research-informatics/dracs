@@ -28,7 +28,7 @@ const ActionButton = props => {
       className={props.className}
       data-testid={props["data-testid"]}
       disabled={props.disabled}
-      ref={props.innerRef}
+      ref={props.ref}
       mediaQuery={props.mediaQuery}
       onBlur={props.onBlur}
       onClick={props.onClick}
@@ -62,7 +62,7 @@ ActionButton.propTypes = {
   /** HTML value for the button type (submit, button) */
   htmlType: propTypes.oneOf(["button", "submit", "reset"]),
   /** Ref (functional) that targets the button's html/dom node */
-  innerRef: propTypes.func,
+  ref: propTypes.func,
   /** CSS-consumable media query passed as a string */
   mediaQuery: propTypes.string,
   /** Function that will trigger when focus leaves the component */

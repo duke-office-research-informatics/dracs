@@ -27,7 +27,7 @@ const ButtonWrap = styled.div`
 const HeaderCell = props => {
   return (
     <TH
-      ref={props.innerRef}
+      ref={props.ref}
       onClick={
         props.onClick
           ? () =>
@@ -93,7 +93,7 @@ const HeaderCell = props => {
 HeaderCell.propTypes = {
   children: propTypes.node,
   onClick: propTypes.func,
-  innerRef: propTypes.func,
+  ref: propTypes.func,
   primarySortValue: propTypes.string,
   secondarySortValue: propTypes.string,
   sortValueType: propTypes.string,

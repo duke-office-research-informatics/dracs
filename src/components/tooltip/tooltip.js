@@ -298,7 +298,7 @@ const Tooltip = (options = {}) => {
                 id={tooltipId}
               >
                 <TooltipInner
-                  innerRef={node => {
+                  ref={node => {
                     this.innerNode = node;
                   }}
                 >

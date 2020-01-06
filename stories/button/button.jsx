@@ -1,5 +1,5 @@
-import React from 'react';
-import { storiesOf } from '@storybook/react';
+import React from "react";
+import { storiesOf } from "@storybook/react";
 import {
   withKnobs,
   boolean,
@@ -7,52 +7,52 @@ import {
   text,
   select,
   object,
-} from '@storybook/addon-knobs/react';
-import { withInfo } from '@storybook/addon-info';
-import { Button } from '../../src/index.js';
+} from "@storybook/addon-knobs/react";
+import { withInfo } from "@storybook/addon-info";
+import { Button } from "../../src/index.js";
 
-const stories = storiesOf('Buttons', module);
+const stories = storiesOf("Buttons", module);
 
 stories.addDecorator(withKnobs);
 
 const FuncOptions = {
-  none: 'no click handler declared',
-  withHandler: 'with click handler declared',
+  none: "no click handler declared",
+  withHandler: "with click handler declared",
 };
 /* eslint-disable no-unreachable */
 const FuncReturn = value => {
   switch (value) {
-  case 'none':
-    return null;
-    break;
-  case 'withHandler':
-    return () => alert('click handler declared');
-    break;
-  default:
-    return null;
+    case "none":
+      return null;
+      break;
+    case "withHandler":
+      return () => alert("click handler declared");
+      break;
+    default:
+      return null;
   }
 };
 
 const refOptions = {
-  none: 'no ref declared',
-  withRef: 'with ref declared',
+  none: "no ref declared",
+  withRef: "with ref declared",
 };
 
 const refReturn = value => {
   switch (value) {
-  case 'none':
-    return null;
-    break;
-  case 'withRef':
-    return node => (this.button = node);
-    break;
-  default:
-    return null;
+    case "none":
+      return null;
+      break;
+    case "withRef":
+      return node => (this.button = node);
+      break;
+    default:
+      return null;
   }
 };
 /* eslint-enable no-unreachable */
 stories.add(
-  'Button',
+  "Button",
   withInfo(`
     The main button component that should be used in most situations, this component has spacing, sizing, and coloring all pre-set to the Duke style-guide.
 
@@ -88,42 +88,42 @@ stories.add(
     />
     ~~~
   `)(() => {
-    const innerRef = select('innerRef', refOptions, 'none');
-    const onBlur = select('onBlur', FuncOptions, 'none');
-    const onClick = select('onClick', FuncOptions, 'withHandler');
-    const onFocus = select('onFocus', FuncOptions, 'none');
-    const onMouseDown = select('onMouseDown', FuncOptions, 'none');
-    const onMouseEnter = select('onMouseEnter', FuncOptions, 'none');
-    const onMouseLeave = select('onMouseLeave', FuncOptions, 'none');
-    const onMouseUp = select('onMouseUp', FuncOptions, 'none');
-    const onTouchStart = select('onTouchStart', FuncOptions, 'none');
-    const onTouchEnd = select('onTouchEnd', FuncOptions, 'none');
+    const ref = select("ref", refOptions, "none");
+    const onBlur = select("onBlur", FuncOptions, "none");
+    const onClick = select("onClick", FuncOptions, "withHandler");
+    const onFocus = select("onFocus", FuncOptions, "none");
+    const onMouseDown = select("onMouseDown", FuncOptions, "none");
+    const onMouseEnter = select("onMouseEnter", FuncOptions, "none");
+    const onMouseLeave = select("onMouseLeave", FuncOptions, "none");
+    const onMouseUp = select("onMouseUp", FuncOptions, "none");
+    const onTouchStart = select("onTouchStart", FuncOptions, "none");
+    const onTouchEnd = select("onTouchEnd", FuncOptions, "none");
     const typeOptions = [
-      'flat',
-      'raised',
-      'raiseOnHover',
-      'filled',
-      'inverted',
-      'error',
-      'errorFilled',
-      'disabled',
-      'disabledFilled',
+      "flat",
+      "raised",
+      "raiseOnHover",
+      "filled",
+      "inverted",
+      "error",
+      "errorFilled",
+      "disabled",
+      "disabledFilled",
     ];
 
     return (
       <Button
-        autoFocus={boolean('autoFocus', false)}
-        bgColor={color('bgColor', '')}
-        bgHoverColor={color('bgHoverColor', '')}
-        className={text('className', '')}
-        dense={boolean('dense', false)}
-        id={text('id', '')}
-        innerRef={refReturn(innerRef)}
-        label={text('label', 'example button')}
-        labelColor={color('labelColor', '')}
-        labelHoverColor={color('labelHoverColor', '')}
-        mediaQuery={text('mediaQuery', '')}
-        name={text('name', 'example-button')}
+        autoFocus={boolean("autoFocus", false)}
+        bgColor={color("bgColor", "")}
+        bgHoverColor={color("bgHoverColor", "")}
+        className={text("className", "")}
+        dense={boolean("dense", false)}
+        id={text("id", "")}
+        ref={refReturn(ref)}
+        label={text("label", "example button")}
+        labelColor={color("labelColor", "")}
+        labelHoverColor={color("labelHoverColor", "")}
+        mediaQuery={text("mediaQuery", "")}
+        name={text("name", "example-button")}
         onBlur={FuncReturn(onBlur)}
         onClick={FuncReturn(onClick)}
         onFocus={FuncReturn(onFocus)}
@@ -133,8 +133,8 @@ stories.add(
         onMouseUp={FuncReturn(onMouseUp)}
         onTouchStart={FuncReturn(onTouchStart)}
         onTouchEnd={FuncReturn(onTouchEnd)}
-        style={object('style', {})}
-        type={select('type', typeOptions, 'flat')}
+        style={object("style", {})}
+        type={select("type", typeOptions, "flat")}
       />
     );
   })

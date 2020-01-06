@@ -1,34 +1,41 @@
-import React from 'react';
-import { storiesOf } from '@storybook/react';
-import { withKnobs, number, text, boolean, object, select } from '@storybook/addon-knobs/react';
-import { withInfo } from '@storybook/addon-info';
-import { Modal, P, H3, H5, Button } from '../../src/index.js';
+import React from "react";
+import { storiesOf } from "@storybook/react";
+import {
+  withKnobs,
+  number,
+  text,
+  boolean,
+  object,
+  select,
+} from "@storybook/addon-knobs/react";
+import { withInfo } from "@storybook/addon-info";
+import { Modal, P, H3, H5, Button } from "../../src/index.js";
 
-const stories = storiesOf('Modals', module);
+const stories = storiesOf("Modals", module);
 
 stories.addDecorator(withKnobs);
 
 const FuncOptions = {
-  none: 'no click handler declared',
-  withHandler: 'with click handler declared',
+  none: "no click handler declared",
+  withHandler: "with click handler declared",
 };
 /* eslint-disable no-unreachable */
 const FuncReturn = value => {
   switch (value) {
-  case 'none':
-    return null;
-    break;
-  case 'withHandler':
-    return () => alert('click handler declared');
-    break;
-  default:
-    return null;
+    case "none":
+      return null;
+      break;
+    case "withHandler":
+      return () => alert("click handler declared");
+      break;
+    default:
+      return null;
   }
 };
 /* eslint-enable no-unreachable */
 
 stories.add(
-  'Modal',
+  "Modal",
   withInfo(`
     The Modal component is used to intentionally force the user to interact with a desired set of actions/information outside of the normal page workflow.
     It places an overlay over its' parent container (generally the document body) which disallows any interaction with elements rendered below the overlay,
@@ -93,58 +100,71 @@ stories.add(
     margin: propTypes.string,
     ~~~
   `)(() => {
-    const escKey = select('onEscKeyDown', FuncOptions, 'none');
-    const overlayClick = select('onOverlayClick', FuncOptions, 'none');
-    const mouseDown = select('onOverlayMouseDown', FuncOptions, 'none');
-    const mouseMove = select('onOverlayMouseMove', FuncOptions, 'none');
-    const mouseUp = select('onOverlayMouseUp', FuncOptions, 'none');
+    const escKey = select("onEscKeyDown", FuncOptions, "none");
+    const overlayClick = select("onOverlayClick", FuncOptions, "none");
+    const mouseDown = select("onOverlayMouseDown", FuncOptions, "none");
+    const mouseMove = select("onOverlayMouseMove", FuncOptions, "none");
+    const mouseUp = select("onOverlayMouseUp", FuncOptions, "none");
     /* eslint-disable react/no-unescaped-entities */
     return (
       <div
         style={{
-          width: '500px',
-          height: '500px',
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          justifyContent: 'center',
-          textAlign: 'center',
+          width: "500px",
+          height: "500px",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          textAlign: "center",
         }}
       >
         <Modal
-          active={boolean('active', true)}
-          delay={number('delay', 300)}
-          height={text('height', 'auto')}
-          minHeight={text('minHeight', '')}
-          maxheight={text('maxHeight', '')}
-          modalStyle={object('modalStyle', {})}
+          active={boolean("active", true)}
+          delay={number("delay", 300)}
+          height={text("height", "auto")}
+          minHeight={text("minHeight", "")}
+          maxheight={text("maxHeight", "")}
+          modalStyle={object("modalStyle", {})}
           onEscKeyDown={FuncReturn(escKey)}
           onOverlayClick={FuncReturn(overlayClick)}
           onOverlayMouseDown={FuncReturn(mouseDown)}
           onOverlayMouseMove={FuncReturn(mouseMove)}
           onOverlayMouseUp={FuncReturn(mouseUp)}
-          overlayStyle={object('overlayStyle', {
-            width: '100vw',
-            height: '100vh',
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
+          overlayStyle={object("overlayStyle", {
+            width: "100vw",
+            height: "100vh",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
           })}
-          padding={text('padding', '')}
-          width={text('width', '')}
-          minWidth={text('minWidth', '')}
-          maxWidth={select('maxWidth', ['small', 'medium', 'large', 'fullscreen', 'auto'], 'auto')}
-          margin={text('margin', '')}
+          padding={text("padding", "")}
+          width={text("width", "")}
+          minWidth={text("minWidth", "")}
+          maxWidth={select(
+            "maxWidth",
+            ["small", "medium", "large", "fullscreen", "auto"],
+            "auto"
+          )}
+          margin={text("margin", "")}
           initialFocusEl={this.button}
         >
-          <H3 bold>{text('example header text', 'This is an example modal header')}</H3>
-          <P>{text('example body text', 'You can put whatever you want into the body')}</P>
-          <H5 italic>To get to the 'show info' button, uncheck the 'active' input</H5>
+          <H3 bold>
+            {text("example header text", "This is an example modal header")}
+          </H3>
+          <P>
+            {text(
+              "example body text",
+              "You can put whatever you want into the body"
+            )}
+          </P>
+          <H5 italic>
+            To get to the 'show info' button, uncheck the 'active' input
+          </H5>
           <Button
-            label={text('example button', 'example button')}
+            label={text("example button", "example button")}
             onClick={() => {}}
-            innerRef={node => (this.button = node)}
-            style={{ alignSelf: 'flex-end' }}
+            ref={node => (this.button = node)}
+            style={{ alignSelf: "flex-end" }}
           />
         </Modal>
       </div>

@@ -53,7 +53,7 @@ class Drawer extends React.PureComponent {
     /** Number (in miliseconds) that will delay the drawer mount and dismount to allow for animations to render */
     delay: propTypes.number,
     /** Ref (functional) that targets the drawer's html/dom node */
-    innerRef: propTypes.func,
+    ref: propTypes.func,
     /** Boolean that sets whether or not Drawer uses a portal */
     insideTree: propTypes.bool,
     insideTreeWrapper: propTypes.oneOfType([
@@ -99,7 +99,7 @@ class Drawer extends React.PureComponent {
       children,
       delay,
       drawerStyle,
-      innerRef,
+      ref,
       insideTree,
       textColor,
       type,
@@ -117,7 +117,7 @@ class Drawer extends React.PureComponent {
           active={this.state.visible}
           backgroundColor={backgroundColor}
           delay={delay}
-          ref={innerRef}
+          ref={ref}
           insideTree={insideTree}
           style={drawerStyle}
           tabIndex={-1}

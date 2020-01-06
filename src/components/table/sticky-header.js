@@ -27,7 +27,7 @@ const StickyHeader = props => {
       );
     });
     return (
-      <Row {...row.props} innerRef={props.rowRef}>
+      <Row {...row.props} ref={props.rowRef}>
         {cells}
       </Row>
     );

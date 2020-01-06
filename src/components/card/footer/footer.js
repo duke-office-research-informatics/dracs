@@ -23,7 +23,7 @@ const CardFooter = props => {
       bgColor={props.bgColor}
       border={props.border}
       className={props.className}
-      ref={props.innerRef}
+      ref={props.ref}
       multipleActions={props.multipleActions}
       style={props.style}
     >
@@ -40,7 +40,7 @@ CardFooter.propTypes = {
   /** React element(s) that will be children of this component */
   children: propTypes.node,
   /** Functional ref that can be passed to the component */
-  innerRef: propTypes.func,
+  ref: propTypes.func,
   /** Boolean that sets whether the footer will have one or multiple children -- manipulates css justify-content ( 'space-between' : 'flex-end' ) */
   multipleActions: propTypes.bool,
   /** Style object for the footer */

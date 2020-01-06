@@ -42,7 +42,7 @@ class TabPanel extends React.PureComponent {
     flexWrap: propTypes.string,
     height: propTypes.string,
     hide: propTypes.bool,
-    innerRef: propTypes.func,
+    ref: propTypes.func,
     justifyContent: propTypes.string,
     margin: propTypes.string,
     maxHeight: propTypes.string,
@@ -76,7 +76,7 @@ class TabPanel extends React.PureComponent {
       flexWrap,
       hide,
       height,
-      innerRef,
+      ref,
       justifyContent,
       margin,
       maxHeight,
@@ -103,7 +103,7 @@ class TabPanel extends React.PureComponent {
         flexWrap={flexWrap}
         height={height}
         hide={hide}
-        innerRef={innerRef}
+        ref={ref}
         justifyContent={justifyContent}
         margin={margin}
         maxHeight={maxHeight}
