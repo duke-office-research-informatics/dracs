@@ -7,9 +7,12 @@ const TD = styled.td`
   text-align: ${p => (p.sortable ? "left" : "center")};
 `;
 
-const Cell = props => {
-  return <TD {...props}>{props.children}</TD>;
-};
+class Cell extends React.PureComponent {
+  render() {
+    const { children, ...other } = this.props;
+    return <TD {...other}>{children}</TD>;
+  }
+}
 
 Cell.propTypes = {
   sortable: propTypes.bool,

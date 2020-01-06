@@ -6,9 +6,12 @@ const BodyContainer = styled.tbody`
   transform: translateZ(0);
 `;
 
-const TableBody = props => {
-  return <BodyContainer {...props}>{props.children}</BodyContainer>;
-};
+class TableBody extends React.PureComponent {
+  render() {
+    const { children, ...other } = this.props;
+    return <BodyContainer {...other}>{children}</BodyContainer>;
+  }
+}
 
 TableBody.propTypes = {
   children: propTypes.node,

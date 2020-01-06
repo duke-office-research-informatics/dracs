@@ -4,9 +4,12 @@ import styled from "styled-components";
 
 const RowEl = styled.tr``;
 
-const Row = props => {
-  return <RowEl {...props}>{props.children}</RowEl>;
-};
+class Row extends React.PureComponent {
+  render() {
+    const { children, ...other } = this.props;
+    return <RowEl {...other}>{children}</RowEl>;
+  }
+}
 
 Row.propTypes = {
   children: propTypes.node,
