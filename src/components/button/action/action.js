@@ -25,10 +25,10 @@ const ActionButton = props => {
   return (
     <ActionBtn
       autoFocus={props.autoFocus}
+      buttonRef={props.buttonRef}
       className={props.className}
       data-testid={props["data-testid"]}
       disabled={props.disabled}
-      ref={props.ref}
       mediaQuery={props.mediaQuery}
       onBlur={props.onBlur}
       onClick={props.onClick}
@@ -51,6 +51,8 @@ const ActionButton = props => {
 ActionButton.propTypes = {
   /** Boolean that sets whether or not the button gains focus when rendered */
   autoFocus: propTypes.bool,
+  /** Ref for button */
+  buttonRef: propTypes.func,
   /** React element(s) to display in the button - intended to be an icon */
   children: propTypes.node,
   /** CSS classname to add to component if needed */
@@ -61,8 +63,6 @@ ActionButton.propTypes = {
   disabled: propTypes.bool,
   /** HTML value for the button type (submit, button) */
   htmlType: propTypes.oneOf(["button", "submit", "reset"]),
-  /** Ref (functional) that targets the button's html/dom node */
-  ref: propTypes.func,
   /** CSS-consumable media query passed as a string */
   mediaQuery: propTypes.string,
   /** Function that will trigger when focus leaves the component */

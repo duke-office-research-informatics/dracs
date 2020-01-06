@@ -104,7 +104,7 @@ stories.add(
     const ChildIcon = select("Button Icon", IconOptions, "SettingsIcon");
     const IconSize = number("Button Icon Size", 40);
     const IconColor = color("Button Icon Color", theme.colors.action);
-    const ref = select("ref", refOptions, "none");
+    const ref = select("buttonRef", refOptions, "none");
     const onBlur = select("onBlur", FuncOptions, "none");
     const onClick = select("onClick", FuncOptions, "withHandler");
     const onFocus = select("onFocus", FuncOptions, "none");
@@ -119,7 +119,7 @@ stories.add(
         autoFocus={boolean("autoFocus", false)}
         className={text("className", "")}
         disabled={boolean("disabled", false)}
-        ref={refReturn(ref)}
+        buttonRef={refReturn(ref)}
         onBlur={FuncReturn(onBlur)}
         onClick={FuncReturn(onClick)}
         onFocus={FuncReturn(onFocus)}

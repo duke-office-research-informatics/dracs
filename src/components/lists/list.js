@@ -9,7 +9,7 @@ const ListWrap = styled.ul`
 
 const List = props => {
   return (
-    <ListWrap ref={props.ref} style={props.style}>
+    <ListWrap ref={props.listRef} style={props.style}>
       {props.children}
     </ListWrap>
   );
@@ -19,7 +19,7 @@ List.propTypes = {
   /** React elements passed as children of the component */
   children: propTypes.node,
   /** Functional ref that can be attached to the component from a parent component */
-  ref: propTypes.func,
+  listRef: propTypes.func,
   /** Style object for the component */
   style: propTypes.object,
 };

@@ -88,7 +88,7 @@ stories.add(
     />
     ~~~
   `)(() => {
-    const ref = select("ref", refOptions, "none");
+    const ref = select("buttonRef", refOptions, "none");
     const onBlur = select("onBlur", FuncOptions, "none");
     const onClick = select("onClick", FuncOptions, "withHandler");
     const onFocus = select("onFocus", FuncOptions, "none");
@@ -118,7 +118,7 @@ stories.add(
         className={text("className", "")}
         dense={boolean("dense", false)}
         id={text("id", "")}
-        ref={refReturn(ref)}
+        buttonRef={refReturn(ref)}
         label={text("label", "example button")}
         labelColor={color("labelColor", "")}
         labelHoverColor={color("labelHoverColor", "")}

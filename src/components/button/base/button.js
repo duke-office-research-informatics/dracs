@@ -123,7 +123,6 @@ const Button = props => {
       data-testid={props["data-testid"]}
       dense={props.dense}
       id={props.id}
-      ref={props.ref}
       label={props.label}
       labelColor={props.labelColor}
       labelHoverColor={props.labelHoverColor}
@@ -169,7 +168,7 @@ Button.propTypes = {
   /** CSS/HTML ID element to add to component if needed */
   id: propTypes.string,
   /** Ref (functional) that targets the button's html/dom node */
-  ref: propTypes.func,
+  buttonRef: propTypes.func,
   /** String or react element to be displayed in button -- meant to be text or an icon */
   label: propTypes.oneOfType([propTypes.string, propTypes.node]).isRequired,
   /** CSS-consumable string (hex, rgba, etc) color declaration for label color */

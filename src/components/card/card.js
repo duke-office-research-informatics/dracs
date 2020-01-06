@@ -53,7 +53,7 @@ const Card = props => {
       mediaQuery={props.mediaQuery}
       onClick={props.onClick}
       padding={props.padding}
-      ref={props.ref}
+      ref={props.cardRef}
       style={props.style}
     >
       {props.children}
@@ -78,7 +78,7 @@ Card.propTypes = {
   /** CSS consumable (px, vh, em, etc) string that sets the height of the component */
   height: propTypes.oneOfType([propTypes.number, propTypes.string]),
   /** Functional ref that can be passed to the component */
-  ref: propTypes.func,
+  cardRef: propTypes.func,
   /** CSS consumable (px, vh, em, etc) string that sets the margin of the component */
   margin: propTypes.string,
   /** CSS consumable (px, vh, em, etc) string that sets the minimum height of the component */

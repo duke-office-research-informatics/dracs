@@ -23,7 +23,7 @@ const CardBody = props => {
       className={props.className}
       height={props.height}
       id={props.id}
-      ref={props.ref}
+      ref={props.bodyRef}
       style={props.style}
       padding={props.padding}
     >
@@ -40,7 +40,7 @@ CardBody.propTypes = {
   /** CSS/HTML ID attribute */
   id: propTypes.string,
   /** Functional ref that can be passed to the component */
-  ref: propTypes.func,
+  bodyRef: propTypes.func,
   /** React element(s) that will be children of this component */
   children: propTypes.node,
   /** CSS consumable (px, vh, em, etc) string that sets the padding of the component */

@@ -112,7 +112,7 @@ class Dropdown extends React.Component {
     /** String that sets an error message below the input when the dropdown type is input */
     error: propTypes.string,
     /** Ref (functional) that targets the component's outer html/dom node */
-    ref: propTypes.func,
+    wrapperRef: propTypes.func,
     /** Ref (functional) that targets the input's html/dom node */
     inputRef: propTypes.func,
     /** string that sets the input's value */
@@ -539,7 +539,7 @@ class Dropdown extends React.Component {
       source,
       label,
       disabled,
-      ref,
+      wrapperRef,
       type,
       orientAbove,
       menuClassName,
@@ -553,7 +553,7 @@ class Dropdown extends React.Component {
     const selected = this.getSelectedItem();
     return (
       <DropdownWrap
-        ref={ref}
+        ref={wrapperRef}
         type={type}
         className={wrapperClassName}
         style={wrapperStyle}
