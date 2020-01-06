@@ -24,71 +24,73 @@ const ButtonWrap = styled.div`
   margin-right: 4px;
 `;
 
-const HeaderCell = props => {
-  return (
-    <TH
-      ref={props.headerRef}
-      onClick={
-        props.onClick
-          ? () =>
-              props.onClick(
-                props.primarySortValue,
-                props.secondarySortValue,
-                props.sortValueType
-              )
-          : null
-      }
-      sortable={props.sortable}
-      style={props.style}
-    >
-      {props.sortable ? (
-        <SortWrap>
-          <ButtonWrap>
-            <IconCaretUp
-              color={
-                props.sortKey === props.primarySortValue
-                  ? props.sortDirection === "asc"
-                    ? "#0680cd"
+class HeaderCell extends React.PureComponent {
+  render() {
+    return (
+      <TH
+        ref={this.props.headerRef}
+        onClick={
+          this.props.onClick
+            ? () =>
+                this.props.onClick(
+                  this.props.primarySortValue,
+                  this.props.secondarySortValue,
+                  this.props.sortValueType
+                )
+            : null
+        }
+        sortable={this.props.sortable}
+        style={this.props.style}
+      >
+        {this.props.sortable ? (
+          <SortWrap>
+            <ButtonWrap>
+              <IconCaretUp
+                color={
+                  this.props.sortKey === this.props.primarySortValue
+                    ? this.props.sortDirection === "asc"
+                      ? "#0680cd"
+                      : "#e5e5e5"
                     : "#e5e5e5"
-                  : "#e5e5e5"
-              }
-              hoverColor={
-                props.sortKey === props.primarySortValue
-                  ? props.sortDirection === "asc"
-                    ? null
+                }
+                hoverColor={
+                  this.props.sortKey === this.props.primarySortValue
+                    ? this.props.sortDirection === "asc"
+                      ? null
+                      : "#0680cd"
                     : "#0680cd"
-                  : "#0680cd"
-              }
-              size={16}
-              style={{ marginBottom: "-1.5px" }}
-            />
-            <IconCaretDown
-              color={
-                props.sortKey === props.primarySortValue
-                  ? props.sortDirection === "desc"
-                    ? "#0680cd"
+                }
+                size={16}
+                style={{ marginBottom: "-1.5px" }}
+              />
+              <IconCaretDown
+                color={
+                  this.props.sortKey === this.props.primarySortValue
+                    ? this.props.sortDirection === "desc"
+                      ? "#0680cd"
+                      : "#e5e5e5"
                     : "#e5e5e5"
-                  : "#e5e5e5"
-              }
-              hoverColor={
-                props.sortKey === props.primarySortValue
-                  ? props.sortDirection === "desc"
-                    ? null
+                }
+                hoverColor={
+                  this.props.sortKey === this.props.primarySortValue
+                    ? this.props.sortDirection === "desc"
+                      ? null
+                      : "#0680cd"
                     : "#0680cd"
-                  : "#0680cd"
-              }
-              size={16}
-              style={{ marginTop: "-1.5px" }}
-            />
-          </ButtonWrap>
-          {props.children}
-        </SortWrap>
-      ) : (
-        props.children
-      )}
-    </TH>
-  );
-};
+                }
+                size={16}
+                style={{ marginTop: "-1.5px" }}
+              />
+            </ButtonWrap>
+            {this.props.children}
+          </SortWrap>
+        ) : (
+          this.props.children
+        )}
+      </TH>
+    );
+  }
+}
 
 HeaderCell.propTypes = {
   children: propTypes.node,
