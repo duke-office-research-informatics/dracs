@@ -211,7 +211,7 @@ class InputGroup extends React.Component {
             dense={this.props.dense}
             iconRight={this.props.iconRight ? true : false}
             id={this.props.id}
-            innerRef={this.props.inputRef}
+            inputRef={this.props.inputRef}
             inputState={this.props.inputState}
             isFocused={this.state.isFocused}
             name={this.props.name}

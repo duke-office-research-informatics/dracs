@@ -1,5 +1,5 @@
 import React from "react";
-import { mountWithTheme, shallowWithTheme } from "../../config/scUtils.js";
+import { mountWithTheme } from "../../config/scUtils.js";
 import { axe } from "jest-axe";
 import { H1, H2, H3, H4, H5, P, theme } from "../../lib/dracs.es.js";
 

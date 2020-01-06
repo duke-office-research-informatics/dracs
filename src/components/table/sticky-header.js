@@ -19,7 +19,7 @@ const StickyHeader = props => {
     React.Children.toArray(row.props.children).forEach((cell, c) => {
       cells.push(
         React.cloneElement(cell, {
-          innerRef: node => {
+          ref: node => {
             props.cellRef(node, c);
           },
           key: `stickyHeader-${c}`,
@@ -34,7 +34,7 @@ const StickyHeader = props => {
   };
 
   return (
-    <StickyHeaderWrap innerRef={props.headerRef} aria-hidden={true}>
+    <StickyHeaderWrap ref={props.headerRef} aria-hidden={true}>
       <TableWrap>
         <TableHead>{renderHeader()}</TableHead>
       </TableWrap>

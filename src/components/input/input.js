@@ -82,7 +82,7 @@ const Input = props => {
       dense={props.dense}
       iconRight={props.iconRight}
       id={props.id ? props.id : props.name}
-      ref={props.innerRef}
+      ref={props.inputRef}
       inputState={props.inputState}
       isFocused={props.isFocused}
       isTouched={props.isTouched}
@@ -133,7 +133,7 @@ Input.propTypes = {
   onMouseUp: propTypes.func,
   onTouchStart: propTypes.func,
   onTouchEnd: propTypes.func,
-  innerRef: propTypes.func,
+  inputRef: propTypes.func,
   noLabel: propTypes.bool,
   isFocused: propTypes.bool,
   isTouched: propTypes.bool,

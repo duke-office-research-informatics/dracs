@@ -569,7 +569,7 @@ class Table extends React.PureComponent {
           (row, r) =>
             React.cloneElement(row, {
               key: `tableHeaderRow_${r}`,
-              innerRef: node => {
+              ref: node => {
                 Table[`tableHeaderRow_${r}`] = node;
               },
               selected,
@@ -591,7 +591,7 @@ class Table extends React.PureComponent {
           (row, r) =>
             React.cloneElement(row, {
               key: `tableRow_${r}`,
-              innerRef: node => {
+              ref: node => {
                 Table[`tableRow_${r}`] = node;
               },
               onMouseEnter: Table.handleRowMouseEnter.bind(this, r),
@@ -617,16 +617,16 @@ class Table extends React.PureComponent {
       0;
 
     return (
-      <ElementWrap innerRef={node => (this.table = node)}>
+      <ElementWrap ref={node => (this.table = node)}>
         <XScrollbar
-          innerRef={node => {
+          ref={node => {
             this.xScrollbar = node;
           }}
         >
           <div />
         </XScrollbar>
         <YScrollbar
-          innerRef={node => {
+          ref={node => {
             this.yScrollbar = node;
           }}
         >
@@ -654,7 +654,7 @@ class Table extends React.PureComponent {
             }}
           />
         ) : null}
-        <TableYWrap innerRef={node => (this.yWrapper = node)}>
+        <TableYWrap ref={node => (this.yWrapper = node)}>
           {stickyColumn && header.length && body.length ? (
             <StickyColumn
               header={header}
@@ -674,11 +674,11 @@ class Table extends React.PureComponent {
             />
           ) : null}
           <TableXWrap
-            innerRef={node => {
+            ref={node => {
               this.xWrapper = node;
             }}
           >
-            <TableWrap innerRef={node => (this.tableElement = node)}>
+            <TableWrap ref={node => (this.tableElement = node)}>
               <TableHead>{header}</TableHead>
               <TableBody>{body}</TableBody>
             </TableWrap>

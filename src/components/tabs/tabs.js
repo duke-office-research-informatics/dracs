@@ -274,7 +274,7 @@ class Tabs extends React.Component {
               )}
               <TabRow
                 role="tablist"
-                innerRef={node => {
+                ref={node => {
                   this.navNode = node;
                 }}
               >

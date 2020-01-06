@@ -26,7 +26,7 @@ const StickyColumn = props => {
         <Row
           {...row.props}
           key={`stickyColumnHeaderRow-${r}`}
-          innerRef={node => {
+          ref={node => {
             props.headerRowRef(node, r);
           }}
           index={r}
@@ -48,7 +48,7 @@ const StickyColumn = props => {
         <Row
           {...row.props}
           key={`stickyColumnBodyRow-${r}`}
-          innerRef={node => {
+          ref={node => {
             props.bodyRowRef(node, r);
           }}
           index={r}
@@ -63,7 +63,7 @@ const StickyColumn = props => {
   };
 
   return (
-    <StickyColumnWrap innerRef={props.columnRef} aria-hidden={true}>
+    <StickyColumnWrap ref={props.columnRef} aria-hidden={true}>
       <TableWrap>
         <TableHead>{renderHeader()}</TableHead>
         <TableBody>{renderBody()}</TableBody>

@@ -72,7 +72,7 @@ const TutorialCard = props => {
       active={props.active}
     >
       <CardWrapper
-        innerRef={props.tutorialRef}
+        ref={props.tutorialRef}
         active={props.active}
         delay={props.delay}
         left={props.left}

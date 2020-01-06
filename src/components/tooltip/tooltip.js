@@ -291,7 +291,7 @@ const Tooltip = (options = {}) => {
                 left={left}
                 position={position}
                 active={active}
-                innerRef={node => {
+                ref={node => {
                   this.tooltipNode = node;
                 }}
                 role="tooltip"

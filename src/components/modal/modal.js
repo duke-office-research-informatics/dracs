@@ -177,7 +177,7 @@ class Modal extends React.PureComponent {
               className={this.props.overlayClassName}
             />
             <ModalBody
-              innerRef={node => (this.modalBody = node)}
+              ref={node => (this.modalBody = node)}
               active={this.state.visible}
               delay={this.props.delay}
               tabIndex={-1}

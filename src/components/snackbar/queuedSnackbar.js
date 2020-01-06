@@ -124,9 +124,7 @@ class QueuedSnackbar extends React.Component {
   addMessageToQueue = () => {
     if (typeof this.props.snack !== "object") {
       console.warn(
-        `DRACS Snackbar: The 'snack' prop expects an object, but received ${
-          this.props.snack
-        } `
+        `DRACS Snackbar: The 'snack' prop expects an object, but received ${this.props.snack} `
       );
       return;
     }
@@ -225,7 +223,7 @@ class QueuedSnackbar extends React.Component {
                 onClick={currentMessage.onClick}
                 textColor={currentMessage.buttonLabelColor}
                 hoverColor={currentMessage.buttonLabelHoverColor}
-                innerRef={node => (this.button = node)}
+                ref={node => (this.button = node)}
                 autoFocus
               >
                 {currentMessage.buttonLabel}

@@ -174,7 +174,7 @@ class Snackbar extends React.Component {
                 onClick={onClick}
                 textColor={actionColor}
                 hoverColor={actionHoverColor}
-                innerRef={node => (this.button = node)}
+                ref={node => (this.button = node)}
                 autoFocus
               >
                 {actionLabel}

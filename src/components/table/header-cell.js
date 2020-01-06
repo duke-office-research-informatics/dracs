@@ -27,7 +27,7 @@ const ButtonWrap = styled.div`
 const HeaderCell = props => {
   return (
     <TH
-      innerRef={props.innerRef}
+      ref={props.innerRef}
       onClick={
         props.onClick
           ? () =>

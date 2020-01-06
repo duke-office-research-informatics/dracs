@@ -24,7 +24,7 @@ const StickyCorner = props => {
         stickyCorner.push(
           <Row
             {...row.props}
-            innerRef={node => props.rowRef(node, r)}
+            ref={node => props.rowRef(node, r)}
             key={`stickyCorner-${r}`}
           >
             {cells}
@@ -36,7 +36,7 @@ const StickyCorner = props => {
   };
 
   return (
-    <StickyCornerWrap innerRef={props.cornerRef} aria-hidden={true}>
+    <StickyCornerWrap ref={props.cornerRef} aria-hidden={true}>
       <TableWrap>
         <TableHead>{renderCorner()}</TableHead>
       </TableWrap>
