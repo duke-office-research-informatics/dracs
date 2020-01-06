@@ -48,7 +48,7 @@ const StickyColumn = props => {
         <Row
           {...row.props}
           key={`stickyColumnBodyRow-${r}`}
-          ref={node => {
+          rowRef={node => {
             props.bodyRowRef(node, r);
           }}
           index={r}

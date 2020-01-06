@@ -17,6 +17,7 @@ class Row extends React.PureComponent {
 
 Row.propTypes = {
   children: propTypes.node,
+  rowRef: propTypes.func,
 };
 
 Row.defaultProps = {

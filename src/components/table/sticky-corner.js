@@ -24,7 +24,7 @@ const StickyCorner = props => {
         stickyCorner.push(
           <Row
             {...row.props}
-            ref={node => props.rowRef(node, r)}
+            rowRef={node => props.rowRef(node, r)}
             key={`stickyCorner-${r}`}
           >
             {cells}
