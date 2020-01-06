@@ -498,6 +498,7 @@ class Dropdown extends React.Component {
         this.handleItemBlur(e);
       }
     };
+    const Item = item;
     return (
       <MenuItem
         key={idx}
@@ -522,7 +523,7 @@ class Dropdown extends React.Component {
         tabIndex={-1}
         template={true}
       >
-        {item}
+        <Item />
       </MenuItem>
     );
   };
