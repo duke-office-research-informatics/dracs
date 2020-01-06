@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import styled, { keyframes } from "styled-components";
+import styled, { css, keyframes } from "styled-components";
 // import Transition from 'react-transition-group/Transition';
 import theme from "../../../theme/theme.js";
 import { getRelativeValueFromRange } from "../../../utils/utils/utils.js";
@@ -48,7 +48,9 @@ const ComponentWrapper = styled.div`
 const SvgContainer = styled.svg`
   animation: ${p =>
     p.type === "uncontrolled"
-      ? `${rotate} ${p.uncontrolledAnimationDuration}ms linear infinite`
+      ? css`
+          ${rotate} ${p.uncontrolledAnimationDuration}ms linear infinite
+        `
       : null};
   transition: 20s transform linear 0ms;
   overflow: visible !important;
@@ -71,9 +73,13 @@ const ProgressCircle = styled.circle.attrs(props => ({
   transition: ${p => `${p.controlledAnimationDuration}ms all linear 0ms`};
   animation: ${p =>
     p.type === "uncontrolled"
-      ? `${CircularDash} ${p.uncontrolledAnimationDuration}ms ease-in-out infinite`
+      ? css`
+          ${CircularDash} ${p.uncontrolledAnimationDuration}ms ease-in-out infinite
+        `
       : p.animateOnMount
-      ? `${load} 3s`
+      ? css`
+          ${load} 3s
+        `
       : null};
 `;
 
