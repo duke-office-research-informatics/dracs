@@ -11,36 +11,38 @@ const StickyHeaderWrap = styled.div`
   transform: translateZ(0);
 `;
 
-const StickyHeader = props => {
-  const renderHeader = () => {
-    const row = props.rows[0];
+class StickyHeader extends React.PureComponent {
+  renderHeader = () => {
+    const row = this.props.rows[0];
     const cells = [];
 
     React.Children.toArray(row.props.children).forEach((cell, c) => {
       cells.push(
         React.cloneElement(cell, {
           ref: node => {
-            props.cellRef(node, c);
+            this.props.cellRef(node, c);
           },
           key: `stickyHeader-${c}`,
         })
       );
     });
     return (
-      <Row {...row.props} ref={props.rowRef}>
+      <Row {...row.props} ref={this.props.rowRef}>
         {cells}
       </Row>
     );
   };
 
-  return (
-    <StickyHeaderWrap ref={props.headerRef} aria-hidden={true}>
-      <TableWrap>
-        <TableHead>{renderHeader()}</TableHead>
-      </TableWrap>
-    </StickyHeaderWrap>
-  );
-};
+  render() {
+    return (
+      <StickyHeaderWrap ref={this.props.headerRef} aria-hidden={true}>
+        <TableWrap>
+          <TableHead>{this.renderHeader()}</TableHead>
+        </TableWrap>
+      </StickyHeaderWrap>
+    );
+  }
+}
 
 StickyHeader.propTypes = {
   rows: propTypes.array,

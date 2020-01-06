@@ -6,12 +6,20 @@ const TableContainer = styled.table`
   transform: translateZ(0);
 `;
 
-const TableWrap = props => {
-  return <TableContainer {...props}>{props.children}</TableContainer>;
-};
+class TableWrap extends React.PureComponent {
+  render() {
+    const { children, tableWrapRef, ...other } = this.props;
+    return (
+      <TableContainer {...other} ref={tableWrapRef}>
+        {children}
+      </TableContainer>
+    );
+  }
+}
 
 TableWrap.propTypes = {
   children: propTypes.node,
+  tableWrapRef: propTypes.func,
 };
 
 export default TableWrap;
