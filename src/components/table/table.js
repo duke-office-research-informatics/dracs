@@ -678,7 +678,7 @@ class Table extends React.PureComponent {
               this.xWrapper = node;
             }}
           >
-            <TableWrap ref={node => (this.tableElement = node)}>
+            <TableWrap tableWrapRef={node => (this.tableElement = node)}>
               <TableHead>{header}</TableHead>
               <TableBody>{body}</TableBody>
             </TableWrap>
