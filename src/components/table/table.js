@@ -569,7 +569,7 @@ class Table extends React.PureComponent {
           (row, r) =>
             React.cloneElement(row, {
               key: `tableHeaderRow_${r}`,
-              ref: node => {
+              rowRef: node => {
                 Table[`tableHeaderRow_${r}`] = node;
               },
               selected,
@@ -591,7 +591,7 @@ class Table extends React.PureComponent {
           (row, r) =>
             React.cloneElement(row, {
               key: `tableRow_${r}`,
-              ref: node => {
+              rowRef: node => {
                 Table[`tableRow_${r}`] = node;
               },
               onMouseEnter: Table.handleRowMouseEnter.bind(this, r),
