@@ -3,46 +3,44 @@ import propTypes from "prop-types";
 import { StyledBtn } from "../base/button.js";
 import styled from "styled-components";
 
-const ButtonWithLink = styled(StyledBtn).attrs(props => ({ as: "a" }));
+const ButtonWithLink = styled(StyledBtn).attrs(() => ({ as: "a" }))``;
 
-class LinkButton extends React.PureComponent {
-  render() {
-    return (
-      <ButtonWithLink
-        autoFocus={this.props.autoFocus}
-        bgColor={this.props.bgColor}
-        bgHoverColor={this.props.bgHoverColor}
-        className={this.props.className}
-        dense={this.props.dense}
-        href={this.props.href}
-        id={this.props.id}
-        buttonRef={this.props.buttonRef}
-        label={this.props.label}
-        labelColor={this.props.labelColor}
-        labelHoverColor={this.props.labelHoverColor}
-        mediaQuery={this.props.mediaQuery}
-        name={this.props.name}
-        onBlur={this.props.onBlur}
-        onClick={this.props.onClick}
-        onFocus={this.props.onFocus}
-        onMouseDown={this.props.onMouseDown}
-        onMouseEnter={this.props.onMouseEnter}
-        onMouseLeave={this.props.onMouseLeave}
-        onMouseUp={this.props.onMouseUp}
-        onTouchStart={this.props.onTouchStart}
-        onTouchEnd={this.props.onTouchEnd}
-        style={this.props.style}
-        target={this.props.target}
-        title={this.props.title}
-        type={this.props.htmlType}
-        styleType={this.props.type}
-      >
-        {this.props.label}
-        {this.props.children}
-      </ButtonWithLink>
-    );
-  }
-}
+const LinkButton = props => {
+  return (
+    <ButtonWithLink
+      autoFocus={props.autoFocus}
+      bgColor={props.bgColor}
+      bgHoverColor={props.bgHoverColor}
+      className={props.className}
+      dense={props.dense}
+      href={props.href}
+      id={props.id}
+      buttonRef={props.buttonRef}
+      label={props.label}
+      labelColor={props.labelColor}
+      labelHoverColor={props.labelHoverColor}
+      mediaQuery={props.mediaQuery}
+      name={props.name}
+      onBlur={props.onBlur}
+      onClick={props.onClick}
+      onFocus={props.onFocus}
+      onMouseDown={props.onMouseDown}
+      onMouseEnter={props.onMouseEnter}
+      onMouseLeave={props.onMouseLeave}
+      onMouseUp={props.onMouseUp}
+      onTouchStart={props.onTouchStart}
+      onTouchEnd={props.onTouchEnd}
+      style={props.style}
+      target={props.target}
+      title={props.title}
+      type={props.htmlType}
+      styleType={props.type}
+    >
+      {props.label}
+      {props.children}
+    </ButtonWithLink>
+  );
+};
 
 LinkButton.propTypes = {
   /** Boolean that sets whether or not the button gains focus when rendered */
