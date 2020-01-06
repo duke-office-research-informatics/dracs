@@ -9,8 +9,12 @@ const TD = styled.td`
 
 class Cell extends React.PureComponent {
   render() {
-    const { children, ...other } = this.props;
-    return <TD {...other}>{children}</TD>;
+    const { children, cellRef, ...other } = this.props;
+    return (
+      <TD {...other} ref={cellRef}>
+        {children}
+      </TD>
+    );
   }
 }
 
@@ -18,6 +22,7 @@ Cell.propTypes = {
   sortable: propTypes.bool,
   style: propTypes.object,
   children: propTypes.node,
+  cellRef: propTypes.func,
 };
 
 export default Cell;
