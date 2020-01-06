@@ -71,10 +71,14 @@ const ProgressLine = styled.path`
   transition: ${p => `${p.animationDuration}ms all linear 0ms`};
   animation: ${p =>
     p.type === "uncontrolled"
-      ? `${LinearDash} 6000ms ease-in-out infinite`
+      ? css`
+          ${LinearDash} 6000ms ease-in-out infinite
+        `
       : p.animateOnMount
-        ? `${LinearLoad} 3000ms`
-        : null};
+      ? css`
+          ${LinearLoad} 3000ms
+        `
+      : null};
 `;
 
 const LinearProgress = props => {

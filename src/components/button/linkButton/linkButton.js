@@ -3,7 +3,7 @@ import propTypes from "prop-types";
 import { StyledBtn } from "../base/button.js";
 import styled from "styled-components";
 
-const ButtonWithLink = styled(StyledBtn).attrs(() => ({ as: "a" }));
+const ButtonWithLink = styled(StyledBtn).attrs(props => ({ as: "a" }));
 
 class LinkButton extends React.PureComponent {
   render() {
