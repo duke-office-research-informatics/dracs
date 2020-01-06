@@ -6,8 +6,12 @@ const RowEl = styled.tr``;
 
 class Row extends React.PureComponent {
   render() {
-    const { children, ...other } = this.props;
-    return <RowEl {...other}>{children}</RowEl>;
+    const { children, rowRef, ...other } = this.props;
+    return (
+      <RowEl {...other} ref={rowRef}>
+        {children}
+      </RowEl>
+    );
   }
 }
 

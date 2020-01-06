@@ -27,7 +27,7 @@ class StickyHeader extends React.PureComponent {
       );
     });
     return (
-      <Row {...row.props} ref={this.props.rowRef}>
+      <Row {...row.props} rowRef={this.props.rowRef}>
         {cells}
       </Row>
     );

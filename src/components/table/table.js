@@ -377,7 +377,6 @@ class Table extends React.PureComponent {
       for (r = 0; r < this.headerCount; r++) {
         cellToCopy = this[`stickyHeaderCell_${r}`];
         if (cellToCopy) {
-          console.log(cellToCopy);
           height = cellToCopy.getBoundingClientRect().height;
 
           if (this[`stickyColumnHeaderRow_${r}`]) {
