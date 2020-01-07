@@ -270,28 +270,33 @@ class Table extends React.PureComponent {
     const Table = this;
     //x scrollbars
     this.xWrapper.addEventListener("scroll", this.scrollXscrollBar);
-    this.xScrollbar.addEventListener("scroll", () => {
-      if (!Table.suppressScroll) {
-        requestAnimationFrame(() => {
-          Table.xWrapper.scrollLeft = Table.xScrollbar.scrollLeft;
-          Table.suppressScroll = true;
-        });
-      } else {
-        Table.suppressScroll = false;
-      }
-    });
+    if (this.xScrollbar) {
+      this.xScrollbar.addEventListener("scroll", () => {
+        if (!Table.suppressScroll) {
+          requestAnimationFrame(() => {
+            Table.xWrapper.scrollLeft = Table.xScrollbar.scrollLeft;
+            Table.suppressScroll = true;
+          });
+        } else {
+          Table.suppressScroll = false;
+        }
+      });
+    }
+
     //y scrollbars
     this.yWrapper.addEventListener("scroll", this.scrollYScrollbar);
-    this.yScrollbar.addEventListener("scroll", () => {
-      if (!Table.suppressScroll) {
-        requestAnimationFrame(() => {
-          Table.yWrapper.scrollTop = Table.yScrollbar.scrollTop;
-          Table.suppressScroll = true;
-        });
-      } else {
-        Table.suppressScroll = false;
-      }
-    });
+    if (this.yScrollbar) {
+      this.yScrollbar.addEventListener("scroll", () => {
+        if (!Table.suppressScroll) {
+          requestAnimationFrame(() => {
+            Table.yWrapper.scrollTop = Table.yScrollbar.scrollTop;
+            Table.suppressScroll = true;
+          });
+        } else {
+          Table.suppressScroll = false;
+        }
+      });
+    }
   };
 
   onScrollX = () => {
@@ -305,43 +310,47 @@ class Table extends React.PureComponent {
   };
 
   scrollXScrollbar = () => {
-    if (!this.suppressScroll) {
-      requestAnimationFrame(() => {
-        this.xScrollbar.scrollLeft = this.xWrapper.scrollLeft;
-        this.suppressScroll = true;
-      });
-    } else {
-      this.suppressScroll = false;
+    if (this.xScrollbar) {
+      if (!this.suppressScroll) {
+        requestAnimationFrame(() => {
+          this.xScrollbar.scrollLeft = this.xWrapper.scrollLeft;
+          this.suppressScroll = true;
+        });
+      } else {
+        this.suppressScroll = false;
+      }
     }
   };
 
   scrollYScrollbar = () => {
-    if (!this.suppressScroll) {
-      requestAnimationFrame(() => {
-        this.yScrollbar.scrollTop = this.yWrapper.scrollTop;
-        this.suppressScroll = true;
-      });
-    } else {
-      this.suppressScroll = false;
+    if (this.yScrollbar) {
+      if (!this.suppressScroll) {
+        requestAnimationFrame(() => {
+          this.yScrollbar.scrollTop = this.yWrapper.scrollTop;
+          this.suppressScroll = true;
+        });
+      } else {
+        this.suppressScroll = false;
+      }
     }
   };
 
   setScrollBarWrapperDims = () => {
     requestAnimationFrame(() => {
-      if (this.stickyColumn) {
+      if (this.stickyColumn && this.xScrollbar) {
         this.xScrollbar.style.width =
           "calc(100% - " + this.stickyColumn.offsetWidth + "px)";
         this.xScrollbar.style.left = this.stickyColumn.offsetWidth + "px";
-      } else {
+      } else if (this.xScrollbar) {
         this.xScrollbar.style.width = "100%";
         this.xScrollbar.style.left = 0;
       }
 
-      if (this.stickyHeader) {
+      if (this.stickyHeader && this.yScrollbar) {
         this.yScrollbar.style.width =
           "calc(100% - " + this.stickyHeader.offsetHeight + "px)";
         this.yScrollbar.style.top = this.stickyHeader.offsetHeight + "px";
-      } else {
+      } else if (this.yScrollbar) {
         this.yScrollbar.style.width = "100%";
         this.yScrollbar.style.top = 0;
       }
@@ -349,22 +358,22 @@ class Table extends React.PureComponent {
   };
 
   setScrollBarDims = () => {
-    if (this.stickyColumn) {
+    if (this.stickyColumn && this.xScrollbar) {
       this.xScrollbar.firstChild.style.width =
         this.tableElement.firstChild.getBoundingClientRect().width -
         this.stickyColumn.offsetWidth +
         "px";
-    } else {
+    } else if (this.xScrollbar) {
       this.xScrollbar.firstChild.style.width =
         this.tableElement.firstChild.getBoundingClientRect().width + "px";
     }
 
-    if (this.stickyHeader) {
+    if (this.stickyHeader && this.yScrollbar) {
       this.yScrollbar.firstChild.style.height =
         this.tableElement.getBoundingClientRect().height -
         this.stickyHeader.offsetHeight +
         "px";
-    } else {
+    } else if (this.yScrollbar) {
       this.yScrollbar.firstChild.style.height =
         this.tableElement.getBoundingClientRect().height + "px";
     }
@@ -638,7 +647,6 @@ class Table extends React.PureComponent {
             count={stickyColumnCount}
             cornerRef={node => (this.stickyCorner = node)}
             rowRef={(node, r) => {
-              console.log(node, r);
               const name = `stickyCornerRow_${r}`;
               this[name] = node;
             }}
@@ -650,7 +658,6 @@ class Table extends React.PureComponent {
             headerRef={node => (this.stickyHeader = node)}
             rowRef={node => (this.stickyHeaderRow = node)}
             cellRef={(node, c) => {
-              console.log(node, c);
               const name = `stickyHeaderCell_${c}`;
               this[name] = node;
             }}
