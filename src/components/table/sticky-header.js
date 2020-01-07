@@ -19,9 +19,6 @@ class StickyHeader extends React.PureComponent {
     React.Children.toArray(row.props.children).forEach((cell, c) => {
       cells.push(
         React.cloneElement(cell, {
-          cellRef: node => {
-            this.props.cellRef(node, c);
-          },
           key: `stickyHeader-${c}`,
         })
       );
