@@ -48,7 +48,7 @@ const StickyColumn = props => {
         <Row
           {...row.props}
           key={`stickyColumnBodyRow-${r}`}
-          rowRef={props.bodyRowRef}
+          rowRef={node => props.bodyRowRef(node, r)}
           index={r}
           onMouseEnter={() => props.onRowMouseEnter(r)}
           onMouseLeave={() => props.onRowMouseLeave(r)}

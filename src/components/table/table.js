@@ -649,6 +649,7 @@ class Table extends React.PureComponent {
             headerRef={node => (this.stickyHeader = node)}
             rowRef={node => (this.stickyHeaderRow = node)}
             cellRef={(node, c) => {
+              console.log(node, c);
               const name = `stickyHeaderCell_${c}`;
               this[name] = node;
             }}
