@@ -221,8 +221,18 @@ class Table extends React.PureComponent {
   }
 
   componentWillUnmount() {
-    if (this.table) {
+    if (this.xWrapper) {
       this.xWrapper.removeEventListener("scroll", this.onScrollX);
+      this.xWrapper.removeEventListener("scroll", this.scrollXscrollBar);
+    }
+    if (this.xScrollbar) {
+      this.xScrollbar.removeEventListener("scroll", this.scrollXscrollBar);
+    }
+    if (this.yWrapper) {
+      this.yWrapper.removeEventListener("scroll", this.scrollYScrollbar);
+    }
+    if (this.yScrollbar) {
+      this.yScrollbar.removeEventListener("scroll", this.scrollYScrollbar);
     }
   }
 
@@ -239,63 +249,20 @@ class Table extends React.PureComponent {
     this.setScrollBarWrapperDims();
   };
 
-  addStickyColumn = () => {
-    if (this.props.responsiveStickyColumn && this.table && this.tableElement) {
-      const TableWidth = this.tableElement.getBoundingClientRect().width;
-      const ParentWidth = this.table.getBoundingClientRect().width;
-      if (ParentWidth < TableWidth) {
-        if (!this.state.stickyColumn && this.state.stickyColumnCount === 0) {
-          this.setState(
-            {
-              stickyColumn: true,
-              stickyColumnCount: 1,
-            },
-            () => {
-              elementResizeEvent(this.stickyColumn, this.onColumnResize);
-            }
-          );
-        }
-      } else if (ParentWidth >= TableWidth) {
-        if (this.state.stickyColumn && this.state.stickyColumnCount !== 0) {
-          this.setState({
-            stickyColumn: false,
-            stickyColumnCount: 0,
-          });
-        }
-      }
-    }
-  };
-
   addScrollBarEventHandlers = () => {
-    const Table = this;
     //x scrollbars
-    this.xWrapper.addEventListener("scroll", this.scrollXscrollBar);
-    if (this.xScrollbar) {
-      this.xScrollbar.addEventListener("scroll", () => {
-        if (!Table.suppressScroll) {
-          requestAnimationFrame(() => {
-            Table.xWrapper.scrollLeft = Table.xScrollbar.scrollLeft;
-            Table.suppressScroll = true;
-          });
-        } else {
-          Table.suppressScroll = false;
-        }
-      });
+    if (this.xWrapper) {
+      this.xWrapper.addEventListener("scroll", this.scrollXscrollBar);
     }
-
+    if (this.xScrollbar) {
+      this.xScrollbar.addEventListener("scroll", this.scrollXscrollBar);
+    }
     //y scrollbars
-    this.yWrapper.addEventListener("scroll", this.scrollYScrollbar);
+    if (this.yWrapper) {
+      this.yWrapper.addEventListener("scroll", this.scrollYScrollbar);
+    }
     if (this.yScrollbar) {
-      this.yScrollbar.addEventListener("scroll", () => {
-        if (!Table.suppressScroll) {
-          requestAnimationFrame(() => {
-            Table.yWrapper.scrollTop = Table.yScrollbar.scrollTop;
-            Table.suppressScroll = true;
-          });
-        } else {
-          Table.suppressScroll = false;
-        }
-      });
+      this.yScrollbar.addEventListener("scroll", this.scrollYScrollbar);
     }
   };
 
@@ -376,6 +343,33 @@ class Table extends React.PureComponent {
     } else if (this.yScrollbar) {
       this.yScrollbar.firstChild.style.height =
         this.tableElement.getBoundingClientRect().height + "px";
+    }
+  };
+
+  addStickyColumn = () => {
+    if (this.props.responsiveStickyColumn && this.table && this.tableElement) {
+      const TableWidth = this.tableElement.getBoundingClientRect().width;
+      const ParentWidth = this.table.getBoundingClientRect().width;
+      if (ParentWidth < TableWidth) {
+        if (!this.state.stickyColumn && this.state.stickyColumnCount === 0) {
+          this.setState(
+            {
+              stickyColumn: true,
+              stickyColumnCount: 1,
+            },
+            () => {
+              elementResizeEvent(this.stickyColumn, this.onColumnResize);
+            }
+          );
+        }
+      } else if (ParentWidth >= TableWidth) {
+        if (this.state.stickyColumn && this.state.stickyColumnCount !== 0) {
+          this.setState({
+            stickyColumn: false,
+            stickyColumnCount: 0,
+          });
+        }
+      }
     }
   };
 
