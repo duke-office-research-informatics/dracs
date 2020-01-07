@@ -140,7 +140,7 @@ describe("Drawer", () => {
     }, 500);
   });
 
-  it("passes an onEscKeyDown function and calls it on esc keyDown", () => {
+  it("passes an escKeyDown function and calls it on esc keyDown", () => {
     const map = {};
     document.body.addEventListener = jest.fn((event, cb) => {
       map[event] = cb;
@@ -150,7 +150,7 @@ describe("Drawer", () => {
         active={true}
         backgroundColor={theme.colors.border}
         delay={0}
-        onEscKeyDown={mockFn}
+        escKeyDown={mockFn}
       />
     );
     setTimeout(() => {

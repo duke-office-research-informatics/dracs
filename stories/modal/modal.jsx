@@ -75,7 +75,7 @@ stories.add(
     /** Style object that applies custom styles to the modal wrapper */
     modalStyle: propTypes.object,
     /** Function that will be called when the user hits the \`esc\` key.  For accessibility reasons, this function should close the dialog */
-    onEscKeyDown: propTypes.func,
+    escKeyDown: propTypes.func,
     /** Function that will be called when the user clicks on the overlay beneath the dialog.  For accessibility reasons, this function should close the dialog */
     onOverlayClick: propTypes.func,
     /** Function that will be called when the user begins to click on the overlay. */
@@ -100,7 +100,7 @@ stories.add(
     margin: propTypes.string,
     ~~~
   `)(() => {
-    const escKey = select("onEscKeyDown", FuncOptions, "none");
+    const escKey = select("escKeyDown", FuncOptions, "none");
     const overlayClick = select("onOverlayClick", FuncOptions, "none");
     const mouseDown = select("onOverlayMouseDown", FuncOptions, "none");
     const mouseMove = select("onOverlayMouseMove", FuncOptions, "none");
@@ -125,7 +125,7 @@ stories.add(
           minHeight={text("minHeight", "")}
           maxheight={text("maxHeight", "")}
           modalStyle={object("modalStyle", {})}
-          onEscKeyDown={FuncReturn(escKey)}
+          escKeyDown={FuncReturn(escKey)}
           onOverlayClick={FuncReturn(overlayClick)}
           onOverlayMouseDown={FuncReturn(mouseDown)}
           onOverlayMouseMove={FuncReturn(mouseMove)}

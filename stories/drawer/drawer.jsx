@@ -68,7 +68,7 @@ stories.add(
     /** Boolean that sets whether or not Drawer uses a portal */
     insideTree: propTypes.bool,
     /** Function that will be called when the user hits the \`esc\` key.  For accessibility reasons, this function should close the drawer */
-    onEscKeyDown: propTypes.func,
+    escKeyDown: propTypes.func,
     /** Function that will be called when the user clicks on the overlay beneath the dialog.  For accessibility reasons, this function should close the drawer */
     onOverlayClick: propTypes.func,
     /** CSS-consumable string (hex, rgba, etc) color declaration for unwrapped body text in the drawer body */
@@ -79,7 +79,7 @@ stories.add(
     withOverlay: propTypes.bool,
     ~~~
   `)(() => {
-    const escKey = select("onEscKeyDown", FuncOptions, "none");
+    const escKey = select("escKeyDown", FuncOptions, "none");
     const overlayClick = select("onOverlayClick", FuncOptions, "none");
     return (
       <div
@@ -102,7 +102,7 @@ stories.add(
           backgroundColor={color("backgroundColor", theme.colors.actionHover)}
           textColor={color("textColor", "#fff")}
           delay={number("delay", 400)}
-          onEscKeyDown={FuncReturn(escKey)}
+          escKeyDown={FuncReturn(escKey)}
           onOverlayClick={FuncReturn(overlayClick)}
         >
           {text("child text", "I am the drawer's child text")}

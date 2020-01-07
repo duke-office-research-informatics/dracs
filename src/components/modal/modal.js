@@ -86,7 +86,7 @@ class Modal extends React.PureComponent {
     /** Style object that applies custom styles to the modal wrapper */
     modalStyle: propTypes.object,
     /** Function that will be called when the user hits the `esc` key.  For accessibility reasons, this function should close the dialog */
-    onEscKeyDown: propTypes.func,
+    escKeyDown: propTypes.func,
     /** Function that will be called when the user clicks on the overlay beneath the dialog.  For accessibility reasons, this function should close the dialog */
     onOverlayClick: propTypes.func,
     /** Function that will be called when the user begins to click on the overlay. */
@@ -169,7 +169,7 @@ class Modal extends React.PureComponent {
               active={this.props.active}
               delay={100}
               onClick={this.props.onOverlayClick}
-              onEscKeyDown={this.props.onEscKeyDown}
+              escKeyDown={this.props.escKeyDown}
               onMouseDown={this.props.onOverlayMouseDown}
               onMouseMove={this.props.onOverlayMouseMove}
               onMouseUp={this.props.onOverlayMouseUp}

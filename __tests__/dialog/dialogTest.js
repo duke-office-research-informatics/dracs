@@ -67,7 +67,7 @@ describe("Dialog", () => {
     const wrapper = mountWithTheme(
       <Dialog
         active={true}
-        onEscKeyDown={mockFn}
+        escKeyDown={mockFn}
         title="A dialog"
         actions={[{ label: "button", onClick: mockFn }]}
       />

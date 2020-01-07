@@ -63,7 +63,7 @@ class Drawer extends React.PureComponent {
       propTypes.func,
     ]),
     /** Function that will be called when the user hits the `esc` key.  For accessibility reasons, this function should close the drawer */
-    onEscKeyDown: propTypes.func,
+    escKeyDown: propTypes.func,
     /** Function that will be called when the user clicks on the overlay beneath the dialog.  For accessibility reasons, this function should close the drawer */
     onOverlayClick: propTypes.func,
     /** CSS-consumable string (hex, rgba, etc) color declaration for unwrapped body text in the drawer body */
@@ -136,7 +136,7 @@ class Drawer extends React.PureComponent {
       insideTree,
       insideTreeWrapper,
       onOverlayClick,
-      onEscKeyDown,
+      escKeyDown,
       withOverlay,
     } = this.props;
 
@@ -154,7 +154,7 @@ class Drawer extends React.PureComponent {
         <Overlay
           active={active}
           onClick={onOverlayClick}
-          onEscKeyDown={onEscKeyDown}
+          escKeyDown={escKeyDown}
           zIndex
         />
       )),

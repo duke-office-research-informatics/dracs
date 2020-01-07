@@ -29,7 +29,7 @@ class Overlay extends React.Component {
     delay: propTypes.number,
     lockScroll: propTypes.bool,
     onClick: propTypes.func,
-    onEscKeyDown: propTypes.func,
+    escKeyDown: propTypes.func,
     onMouseDown: propTypes.func,
     onMouseMove: propTypes.func,
     onMouseUp: propTypes.func,
@@ -47,8 +47,8 @@ class Overlay extends React.Component {
   };
 
   componentDidMount() {
-    const { active, lockScroll, onEscKeyDown } = this.props;
-    if (onEscKeyDown) {
+    const { active, lockScroll, escKeyDown } = this.props;
+    if (escKeyDown) {
       document.body.addEventListener("keydown", this.handleEscPress);
     }
     if (active && lockScroll) {
@@ -57,7 +57,7 @@ class Overlay extends React.Component {
   }
 
   componentDidUpdate(prevProps) {
-    if (this.props.onEscKeyDown) {
+    if (this.props.escKeyDown) {
       if (this.props.active && !prevProps.active) {
         document.body.addEventListener("keydown", this.handleEscPress);
       } else if (!this.props.active && prevProps.active) {
@@ -88,15 +88,15 @@ class Overlay extends React.Component {
       }
     }
 
-    if (this.props.onEscKeyDown) {
+    if (this.props.escKeyDown) {
       document.body.removeEventListener("keydown", this.handleEscPress);
     }
   }
 
   handleEscPress = e => {
     const key = "which" in e ? e.which : e.keyCode;
-    if (this.props.active && this.props.onEscKeyDown && key === 27) {
-      this.props.onEscKeyDown(e);
+    if (this.props.active && this.props.escKeyDown && key === 27) {
+      this.props.escKeyDown(e);
     }
   };
 
