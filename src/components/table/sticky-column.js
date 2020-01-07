@@ -26,7 +26,7 @@ const StickyColumn = props => {
         <Row
           {...row.props}
           key={`stickyColumnHeaderRow-${r}`}
-          ref={node => {
+          rowRef={node => {
             props.headerRowRef(node, r);
           }}
           index={r}

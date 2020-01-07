@@ -28,7 +28,7 @@ class HeaderCell extends React.PureComponent {
   render() {
     return (
       <TH
-        ref={this.props.headerRef}
+        ref={this.props.cellRef}
         onClick={
           this.props.onClick
             ? () =>
@@ -95,7 +95,7 @@ class HeaderCell extends React.PureComponent {
 HeaderCell.propTypes = {
   children: propTypes.node,
   onClick: propTypes.func,
-  headerRef: propTypes.func,
+  cellRef: propTypes.func,
   primarySortValue: propTypes.string,
   secondarySortValue: propTypes.string,
   sortValueType: propTypes.string,

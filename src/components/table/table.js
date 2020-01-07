@@ -638,6 +638,7 @@ class Table extends React.PureComponent {
             count={stickyColumnCount}
             cornerRef={node => (this.stickyCorner = node)}
             rowRef={(node, r) => {
+              console.log(node, r);
               const name = `stickyCornerRow_${r}`;
               this[name] = node;
             }}
