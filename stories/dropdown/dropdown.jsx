@@ -1,8 +1,8 @@
-import React from 'react';
-import { storiesOf } from '@storybook/react';
-import { withKnobs, text, select, boolean } from '@storybook/addon-knobs/react';
-import { withInfo } from '@storybook/addon-info';
-import { State, Store } from '@sambego/storybook-state';
+import React from "react";
+import { storiesOf } from "@storybook/react";
+import { withKnobs, text, select, boolean } from "@storybook/addon-knobs/react";
+import { withInfo } from "@storybook/addon-info";
+import { State, Store } from "@sambego/storybook-state";
 import {
   Dropdown,
   theme,
@@ -14,10 +14,10 @@ import {
   IconHelp,
   IconLogout,
   IconProfile,
-} from '../../src/index.js';
-import styled from 'styled-components';
+} from "../../src/index.js";
+import styled from "styled-components";
 
-const stories = storiesOf('Dropdown', module);
+const stories = storiesOf("Dropdown", module);
 stories.addDecorator(withKnobs);
 
 const TemplateWrap = styled.div`
@@ -45,28 +45,28 @@ const ItemWrap = styled.div`
 
 const array = [
   {
-    abbreviation: 'dsh',
-    longName: 'Domestic Shorthair',
+    abbreviation: "dsh",
+    longName: "Domestic Shorthair",
     description:
-      'A domestic short-haired cat is a cat of mixed ancestry – thus not belonging to any particular recognized cat breed – possessing a coat of short fur.',
+      "A domestic short-haired cat is a cat of mixed ancestry – thus not belonging to any particular recognized cat breed – possessing a coat of short fur.",
   },
   {
-    abbreviation: 'dlh',
-    longName: 'Domestic Longhair',
+    abbreviation: "dlh",
+    longName: "Domestic Longhair",
     description:
-      'A domestic long-haired cat, or fluffy cat, is a cat of mixed ancestry – thus not belonging to any particular recognised cat breed – possessing a coat of semi-long to long fur.',
+      "A domestic long-haired cat, or fluffy cat, is a cat of mixed ancestry – thus not belonging to any particular recognised cat breed – possessing a coat of semi-long to long fur.",
   },
   {
-    abbreviation: 'sia',
-    longName: 'Siamese',
+    abbreviation: "sia",
+    longName: "Siamese",
     description:
-      'The Siamese cat is one of the first distinctly recognized breeds of Asian cat. Derived from the Wichianmat landrace, one of several varieties of cat native to Thailand (formerly known as Siam), the Siamese became one of the most popular breeds in Europe and North America in the 19th century.',
+      "The Siamese cat is one of the first distinctly recognized breeds of Asian cat. Derived from the Wichianmat landrace, one of several varieties of cat native to Thailand (formerly known as Siam), the Siamese became one of the most popular breeds in Europe and North America in the 19th century.",
   },
   {
-    abbreviation: 'ben',
-    longName: 'Bengal',
+    abbreviation: "ben",
+    longName: "Bengal",
     description:
-      'The Bengal is a domestic cat breed developed to look like exotic jungle cats such as leopards, ocelots, margays and clouded leopards. Bengal cats were developed by selective breeding from hybrids of the Asian leopard cat (ALC), Prionailurus bengalensis bengalensis, with domestic cat, backcrossed to domestic cats, with the goal of creating a confident, healthy, and friendly cat with a highly contrasted and vividly marked coat',
+      "The Bengal is a domestic cat breed developed to look like exotic jungle cats such as leopards, ocelots, margays and clouded leopards. Bengal cats were developed by selective breeding from hybrids of the Asian leopard cat (ALC), Prionailurus bengalensis bengalensis, with domestic cat, backcrossed to domestic cats, with the goal of creating a confident, healthy, and friendly cat with a highly contrasted and vividly marked coat",
   },
 ];
 
@@ -80,78 +80,78 @@ const ItemTemplate = item => {
 };
 
 const templateOptions = {
-  none: 'No template',
-  withTemplate: 'With Template',
+  none: "No template",
+  withTemplate: "With Template",
 };
 /* eslint-disable no-unreachable */
 const templateReturn = value => {
   switch (value) {
-  case 'none':
-    return null;
-    break;
-  case 'withTemplate':
-    return ItemTemplate;
-    break;
-  default:
-    return null;
+    case "none":
+      return null;
+      break;
+    case "withTemplate":
+      return ItemTemplate;
+      break;
+    default:
+      return null;
   }
 };
 
 const buttonLabelOpts = {
-  none: 'No Label',
-  button: 'Custom Button',
-  string: 'Custom String',
+  none: "No Label",
+  button: "Custom Button",
+  string: "Custom String",
 };
 
 const buttonLabelReturn = value => {
   switch (value) {
-  case 'none':
-    return null;
-    break;
-  case 'button':
-    return (
-      <Button
-        label={
-          <span style={{ display: 'flex', alignItems: 'center' }}>
+    case "none":
+      return null;
+      break;
+    case "button":
+      return (
+        <Button
+          label={
+            <span style={{ display: "flex", alignItems: "center" }}>
               Cat Breeds <IconDropdownArrow />
-          </span>
-        }
-      />
-    );
-    break;
-  case 'string':
-    return text('custom string', 'cat breeds');
-    break;
-  default:
-    return null;
+            </span>
+          }
+        />
+      );
+      break;
+    case "string":
+      return text("custom string", "cat breeds");
+      break;
+    default:
+      return null;
   }
 };
 
 const FuncOptions = {
-  none: 'no handler declared',
-  withHandler: 'with handler declared',
+  none: "no handler declared",
+  withHandler: "with handler declared",
 };
 
 const FuncReturn = value => {
   switch (value) {
-  case 'none':
-    return null;
-    break;
-  case 'withHandler':
-    return () => alert('handler declared');
-    break;
-  default:
-    return null;
+    case "none":
+      return null;
+      break;
+    case "withHandler":
+      return () => alert("handler declared");
+      break;
+    default:
+      return null;
   }
 };
 /* eslint-enable no-unreachable */
 const store = new Store({
   source: array,
-  value: 'dsh',
+  value: "dsh",
 });
 
 stories.add(
-  'Dropdown - Items passed by array',
+  "Dropdown - Items passed by array",
   withInfo(`
     - A dropdown menu consists of an input (which can be a text input or a button), and a menu that displays beneath the input when it is triggered.
 
@@ -252,34 +252,33 @@ stories.add(
       });
     };
 
-    const type = select('type', ['input', 'button'], 'input');
-    const template = select('template', templateOptions, 'none');
-    const btnLbl = select('buttonLabel', buttonLabelOpts, 'none');
-    const onBlur = select('onBlur', FuncOptions, 'none');
-    const onItemBlur = select('onItemBlur', FuncOptions, 'none');
-    const onClick = select('onClick', FuncOptions, 'none');
-    const onItemClick = select('onItemClick', FuncOptions, 'none');
-    const onFocus = select('onFocus', FuncOptions, 'none');
-    const onItemFocus = select('onItemFocus', FuncOptions, 'none');
-    const onMouseDown = select('onMouseDown', FuncOptions, 'none');
-    const onMouseEnter = select('onMouseEnter', FuncOptions, 'none');
-    const onMouseLeave = select('onMouseLeave', FuncOptions, 'none');
-    const onMouseUp = select('onMouseUp', FuncOptions, 'none');
-    const onTouchStart = select('onTouchStart', FuncOptions, 'none');
-    const onTouchEnd = select('onTouchEnd', FuncOptions, 'none');
-
+    const type = select("type", ["input", "button"], "input");
+    const template = select("template", templateOptions, "none");
+    const btnLbl = select("buttonLabel", buttonLabelOpts, "none");
+    const onBlur = select("onBlur", FuncOptions, "none");
+    const onItemBlur = select("onItemBlur", FuncOptions, "none");
+    const onClick = select("onClick", FuncOptions, "none");
+    const itemClick = select("itemClick", FuncOptions, "none");
+    const onFocus = select("onFocus", FuncOptions, "none");
+    const onItemFocus = select("onItemFocus", FuncOptions, "none");
+    const onMouseDown = select("onMouseDown", FuncOptions, "none");
+    const onMouseEnter = select("onMouseEnter", FuncOptions, "none");
+    const onMouseLeave = select("onMouseLeave", FuncOptions, "none");
+    const onMouseUp = select("onMouseUp", FuncOptions, "none");
+    const onTouchStart = select("onTouchStart", FuncOptions, "none");
+    const onTouchEnd = select("onTouchEnd", FuncOptions, "none");
 
     return (
       <State store={store}>
         <Dropdown
-          buttonLabel={type === 'button' ? buttonLabelReturn(btnLbl) : null}
-          menuPosition={select('menuPosition', ['left', 'right'], 'right')}
-          label={text('label', 'Cat Breeds')}
-          labelKey={text('labelKey', 'longName')}
+          buttonLabel={type === "button" ? buttonLabelReturn(btnLbl) : null}
+          menuPosition={select("menuPosition", ["left", "right"], "right")}
+          label={text("label", "Cat Breeds")}
+          labelKey={text("labelKey", "longName")}
           onBlur={FuncReturn(onBlur)}
           onItemBlur={FuncReturn(onItemBlur)}
           onClick={FuncReturn(onClick)}
-          onItemClick={FuncReturn(onItemClick)}
+          itemClick={FuncReturn(itemClick)}
           onFocus={FuncReturn(onFocus)}
           onItemFocus={FuncReturn(onItemFocus)}
           onMouseDown={FuncReturn(onMouseDown)}
@@ -289,12 +288,12 @@ stories.add(
           onTouchStart={FuncReturn(onTouchStart)}
           onTouchEnd={FuncReturn(onTouchEnd)}
           onChange={handleChange}
-          orientAbove={boolean('oreientAbove', false)}
-          source={store.get('source')}
+          orientAbove={boolean("oreientAbove", false)}
+          source={store.get("source")}
           template={templateReturn(template)}
           type={type}
-          value={store.get('value')}
-          valueKey={text('valueKey', 'abbreviation')}
+          value={store.get("value")}
+          valueKey={text("valueKey", "abbreviation")}
         />
       </State>
     );
@@ -302,7 +301,7 @@ stories.add(
 );
 
 stories.add(
-  'Dropdown - Items passed as children',
+  "Dropdown - Items passed as children",
   withInfo(`
     - A dropdown menu consists of an input (which can be a text input or a button), and a menu that displays beneath the input when it is triggered.
 
@@ -338,29 +337,33 @@ stories.add(
     </Dropdown>
     ~~~
   `)(() => {
-    const type = select('type', ['input', 'button'], 'button');
-    const onBlur = select('onBlur', FuncOptions, 'none');
-    const onItemBlur = select('onItemBlur', FuncOptions, 'none');
-    const onClick = select('onClick', FuncOptions, 'none');
-    const onItemClick = select('onItemClick', FuncOptions, 'none');
-    const onFocus = select('onFocus', FuncOptions, 'none');
-    const onItemFocus = select('onItemFocus', FuncOptions, 'none');
-    const onMouseDown = select('onMouseDown', FuncOptions, 'none');
-    const onMouseEnter = select('onMouseEnter', FuncOptions, 'none');
-    const onMouseLeave = select('onMouseLeave', FuncOptions, 'none');
-    const onMouseUp = select('onMouseUp', FuncOptions, 'none');
-    const onTouchStart = select('onTouchStart', FuncOptions, 'none');
-    const onTouchEnd = select('onTouchEnd', FuncOptions, 'none');
+    const type = select("type", ["input", "button"], "button");
+    const onBlur = select("onBlur", FuncOptions, "none");
+    const onItemBlur = select("onItemBlur", FuncOptions, "none");
+    const onClick = select("onClick", FuncOptions, "none");
+    const itemClick = select("itemClick", FuncOptions, "none");
+    const onFocus = select("onFocus", FuncOptions, "none");
+    const onItemFocus = select("onItemFocus", FuncOptions, "none");
+    const onMouseDown = select("onMouseDown", FuncOptions, "none");
+    const onMouseEnter = select("onMouseEnter", FuncOptions, "none");
+    const onMouseLeave = select("onMouseLeave", FuncOptions, "none");
+    const onMouseUp = select("onMouseUp", FuncOptions, "none");
+    const onTouchStart = select("onTouchStart", FuncOptions, "none");
+    const onTouchEnd = select("onTouchEnd", FuncOptions, "none");
     return (
       <Dropdown
-        buttonLabel={type === 'button' ? <IconMenu color={theme.colors.action} size={40} /> : null}
-        menuPosition={select('menuPosition', ['left', 'right'], 'right')}
-        label={text('label', 'Actions')}
+        buttonLabel={
+          type === "button" ? (
+            <IconMenu color={theme.colors.action} size={40} />
+          ) : null
+        }
+        menuPosition={select("menuPosition", ["left", "right"], "right")}
+        label={text("label", "Actions")}
         type={type}
         onBlur={FuncReturn(onBlur)}
         onItemBlur={FuncReturn(onItemBlur)}
         onClick={FuncReturn(onClick)}
-        onItemClick={FuncReturn(onItemClick)}
+        itemClick={FuncReturn(itemClick)}
         onFocus={FuncReturn(onFocus)}
         onItemFocus={FuncReturn(onItemFocus)}
         onMouseDown={FuncReturn(onMouseDown)}
@@ -369,17 +372,17 @@ stories.add(
         onMouseUp={FuncReturn(onMouseUp)}
         onTouchStart={FuncReturn(onTouchStart)}
         onTouchEnd={FuncReturn(onTouchEnd)}
-        orientAbove={boolean('oreientAbove', false)}
+        orientAbove={boolean("oreientAbove", false)}
       >
-        <ItemWrap onClick={() => alert('profile clicked')}>
+        <ItemWrap onClick={() => alert("profile clicked")}>
           <IconProfile color={theme.colors.subheading} />
           <H5>Profile</H5>
         </ItemWrap>
-        <ItemWrap onClick={() => alert('help clicked')}>
+        <ItemWrap onClick={() => alert("help clicked")}>
           <IconHelp />
           <H5>Help</H5>
         </ItemWrap>
-        <ItemWrap onClick={() => alert('logout clicked')}>
+        <ItemWrap onClick={() => alert("logout clicked")}>
           <IconLogout />
           <H5>Logout</H5>
         </ItemWrap>

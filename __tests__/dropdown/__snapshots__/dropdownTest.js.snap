@@ -3934,7 +3934,7 @@ exports[`Dropdown Items passed as array attaches an onBlur prop to the input but
 </dropdown__DropdownWrap>
 `;
 
-exports[`Dropdown Items passed as array attaches an onClick function to each item via onItemClick 1`] = `
+exports[`Dropdown Items passed as array attaches an onClick function to each item via itemClick 1`] = `
 .c7 {
   fill: hsla(0,0%,14.9%,0.5700000000000001);
   vertical-align: top;
@@ -18259,7 +18259,7 @@ exports[`Dropdown items passed as children attaches an onBlur function to each i
 </dropdown__DropdownWrap>
 `;
 
-exports[`Dropdown items passed as children attaches an onClick function to each item via onItemClick 1`] = `
+exports[`Dropdown items passed as children attaches an onClick function to each item via itemClick 1`] = `
 .c2 {
   fill: #fff;
   vertical-align: top;

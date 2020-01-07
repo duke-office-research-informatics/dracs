@@ -231,7 +231,7 @@ class Tabs extends React.Component {
         fixed: this.props.fixed,
         inverse: this.props.inverse,
         underline: this.state.underline,
-        onItemClick: this.handleRowItemClick,
+        itemClick: this.handleRowItemClick,
       })
     );
   }

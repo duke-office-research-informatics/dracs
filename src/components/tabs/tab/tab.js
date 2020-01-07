@@ -41,7 +41,7 @@ class Tab extends React.Component {
     name: propTypes.string,
     onActive: propTypes.func,
     onClick: propTypes.func,
-    onItemClick: propTypes.func,
+    itemClick: propTypes.func,
     unableToSetUnderline: propTypes.bool,
     underline: propTypes.object,
   };
@@ -61,11 +61,11 @@ class Tab extends React.Component {
 
   handleClick = e => {
     e.stopPropagation();
-    if (!this.props.disabled && this.props.onItemClick) {
+    if (!this.props.disabled && this.props.itemClick) {
       if (this.props.onClick) {
-        this.props.onItemClick(e, this.props.name, this.props.onClick);
+        this.props.itemClick(e, this.props.name, this.props.onClick);
       } else {
-        this.props.onItemClick(e, this.props.name);
+        this.props.itemClick(e, this.props.name);
       }
     }
   };
@@ -73,7 +73,7 @@ class Tab extends React.Component {
   handleKeyDown = e => {
     const key = "which" in e ? e.which : e.keyCode;
     if (key === 13 && !this.props.disabled && this.props.onClick) {
-      this.props.onItemClick(e, this.props.name);
+      this.props.itemClick(e, this.props.name);
     }
   };
 

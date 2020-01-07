@@ -150,7 +150,7 @@ class Dropdown extends React.Component {
     /** Function that is called when the dropdown input/button is clicked */
     onClick: propTypes.func,
     /** Function that is called when a menu item is clicked */
-    onItemClick: propTypes.func,
+    itemClick: propTypes.func,
     /** Function that is called when the input/button gains focus */
     onFocus: propTypes.func,
     /** Function that is called when a menu item gains focus */
@@ -289,7 +289,7 @@ class Dropdown extends React.Component {
       if (this.props.name) event.target.name = this.props.name;
       const newSource = this.moveSelectedToFirstPos(source, valueKey, item);
       this.props.onChange(item, newSource, event);
-      if (this.props.onItemClick) this.props.onItemClick(item, event);
+      if (this.props.itemClick) this.props.itemClick(item, event);
       if (this.props.closeOnSelect) this.close();
     }
   };
@@ -405,7 +405,7 @@ class Dropdown extends React.Component {
         break;
       case 13: //enter
         if (this.props.closeOnSelect) this.close();
-        if (this.props.onItemClick) this.props.onItemClick(e);
+        if (this.props.itemClick) this.props.itemClick(e);
         events.pauseEvent(e);
         break;
       case 27: //esc
@@ -507,8 +507,8 @@ class Dropdown extends React.Component {
         onFocus={handleHeaderItemFocus}
         onClick={e => {
           if (this.props.closeOnSelect) this.close();
-          if (this.props.onItemClick && !item.props.disabled)
-            this.props.onItemClick(e);
+          if (this.props.itemClick && !item.props.disabled)
+            this.props.itemClick(e);
         }}
         onKeyDown={e => {
           this.handleMenuItemKeydown(e);

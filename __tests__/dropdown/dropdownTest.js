@@ -140,7 +140,7 @@ describe("Dropdown", () => {
     });
 
     it("moves a selected item to top of array, displays it first and prev item 2nd in the menu", () => {
-      wrapper.setProps({ openMenu: true, onItemClick: mockClickFn });
+      wrapper.setProps({ openMenu: true, itemClick: mockClickFn });
       wrapper.update();
       expect(wrapper.find("dropdown__MenuList")).toHaveStyleRule(
         "display",
@@ -517,8 +517,8 @@ describe("Dropdown", () => {
       });
     });
 
-    it("attaches an onClick function to each item via onItemClick", () => {
-      wrapper.setProps({ openMenu: true, onItemClick: mockClickFn });
+    it("attaches an onClick function to each item via itemClick", () => {
+      wrapper.setProps({ openMenu: true, itemClick: mockClickFn });
       wrapper.update();
       expect(wrapper).toMatchSnapshot();
       wrapper.find("dropdown__MenuItem").forEach(item => {
@@ -632,7 +632,7 @@ describe("Dropdown", () => {
 
     it("selects the focused item when enter is pressed", () => {
       const oldArray = Object.assign({}, startArray);
-      wrapper.setProps({ openMenu: true, onItemClick: mockClickFn });
+      wrapper.setProps({ openMenu: true, itemClick: mockClickFn });
       wrapper.update();
       expect(wrapper.find("dropdown__MenuList")).toHaveStyleRule(
         "display",
@@ -738,8 +738,8 @@ describe("Dropdown", () => {
       });
     });
 
-    it("attaches an onClick function to each item via onItemClick", () => {
-      wrapper.setProps({ openMenu: true, onItemClick: mockClickFn });
+    it("attaches an onClick function to each item via itemClick", () => {
+      wrapper.setProps({ openMenu: true, itemClick: mockClickFn });
       wrapper.update();
       expect(wrapper).toMatchSnapshot();
       wrapper.find("dropdown__MenuItem").forEach(item => {
@@ -795,7 +795,7 @@ describe("Dropdown", () => {
     });
 
     it("closes the menu when enter is pressed", () => {
-      wrapper.setProps({ openMenu: true, onItemClick: mockClickFn });
+      wrapper.setProps({ openMenu: true, itemClick: mockClickFn });
       wrapper.update();
       expect(wrapper.find("dropdown__MenuList")).toHaveStyleRule(
         "display",
