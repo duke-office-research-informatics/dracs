@@ -8,6 +8,7 @@ export const shallowWithTheme = (children, customTheme) => {
   return shallow(children, { context: theme });
 };
 
+/* eslint-disable */
 export function mountWithTheme(child) {
   return mount(child, {
     wrappingComponent: ({ children }) => (
