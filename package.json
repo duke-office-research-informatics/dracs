@@ -1,7 +1,7 @@
 {
   "name": "@duke-office-research-informatics/dracs",
   "sideEffects": true,
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "lib/dracs.cjs.js",
   "module": "lib/dracs.es.js",
   "dependencies": {
