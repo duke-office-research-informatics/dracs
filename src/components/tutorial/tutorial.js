@@ -116,6 +116,7 @@ const Tutorial = (options = {}) => {
       };
 
       setPositioning({ top, left, position }) {
+        console.log(top, left);
         this.setState({ top, left, position });
       }
 
@@ -147,6 +148,7 @@ const Tutorial = (options = {}) => {
 
       calculatePosition() {
         const element = ReactDOM.findDOMNode(this); //eslint-disable-line
+        console.log(element, ComposedComponent);
         const position = this.getPosition(element);
         const { top, left, height, width } = element.getBoundingClientRect();
         const xOffset = window.scrollX || window.pageXOffset;
