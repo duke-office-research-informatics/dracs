@@ -84,10 +84,14 @@ const Tutorial = (options = {}) => {
           this.setPositioning(this.calculatePosition());
       }
 
-      componentDidUpdate(prevProps) {
-        if (this.props.tutorialActive && !prevProps.tutorialActive) {
+      UNSAFE_componentWillReceiveProps(nextProps) {
+        if (!this.props.tutorialActive && nextProps.tutorialActive) {
           this.setPositioning(this.calculatePosition());
-        } else if (
+        }
+      }
+
+      componentDidUpdate(prevProps) {
+        if (
           this.props.tutorialPosition !== prevProps.tutorialPosition &&
           this.props.tutorialActive
         ) {
@@ -177,12 +181,25 @@ const Tutorial = (options = {}) => {
         return undefined;
       }
 
+      handleTutorialClose = e => {
+        e.prventDefault();
+        e.stopPropagation();
+        if (this.props.onTutorialClose) {
+          this.props.onTutorialClose(e);
+        }
+      };
+
+      handleTutorialOpen = e => {
+        e.preventDefault();
+        e.stopPropagation();
+        if (this.props.onTutorialOpen) {
+          this.props.onTutorialOpen();
+        }
+      };
       render() {
         const {
           children,
           idToFocus,
-          onTutorialClose,
-          onTutorialOpen,
           tutorialActions,
           tutorialActive,
           tutorialBody,
@@ -236,8 +253,8 @@ const Tutorial = (options = {}) => {
                 id={tutorialId}
                 idToFocus={idToFocus}
                 image={tutorialImage}
-                onClose={onTutorialClose}
-                onOpen={onTutorialOpen}
+                onClose={this.handleTutorialClose}
+                onOpen={this.handleTutorialOpen}
                 position={position}
                 top={top}
                 left={left}
