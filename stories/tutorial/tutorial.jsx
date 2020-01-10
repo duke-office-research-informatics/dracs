@@ -1,5 +1,5 @@
-import React from 'react';
-import { storiesOf } from '@storybook/react';
+import React from "react";
+import { storiesOf } from "@storybook/react";
 import {
   withKnobs,
   number,
@@ -7,67 +7,67 @@ import {
   boolean,
   object,
   select,
-} from '@storybook/addon-knobs/react';
-import { withInfo } from '@storybook/addon-info';
-import { Tutorial, H3, Button } from '../../src/index.js';
+} from "@storybook/addon-knobs/react";
+import { withInfo } from "@storybook/addon-info";
+import { Tutorial, H3, Button } from "../../src/index.js";
 
-const stories = storiesOf('Tooltips', module);
+const stories = storiesOf("Tooltips", module);
 
 stories.addDecorator(withKnobs);
 
 const FuncOptions = {
-  none: 'no click handler declared',
-  withHandler: 'with click handler declared',
+  none: "no click handler declared",
+  withHandler: "with click handler declared",
 };
 /* eslint-disable no-unreachable */
 const FuncReturn = value => {
   switch (value) {
-  case 'none':
-    return null;
-    break;
-  case 'withHandler':
-    return () => alert('click handler declared');
-    break;
-  default:
-    return null;
+    case "none":
+      return null;
+      break;
+    case "withHandler":
+      return () => alert("click handler declared");
+      break;
+    default:
+      return null;
   }
 };
 
 const composeOptions = {
-  button: 'Button',
-  h3: 'H3',
+  button: "Button",
+  h3: "H3",
 };
 
 const composeReturn = value => {
   switch (value) {
-  case 'h3':
-    return H3;
-    break;
-  case 'button':
-    return Button;
-    break;
-  default:
-    return H3;
+    case "h3":
+      return H3;
+      break;
+    case "button":
+      return Button;
+      break;
+    default:
+      return H3;
   }
 };
 /* eslint-enable no-unreachable */
 const actions = [
   {
-    label: 'Previous',
+    label: "Previous",
     onClick: () => {
-      alert('go to previous clicked');
+      alert("go to previous clicked");
     },
   },
   {
-    label: 'Next',
+    label: "Next",
     onClick: () => {
-      alert('go to next clicked');
+      alert("go to next clicked");
     },
-    id: 'nextTip',
+    id: "nextTip",
   },
 ];
 stories.add(
-  'Tutorial',
+  "Tutorial",
   withInfo(`
     The tutorial is used to convey information about what the composed component is and how to use that component to the user, generally pertaining to the element that the tooltip is composing (but can also refer to its' parents/siblings/children).
 
@@ -109,7 +109,7 @@ stories.add(
     /** ID of element that should gain focus when tutorial renders */
     idToFocus: propTypes.string,
     /** Function called when tutorial is dismounted/closed */
-    onTutorialClose: propTypes.func,
+    tutorialClose: propTypes.func,
     /** Function called when tutorial is mounted/opened */
     onTutorialOpen: propTypes.func,
     /** Number that sets the total number of tutorial tips if tutorial has multiple tips to display */
@@ -134,41 +134,47 @@ stories.add(
     tutorialTitle: propTypes.oneOfType([propTypes.string, propTypes.node]),
     ~~~
   `)(() => {
-    const composedElement = select('Composed Element', composeOptions, 'button');
+    const composedElement = select(
+      "Composed Element",
+      composeOptions,
+      "button"
+    );
     const TutorialExample = Tutorial(composeReturn(composedElement));
     const tutorialPosition = select(
-      'tutorialPosition',
-      ['vertical', 'horizontal', 'top', 'bottom', 'left', 'right'],
-      'vertical'
+      "tutorialPosition",
+      ["vertical", "horizontal", "top", "bottom", "left", "right"],
+      "vertical"
     );
-    const onTutorialClose = select('onTutorialClose', FuncOptions, 'none');
-    const onTutorialOpen = select('onTutorialOpen', FuncOptions, 'none');
+    const tutorialClose = select("tutorialClose", FuncOptions, "none");
+    const onTutorialOpen = select("onTutorialOpen", FuncOptions, "none");
 
     return (
       <TutorialExample
-        tutorialActive={boolean('tutorialActive', true)}
+        tutorialActive={boolean("tutorialActive", true)}
         tutorialPosition={tutorialPosition}
-        tutorialTitle={text('tutorialTitle', 'Thing To Use')}
+        tutorialTitle={text("tutorialTitle", "Thing To Use")}
         tutorialBody={text(
-          'tutorialBody',
-          'This thing is very useful, and this is how it\'s used and why you should use it.  Click the \'active\' input to be able to click the see info button'
+          "tutorialBody",
+          "This thing is very useful, and this is how it's used and why you should use it.  Click the 'active' input to be able to click the see info button"
         )}
-        tutorialId={text('tutorialId', '')}
-        tutorialDelay={number('tutorialDelay', 300)}
-        onTutorialClose={FuncReturn(onTutorialClose)}
+        tutorialId={text("tutorialId", "")}
+        tutorialDelay={number("tutorialDelay", 300)}
+        tutorialClose={FuncReturn(tutorialClose)}
         onTutorialOpen={FuncReturn(onTutorialOpen)}
-        tutorialActions={object('tutorialActions', actions)}
+        tutorialActions={object("tutorialActions", actions)}
         idToFocus="#nextTip"
-        tipCount={number('tipCount', 4)}
-        tipNumber={number('tipNumber', 1)}
+        tipCount={number("tipCount", 4)}
+        tipNumber={number("tipNumber", 1)}
         label={
-          composedElement === 'button'
-            ? text('button label', 'Button composed with Tutorial')
+          composedElement === "button"
+            ? text("button label", "Button composed with Tutorial")
             : null
         }
         onClick={() => {}}
       >
-        {composedElement === 'h3' ? text('body text', 'H3 composed with Tutorial') : null}
+        {composedElement === "h3"
+          ? text("body text", "H3 composed with Tutorial")
+          : null}
       </TutorialExample>
     );
   })

@@ -36,7 +36,7 @@ const Tutorial = (options = {}) => {
         /** ID of element that should gain focus when tutorial renders */
         idToFocus: propTypes.string,
         /** Function called when tutorial is dismounted/closed */
-        onTutorialClose: propTypes.func,
+        tutorialClose: propTypes.func,
         /** Function called when tutorial is mounted/opened */
         onTutorialOpen: propTypes.func,
         /** Number that sets the total number of tutorial tips if tutorial has multiple tips to display */
@@ -178,8 +178,8 @@ const Tutorial = (options = {}) => {
       handleTutorialClose = e => {
         e.preventDefault();
         e.stopPropagation();
-        if (this.props.onTutorialClose) {
-          this.props.onTutorialClose(e);
+        if (this.props.tutorialClose) {
+          this.props.tutorialClose(e);
         }
       };
 
