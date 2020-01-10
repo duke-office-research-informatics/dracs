@@ -84,14 +84,10 @@ const Tutorial = (options = {}) => {
           this.setPositioning(this.calculatePosition());
       }
 
-      UNSAFE_componentWillReceiveProps(nextProps) {
-        if (!this.props.tutorialActive && nextProps.tutorialActive) {
-          this.setPositioning(this.calculatePosition());
-        }
-      }
-
       componentDidUpdate(prevProps) {
-        if (
+        if (this.props.tutorialActive && !prevProps.tutorialActive) {
+          this.setPositioning(this.calculatePosition());
+        } else if (
           this.props.tutorialPosition !== prevProps.tutorialPosition &&
           this.props.tutorialActive
         ) {
@@ -182,7 +178,7 @@ const Tutorial = (options = {}) => {
       }
 
       handleTutorialClose = e => {
-        e.prventDefault();
+        e.preventDefault();
         e.stopPropagation();
         if (this.props.onTutorialClose) {
           this.props.onTutorialClose(e);
