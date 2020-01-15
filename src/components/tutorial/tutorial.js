@@ -64,11 +64,15 @@ const Tutorial = (options = {}) => {
         ),
         /** String or react element that sets the title of the tutorial tip */
         tutorialTitle: propTypes.oneOfType([propTypes.string, propTypes.node]),
+        verticalOffset: propTypes.number,
+        horizontalOffset: propTypes.number,
       };
 
       static defaultProps = {
         tutorialDelay: defaultDelay,
         tutorialPosition: defaultPosition,
+        verticalOffset: 0,
+        horizontalOffset: 0,
       };
 
       state = {
@@ -147,28 +151,30 @@ const Tutorial = (options = {}) => {
         const { top, left, height, width } = element.getBoundingClientRect();
         const xOffset = window.scrollX || window.pageXOffset;
         const yOffset = window.scrollY || window.pageYOffset;
+        const vertOffset = yOffset + this.props.verticalOffset;
+        const horizOffset = xOffset + this.props.horizontalOffset;
         if (position === POSITION.BOTTOM) {
           return {
-            top: top + height + yOffset,
-            left: left + width / 2 + xOffset,
+            top: top + height + vertOffset,
+            left: left + width / 2 + horizOffset,
             position,
           };
         } else if (position === POSITION.TOP) {
           return {
-            top: top + yOffset,
-            left: left + width / 2 + xOffset,
+            top: top + vertOffset,
+            left: left + width / 2 + horizOffset,
             position,
           };
         } else if (position === POSITION.LEFT) {
           return {
-            top: top + height / 2 + yOffset,
-            left: left + xOffset,
+            top: top + height / 2 + vertOffset,
+            left: left + horizOffset,
             position,
           };
         } else if (position === POSITION.RIGHT) {
           return {
-            top: top + height / 2 + yOffset,
-            left: left + width + xOffset,
+            top: top + height / 2 + vertOffset,
+            left: left + width + horizOffset,
             position,
           };
         }
