@@ -153,6 +153,7 @@ const Tutorial = (options = {}) => {
         const yOffset = window.scrollY || window.pageYOffset;
         const vertOffset = yOffset + this.props.verticalOffset;
         const horizOffset = xOffset + this.props.horizontalOffset;
+        console.log(horizOffset, this.props.horizontalOffset);
         if (position === POSITION.BOTTOM) {
           return {
             top: top + height + vertOffset,
