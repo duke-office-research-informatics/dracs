@@ -64,7 +64,9 @@ const Tutorial = (options = {}) => {
         ),
         /** String or react element that sets the title of the tutorial tip */
         tutorialTitle: propTypes.oneOfType([propTypes.string, propTypes.node]),
+        /**number to set number of pixels that you want the tutorial to move on the vertical axis */
         verticalOffset: propTypes.number,
+        /**number to set number of pixels that you want the tutorial to move on the horizontal axis */
         horizontalOffset: propTypes.number,
       };
 
@@ -153,7 +155,6 @@ const Tutorial = (options = {}) => {
         const yOffset = window.scrollY || window.pageYOffset;
         const vertOffset = yOffset + this.props.verticalOffset;
         const horizOffset = xOffset + this.props.horizontalOffset;
-        console.log(horizOffset, this.props.horizontalOffset);
         if (position === POSITION.BOTTOM) {
           return {
             top: top + height + vertOffset,
