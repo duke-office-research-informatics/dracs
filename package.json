@@ -144,7 +144,7 @@
       "lib/*.es.js"
     ]
   },
-  "description": "Duke Research Application Component System v0.0.21",
+  "description": "Duke Research Application Component System v1.0.10",
   "directories": {
     "lib": "lib"
   },
