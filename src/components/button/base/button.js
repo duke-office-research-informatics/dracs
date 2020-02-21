@@ -116,6 +116,7 @@ export const StyledBtn = styled.button.attrs(props => ({
 const Button = props => {
   return (
     <StyledBtn
+      ref={props.buttonRef}
       autoFocus={props.autoFocus}
       bgColor={props.bgColor}
       bgHoverColor={props.bgHoverColor}

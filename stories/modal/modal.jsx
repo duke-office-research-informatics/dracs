@@ -146,7 +146,6 @@ stories.add(
             "auto"
           )}
           margin={text("margin", "")}
-          initialFocusEl={this.button}
         >
           <H3 bold>
             {text("example header text", "This is an example modal header")}
@@ -163,7 +162,6 @@ stories.add(
           <Button
             label={text("example button", "example button")}
             onClick={() => {}}
-            ref={node => (this.button = node)}
             style={{ alignSelf: "flex-end" }}
           />
         </Modal>
