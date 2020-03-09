@@ -184,9 +184,6 @@ class Table extends React.PureComponent {
     this.rowCount = 0;
     this.columnCount = 0;
     this.headerCount = 0;
-    this.supressScroll = false;
-    this.scrollXScrollbar = _.throttle(this.scrollXScrollbar, 30);
-    this.scrollYScrollbar = _.throttle(this.scrollYScrollbar, 30);
     this.state = {
       stickyColumn: props.stickyColumn,
       stickyColumnCount: props.stickyColumnCount,
@@ -195,7 +192,6 @@ class Table extends React.PureComponent {
 
   componentDidMount() {
     if (this.table) {
-      this.xWrapper.addEventListener("scroll", this.onScrollX);
       this.addStickyColumn();
       if (this.stickyColumn)
         elementResizeEvent(this.stickyColumn, this.onColumnResize);
@@ -208,31 +204,12 @@ class Table extends React.PureComponent {
       this.resizeTimeout = setTimeout(() => {
         this.onResize();
       }, this.props.resizeTimeout);
-      this.addScrollBarEventHandlers();
-      this.setScrollBarWrapperDims();
     }
   }
 
   componentDidUpdate() {
     if (this.table) {
       this.onResize();
-      this.setScrollBarWrapperDims();
-    }
-  }
-
-  componentWillUnmount() {
-    if (this.xWrapper) {
-      this.xWrapper.removeEventListener("scroll", this.onScrollX);
-      this.xWrapper.removeEventListener("scroll", this.scrollXscrollBar);
-    }
-    if (this.xScrollbar) {
-      this.xScrollbar.removeEventListener("scroll", this.scrollXscrollBar);
-    }
-    if (this.yWrapper) {
-      this.yWrapper.removeEventListener("scroll", this.scrollYScrollbar);
-    }
-    if (this.yScrollbar) {
-      this.yScrollbar.removeEventListener("scroll", this.scrollYScrollbar);
     }
   }
 
@@ -240,110 +217,11 @@ class Table extends React.PureComponent {
     requestAnimationFrame(() => {
       this.setRowHeights();
       this.setColumnWidths();
-      this.setScrollBarDims();
     });
   };
 
   onColumnResize = () => {
     this.onResize();
-    this.setScrollBarWrapperDims();
-  };
-
-  addScrollBarEventHandlers = () => {
-    //x scrollbars
-    if (this.xWrapper) {
-      this.xWrapper.addEventListener("scroll", this.scrollXscrollBar);
-    }
-    if (this.xScrollbar) {
-      this.xScrollbar.addEventListener("scroll", this.scrollXscrollBar);
-    }
-    //y scrollbars
-    if (this.yWrapper) {
-      this.yWrapper.addEventListener("scroll", this.scrollYScrollbar);
-    }
-    if (this.yScrollbar) {
-      this.yScrollbar.addEventListener("scroll", this.scrollYScrollbar);
-    }
-  };
-
-  onScrollX = () => {
-    const scrollLeft = Math.max(this.xWrapper.scrollLeft, 0);
-    if (this.stickyHeader) {
-      requestAnimationFrame(() => {
-        this.stickyHeader.style.transform =
-          "translate(" + -1 * scrollLeft + "px, 0)";
-      });
-    }
-  };
-
-  scrollXScrollbar = () => {
-    if (this.xScrollbar) {
-      if (!this.suppressScroll) {
-        requestAnimationFrame(() => {
-          this.xScrollbar.scrollLeft = this.xWrapper.scrollLeft;
-          this.suppressScroll = true;
-        });
-      } else {
-        this.suppressScroll = false;
-      }
-    }
-  };
-
-  scrollYScrollbar = () => {
-    if (this.yScrollbar) {
-      if (!this.suppressScroll) {
-        requestAnimationFrame(() => {
-          this.yScrollbar.scrollTop = this.yWrapper.scrollTop;
-          this.suppressScroll = true;
-        });
-      } else {
-        this.suppressScroll = false;
-      }
-    }
-  };
-
-  setScrollBarWrapperDims = () => {
-    requestAnimationFrame(() => {
-      if (this.stickyColumn && this.xScrollbar) {
-        this.xScrollbar.style.width =
-          "calc(100% - " + this.stickyColumn.offsetWidth + "px)";
-        this.xScrollbar.style.left = this.stickyColumn.offsetWidth + "px";
-      } else if (this.xScrollbar) {
-        this.xScrollbar.style.width = "100%";
-        this.xScrollbar.style.left = 0;
-      }
-
-      if (this.stickyHeader && this.yScrollbar) {
-        this.yScrollbar.style.width =
-          "calc(100% - " + this.stickyHeader.offsetHeight + "px)";
-        this.yScrollbar.style.top = this.stickyHeader.offsetHeight + "px";
-      } else if (this.yScrollbar) {
-        this.yScrollbar.style.width = "100%";
-        this.yScrollbar.style.top = 0;
-      }
-    });
-  };
-
-  setScrollBarDims = () => {
-    if (this.stickyColumn && this.xScrollbar) {
-      this.xScrollbar.firstChild.style.width =
-        this.tableElement.firstChild.getBoundingClientRect().width -
-        this.stickyColumn.offsetWidth +
-        "px";
-    } else if (this.xScrollbar) {
-      this.xScrollbar.firstChild.style.width =
-        this.tableElement.firstChild.getBoundingClientRect().width + "px";
-    }
-
-    if (this.stickyHeader && this.yScrollbar) {
-      this.yScrollbar.firstChild.style.height =
-        this.tableElement.getBoundingClientRect().height -
-        this.stickyHeader.offsetHeight +
-        "px";
-    } else if (this.yScrollbar) {
-      this.yScrollbar.firstChild.style.height =
-        this.tableElement.getBoundingClientRect().height + "px";
-    }
   };
 
   addStickyColumn = () => {
@@ -621,20 +499,6 @@ class Table extends React.PureComponent {
 
     return (
       <ElementWrap ref={node => (this.table = node)}>
-        <XScrollbar
-          ref={node => {
-            this.xScrollbar = node;
-          }}
-        >
-          <div />
-        </XScrollbar>
-        <YScrollbar
-          ref={node => {
-            this.yScrollbar = node;
-          }}
-        >
-          <div />
-        </YScrollbar>
         {stickyColumn && stickyHeader && header.length ? (
           <StickyCorner
             rows={header}
