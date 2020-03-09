@@ -226,13 +226,13 @@ class Table extends React.PureComponent {
       this.xWrapper.removeEventListener("scroll", this.scrollXscrollBar);
     }
     if (this.xScrollbar) {
-      this.xScrollbar.removeEventListener("scroll", this.scrollXscrollBar);
+      this.xScrollbar.removeEventListener("scroll", this.scrollXWrapper);
     }
     if (this.yWrapper) {
       this.yWrapper.removeEventListener("scroll", this.scrollYScrollbar);
     }
     if (this.yScrollbar) {
-      this.yScrollbar.removeEventListener("scroll", this.scrollYScrollbar);
+      this.yScrollbar.removeEventListener("scroll", this.scrollYWrapper);
     }
   }
 
@@ -255,14 +255,14 @@ class Table extends React.PureComponent {
       this.xWrapper.addEventListener("scroll", this.scrollXscrollBar);
     }
     if (this.xScrollbar) {
-      this.xScrollbar.addEventListener("scroll", this.scrollXscrollBar);
+      this.xScrollbar.addEventListener("scroll", this.scrollXWrapper);
     }
     //y scrollbars
     if (this.yWrapper) {
       this.yWrapper.addEventListener("scroll", this.scrollYScrollbar);
     }
     if (this.yScrollbar) {
-      this.yScrollbar.addEventListener("scroll", this.scrollYScrollbar);
+      this.yScrollbar.addEventListener("scroll", this.scrollYWrapper);
     }
   };
 
@@ -276,11 +276,37 @@ class Table extends React.PureComponent {
     }
   };
 
+  scrollXWrapper = () => {
+    if (this.xScrollbar) {
+      if (!this.suppressScroll) {
+        requestAnimationFrame(() => {
+          this.xWrapper.scrollLeft = this.xScrollbar.scrollLeft;
+          this.suppressScroll = true;
+        });
+      } else {
+        this.suppressScroll = false;
+      }
+    }
+  };
+
   scrollXScrollbar = () => {
     if (this.xScrollbar) {
       if (!this.suppressScroll) {
         requestAnimationFrame(() => {
           this.xScrollbar.scrollLeft = this.xWrapper.scrollLeft;
+          this.suppressScroll = true;
+        });
+      } else {
+        this.suppressScroll = false;
+      }
+    }
+  };
+
+  scrollYWrapper = () => {
+    if (this.yScrollbar) {
+      if (!this.suppressScroll) {
+        requestAnimationFrame(() => {
+          this.yWrapper.scrollTop = this.yScrollbar.scrollTop;
           this.suppressScroll = true;
         });
       } else {
