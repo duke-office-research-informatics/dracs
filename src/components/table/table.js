@@ -72,8 +72,6 @@ const ElementWrap = styled.div`
     height: 100%;
     overflow-y: auto;
     /* Hack to hide scrollbars */
-    padding-right: 17px;
-    margin-right: -17px;
     transform: translateZ(0);
   }
    /* ${XScrollbar}, ${YScrollbar}{
