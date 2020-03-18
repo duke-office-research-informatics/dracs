@@ -1,6 +1,6 @@
 # README
 
-Duke Research Application Component System v1.0.10
+Duke Research Application Component System v1.0.17
 
 This is the repository for Duke Research Application Component System (DRACS) components.
 
@@ -20,7 +20,23 @@ The documentation application allows people who are interested in using DRACS co
 - Make sure that you have node and NPM installed -- and that your app is a `react.js` application that uses or can use `styled-components` for styling.
 - install this package via NPM - `npm install @duke-office-research-informatics/dracs --save`
 - make sure that your application meets DRACS' peerDependencies (react > v16.8.0 , react-dom > v16.8.0, styled-components > v4.0.0, lodash v4.17.4)
-- add styled-components' `themeProvider` (https://www.styled-components.com/docs/advanced#theming) to the root of your application, using the DRACS theme (`import { theme } from 'dracs'`) as the provided theme.
+- add styled-components' `themeProvider` (https://www.styled-components.com/docs/advanced#theming) to the root of your application, using the DRACS theme (`import { theme } from 'dracs'`) as the provided theme, and declare it in your app root like so:
+
+```jsx
+import React from "react";
+import ReactDOM from "react-dom";
+import { ThemeProvider } from "styled-components";
+import { theme } from "@duke-office-research-informatics/dracs";
+import App from "path/to/your/app";
+
+ReactDOM.render(
+  <ThemeProvider theme={theme}>
+    <App />
+  </ThemeProvider>,
+  document.getElementById("root")
+);
+```
+
 - a css reset is highly recommended -- use the reset in `assets/reset.css` of this repo for guaranteed interoperablility with DRACS -- or feel free to use your own.
 - start importing and using the components! For more info on component API's, see the documentation provided in this repo.
 
