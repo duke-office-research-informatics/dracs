@@ -185,8 +185,10 @@ class Table extends React.PureComponent {
     this.columnCount = 0;
     this.headerCount = 0;
     this.supressScroll = false;
-    this.scrollXScrollbar = _.throttle(this.scrollXScrollbar, 30);
-    this.scrollYScrollbar = _.throttle(this.scrollYScrollbar, 30);
+    this.scrollXScrollbar = _.throttle(this.scrollXScrollbar, 50);
+    this.scrollXWrapper = _.throttle(this.scrollXWrapper, 50);
+    this.scrollYScrollbar = _.throttle(this.scrollYScrollbar, 50);
+    this.scrollYWrapper = _.throttle(this.scrollYWrapper, 50);
     this.state = {
       stickyColumn: props.stickyColumn,
       stickyColumnCount: props.stickyColumnCount,
