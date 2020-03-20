@@ -88,6 +88,7 @@ const ElementWrap = styled.div`
     z-index: 5;
     overflow: auto;
     transform: translateZ(0);
+    -ms-overflow-style: -ms-autohiding-scrollbar;
   }
   ${XScrollbar}{
     left: 0px;
