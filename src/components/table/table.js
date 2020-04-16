@@ -287,11 +287,6 @@ class Table extends React.PureComponent {
     if (this.xScrollbar) {
       if (!this.suppressScroll) {
         requestAnimationFrame(() => {
-          console.log(
-            this.xScrollbar.scrollLeft,
-            this.xWrapper.scrollLeft,
-            this.stickyColumn.offsetWidth
-          );
           this.xWrapper.scrollLeft = this.xScrollbar.scrollLeft;
           this.suppressScroll = true;
         });
@@ -305,11 +300,6 @@ class Table extends React.PureComponent {
     if (this.xScrollbar) {
       if (!this.suppressScroll) {
         requestAnimationFrame(() => {
-          console.log(
-            this.xScrollbar.scrollLeft,
-            this.xWrapper.scrollLeft,
-            this.stickyColumn.offsetWidth
-          );
           this.xScrollbar.scrollLeft = this.xWrapper.scrollLeft;
           this.suppressScroll = true;
         });
