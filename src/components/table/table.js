@@ -259,7 +259,7 @@ class Table extends React.PureComponent {
   addScrollBarEventHandlers = () => {
     //x scrollbars
     if (this.xWrapper) {
-      this.xWrapper.addEventListener("scroll", this.scrollXScrollBar);
+      this.xWrapper.addEventListener("scroll", this.scrollXScrollbar);
     }
     if (this.xScrollbar) {
       this.xScrollbar.addEventListener("scroll", this.scrollXWrapper);
