@@ -67,6 +67,8 @@ const ElementWrap = styled.div`
     width: 100%;
     overflow-x: auto;
     transform: translateZ(0);
+    scrollbar-width: none;
+    -ms-overflow-style: none; /* Internet Explorer 11 */
     &::webkit-scrollbar{
       display: none;
     }
@@ -78,6 +80,8 @@ const ElementWrap = styled.div`
     padding-right: 17px;
     margin-right: -17px;
     transform: translateZ(0);
+    scrollbar-width: none;
+    -ms-overflow-style: none; /* Internet Explorer 11 */
     &::webkit-scrollbar{
       display: none;
     }
@@ -343,11 +347,11 @@ class Table extends React.PureComponent {
       }
 
       if (this.stickyHeader && this.yScrollbar) {
-        this.yScrollbar.style.width =
+        this.yScrollbar.style.height =
           "calc(100% - " + this.stickyHeader.offsetHeight + "px)";
         this.yScrollbar.style.top = this.stickyHeader.offsetHeight + "px";
       } else if (this.yScrollbar) {
-        this.yScrollbar.style.width = "100%";
+        this.yScrollbar.style.height = "100%";
         this.yScrollbar.style.top = 0;
       }
     });
