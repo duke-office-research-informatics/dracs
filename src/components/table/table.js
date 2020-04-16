@@ -289,10 +289,10 @@ class Table extends React.PureComponent {
         requestAnimationFrame(() => {
           console.log(
             this.xScrollbar.scrollLeft,
-            this.xWrapper.scrollLeft - this.stickyColumn.offsetWidth
+            this.xWrapper.scrollLeft,
+            this.stickyColumn.offsetWidth
           );
-          this.xWrapper.scrollLeft =
-            this.xScrollbar.scrollLeft - this.stickyColumn.offsetWidth;
+          this.xWrapper.scrollLeft = this.xScrollbar.scrollLeft;
           this.suppressScroll = true;
         });
       } else {
@@ -307,10 +307,10 @@ class Table extends React.PureComponent {
         requestAnimationFrame(() => {
           console.log(
             this.xScrollbar.scrollLeft,
-            this.xWrapper.scrollLeft + this.stickyColumn.offsetWidth
+            this.xWrapper.scrollLeft,
+            this.stickyColumn.offsetWidth
           );
-          this.xScrollbar.scrollLeft =
-            this.xWrapper.scrollLeft + this.stickyColumn.offsetWidth;
+          this.xScrollbar.scrollLeft = this.xWrapper.scrollLeft;
           this.suppressScroll = true;
         });
       } else {
