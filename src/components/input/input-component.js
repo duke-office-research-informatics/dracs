@@ -93,6 +93,8 @@ class InputGroup extends React.Component {
     onTouchStart: propTypes.func,
     /** Function that will trigger at the end of a user (on touch devices) touching the element */
     onTouchEnd: propTypes.func,
+    /**String that sets the html 'pattern' property on the input */
+    pattern: propTypes.string,
     /** String that sets the placeholder that will display in the input (when focused with a label, and by default without the label) if the input's value is blank */
     placeholder: propTypes.string,
     /** Sets the HTML read-only attribute on the input, so that the input will display a value but cannot be interacted with by the user to input text */
@@ -229,6 +231,7 @@ class InputGroup extends React.Component {
             onMouseUp={this.props.onMouseUp}
             onTouchStart={this.props.onTouchStart}
             onTouchEnd={this.props.onTouchEnd}
+            pattern={this.props.pattern}
             placeholder={this.props.placeholder}
             readOnly={this.props.readOnly}
             tabIndex="0"

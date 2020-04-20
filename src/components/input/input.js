@@ -15,9 +15,10 @@ import {
 
 const InputField = styled.input.attrs(props => ({
   disabled: props.inputState === "disabled" ? true : false,
+  pattern: props.pattern,
   readOnly: props.readOnly ? "readonly" : false,
-  type: props.type,
   required: props.required,
+  type: props.type,
 }))`
   box-sizing: border-box;
   display: block;
@@ -101,6 +102,7 @@ const Input = props => {
       onMouseUp={props.onMouseUp}
       onTouchStart={props.onTouchStart}
       onTouchEnd={props.onTouchEnd}
+      pattern={props.pattern}
       placeholder={props.placeholder}
       readOnly={props.readOnly}
       required={props.required}
@@ -133,6 +135,7 @@ Input.propTypes = {
   onMouseUp: propTypes.func,
   onTouchStart: propTypes.func,
   onTouchEnd: propTypes.func,
+  pattern: propTypes.string,
   inputRef: propTypes.func,
   noLabel: propTypes.bool,
   isFocused: propTypes.bool,
