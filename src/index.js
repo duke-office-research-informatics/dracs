@@ -120,6 +120,7 @@ export { H1, H2, H3, H4, H5, P } from "./components/typography/typography.js";
 export { default as IconAddCircle } from "./icons/add_circle/addCircle.js";
 export { default as IconAddCircleFilled } from "./icons/add_circle_filled/addCircleFilled.js";
 export { default as IconApps } from "./icons/apps/icon_apps.js";
+export { default as IconAssignment } from "./icons/assignment/icon_assignment.js";
 export { default as IconAttestation } from "./icons/attestation/icon_attestation.js";
 export { default as IconBackArrow } from "./icons/back/back.js";
 export { default as IconBooks } from "./icons/books/books.js";
