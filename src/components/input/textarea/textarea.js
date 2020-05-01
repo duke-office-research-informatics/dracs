@@ -50,6 +50,7 @@ const TextareaInput = styled.textarea.attrs(props => ({
     p.inputState === "disabled" ? p.theme.colors.dashBG : p.theme.colors.bg};
   cursor: ${p => (p.inputState === "disabled" ? "not-allowed" : "auto")};
   box-sizing: border-box;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
   &::placeholder {
     color: transparent;
   }
