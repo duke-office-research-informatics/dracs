@@ -178,6 +178,7 @@ export { default as IconStarFilled } from "./icons/star_filled/starFilled.js";
 export { default as IconStarHalfFilled } from "./icons/star_half_filled/starHalfFilled.js";
 export { default as IconStarOpen } from "./icons/star_open/starOpen.js";
 export { default as IconSubmitRequest } from "./icons/submit_request/submitRequestIcon.js";
+export { default as IconSwapHorizontalCircle } from "./icons/swapHorizontalCircle/swapHorizontalCircle";
 export { default as IconTag } from "./icons/tag/tag.js";
 export { default as IconTrashcan } from "./icons/trashcan/trashcan.js";
 export { default as IconVerified } from "./icons/verified/verified.js";
