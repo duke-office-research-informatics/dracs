@@ -54,7 +54,7 @@ const ElementWrap = styled.div`
     transform: translateZ(0);
   }
    ${StickyHeaderWrap}, ${StickyColumnWrap}, ${StickyCornerWrap}{
-    background-color: #fff;
+    background-color: ${p => (p.headerColor ? p.headerColor : "#fff")};
     display: block;
   }
    ${TableYWrap},${TableXWrap}{
@@ -169,6 +169,7 @@ class Table extends React.PureComponent {
     stickyColumn: propTypes.bool,
     stickyColumnCount: propTypes.number,
     stickyHeader: propTypes.bool,
+    headerColor: propTypes.string,
   };
 
   static defaultProps = {
@@ -640,7 +641,7 @@ class Table extends React.PureComponent {
   };
 
   render() {
-    const { stickyHeader } = this.props;
+    const { stickyHeader, headerColor } = this.props;
     const { stickyColumn, stickyColumnCount } = this.state;
 
     const header = this.renderHeader();
@@ -653,7 +654,7 @@ class Table extends React.PureComponent {
       0;
 
     return (
-      <ElementWrap ref={node => (this.table = node)}>
+      <ElementWrap ref={node => (this.table = node)} headerColor={headerColor}>
         <XScrollbar
           ref={node => {
             this.xScrollbar = node;
