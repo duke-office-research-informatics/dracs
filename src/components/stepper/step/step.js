@@ -5,7 +5,7 @@ import styled from "styled-components";
 const StepWrapper = styled.div`
   position: ${p => (p.justifyLabelsToBottom ? "relative" : null)};
   display: flex;
-  flex: ${p => (p.justifyLabelsToBottom ? "1 1 auto" : null)};
+  flex: ${p => (p.justifyLabelsToBottom ? "1 1 0" : null)};
   flex-direction: ${p => (p.orientation === "vertical" ? "column" : "row")};
   justify-content: ${p => (p.justifyLabelsToBottom ? "center" : null)};
   padding-left: ${p =>

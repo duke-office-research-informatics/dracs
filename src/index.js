@@ -135,6 +135,7 @@ export { default as IconCheckCircleOutline } from "./icons/check_circle_outline/
 export { default as IconChevLeft } from "./icons/chevron_left/chevron_left.js";
 export { default as IconChevRight } from "./icons/chevron_right/chevron_right.js";
 export { default as IconClose } from "./icons/close/icon_close.js";
+export { default as IconCloseArrow } from "./icons/close_arrow/closeArrow.js";
 export { default as IconCloseCircle } from "./icons/close_circle/close_circle.js";
 export { default as IconCloseCircleFilled } from "./icons/close_circle_filled/closeCircleFilled.js";
 export { default as IconCloudCircle } from "./icons/cloud_circle/cloudCircle.js";
@@ -149,6 +150,7 @@ export { default as IconEdit } from "./icons/edit/edit.js";
 export { default as IconEmail } from "./icons/email/email.js";
 export { default as IconError } from "./icons/error/icon_error.js";
 export { default as IconExpand } from "./icons/expand/icon_expand.jsx";
+export { default as IconExpandArrow } from "./icons/expand_arrow/expandArrow.js";
 export { default as IconFeedback } from "./icons/feedback/feedback.js";
 export { default as IconFilter } from "./icons/filter/filter.js";
 export { default as IconFinance } from "./icons/finance/finance.js";
