@@ -169,6 +169,7 @@ export { default as IconPhone } from "./icons/phone/phone.js";
 export { default as IconPlane } from "./icons/plane/plane.js";
 export { default as IconPostAdd } from "./icons/post_add/postAdd.js";
 export { default as IconProfile } from "./icons/profile/profile.js";
+export { default as IconScienceFlask } from "./icons/science_flask/science_flask.js";
 export { default as IconSearch } from "./icons/search/search.js";
 export { default as IconSeeMoreHoriz } from "./icons/see_more_horiz/iconSeeMoreHoriz.js";
 export { default as IconSeeMoreVert } from "./icons/see_more_vert/seeMoreVert.js";
