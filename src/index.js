@@ -162,7 +162,7 @@ export { default as IconInfo } from "./icons/info/info.js";
 export { default as IconLink } from "./icons/link/link.js";
 export { default as IconListAlt } from "./icons/list_alt/listAlt.js";
 export { default as IconLogout } from "./icons/logout/logout.js";
-export { default as IconMortarboard } from "./icons/mortarboard/iconMortarboard.js";
+export { default as IconMortarboard } from "./icons/mortarboard/IconMortarboard.js";
 export { default as IconMenu } from "./icons/hamburger_menu/menu.js";
 export { default as MrhHeaderIcon } from "./icons/mrh_header/header.js";
 export { default as IconPhone } from "./icons/phone/phone.js";
