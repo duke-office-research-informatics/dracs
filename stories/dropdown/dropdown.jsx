@@ -267,7 +267,7 @@ stories.add(
     const onMouseUp = select("onMouseUp", FuncOptions, "none");
     const onTouchStart = select("onTouchStart", FuncOptions, "none");
     const onTouchEnd = select("onTouchEnd", FuncOptions, "none");
-
+    const buttonType = select("buttonType", ["select", "button"], "select");
     return (
       <State store={store}>
         <Dropdown
@@ -288,10 +288,11 @@ stories.add(
           onTouchStart={FuncReturn(onTouchStart)}
           onTouchEnd={FuncReturn(onTouchEnd)}
           onChange={handleChange}
-          orientAbove={boolean("oreientAbove", false)}
+          orientAbove={boolean("orientAbove", false)}
           source={store.get("source")}
           template={templateReturn(template)}
           type={type}
+          buttonType={buttonType}
           value={store.get("value")}
           valueKey={text("valueKey", "abbreviation")}
         />
@@ -372,7 +373,7 @@ stories.add(
         onMouseUp={FuncReturn(onMouseUp)}
         onTouchStart={FuncReturn(onTouchStart)}
         onTouchEnd={FuncReturn(onTouchEnd)}
-        orientAbove={boolean("oreientAbove", false)}
+        orientAbove={boolean("orientAbove", false)}
       >
         <ItemWrap onClick={() => alert("profile clicked")}>
           <IconProfile color={theme.colors.subheading} />
