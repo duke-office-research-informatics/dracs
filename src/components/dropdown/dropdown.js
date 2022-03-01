@@ -21,7 +21,6 @@ const MenuButton = styled.button.attrs(props => ({
   margin: 0;
   padding: 0;
   vertical-align: top;
-  outline: solid 1px red;
   cursor: ${p => (p.disabled ? "not-allowed" : "pointer")};
   &:focus {
     outline: dotted 1px rgb(59, 153, 252);
