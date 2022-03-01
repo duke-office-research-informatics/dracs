@@ -1,6 +1,6 @@
 import React from "react";
 import { mountWithTheme } from "../../config/scUtils.js";
-import { axe } from "jest-axe";
+import { axe } from "../../config/axe-helper.js";
 import { H1, H2, H3, H4, H5, P, theme } from "../../lib/dracs.es.js";
 
 describe("H1", () => {

@@ -88,110 +88,75 @@ exports[`Collapsible matches snapshot 1`] = `
   flex-direction: column;
 }
 
-<collapsible__ElementWrap>
+<div
+  className="c0"
+>
   <div
-    className="c0"
+    className="c1"
+    onClick={[Function]}
   >
-    <collapsible__ToggleWrap
-      active={false}
+    <h4
+      className="c2 c3"
+    >
+      hello
+    </h4>
+    <button
+      className="c4"
       onClick={[Function]}
     >
-      <div
-        className="c1"
-        onClick={[Function]}
+      <svg
+        aria-label="Down Icon"
+        className="c5"
+        color="#b5b5b5"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
       >
-        <collapsible__TitleWrap>
-          <h4
-            className="c2 c3"
-          >
-            hello
-          </h4>
-        </collapsible__TitleWrap>
-        <collapsible__CollapseToggle
-          onClick={[Function]}
-        >
-          <button
-            className="c4"
-            onClick={[Function]}
-          >
-            <icon_wrapper__Icon
-              aria-label="Down Icon"
-              color="#b5b5b5"
-              height={24}
-              role="img"
-              viewBox="0 0 24 24"
-              width={24}
-            >
-              <svg
-                aria-label="Down Icon"
-                className="c5"
-                color="#b5b5b5"
-                height={24}
-                role="img"
-                viewBox="0 0 24 24"
-                width={24}
-              >
-                <title>
-                  Down Icon
-                </title>
-                <desc>
-                  downward facing caret
-                </desc>
-                <path
-                  d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-                />
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </button>
-        </collapsible__CollapseToggle>
-      </div>
-    </collapsible__ToggleWrap>
-    <collapsible__BodyWrap
-      active={false}
-    >
-      <div
-        className="c6"
-      >
-        <icon_wrapper__Icon
-          aria-label="open customize and profile menu"
-          color="#fff"
-          height={24}
-          role="img"
-          viewBox="0 0 24 24"
-          width={24}
-        >
-          <svg
-            aria-label="open customize and profile menu"
-            className="c7"
-            color="#fff"
-            height={24}
-            role="img"
-            viewBox="0 0 24 24"
-            width={24}
-          >
-            <title>
-              menu icon
-            </title>
-            <desc>
-              hamburger menu icon
-            </desc>
-            <path
-              d="M0 0h24v24H0z"
-              fill="none"
-            />
-            <path
-              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-            />
-          </svg>
-        </icon_wrapper__Icon>
-      </div>
-    </collapsible__BodyWrap>
+        <title>
+          Down Icon
+        </title>
+        <desc>
+          downward facing caret
+        </desc>
+        <path
+          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+    </button>
   </div>
-</collapsible__ElementWrap>
+  <div
+    className="c6"
+  >
+    <svg
+      aria-label="open customize and profile menu"
+      className="c7"
+      color="#fff"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+</div>
 `;
 
 exports[`Collapsible matches snapshot and returns no a11y violations when active is set to true 1`] = `
@@ -285,107 +250,72 @@ exports[`Collapsible matches snapshot and returns no a11y violations when active
   flex-direction: column;
 }
 
-<collapsible__ElementWrap>
+<div
+  className="c0"
+>
   <div
-    className="c0"
+    className="c1"
+    onClick={[Function]}
   >
-    <collapsible__ToggleWrap
-      active={true}
+    <h4
+      className="c2 c3"
+    >
+      hello
+    </h4>
+    <button
+      className="c4"
       onClick={[Function]}
     >
-      <div
-        className="c1"
-        onClick={[Function]}
+      <svg
+        aria-label="send icon"
+        className="c5"
+        color="#b5b5b5"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
       >
-        <collapsible__TitleWrap>
-          <h4
-            className="c2 c3"
-          >
-            hello
-          </h4>
-        </collapsible__TitleWrap>
-        <collapsible__CollapseToggle
-          onClick={[Function]}
-        >
-          <button
-            className="c4"
-            onClick={[Function]}
-          >
-            <icon_wrapper__Icon
-              aria-label="send icon"
-              color="#b5b5b5"
-              height={24}
-              role="img"
-              viewBox="0 0 24 24"
-              width={24}
-            >
-              <svg
-                aria-label="send icon"
-                className="c5"
-                color="#b5b5b5"
-                height={24}
-                role="img"
-                viewBox="0 0 24 24"
-                width={24}
-              >
-                <title>
-                  send icon
-                </title>
-                <path
-                  d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"
-                />
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </button>
-        </collapsible__CollapseToggle>
-      </div>
-    </collapsible__ToggleWrap>
-    <collapsible__BodyWrap
-      active={true}
-    >
-      <div
-        className="c6"
-      >
-        <icon_wrapper__Icon
-          aria-label="open customize and profile menu"
-          color="#fff"
-          height={24}
-          role="img"
-          viewBox="0 0 24 24"
-          width={24}
-        >
-          <svg
-            aria-label="open customize and profile menu"
-            className="c7"
-            color="#fff"
-            height={24}
-            role="img"
-            viewBox="0 0 24 24"
-            width={24}
-          >
-            <title>
-              menu icon
-            </title>
-            <desc>
-              hamburger menu icon
-            </desc>
-            <path
-              d="M0 0h24v24H0z"
-              fill="none"
-            />
-            <path
-              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-            />
-          </svg>
-        </icon_wrapper__Icon>
-      </div>
-    </collapsible__BodyWrap>
+        <title>
+          send icon
+        </title>
+        <path
+          d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+    </button>
   </div>
-</collapsible__ElementWrap>
+  <div
+    className="c6"
+  >
+    <svg
+      aria-label="open customize and profile menu"
+      className="c7"
+      color="#fff"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+</div>
 `;
 
 exports[`Collapsible passes a react element title via props 1`] = `
@@ -481,141 +411,97 @@ exports[`Collapsible passes a react element title via props 1`] = `
   flex-direction: column;
 }
 
-<collapsible__ElementWrap>
+<div
+  className="c0"
+>
   <div
-    className="c0"
+    className="c1"
+    onClick={[Function]}
   >
-    <collapsible__ToggleWrap
-      active={false}
+    <h4
+      className="c2 c3"
+    >
+      <svg
+        aria-label="Help Icon"
+        className="c4"
+        color="#666"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
+      >
+        <title>
+          Help Icon
+        </title>
+        <desc>
+          qustion mark
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"
+        />
+      </svg>
+    </h4>
+    <button
+      className="c5"
       onClick={[Function]}
     >
-      <div
-        className="c1"
-        onClick={[Function]}
+      <svg
+        aria-label="Down Icon"
+        className="c6"
+        color="#b5b5b5"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
       >
-        <collapsible__TitleWrap>
-          <h4
-            className="c2 c3"
-          >
-            <icon_wrapper__Icon
-              aria-label="Help Icon"
-              color="#666"
-              height={24}
-              role="img"
-              viewBox="0 0 24 24"
-              width={24}
-            >
-              <svg
-                aria-label="Help Icon"
-                className="c4"
-                color="#666"
-                height={24}
-                role="img"
-                viewBox="0 0 24 24"
-                width={24}
-              >
-                <title>
-                  Help Icon
-                </title>
-                <desc>
-                  qustion mark
-                </desc>
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-                <path
-                  d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </h4>
-        </collapsible__TitleWrap>
-        <collapsible__CollapseToggle
-          onClick={[Function]}
-        >
-          <button
-            className="c5"
-            onClick={[Function]}
-          >
-            <icon_wrapper__Icon
-              aria-label="Down Icon"
-              color="#b5b5b5"
-              height={24}
-              role="img"
-              viewBox="0 0 24 24"
-              width={24}
-            >
-              <svg
-                aria-label="Down Icon"
-                className="c6"
-                color="#b5b5b5"
-                height={24}
-                role="img"
-                viewBox="0 0 24 24"
-                width={24}
-              >
-                <title>
-                  Down Icon
-                </title>
-                <desc>
-                  downward facing caret
-                </desc>
-                <path
-                  d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-                />
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </button>
-        </collapsible__CollapseToggle>
-      </div>
-    </collapsible__ToggleWrap>
-    <collapsible__BodyWrap
-      active={false}
-    >
-      <div
-        className="c7"
-      >
-        <icon_wrapper__Icon
-          aria-label="open customize and profile menu"
-          color="#fff"
-          height={24}
-          role="img"
-          viewBox="0 0 24 24"
-          width={24}
-        >
-          <svg
-            aria-label="open customize and profile menu"
-            className="c8"
-            color="#fff"
-            height={24}
-            role="img"
-            viewBox="0 0 24 24"
-            width={24}
-          >
-            <title>
-              menu icon
-            </title>
-            <desc>
-              hamburger menu icon
-            </desc>
-            <path
-              d="M0 0h24v24H0z"
-              fill="none"
-            />
-            <path
-              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-            />
-          </svg>
-        </icon_wrapper__Icon>
-      </div>
-    </collapsible__BodyWrap>
+        <title>
+          Down Icon
+        </title>
+        <desc>
+          downward facing caret
+        </desc>
+        <path
+          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+    </button>
   </div>
-</collapsible__ElementWrap>
+  <div
+    className="c7"
+  >
+    <svg
+      aria-label="open customize and profile menu"
+      className="c8"
+      color="#fff"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+</div>
 `;
 
 exports[`Collapsible passes a title color via props 1`] = `
@@ -706,112 +592,75 @@ exports[`Collapsible passes a title color via props 1`] = `
   flex-direction: column;
 }
 
-<collapsible__ElementWrap>
+<div
+  className="c0"
+>
   <div
-    className="c0"
+    className="c1"
+    onClick={[Function]}
   >
-    <collapsible__ToggleWrap
-      active={false}
+    <h4
+      className="c2 c3"
+    >
+      hello
+    </h4>
+    <button
+      className="c4"
       onClick={[Function]}
     >
-      <div
-        className="c1"
-        onClick={[Function]}
+      <svg
+        aria-label="Down Icon"
+        className="c5"
+        color="#b5b5b5"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
       >
-        <collapsible__TitleWrap
-          titleColor="#131516"
-        >
-          <h4
-            className="c2 c3"
-          >
-            hello
-          </h4>
-        </collapsible__TitleWrap>
-        <collapsible__CollapseToggle
-          onClick={[Function]}
-        >
-          <button
-            className="c4"
-            onClick={[Function]}
-          >
-            <icon_wrapper__Icon
-              aria-label="Down Icon"
-              color="#b5b5b5"
-              height={24}
-              role="img"
-              viewBox="0 0 24 24"
-              width={24}
-            >
-              <svg
-                aria-label="Down Icon"
-                className="c5"
-                color="#b5b5b5"
-                height={24}
-                role="img"
-                viewBox="0 0 24 24"
-                width={24}
-              >
-                <title>
-                  Down Icon
-                </title>
-                <desc>
-                  downward facing caret
-                </desc>
-                <path
-                  d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-                />
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </button>
-        </collapsible__CollapseToggle>
-      </div>
-    </collapsible__ToggleWrap>
-    <collapsible__BodyWrap
-      active={false}
-    >
-      <div
-        className="c6"
-      >
-        <icon_wrapper__Icon
-          aria-label="open customize and profile menu"
-          color="#fff"
-          height={24}
-          role="img"
-          viewBox="0 0 24 24"
-          width={24}
-        >
-          <svg
-            aria-label="open customize and profile menu"
-            className="c7"
-            color="#fff"
-            height={24}
-            role="img"
-            viewBox="0 0 24 24"
-            width={24}
-          >
-            <title>
-              menu icon
-            </title>
-            <desc>
-              hamburger menu icon
-            </desc>
-            <path
-              d="M0 0h24v24H0z"
-              fill="none"
-            />
-            <path
-              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-            />
-          </svg>
-        </icon_wrapper__Icon>
-      </div>
-    </collapsible__BodyWrap>
+        <title>
+          Down Icon
+        </title>
+        <desc>
+          downward facing caret
+        </desc>
+        <path
+          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+    </button>
   </div>
-</collapsible__ElementWrap>
+  <div
+    className="c6"
+  >
+    <svg
+      aria-label="open customize and profile menu"
+      className="c7"
+      color="#fff"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+</div>
 `;
 
 exports[`Collapsible passes a title hover color via props 1`] = `
@@ -906,111 +755,75 @@ exports[`Collapsible passes a title hover color via props 1`] = `
   flex-direction: column;
 }
 
-<collapsible__ElementWrap>
+<div
+  className="c0"
+>
   <div
-    className="c0"
+    className="c1"
+    onClick={[Function]}
   >
-    <collapsible__ToggleWrap
-      active={false}
+    <h4
+      className="c2 c3"
+    >
+      hello
+    </h4>
+    <button
+      className="c4"
       onClick={[Function]}
-      titleHoverColor="#696969"
     >
-      <div
-        className="c1"
-        onClick={[Function]}
+      <svg
+        aria-label="Down Icon"
+        className="c5"
+        color="#b5b5b5"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
       >
-        <collapsible__TitleWrap>
-          <h4
-            className="c2 c3"
-          >
-            hello
-          </h4>
-        </collapsible__TitleWrap>
-        <collapsible__CollapseToggle
-          onClick={[Function]}
-        >
-          <button
-            className="c4"
-            onClick={[Function]}
-          >
-            <icon_wrapper__Icon
-              aria-label="Down Icon"
-              color="#b5b5b5"
-              height={24}
-              role="img"
-              viewBox="0 0 24 24"
-              width={24}
-            >
-              <svg
-                aria-label="Down Icon"
-                className="c5"
-                color="#b5b5b5"
-                height={24}
-                role="img"
-                viewBox="0 0 24 24"
-                width={24}
-              >
-                <title>
-                  Down Icon
-                </title>
-                <desc>
-                  downward facing caret
-                </desc>
-                <path
-                  d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-                />
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </button>
-        </collapsible__CollapseToggle>
-      </div>
-    </collapsible__ToggleWrap>
-    <collapsible__BodyWrap
-      active={false}
-    >
-      <div
-        className="c6"
-      >
-        <icon_wrapper__Icon
-          aria-label="open customize and profile menu"
-          color="#fff"
-          height={24}
-          role="img"
-          viewBox="0 0 24 24"
-          width={24}
-        >
-          <svg
-            aria-label="open customize and profile menu"
-            className="c7"
-            color="#fff"
-            height={24}
-            role="img"
-            viewBox="0 0 24 24"
-            width={24}
-          >
-            <title>
-              menu icon
-            </title>
-            <desc>
-              hamburger menu icon
-            </desc>
-            <path
-              d="M0 0h24v24H0z"
-              fill="none"
-            />
-            <path
-              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-            />
-          </svg>
-        </icon_wrapper__Icon>
-      </div>
-    </collapsible__BodyWrap>
+        <title>
+          Down Icon
+        </title>
+        <desc>
+          downward facing caret
+        </desc>
+        <path
+          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+    </button>
   </div>
-</collapsible__ElementWrap>
+  <div
+    className="c6"
+  >
+    <svg
+      aria-label="open customize and profile menu"
+      className="c7"
+      color="#fff"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+</div>
 `;
 
 exports[`Collapsible passes click function to toggle via onToggleClick prop 1`] = `
@@ -1101,110 +914,75 @@ exports[`Collapsible passes click function to toggle via onToggleClick prop 1`] 
   flex-direction: column;
 }
 
-<collapsible__ElementWrap>
+<div
+  className="c0"
+>
   <div
-    className="c0"
+    className="c1"
+    onClick={[Function]}
   >
-    <collapsible__ToggleWrap
-      active={false}
+    <h4
+      className="c2 c3"
+    >
+      hello
+    </h4>
+    <button
+      className="c4"
       onClick={[Function]}
     >
-      <div
-        className="c1"
-        onClick={[Function]}
+      <svg
+        aria-label="Down Icon"
+        className="c5"
+        color="#b5b5b5"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
       >
-        <collapsible__TitleWrap>
-          <h4
-            className="c2 c3"
-          >
-            hello
-          </h4>
-        </collapsible__TitleWrap>
-        <collapsible__CollapseToggle
-          onClick={[Function]}
-        >
-          <button
-            className="c4"
-            onClick={[Function]}
-          >
-            <icon_wrapper__Icon
-              aria-label="Down Icon"
-              color="#b5b5b5"
-              height={24}
-              role="img"
-              viewBox="0 0 24 24"
-              width={24}
-            >
-              <svg
-                aria-label="Down Icon"
-                className="c5"
-                color="#b5b5b5"
-                height={24}
-                role="img"
-                viewBox="0 0 24 24"
-                width={24}
-              >
-                <title>
-                  Down Icon
-                </title>
-                <desc>
-                  downward facing caret
-                </desc>
-                <path
-                  d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-                />
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </button>
-        </collapsible__CollapseToggle>
-      </div>
-    </collapsible__ToggleWrap>
-    <collapsible__BodyWrap
-      active={false}
-    >
-      <div
-        className="c6"
-      >
-        <icon_wrapper__Icon
-          aria-label="open customize and profile menu"
-          color="#fff"
-          height={24}
-          role="img"
-          viewBox="0 0 24 24"
-          width={24}
-        >
-          <svg
-            aria-label="open customize and profile menu"
-            className="c7"
-            color="#fff"
-            height={24}
-            role="img"
-            viewBox="0 0 24 24"
-            width={24}
-          >
-            <title>
-              menu icon
-            </title>
-            <desc>
-              hamburger menu icon
-            </desc>
-            <path
-              d="M0 0h24v24H0z"
-              fill="none"
-            />
-            <path
-              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-            />
-          </svg>
-        </icon_wrapper__Icon>
-      </div>
-    </collapsible__BodyWrap>
+        <title>
+          Down Icon
+        </title>
+        <desc>
+          downward facing caret
+        </desc>
+        <path
+          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+    </button>
   </div>
-</collapsible__ElementWrap>
+  <div
+    className="c6"
+  >
+    <svg
+      aria-label="open customize and profile menu"
+      className="c7"
+      color="#fff"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+</div>
 `;
 
 exports[`Collapsible sets a style object on the component wrapper via props 1`] = `
@@ -1299,7 +1077,8 @@ exports[`Collapsible sets a style object on the component wrapper via props 1`] 
   flex-direction: column;
 }
 
-<collapsible__ElementWrap
+<div
+  className="c0"
   style={
     Object {
       "margin": "8px",
@@ -1307,113 +1086,71 @@ exports[`Collapsible sets a style object on the component wrapper via props 1`] 
   }
 >
   <div
-    className="c0"
-    style={
-      Object {
-        "margin": "8px",
-      }
-    }
+    className="c1"
+    onClick={[Function]}
   >
-    <collapsible__ToggleWrap
-      active={false}
+    <h4
+      className="c2 c3"
+    >
+      hello
+    </h4>
+    <button
+      className="c4"
       onClick={[Function]}
     >
-      <div
-        className="c1"
-        onClick={[Function]}
+      <svg
+        aria-label="Down Icon"
+        className="c5"
+        color="#b5b5b5"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
       >
-        <collapsible__TitleWrap>
-          <h4
-            className="c2 c3"
-          >
-            hello
-          </h4>
-        </collapsible__TitleWrap>
-        <collapsible__CollapseToggle
-          onClick={[Function]}
-        >
-          <button
-            className="c4"
-            onClick={[Function]}
-          >
-            <icon_wrapper__Icon
-              aria-label="Down Icon"
-              color="#b5b5b5"
-              height={24}
-              role="img"
-              viewBox="0 0 24 24"
-              width={24}
-            >
-              <svg
-                aria-label="Down Icon"
-                className="c5"
-                color="#b5b5b5"
-                height={24}
-                role="img"
-                viewBox="0 0 24 24"
-                width={24}
-              >
-                <title>
-                  Down Icon
-                </title>
-                <desc>
-                  downward facing caret
-                </desc>
-                <path
-                  d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-                />
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </button>
-        </collapsible__CollapseToggle>
-      </div>
-    </collapsible__ToggleWrap>
-    <collapsible__BodyWrap
-      active={false}
-    >
-      <div
-        className="c6"
-      >
-        <icon_wrapper__Icon
-          aria-label="open customize and profile menu"
-          color="#fff"
-          height={24}
-          role="img"
-          viewBox="0 0 24 24"
-          width={24}
-        >
-          <svg
-            aria-label="open customize and profile menu"
-            className="c7"
-            color="#fff"
-            height={24}
-            role="img"
-            viewBox="0 0 24 24"
-            width={24}
-          >
-            <title>
-              menu icon
-            </title>
-            <desc>
-              hamburger menu icon
-            </desc>
-            <path
-              d="M0 0h24v24H0z"
-              fill="none"
-            />
-            <path
-              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-            />
-          </svg>
-        </icon_wrapper__Icon>
-      </div>
-    </collapsible__BodyWrap>
+        <title>
+          Down Icon
+        </title>
+        <desc>
+          downward facing caret
+        </desc>
+        <path
+          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+    </button>
   </div>
-</collapsible__ElementWrap>
+  <div
+    className="c6"
+  >
+    <svg
+      aria-label="open customize and profile menu"
+      className="c7"
+      color="#fff"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+</div>
 `;
 
 exports[`Collapsible sets wrapper padding via props 1`] = `
@@ -1504,110 +1241,73 @@ exports[`Collapsible sets wrapper padding via props 1`] = `
   flex-direction: column;
 }
 
-<collapsible__ElementWrap
-  padding="8px"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
+    onClick={[Function]}
   >
-    <collapsible__ToggleWrap
-      active={false}
+    <h4
+      className="c2 c3"
+    >
+      hello
+    </h4>
+    <button
+      className="c4"
       onClick={[Function]}
     >
-      <div
-        className="c1"
-        onClick={[Function]}
+      <svg
+        aria-label="Down Icon"
+        className="c5"
+        color="#b5b5b5"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
       >
-        <collapsible__TitleWrap>
-          <h4
-            className="c2 c3"
-          >
-            hello
-          </h4>
-        </collapsible__TitleWrap>
-        <collapsible__CollapseToggle
-          onClick={[Function]}
-        >
-          <button
-            className="c4"
-            onClick={[Function]}
-          >
-            <icon_wrapper__Icon
-              aria-label="Down Icon"
-              color="#b5b5b5"
-              height={24}
-              role="img"
-              viewBox="0 0 24 24"
-              width={24}
-            >
-              <svg
-                aria-label="Down Icon"
-                className="c5"
-                color="#b5b5b5"
-                height={24}
-                role="img"
-                viewBox="0 0 24 24"
-                width={24}
-              >
-                <title>
-                  Down Icon
-                </title>
-                <desc>
-                  downward facing caret
-                </desc>
-                <path
-                  d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-                />
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </button>
-        </collapsible__CollapseToggle>
-      </div>
-    </collapsible__ToggleWrap>
-    <collapsible__BodyWrap
-      active={false}
-    >
-      <div
-        className="c6"
-      >
-        <icon_wrapper__Icon
-          aria-label="open customize and profile menu"
-          color="#fff"
-          height={24}
-          role="img"
-          viewBox="0 0 24 24"
-          width={24}
-        >
-          <svg
-            aria-label="open customize and profile menu"
-            className="c7"
-            color="#fff"
-            height={24}
-            role="img"
-            viewBox="0 0 24 24"
-            width={24}
-          >
-            <title>
-              menu icon
-            </title>
-            <desc>
-              hamburger menu icon
-            </desc>
-            <path
-              d="M0 0h24v24H0z"
-              fill="none"
-            />
-            <path
-              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-            />
-          </svg>
-        </icon_wrapper__Icon>
-      </div>
-    </collapsible__BodyWrap>
+        <title>
+          Down Icon
+        </title>
+        <desc>
+          downward facing caret
+        </desc>
+        <path
+          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+    </button>
   </div>
-</collapsible__ElementWrap>
+  <div
+    className="c6"
+  >
+    <svg
+      aria-label="open customize and profile menu"
+      className="c7"
+      color="#fff"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+</div>
 `;

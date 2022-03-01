@@ -1,6 +1,6 @@
 import React from "react";
 import { mountWithTheme } from "../../config/scUtils.js";
-import { axe } from "jest-axe";
+import { axe } from "../../config/axe-helper.js";
 import { theme, CardHeader, IconMenu } from "../../lib/dracs.es.js";
 
 describe("CardHeader", () => {
@@ -53,11 +53,11 @@ describe("CardHeader", () => {
       "cursor",
       "move"
     );
-    expect(wrapper.find("header__CardHeaderWrap")).toHaveStyleRule(
-      "background-color",
-      "rgba(0,0,0,0.1)",
-      { modifier: ":hover" }
-    );
+    expect(
+      wrapper.find("header__CardHeaderWrap")
+    ).toHaveStyleRule("background-color", "rgba(0,0,0,0.1)", {
+      modifier: ":hover",
+    });
   });
 
   it("sets an html title via props", () => {

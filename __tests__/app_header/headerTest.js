@@ -1,6 +1,6 @@
 import React from "react";
 import { mountWithTheme } from "../../config/scUtils.js";
-import { axe } from "jest-axe";
+import { axe } from "../../config/axe-helper.js";
 import { AppHeader, theme, IconMenu, Avatar } from "../../lib/dracs.es.js";
 
 const imgUrl =

@@ -156,77 +156,42 @@ exports[`Input applies \`helpText\` via props and has no a11y violations 1`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          >
-            help text
-          </div>
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    >
+      help text
+    </div>
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input applies \`helpText\` via props and has no a11y violations 2`] = `
@@ -390,108 +355,64 @@ exports[`Input applies \`helpText\` via props and has no a11y violations 2`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c5"
+        color="#fff"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
       >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          >
-            <icon_wrapper__Icon
-              aria-label="open customize and profile menu"
-              color="#fff"
-              height={24}
-              role="img"
-              viewBox="0 0 24 24"
-              width={24}
-            >
-              <svg
-                aria-label="open customize and profile menu"
-                className="c5"
-                color="#fff"
-                height={24}
-                role="img"
-                viewBox="0 0 24 24"
-                width={24}
-              >
-                <title>
-                  menu icon
-                </title>
-                <desc>
-                  hamburger menu icon
-                </desc>
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-                <path
-                  d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </div>
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </div>
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input applies the correct styles and attrs when \`inputState\`=default or is not declared 1`] = `
@@ -662,114 +583,68 @@ exports[`Input applies the correct styles and attrs when \`inputState\`=default 
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    >
+      <span
+        className="c5"
       >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
+        <svg
+          aria-label="open customize and profile menu"
+          className="c6"
+          color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+          height={12}
+          role="img"
+          viewBox="0 0 24 24"
+          width={12}
         >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
+          <title>
+            menu icon
+          </title>
+          <desc>
+            hamburger menu icon
+          </desc>
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
           />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          >
-            <help-text__HelpIcon>
-              <span
-                className="c5"
-              >
-                <icon_wrapper__Icon
-                  aria-label="open customize and profile menu"
-                  color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-                  height={12}
-                  role="img"
-                  viewBox="0 0 24 24"
-                  width={12}
-                >
-                  <svg
-                    aria-label="open customize and profile menu"
-                    className="c6"
-                    color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-                    height={12}
-                    role="img"
-                    viewBox="0 0 24 24"
-                    width={12}
-                  >
-                    <title>
-                      menu icon
-                    </title>
-                    <desc>
-                      hamburger menu icon
-                    </desc>
-                    <path
-                      d="M0 0h24v24H0z"
-                      fill="none"
-                    />
-                    <path
-                      d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-                    />
-                  </svg>
-                </icon_wrapper__Icon>
-              </span>
-            </help-text__HelpIcon>
-          </div>
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+          <path
+            d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+          />
+        </svg>
+      </span>
+    </div>
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input applies the correct styles and attrs when \`inputState\`=disabled 1`] = `
@@ -965,213 +840,130 @@ exports[`Input applies the correct styles and attrs when \`inputState\`=disabled
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="disabled"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
+    onClick={null}
+    onKeyUp={null}
+    tabIndex={null}
   >
-    <input-icon-left__IconLeftWrapper
-      active={false}
-      helpText={true}
-      inputState="disabled"
+    <svg
+      aria-label="open customize and profile menu"
+      className="c2"
+      color="hsla(0,0%,14.9%,0.44999999999999996)"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+  <div
+    className="c3"
+  >
+    <label
+      className="c4"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c5"
+      data-lpignore={true}
+      disabled={true}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c6"
+      onBlur={null}
       onClick={null}
+      onFocus={null}
       onKeyUp={null}
       tabIndex={null}
     >
-      <div
-        className="c1"
-        onClick={null}
-        onKeyUp={null}
-        tabIndex={null}
+      <svg
+        aria-label="open customize and profile menu"
+        className="c2"
+        color="hsla(0,0%,14.9%,0.44999999999999996)"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
       >
-        <icon_wrapper__Icon
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </div>
+    <div
+      className="c7"
+      id="testInput-statusText"
+      role="status"
+    >
+      <span
+        className="c8"
+      >
+        <svg
           aria-label="open customize and profile menu"
+          className="c2"
           color="hsla(0,0%,14.9%,0.44999999999999996)"
-          height={24}
+          height={12}
           role="img"
           viewBox="0 0 24 24"
-          width={24}
+          width={12}
         >
-          <svg
-            aria-label="open customize and profile menu"
-            className="c2"
-            color="hsla(0,0%,14.9%,0.44999999999999996)"
-            height={24}
-            role="img"
-            viewBox="0 0 24 24"
-            width={24}
-          >
-            <title>
-              menu icon
-            </title>
-            <desc>
-              hamburger menu icon
-            </desc>
-            <path
-              d="M0 0h24v24H0z"
-              fill="none"
-            />
-            <path
-              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-            />
-          </svg>
-        </icon_wrapper__Icon>
-      </div>
-    </input-icon-left__IconLeftWrapper>
-    <input-component__InputWrapper>
-      <div
-        className="c3"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="disabled"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c4"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={true}
-          id="testInput"
-          inputState="disabled"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c5"
-            data-lpignore={true}
-            disabled={true}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
+          <title>
+            menu icon
+          </title>
+          <desc>
+            hamburger menu icon
+          </desc>
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
           />
-        </input__InputField>
-        <input-icon-right__IconRightWrapper
-          active={false}
-          inputState="disabled"
-          onBlur={null}
-          onClick={null}
-          onFocus={null}
-          onKeyUp={null}
-          tabIndex={null}
-        >
-          <div
-            className="c6"
-            onBlur={null}
-            onClick={null}
-            onFocus={null}
-            onKeyUp={null}
-            tabIndex={null}
-          >
-            <icon_wrapper__Icon
-              aria-label="open customize and profile menu"
-              color="hsla(0,0%,14.9%,0.44999999999999996)"
-              height={24}
-              role="img"
-              viewBox="0 0 24 24"
-              width={24}
-            >
-              <svg
-                aria-label="open customize and profile menu"
-                className="c2"
-                color="hsla(0,0%,14.9%,0.44999999999999996)"
-                height={24}
-                role="img"
-                viewBox="0 0 24 24"
-                width={24}
-              >
-                <title>
-                  menu icon
-                </title>
-                <desc>
-                  hamburger menu icon
-                </desc>
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-                <path
-                  d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </div>
-        </input-icon-right__IconRightWrapper>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="disabled"
-          role="status"
-        >
-          <div
-            className="c7"
-            id="testInput-statusText"
-            role="status"
-          >
-            <help-text__HelpIcon>
-              <span
-                className="c8"
-              >
-                <icon_wrapper__Icon
-                  aria-label="open customize and profile menu"
-                  color="hsla(0,0%,14.9%,0.44999999999999996)"
-                  height={12}
-                  role="img"
-                  viewBox="0 0 24 24"
-                  width={12}
-                >
-                  <svg
-                    aria-label="open customize and profile menu"
-                    className="c2"
-                    color="hsla(0,0%,14.9%,0.44999999999999996)"
-                    height={12}
-                    role="img"
-                    viewBox="0 0 24 24"
-                    width={12}
-                  >
-                    <title>
-                      menu icon
-                    </title>
-                    <desc>
-                      hamburger menu icon
-                    </desc>
-                    <path
-                      d="M0 0h24v24H0z"
-                      fill="none"
-                    />
-                    <path
-                      d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-                    />
-                  </svg>
-                </icon_wrapper__Icon>
-              </span>
-            </help-text__HelpIcon>
-          </div>
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+          <path
+            d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+          />
+        </svg>
+      </span>
+    </div>
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input applies the correct styles when \`inputState\`=error 1`] = `
@@ -1342,114 +1134,68 @@ exports[`Input applies the correct styles when \`inputState\`=error 1`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="error"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    >
+      <span
+        className="c5"
       >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="error"
-          isFocused={false}
-          isTouched={false}
+        <svg
+          aria-label="open customize and profile menu"
+          className="c6"
+          color="hsla(15,100%,40%,0.87)"
+          height={12}
+          role="img"
+          viewBox="0 0 24 24"
+          width={12}
         >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="error"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
+          <title>
+            menu icon
+          </title>
+          <desc>
+            hamburger menu icon
+          </desc>
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
           />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="error"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          >
-            <help-text__HelpIcon>
-              <span
-                className="c5"
-              >
-                <icon_wrapper__Icon
-                  aria-label="open customize and profile menu"
-                  color="hsla(15,100%,40%,0.87)"
-                  height={12}
-                  role="img"
-                  viewBox="0 0 24 24"
-                  width={12}
-                >
-                  <svg
-                    aria-label="open customize and profile menu"
-                    className="c6"
-                    color="hsla(15,100%,40%,0.87)"
-                    height={12}
-                    role="img"
-                    viewBox="0 0 24 24"
-                    width={12}
-                  >
-                    <title>
-                      menu icon
-                    </title>
-                    <desc>
-                      hamburger menu icon
-                    </desc>
-                    <path
-                      d="M0 0h24v24H0z"
-                      fill="none"
-                    />
-                    <path
-                      d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-                    />
-                  </svg>
-                </icon_wrapper__Icon>
-              </span>
-            </help-text__HelpIcon>
-          </div>
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+          <path
+            d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+          />
+        </svg>
+      </span>
+    </div>
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input applies the correct styling when \`dense\`=true and has no a11y violations 1`] = `
@@ -1638,171 +1384,98 @@ exports[`Input applies the correct styling when \`dense\`=true and has no a11y v
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
+    onKeyUp={[Function]}
+    tabIndex={null}
   >
-    <input-icon-left__IconLeftWrapper
-      active={false}
-      dense={true}
-      helpText={false}
-      inputState="primary"
+    <svg
+      aria-label="open customize and profile menu"
+      className="c2"
+      color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+  <div
+    className="c3"
+  >
+    <label
+      className="c4"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c5"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c6"
       onKeyUp={[Function]}
       tabIndex={null}
     >
-      <div
-        className="c1"
-        onKeyUp={[Function]}
-        tabIndex={null}
+      <svg
+        aria-label="open customize and profile menu"
+        className="c2"
+        color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+        height={20}
+        role="img"
+        viewBox="0 0 24 24"
+        width={20}
       >
-        <icon_wrapper__Icon
-          aria-label="open customize and profile menu"
-          color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-          height={24}
-          role="img"
-          viewBox="0 0 24 24"
-          width={24}
-        >
-          <svg
-            aria-label="open customize and profile menu"
-            className="c2"
-            color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-            height={24}
-            role="img"
-            viewBox="0 0 24 24"
-            width={24}
-          >
-            <title>
-              menu icon
-            </title>
-            <desc>
-              hamburger menu icon
-            </desc>
-            <path
-              d="M0 0h24v24H0z"
-              fill="none"
-            />
-            <path
-              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-            />
-          </svg>
-        </icon_wrapper__Icon>
-      </div>
-    </input-icon-left__IconLeftWrapper>
-    <input-component__InputWrapper>
-      <div
-        className="c3"
-      >
-        <label__LabelField
-          dense={true}
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c4"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          dense={true}
-          iconRight={true}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c5"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <input-icon-right__IconRightWrapper
-          active={false}
-          dense={true}
-          inputState="primary"
-          onKeyUp={[Function]}
-          tabIndex={null}
-        >
-          <div
-            className="c6"
-            onKeyUp={[Function]}
-            tabIndex={null}
-          >
-            <icon_wrapper__Icon
-              aria-label="open customize and profile menu"
-              color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-              height={20}
-              role="img"
-              viewBox="0 0 24 24"
-              width={20}
-            >
-              <svg
-                aria-label="open customize and profile menu"
-                className="c2"
-                color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-                height={20}
-                role="img"
-                viewBox="0 0 24 24"
-                width={20}
-              >
-                <title>
-                  menu icon
-                </title>
-                <desc>
-                  hamburger menu icon
-                </desc>
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-                <path
-                  d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </div>
-        </input-icon-right__IconRightWrapper>
-        <help-text__HelpLabel
-          dense={true}
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c7"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </div>
+    <div
+      className="c7"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input applies the correct syles and attrs when \`datepicker\`=true 1`] = `
@@ -1991,173 +1664,101 @@ exports[`Input applies the correct syles and attrs when \`datepicker\`=true 1`] 
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
+    data-toggle={true}
+    onKeyUp={[Function]}
+    tabIndex={null}
   >
-    <input-icon-left__IconLeftWrapper
-      active={false}
-      data-toggle={true}
-      helpText={false}
-      inputState="primary"
+    <svg
+      aria-label="open customize and profile menu"
+      className="c2"
+      color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </div>
+  <div
+    className="c3"
+  >
+    <label
+      className="c4"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c5"
+      data-input={true}
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c6"
+      data-clear={true}
       onKeyUp={[Function]}
       tabIndex={null}
     >
-      <div
-        className="c1"
-        data-toggle={true}
-        onKeyUp={[Function]}
-        tabIndex={null}
+      <svg
+        aria-label="open customize and profile menu"
+        className="c2"
+        color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
       >
-        <icon_wrapper__Icon
-          aria-label="open customize and profile menu"
-          color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-          height={24}
-          role="img"
-          viewBox="0 0 24 24"
-          width={24}
-        >
-          <svg
-            aria-label="open customize and profile menu"
-            className="c2"
-            color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-            height={24}
-            role="img"
-            viewBox="0 0 24 24"
-            width={24}
-          >
-            <title>
-              menu icon
-            </title>
-            <desc>
-              hamburger menu icon
-            </desc>
-            <path
-              d="M0 0h24v24H0z"
-              fill="none"
-            />
-            <path
-              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-            />
-          </svg>
-        </icon_wrapper__Icon>
-      </div>
-    </input-icon-left__IconLeftWrapper>
-    <input-component__InputWrapper>
-      <div
-        className="c3"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={true}
-        >
-          <label
-            className="c4"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-input={true}
-          data-lpignore={true}
-          datepicker={true}
-          iconRight={true}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c5"
-            data-input={true}
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <input-icon-right__IconRightWrapper
-          active={false}
-          data-clear={true}
-          inputState="primary"
-          onKeyUp={[Function]}
-          tabIndex={null}
-        >
-          <div
-            className="c6"
-            data-clear={true}
-            onKeyUp={[Function]}
-            tabIndex={null}
-          >
-            <icon_wrapper__Icon
-              aria-label="open customize and profile menu"
-              color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-              height={24}
-              role="img"
-              viewBox="0 0 24 24"
-              width={24}
-            >
-              <svg
-                aria-label="open customize and profile menu"
-                className="c2"
-                color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-                height={24}
-                role="img"
-                viewBox="0 0 24 24"
-                width={24}
-              >
-                <title>
-                  menu icon
-                </title>
-                <desc>
-                  hamburger menu icon
-                </desc>
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-                <path
-                  d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </div>
-        </input-icon-right__IconRightWrapper>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c7"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </div>
+    <div
+      className="c7"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input attaches \`helpIcon\` as function via props 1`] = `
@@ -2328,114 +1929,68 @@ exports[`Input attaches \`helpIcon\` as function via props 1`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    >
+      <span
+        className="c5"
       >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
+        <svg
+          aria-label="open customize and profile menu"
+          className="c6"
+          color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+          height={12}
+          role="img"
+          viewBox="0 0 24 24"
+          width={12}
         >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
+          <title>
+            menu icon
+          </title>
+          <desc>
+            hamburger menu icon
+          </desc>
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
           />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          >
-            <help-text__HelpIcon>
-              <span
-                className="c5"
-              >
-                <icon_wrapper__Icon
-                  aria-label="open customize and profile menu"
-                  color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-                  height={12}
-                  role="img"
-                  viewBox="0 0 24 24"
-                  width={12}
-                >
-                  <svg
-                    aria-label="open customize and profile menu"
-                    className="c6"
-                    color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-                    height={12}
-                    role="img"
-                    viewBox="0 0 24 24"
-                    width={12}
-                  >
-                    <title>
-                      menu icon
-                    </title>
-                    <desc>
-                      hamburger menu icon
-                    </desc>
-                    <path
-                      d="M0 0h24v24H0z"
-                      fill="none"
-                    />
-                    <path
-                      d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-                    />
-                  </svg>
-                </icon_wrapper__Icon>
-              </span>
-            </help-text__HelpIcon>
-          </div>
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+          <path
+            d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+          />
+        </svg>
+      </span>
+    </div>
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input attaches \`iconLeft\` as a function with correct styles 1`] = `
@@ -2612,121 +2167,69 @@ exports[`Input attaches \`iconLeft\` as a function with correct styles 1`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
+    onKeyUp={[Function]}
+    tabIndex={null}
   >
-    <input-icon-left__IconLeftWrapper
-      active={false}
-      helpText={false}
-      inputState="primary"
-      onKeyUp={[Function]}
-      tabIndex={null}
+    <svg
+      aria-label="open customize and profile menu"
+      className="c2"
+      color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
     >
-      <div
-        className="c1"
-        onKeyUp={[Function]}
-        tabIndex={null}
-      >
-        <icon_wrapper__Icon
-          aria-label="open customize and profile menu"
-          color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-          height={24}
-          role="img"
-          viewBox="0 0 24 24"
-          width={24}
-        >
-          <svg
-            aria-label="open customize and profile menu"
-            className="c2"
-            color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-            height={24}
-            role="img"
-            viewBox="0 0 24 24"
-            width={24}
-          >
-            <title>
-              menu icon
-            </title>
-            <desc>
-              hamburger menu icon
-            </desc>
-            <path
-              d="M0 0h24v24H0z"
-              fill="none"
-            />
-            <path
-              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-            />
-          </svg>
-        </icon_wrapper__Icon>
-      </div>
-    </input-icon-left__IconLeftWrapper>
-    <input-component__InputWrapper>
-      <div
-        className="c3"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c4"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c5"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c6"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
   </div>
-</input-component__InputComponentWrapper>
+  <div
+    className="c3"
+  >
+    <label
+      className="c4"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c5"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c6"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
 `;
 
 exports[`Input attaches \`iconLeftChild\` as an instantiated object with correct styles 1`] = `
@@ -2903,124 +2406,72 @@ exports[`Input attaches \`iconLeftChild\` as an instantiated object with correct
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
+    onKeyUp={[Function]}
+    tabIndex={null}
   >
-    <input-icon-left__IconLeftWrapper
-      active={false}
-      helpText={false}
-      inputState="primary"
-      onKeyUp={[Function]}
-      tabIndex={null}
+    <svg
+      aria-label="open customize and profile menu"
+      className="c2"
+      color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
     >
-      <div
-        className="c1"
-        onKeyUp={[Function]}
-        tabIndex={null}
-      >
-        <icon_wrapper__Icon
-          aria-label="open customize and profile menu"
-          color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-          height={24}
-          role="img"
-          viewBox="0 0 24 24"
-          width={24}
-        >
-          <svg
-            aria-label="open customize and profile menu"
-            className="c2"
-            color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-            height={24}
-            role="img"
-            viewBox="0 0 24 24"
-            width={24}
-          >
-            <title>
-              menu icon
-            </title>
-            <desc>
-              hamburger menu icon
-            </desc>
-            <path
-              d="M0 0h24v24H0z"
-              fill="none"
-            />
-            <path
-              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-            />
-          </svg>
-        </icon_wrapper__Icon>
-        <span>
-          hello
-        </span>
-      </div>
-    </input-icon-left__IconLeftWrapper>
-    <input-component__InputWrapper>
-      <div
-        className="c3"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c4"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c5"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c6"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+    <span>
+      hello
+    </span>
   </div>
-</input-component__InputComponentWrapper>
+  <div
+    className="c3"
+  >
+    <label
+      className="c4"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c5"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c6"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
 `;
 
 exports[`Input attaches \`iconRight\` as a function with correct styles 1`] = `
@@ -3196,120 +2647,69 @@ exports[`Input attaches \`iconRight\` as a function with correct styles 1`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      onKeyUp={[Function]}
+      tabIndex={null}
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c5"
+        color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
       >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={true}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <input-icon-right__IconRightWrapper
-          active={false}
-          inputState="primary"
-          onKeyUp={[Function]}
-          tabIndex={null}
-        >
-          <div
-            className="c4"
-            onKeyUp={[Function]}
-            tabIndex={null}
-          >
-            <icon_wrapper__Icon
-              aria-label="open customize and profile menu"
-              color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-              height={24}
-              role="img"
-              viewBox="0 0 24 24"
-              width={24}
-            >
-              <svg
-                aria-label="open customize and profile menu"
-                className="c5"
-                color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-                height={24}
-                role="img"
-                viewBox="0 0 24 24"
-                width={24}
-              >
-                <title>
-                  menu icon
-                </title>
-                <desc>
-                  hamburger menu icon
-                </desc>
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-                <path
-                  d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </div>
-        </input-icon-right__IconRightWrapper>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c6"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </div>
+    <div
+      className="c6"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input attaches \`iconRightChild\` as an instantiated object with correct styles 1`] = `
@@ -3485,123 +2885,72 @@ exports[`Input attaches \`iconRightChild\` as an instantiated object with correc
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      onKeyUp={[Function]}
+      tabIndex={null}
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c5"
+        color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
       >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={true}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <input-icon-right__IconRightWrapper
-          active={false}
-          inputState="primary"
-          onKeyUp={[Function]}
-          tabIndex={null}
-        >
-          <div
-            className="c4"
-            onKeyUp={[Function]}
-            tabIndex={null}
-          >
-            <icon_wrapper__Icon
-              aria-label="open customize and profile menu"
-              color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-              height={24}
-              role="img"
-              viewBox="0 0 24 24"
-              width={24}
-            >
-              <svg
-                aria-label="open customize and profile menu"
-                className="c5"
-                color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-                height={24}
-                role="img"
-                viewBox="0 0 24 24"
-                width={24}
-              >
-                <title>
-                  menu icon
-                </title>
-                <desc>
-                  hamburger menu icon
-                </desc>
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-                <path
-                  d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-            <span>
-              hello
-            </span>
-          </div>
-        </input-icon-right__IconRightWrapper>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c6"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+      <span>
+        hello
+      </span>
+    </div>
+    <div
+      className="c6"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input attaches an aria-label via props with no a11y violations when \`noLabel\` is true 1`] = `
@@ -3737,64 +3086,34 @@ exports[`Input attaches an aria-label via props with no a11y violations when \`n
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label="ariaLabel"
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          noLabel={true}
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label="ariaLabel"
-            className="c2"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          noLabel={true}
-          role="status"
-        >
-          <div
-            className="c3"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label="ariaLabel"
+      className="c2"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c3"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input attaches an html id attr to input and propagates to relevant elements for a11y 1`] = `
@@ -3953,75 +3272,40 @@ exports[`Input attaches an html id attr to input and propagates to relevant elem
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testId"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testId"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testId-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testId"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testId-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testId"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testId-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testId-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testId"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testId-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testId"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testId-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input matches snapshot 1`] = `
@@ -4180,75 +3464,40 @@ exports[`Input matches snapshot 1`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input passes a function to the rightIcon and sets tabIndex and keyUp listeners via props 1`] = `
@@ -4424,122 +3673,70 @@ exports[`Input passes a function to the rightIcon and sets tabIndex and keyUp li
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      onClick={[Function]}
+      onKeyUp={[Function]}
+      tabIndex="0"
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c5"
+        color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
       >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={true}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <input-icon-right__IconRightWrapper
-          active={true}
-          inputState="primary"
-          onClick={[Function]}
-          onKeyUp={[Function]}
-          tabIndex="0"
-        >
-          <div
-            className="c4"
-            onClick={[Function]}
-            onKeyUp={[Function]}
-            tabIndex="0"
-          >
-            <icon_wrapper__Icon
-              aria-label="open customize and profile menu"
-              color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-              height={24}
-              role="img"
-              viewBox="0 0 24 24"
-              width={24}
-            >
-              <svg
-                aria-label="open customize and profile menu"
-                className="c5"
-                color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-                height={24}
-                role="img"
-                viewBox="0 0 24 24"
-                width={24}
-              >
-                <title>
-                  menu icon
-                </title>
-                <desc>
-                  hamburger menu icon
-                </desc>
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-                <path
-                  d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </div>
-        </input-icon-right__IconRightWrapper>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c6"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </div>
+    <div
+      className="c6"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input passes func to leftIcon and sets tabIndex and keyup listeners via props 1`] = `
@@ -4716,123 +3913,70 @@ exports[`Input passes func to leftIcon and sets tabIndex and keyup listeners via
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
+    onClick={[Function]}
+    onKeyUp={[Function]}
+    tabIndex="0"
   >
-    <input-icon-left__IconLeftWrapper
-      active={true}
-      helpText={false}
-      inputState="primary"
-      onClick={[Function]}
-      onKeyUp={[Function]}
-      tabIndex="0"
+    <svg
+      aria-label="open customize and profile menu"
+      className="c2"
+      color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
     >
-      <div
-        className="c1"
-        onClick={[Function]}
-        onKeyUp={[Function]}
-        tabIndex="0"
-      >
-        <icon_wrapper__Icon
-          aria-label="open customize and profile menu"
-          color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-          height={24}
-          role="img"
-          viewBox="0 0 24 24"
-          width={24}
-        >
-          <svg
-            aria-label="open customize and profile menu"
-            className="c2"
-            color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-            height={24}
-            role="img"
-            viewBox="0 0 24 24"
-            width={24}
-          >
-            <title>
-              menu icon
-            </title>
-            <desc>
-              hamburger menu icon
-            </desc>
-            <path
-              d="M0 0h24v24H0z"
-              fill="none"
-            />
-            <path
-              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-            />
-          </svg>
-        </icon_wrapper__Icon>
-      </div>
-    </input-icon-left__IconLeftWrapper>
-    <input-component__InputWrapper>
-      <div
-        className="c3"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c4"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c5"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c6"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+      <title>
+        menu icon
+      </title>
+      <desc>
+        hamburger menu icon
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
   </div>
-</input-component__InputComponentWrapper>
+  <div
+    className="c3"
+  >
+    <label
+      className="c4"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c5"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c6"
+      id="testInput-statusText"
+      role="status"
+    />
+  </div>
+</div>
 `;
 
 exports[`Input sets an onBlur func on the input via props and sets state.isFocused to false on blur 1`] = `
@@ -4991,75 +4135,40 @@ exports[`Input sets an onBlur func on the input via props and sets state.isFocus
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={true}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={true}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input sets an onChange function on the input and sets state.isTouched to true if value isnt empty 1`] = `
@@ -5218,75 +4327,40 @@ exports[`Input sets an onChange function on the input and sets state.isTouched t
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input sets an onFocus func on input via props and sets state.isFocused to true on focus 1`] = `
@@ -5445,75 +4519,40 @@ exports[`Input sets an onFocus func on input via props and sets state.isFocused 
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input sets an onKeyDown func on the input 1`] = `
@@ -5672,77 +4711,41 @@ exports[`Input sets an onKeyDown func on the input 1`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          onKeyDown={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            onKeyDown={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input sets an onKeyUp func on the input 1`] = `
@@ -5901,77 +4904,41 @@ exports[`Input sets an onKeyUp func on the input 1`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          onKeyUp={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            onKeyUp={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyUp={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input sets an onMouseDown func on the input 1`] = `
@@ -6130,77 +5097,41 @@ exports[`Input sets an onMouseDown func on the input 1`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          onMouseDown={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            onMouseDown={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onMouseDown={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input sets an onMouseEnter func on the input 1`] = `
@@ -6359,77 +5290,41 @@ exports[`Input sets an onMouseEnter func on the input 1`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          onMouseEnter={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            onMouseEnter={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input sets an onMouseLeave func on the input 1`] = `
@@ -6588,77 +5483,41 @@ exports[`Input sets an onMouseLeave func on the input 1`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          onMouseLeave={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            onMouseLeave={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onMouseLeave={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input sets an onMouseUp func on the input 1`] = `
@@ -6817,77 +5676,41 @@ exports[`Input sets an onMouseUp func on the input 1`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          onMouseUp={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            onMouseUp={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onMouseUp={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input sets an onTouchEnd func on the input 1`] = `
@@ -7046,77 +5869,41 @@ exports[`Input sets an onTouchEnd func on the input 1`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          onTouchEnd={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            onTouchEnd={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onTouchEnd={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input sets an onTouchStart func on the input 1`] = `
@@ -7275,77 +6062,41 @@ exports[`Input sets an onTouchStart func on the input 1`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          onTouchStart={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            onTouchStart={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onTouchStart={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input sets focus on the input when \`autoFocus\` is set to true 1`] = `
@@ -7504,77 +6255,41 @@ exports[`Input sets focus on the input when \`autoFocus\` is set to true 1`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          autoFocus={true}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            autoFocus={true}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      autoFocus={true}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input sets the component width via props 1`] = `
@@ -7734,77 +6449,41 @@ exports[`Input sets the component width via props 1`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
   width="700px"
 >
   <div
-    className="c0"
-    width="700px"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input sets the html type attr on the input via props 1`] = `
@@ -7963,77 +6642,41 @@ exports[`Input sets the html type attr on the input via props 1`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          type="search"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            type="search"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      type="search"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input sets the inputs value via props 1`] = `
@@ -8192,75 +6835,40 @@ exports[`Input sets the inputs value via props 1`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value="test"
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value="test"
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value="test"
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input sets the proper styling when state.isFocused = true 1`] = `
@@ -8419,75 +7027,40 @@ exports[`Input sets the proper styling when state.isFocused = true 1`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={true}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={true}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input sets the proper styling when state.isFocused = true 2`] = `
@@ -8646,78 +7219,40 @@ exports[`Input sets the proper styling when state.isFocused = true 2`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          dense={true}
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={true}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          dense={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={true}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          dense={true}
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input sets the proper styling when state.isFocused = true 3`] = `
@@ -8876,78 +7411,40 @@ exports[`Input sets the proper styling when state.isFocused = true 3`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="error"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          dense={false}
-          htmlFor="testInput"
-          inputState="error"
-          isFocused={true}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          dense={false}
-          iconRight={false}
-          id="testInput"
-          inputState="error"
-          isFocused={true}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          dense={false}
-          id="testInput-statusText"
-          inputState="error"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input sets the proper styling when state.isFocused = true 4`] = `
@@ -9106,78 +7603,40 @@ exports[`Input sets the proper styling when state.isFocused = true 4`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="disabled"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          dense={false}
-          htmlFor="testInput"
-          inputState="disabled"
-          isFocused={true}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          dense={false}
-          iconRight={false}
-          id="testInput"
-          inputState="disabled"
-          isFocused={true}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={true}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          dense={false}
-          id="testInput-statusText"
-          inputState="disabled"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={true}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input sets the proper styling when state.isTouched is true 1`] = `
@@ -9336,75 +7795,40 @@ exports[`Input sets the proper styling when state.isTouched is true 1`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={true}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input sets the proper styling when state.isTouched is true 2`] = `
@@ -9563,78 +7987,40 @@ exports[`Input sets the proper styling when state.isTouched is true 2`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          dense={true}
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={true}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          dense={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          dense={true}
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input sets the proper styling when state.isTouched is true 3`] = `
@@ -9793,78 +8179,40 @@ exports[`Input sets the proper styling when state.isTouched is true 3`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="error"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          dense={false}
-          htmlFor="testInput"
-          inputState="error"
-          isFocused={false}
-          isTouched={true}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          dense={false}
-          iconRight={false}
-          id="testInput"
-          inputState="error"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          dense={false}
-          id="testInput-statusText"
-          inputState="error"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input sets the proper styling when state.isTouched is true 4`] = `
@@ -10023,78 +8371,40 @@ exports[`Input sets the proper styling when state.isTouched is true 4`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="disabled"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          dense={false}
-          htmlFor="testInput"
-          inputState="disabled"
-          isFocused={false}
-          isTouched={true}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          dense={false}
-          iconRight={false}
-          id="testInput"
-          inputState="disabled"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={true}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          dense={false}
-          id="testInput-statusText"
-          inputState="disabled"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={true}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input sets the readOnly attribute on the input via props 1`] = `
@@ -10253,76 +8563,40 @@ exports[`Input sets the readOnly attribute on the input via props 1`] = `
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          readOnly={true}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly="readonly"
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly="readonly"
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;
 
 exports[`Input sets the required attr via props and adds a star to the label 1`] = `
@@ -10481,85 +8755,49 @@ exports[`Input sets the required attr via props and adds a star to the label 1`]
   min-height: 40px;
 }
 
-<input-component__InputComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <input-component__InputWrapper>
-      <div
-        className="c1"
+    <label
+      className="c2"
+      htmlFor="testInput"
+    >
+      hello
+      <span
+        style={
+          Object {
+            "color": "hsla(15,100%,40%,0.5)",
+            "marginLeft": "2px",
+          }
+        }
       >
-        <label__LabelField
-          htmlFor="testInput"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-        >
-          <label
-            className="c2"
-            htmlFor="testInput"
-          >
-            hello
-            <span
-              style={
-                Object {
-                  "color": "hsla(15,100%,40%,0.5)",
-                  "marginLeft": "2px",
-                }
-              }
-            >
-              *
-            </span>
-          </label>
-        </label__LabelField>
-        <input__InputField
-          aria-controls="testInput-statusText"
-          aria-label={null}
-          data-lpignore={true}
-          iconRight={false}
-          id="testInput"
-          inputState="primary"
-          isFocused={false}
-          name="testInput"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          required={true}
-          tabIndex="0"
-          value=""
-        >
-          <input
-            aria-controls="testInput-statusText"
-            aria-label={null}
-            className="c3"
-            data-lpignore={true}
-            disabled={false}
-            id="testInput"
-            name="testInput"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={false}
-            required={true}
-            tabIndex="0"
-            value=""
-          />
-        </input__InputField>
-        <help-text__HelpLabel
-          id="testInput-statusText"
-          inputState="primary"
-          role="status"
-        >
-          <div
-            className="c4"
-            id="testInput-statusText"
-            role="status"
-          />
-        </help-text__HelpLabel>
-      </div>
-    </input-component__InputWrapper>
+        *
+      </span>
+    </label>
+    <input
+      aria-controls="testInput-statusText"
+      aria-label={null}
+      className="c3"
+      data-lpignore={true}
+      disabled={false}
+      id="testInput"
+      name="testInput"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={false}
+      required={true}
+      tabIndex="0"
+      value=""
+    />
+    <div
+      className="c4"
+      id="testInput-statusText"
+      role="status"
+    />
   </div>
-</input-component__InputComponentWrapper>
+</div>
 `;

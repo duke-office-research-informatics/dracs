@@ -27,23 +27,14 @@ exports[`CardFooter applies a style object via props 1`] = `
   overflow: hidden;
 }
 
-<footer__CardFooterWrap
-  border={true}
+<footer
+  className="c0"
   style={
     Object {
       "color": "#0680cd",
     }
   }
->
-  <footer
-    className="c0"
-    style={
-      Object {
-        "color": "#0680cd",
-      }
-    }
-  />
-</footer__CardFooterWrap>
+/>
 `;
 
 exports[`CardFooter matches snapshot 1`] = `
@@ -73,13 +64,9 @@ exports[`CardFooter matches snapshot 1`] = `
   overflow: hidden;
 }
 
-<footer__CardFooterWrap
-  border={true}
->
-  <footer
-    className="c0"
-  />
-</footer__CardFooterWrap>
+<footer
+  className="c0"
+/>
 `;
 
 exports[`CardFooter sets a border-top when border is set to true 1`] = `
@@ -109,13 +96,9 @@ exports[`CardFooter sets a border-top when border is set to true 1`] = `
   overflow: hidden;
 }
 
-<footer__CardFooterWrap
-  border={true}
->
-  <footer
-    className="c0"
-  />
-</footer__CardFooterWrap>
+<footer
+  className="c0"
+/>
 `;
 
 exports[`CardFooter sets bgColor via props 1`] = `
@@ -145,14 +128,9 @@ exports[`CardFooter sets bgColor via props 1`] = `
   overflow: hidden;
 }
 
-<footer__CardFooterWrap
-  bgColor="#696969"
-  border={true}
->
-  <footer
-    className="c0"
-  />
-</footer__CardFooterWrap>
+<footer
+  className="c0"
+/>
 `;
 
 exports[`CardFooter sets proper styles when \`multipleActions\` set to true 1`] = `
@@ -182,12 +160,7 @@ exports[`CardFooter sets proper styles when \`multipleActions\` set to true 1`] 
   overflow: hidden;
 }
 
-<footer__CardFooterWrap
-  border={true}
-  multipleActions={true}
->
-  <footer
-    className="c0"
-  />
-</footer__CardFooterWrap>
+<footer
+  className="c0"
+/>
 `;

@@ -47,33 +47,22 @@ exports[`Single Line List Item matches snapshot w/o a11y violations 1`] = `
   white-space: nowrap;
 }
 
-<list__ListWrap>
-  <ul
-    className="c0"
+<ul
+  className="c0"
+>
+  <li
+    className="c1"
+    onKeyUp={[Function]}
+    tabIndex={null}
   >
-    <single_line__ItemWrap
-      onKeyUp={[Function]}
-      tabIndex={null}
-    >
-      <li
-        className="c1"
-        onKeyUp={[Function]}
-        tabIndex={null}
-      >
-        <single_line__ItemLeftContainer>
-          <div
-            className="c2"
-          />
-        </single_line__ItemLeftContainer>
-        <single_line__ItemRightContainer>
-          <div
-            className=""
-          />
-        </single_line__ItemRightContainer>
-      </li>
-    </single_line__ItemWrap>
-  </ul>
-</list__ListWrap>
+    <div
+      className="c2"
+    />
+    <div
+      className=""
+    />
+  </li>
+</ul>
 `;
 
 exports[`Single Line List Item passes a child to the correct dom node in the list item 1`] = `
@@ -128,66 +117,46 @@ exports[`Single Line List Item passes a child to the correct dom node in the lis
   white-space: nowrap;
 }
 
-<list__ListWrap>
-  <ul
-    className="c0"
+<ul
+  className="c0"
+>
+  <li
+    className="c1"
+    onKeyUp={[Function]}
+    tabIndex={null}
   >
-    <single_line__ItemWrap
-      onKeyUp={[Function]}
-      tabIndex={null}
+    <div
+      className="c2"
+    />
+    <div
+      className=""
     >
-      <li
-        className="c1"
-        onKeyUp={[Function]}
-        tabIndex={null}
+      <svg
+        aria-label="warning"
+        className="c3"
+        color="#ffd960"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
       >
-        <single_line__ItemLeftContainer>
-          <div
-            className="c2"
-          />
-        </single_line__ItemLeftContainer>
-        <single_line__ItemRightContainer>
-          <div
-            className=""
-          >
-            <icon_wrapper__Icon
-              aria-label="warning"
-              color="#ffd960"
-              height={24}
-              role="img"
-              viewBox="0 0 24 24"
-              width={24}
-            >
-              <svg
-                aria-label="warning"
-                className="c3"
-                color="#ffd960"
-                height={24}
-                role="img"
-                viewBox="0 0 24 24"
-                width={24}
-              >
-                <title>
-                  warning
-                </title>
-                <desc>
-                  triangle with exclamation mark in center
-                </desc>
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-                <path
-                  d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </div>
-        </single_line__ItemRightContainer>
-      </li>
-    </single_line__ItemWrap>
-  </ul>
-</list__ListWrap>
+        <title>
+          warning
+        </title>
+        <desc>
+          triangle with exclamation mark in center
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+        />
+      </svg>
+    </div>
+  </li>
+</ul>
 `;
 
 exports[`Single Line List Item sets a border when bottomBorder prop = true 1`] = `
@@ -238,34 +207,22 @@ exports[`Single Line List Item sets a border when bottomBorder prop = true 1`] =
   white-space: nowrap;
 }
 
-<list__ListWrap>
-  <ul
-    className="c0"
+<ul
+  className="c0"
+>
+  <li
+    className="c1"
+    onKeyUp={[Function]}
+    tabIndex={null}
   >
-    <single_line__ItemWrap
-      bottomBorder={true}
-      onKeyUp={[Function]}
-      tabIndex={null}
-    >
-      <li
-        className="c1"
-        onKeyUp={[Function]}
-        tabIndex={null}
-      >
-        <single_line__ItemLeftContainer>
-          <div
-            className="c2"
-          />
-        </single_line__ItemLeftContainer>
-        <single_line__ItemRightContainer>
-          <div
-            className=""
-          />
-        </single_line__ItemRightContainer>
-      </li>
-    </single_line__ItemWrap>
-  </ul>
-</list__ListWrap>
+    <div
+      className="c2"
+    />
+    <div
+      className=""
+    />
+  </li>
+</ul>
 `;
 
 exports[`Single Line List Item sets a click handler on the left icon via onLeftIconClick prop 1`] = `
@@ -349,86 +306,58 @@ exports[`Single Line List Item sets a click handler on the left icon via onLeftI
   text-decoration: underline;
 }
 
-<list__ListWrap>
-  <ul
-    className="c0"
+<ul
+  className="c0"
+>
+  <li
+    className="c1 c2"
+    onKeyUp={[Function]}
+    tabIndex={null}
   >
-    <single_line__ItemWrap
-      onKeyUp={[Function]}
-      tabIndex={null}
+    <div
+      className="c3"
     >
-      <li
-        className="c1 c2"
+      <div
+        className="c4"
+        onClick={[Function]}
         onKeyUp={[Function]}
-        tabIndex={null}
+        tabIndex="0"
       >
-        <single_line__ItemLeftContainer>
-          <div
-            className="c3"
-          >
-            <single_line__LeftItemWrap
-              onClick={[Function]}
-              onKeyUp={[Function]}
-              tabIndex="0"
-            >
-              <div
-                className="c4"
-                onClick={[Function]}
-                onKeyUp={[Function]}
-                tabIndex="0"
-              >
-                <icon_wrapper__Icon
-                  aria-label="warning"
-                  color="#ffd960"
-                  height={24}
-                  role="img"
-                  viewBox="0 0 24 24"
-                  width={24}
-                >
-                  <svg
-                    aria-label="warning"
-                    className="c5"
-                    color="#ffd960"
-                    height={24}
-                    role="img"
-                    viewBox="0 0 24 24"
-                    width={24}
-                  >
-                    <title>
-                      warning
-                    </title>
-                    <desc>
-                      triangle with exclamation mark in center
-                    </desc>
-                    <path
-                      d="M0 0h24v24H0z"
-                      fill="none"
-                    />
-                    <path
-                      d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
-                    />
-                  </svg>
-                </icon_wrapper__Icon>
-              </div>
-            </single_line__LeftItemWrap>
-            <single_line__TitleWrap>
-              <div
-                className="c6"
-              >
-                test title
-              </div>
-            </single_line__TitleWrap>
-          </div>
-        </single_line__ItemLeftContainer>
-        <single_line__ItemRightContainer>
-          <div
-            className=""
+        <svg
+          aria-label="warning"
+          className="c5"
+          color="#ffd960"
+          height={24}
+          role="img"
+          viewBox="0 0 24 24"
+          width={24}
+        >
+          <title>
+            warning
+          </title>
+          <desc>
+            triangle with exclamation mark in center
+          </desc>
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
           />
-        </single_line__ItemRightContainer>
-      </li>
-    </single_line__ItemWrap>
-  </ul>
-</list__ListWrap>
+          <path
+            d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+          />
+        </svg>
+      </div>
+      <div
+        className="c6"
+      >
+        test title
+      </div>
+    </div>
+    <div
+      className=""
+    />
+  </li>
+</ul>
 `;
 
 exports[`Single Line List Item sets a left icon in the proper dom node when passed as leftIcon prop 1`] = `
@@ -512,84 +441,57 @@ exports[`Single Line List Item sets a left icon in the proper dom node when pass
   text-decoration: underline;
 }
 
-<list__ListWrap>
-  <ul
-    className="c0"
+<ul
+  className="c0"
+>
+  <li
+    className="c1 c2"
+    onKeyUp={[Function]}
+    tabIndex={null}
   >
-    <single_line__ItemWrap
-      onKeyUp={[Function]}
-      tabIndex={null}
+    <div
+      className="c3"
     >
-      <li
-        className="c1 c2"
+      <div
+        className="c4"
         onKeyUp={[Function]}
         tabIndex={null}
       >
-        <single_line__ItemLeftContainer>
-          <div
-            className="c3"
-          >
-            <single_line__LeftItemWrap
-              onKeyUp={[Function]}
-              tabIndex={null}
-            >
-              <div
-                className="c4"
-                onKeyUp={[Function]}
-                tabIndex={null}
-              >
-                <icon_wrapper__Icon
-                  aria-label="warning"
-                  color="#ffd960"
-                  height={24}
-                  role="img"
-                  viewBox="0 0 24 24"
-                  width={24}
-                >
-                  <svg
-                    aria-label="warning"
-                    className="c5"
-                    color="#ffd960"
-                    height={24}
-                    role="img"
-                    viewBox="0 0 24 24"
-                    width={24}
-                  >
-                    <title>
-                      warning
-                    </title>
-                    <desc>
-                      triangle with exclamation mark in center
-                    </desc>
-                    <path
-                      d="M0 0h24v24H0z"
-                      fill="none"
-                    />
-                    <path
-                      d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
-                    />
-                  </svg>
-                </icon_wrapper__Icon>
-              </div>
-            </single_line__LeftItemWrap>
-            <single_line__TitleWrap>
-              <div
-                className="c6"
-              >
-                test title
-              </div>
-            </single_line__TitleWrap>
-          </div>
-        </single_line__ItemLeftContainer>
-        <single_line__ItemRightContainer>
-          <div
-            className=""
+        <svg
+          aria-label="warning"
+          className="c5"
+          color="#ffd960"
+          height={24}
+          role="img"
+          viewBox="0 0 24 24"
+          width={24}
+        >
+          <title>
+            warning
+          </title>
+          <desc>
+            triangle with exclamation mark in center
+          </desc>
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
           />
-        </single_line__ItemRightContainer>
-      </li>
-    </single_line__ItemWrap>
-  </ul>
-</list__ListWrap>
+          <path
+            d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+          />
+        </svg>
+      </div>
+      <div
+        className="c6"
+      >
+        test title
+      </div>
+    </div>
+    <div
+      className=""
+    />
+  </li>
+</ul>
 `;
 
 exports[`Single Line List Item sets style on the proper dom node when style obj passed via wrapperStyle prop 1`] = `
@@ -657,43 +559,27 @@ exports[`Single Line List Item sets style on the proper dom node when style obj 
   text-decoration: underline;
 }
 
-<list__ListWrap>
-  <ul
-    className="c0"
-  >
-    <single_line__ItemWrap
-      onKeyUp={[Function]}
-      style={
-        Object {
-          "margin": "8px",
-        }
+<ul
+  className="c0"
+>
+  <li
+    className="c1 c2"
+    onKeyUp={[Function]}
+    style={
+      Object {
+        "margin": "8px",
       }
-      tabIndex={null}
-    >
-      <li
-        className="c1 c2"
-        onKeyUp={[Function]}
-        style={
-          Object {
-            "margin": "8px",
-          }
-        }
-        tabIndex={null}
-      >
-        <single_line__ItemLeftContainer>
-          <div
-            className="c3"
-          />
-        </single_line__ItemLeftContainer>
-        <single_line__ItemRightContainer>
-          <div
-            className=""
-          />
-        </single_line__ItemRightContainer>
-      </li>
-    </single_line__ItemWrap>
-  </ul>
-</list__ListWrap>
+    }
+    tabIndex={null}
+  >
+    <div
+      className="c3"
+    />
+    <div
+      className=""
+    />
+  </li>
+</ul>
 `;
 
 exports[`Single Line List Item sets the proper styles when clickable prop = true 1`] = `
@@ -760,44 +646,28 @@ exports[`Single Line List Item sets the proper styles when clickable prop = true
   color: #53a4dc;
 }
 
-<list__ListWrap>
-  <ul
-    className="c0"
+<ul
+  className="c0"
+>
+  <li
+    className="c1 c2"
+    onKeyUp={[Function]}
+    tabIndex={null}
   >
-    <single_line__ItemWrap
-      clickable={true}
-      onKeyUp={[Function]}
-      tabIndex={null}
+    <div
+      className="c3"
     >
-      <li
-        className="c1 c2"
-        onKeyUp={[Function]}
-        tabIndex={null}
+      <div
+        className="c4"
       >
-        <single_line__ItemLeftContainer>
-          <div
-            className="c3"
-          >
-            <single_line__TitleWrap
-              clickable={true}
-            >
-              <div
-                className="c4"
-              >
-                test title
-              </div>
-            </single_line__TitleWrap>
-          </div>
-        </single_line__ItemLeftContainer>
-        <single_line__ItemRightContainer>
-          <div
-            className=""
-          />
-        </single_line__ItemRightContainer>
-      </li>
-    </single_line__ItemWrap>
-  </ul>
-</list__ListWrap>
+        test title
+      </div>
+    </div>
+    <div
+      className=""
+    />
+  </li>
+</ul>
 `;
 
 exports[`Single Line List Item sets the proper styles when underlineTitleOnHover = true 1`] = `
@@ -872,43 +742,28 @@ exports[`Single Line List Item sets the proper styles when underlineTitleOnHover
   text-decoration: underline;
 }
 
-<list__ListWrap>
-  <ul
-    className="c0"
+<ul
+  className="c0"
+>
+  <li
+    className="c1 c2"
+    onKeyUp={[Function]}
+    tabIndex={null}
   >
-    <single_line__ItemWrap
-      onKeyUp={[Function]}
-      tabIndex={null}
+    <div
+      className="c3"
     >
-      <li
-        className="c1 c2"
-        onKeyUp={[Function]}
-        tabIndex={null}
+      <div
+        className="c4"
       >
-        <single_line__ItemLeftContainer>
-          <div
-            className="c3"
-          >
-            <single_line__TitleWrap
-              underlineTitleOnHover={true}
-            >
-              <div
-                className="c4"
-              >
-                test title
-              </div>
-            </single_line__TitleWrap>
-          </div>
-        </single_line__ItemLeftContainer>
-        <single_line__ItemRightContainer>
-          <div
-            className=""
-          />
-        </single_line__ItemRightContainer>
-      </li>
-    </single_line__ItemWrap>
-  </ul>
-</list__ListWrap>
+        test title
+      </div>
+    </div>
+    <div
+      className=""
+    />
+  </li>
+</ul>
 `;
 
 exports[`Single Line List Item sets the title on the correct dom node via the title prop 1`] = `
@@ -965,39 +820,26 @@ exports[`Single Line List Item sets the title on the correct dom node via the ti
   white-space: nowrap;
 }
 
-<list__ListWrap>
-  <ul
-    className="c0"
+<ul
+  className="c0"
+>
+  <li
+    className="c1"
+    onKeyUp={[Function]}
+    tabIndex={null}
   >
-    <single_line__ItemWrap
-      onKeyUp={[Function]}
-      tabIndex={null}
+    <div
+      className="c2"
     >
-      <li
-        className="c1"
-        onKeyUp={[Function]}
-        tabIndex={null}
+      <div
+        className="c3"
       >
-        <single_line__ItemLeftContainer>
-          <div
-            className="c2"
-          >
-            <single_line__TitleWrap>
-              <div
-                className="c3"
-              >
-                test title
-              </div>
-            </single_line__TitleWrap>
-          </div>
-        </single_line__ItemLeftContainer>
-        <single_line__ItemRightContainer>
-          <div
-            className=""
-          />
-        </single_line__ItemRightContainer>
-      </li>
-    </single_line__ItemWrap>
-  </ul>
-</list__ListWrap>
+        test title
+      </div>
+    </div>
+    <div
+      className=""
+    />
+  </li>
+</ul>
 `;

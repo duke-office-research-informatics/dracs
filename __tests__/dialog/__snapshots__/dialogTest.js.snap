@@ -152,74 +152,41 @@ exports[`Dialog matches snapshot 1`] = `
 }
 
 <div>
-  <overlay__OverlayWrap
-    active={false}
+  <div
+    className="c0"
     data-dracs="overlay"
-    delay={100}
-    lockScroll={true}
     onTouchStart={[Function]}
-  >
-    <div
-      className="c0"
-      data-dracs="overlay"
-      onTouchStart={[Function]}
-    />
-  </overlay__OverlayWrap>
-  <dialog__DialogBody
-    active={false}
+  />
+  <section
     aria-labelledby="dracs-dialog-title"
-    delay={300}
+    className="c1"
     role="dialog"
     tabIndex={-1}
   >
-    <section
-      aria-labelledby="dracs-dialog-title"
-      className="c1"
-      role="dialog"
-      tabIndex={-1}
+    <h3
+      className="c2"
+      id="dracs-dialog-title"
     >
-      <dialog__DialogTitle
-        bold={true}
-        id="dracs-dialog-title"
+      A dialog
+    </h3>
+    <nav
+      className="c3"
+    >
+      <button
+        className="c4"
+        disabled={false}
+        label="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "4px",
+          }
+        }
       >
-        <h3
-          className="c2"
-          id="dracs-dialog-title"
-        >
-          A dialog
-        </h3>
-      </dialog__DialogTitle>
-      <dialog__DialogActions>
-        <nav
-          className="c3"
-        >
-          <button__StyledBtn
-            label="button"
-            onClick={[Function]}
-            style={
-              Object {
-                "marginLeft": "4px",
-              }
-            }
-          >
-            <button
-              className="c4"
-              disabled={false}
-              label="button"
-              onClick={[Function]}
-              style={
-                Object {
-                  "marginLeft": "4px",
-                }
-              }
-            >
-              button
-            </button>
-          </button__StyledBtn>
-        </nav>
-      </dialog__DialogActions>
-    </section>
-  </dialog__DialogBody>
+        button
+      </button>
+    </nav>
+  </section>
 </div>
 `;
 
@@ -375,76 +342,42 @@ exports[`Dialog passes an onOverlayMouseDown function to overlay via props 1`] =
 }
 
 <div>
-  <overlay__OverlayWrap
-    active={false}
+  <div
+    className="c0"
     data-dracs="overlay"
-    delay={100}
-    lockScroll={true}
     onMouseDown={[Function]}
     onTouchStart={[Function]}
-  >
-    <div
-      className="c0"
-      data-dracs="overlay"
-      onMouseDown={[Function]}
-      onTouchStart={[Function]}
-    />
-  </overlay__OverlayWrap>
-  <dialog__DialogBody
-    active={false}
+  />
+  <section
     aria-labelledby="dracs-dialog-title"
-    delay={300}
+    className="c1"
     role="dialog"
     tabIndex={-1}
   >
-    <section
-      aria-labelledby="dracs-dialog-title"
-      className="c1"
-      role="dialog"
-      tabIndex={-1}
+    <h3
+      className="c2"
+      id="dracs-dialog-title"
     >
-      <dialog__DialogTitle
-        bold={true}
-        id="dracs-dialog-title"
+      A dialog
+    </h3>
+    <nav
+      className="c3"
+    >
+      <button
+        className="c4"
+        disabled={false}
+        label="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "4px",
+          }
+        }
       >
-        <h3
-          className="c2"
-          id="dracs-dialog-title"
-        >
-          A dialog
-        </h3>
-      </dialog__DialogTitle>
-      <dialog__DialogActions>
-        <nav
-          className="c3"
-        >
-          <button__StyledBtn
-            label="button"
-            onClick={[Function]}
-            style={
-              Object {
-                "marginLeft": "4px",
-              }
-            }
-          >
-            <button
-              className="c4"
-              disabled={false}
-              label="button"
-              onClick={[Function]}
-              style={
-                Object {
-                  "marginLeft": "4px",
-                }
-              }
-            >
-              button
-            </button>
-          </button__StyledBtn>
-        </nav>
-      </dialog__DialogActions>
-    </section>
-  </dialog__DialogBody>
+        button
+      </button>
+    </nav>
+  </section>
 </div>
 `;
 
@@ -600,76 +533,42 @@ exports[`Dialog passes an onOverlayMouseMove function to overlay via props 1`] =
 }
 
 <div>
-  <overlay__OverlayWrap
-    active={false}
+  <div
+    className="c0"
     data-dracs="overlay"
-    delay={100}
-    lockScroll={true}
     onMouseMove={[Function]}
     onTouchStart={[Function]}
-  >
-    <div
-      className="c0"
-      data-dracs="overlay"
-      onMouseMove={[Function]}
-      onTouchStart={[Function]}
-    />
-  </overlay__OverlayWrap>
-  <dialog__DialogBody
-    active={false}
+  />
+  <section
     aria-labelledby="dracs-dialog-title"
-    delay={300}
+    className="c1"
     role="dialog"
     tabIndex={-1}
   >
-    <section
-      aria-labelledby="dracs-dialog-title"
-      className="c1"
-      role="dialog"
-      tabIndex={-1}
+    <h3
+      className="c2"
+      id="dracs-dialog-title"
     >
-      <dialog__DialogTitle
-        bold={true}
-        id="dracs-dialog-title"
+      A dialog
+    </h3>
+    <nav
+      className="c3"
+    >
+      <button
+        className="c4"
+        disabled={false}
+        label="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "4px",
+          }
+        }
       >
-        <h3
-          className="c2"
-          id="dracs-dialog-title"
-        >
-          A dialog
-        </h3>
-      </dialog__DialogTitle>
-      <dialog__DialogActions>
-        <nav
-          className="c3"
-        >
-          <button__StyledBtn
-            label="button"
-            onClick={[Function]}
-            style={
-              Object {
-                "marginLeft": "4px",
-              }
-            }
-          >
-            <button
-              className="c4"
-              disabled={false}
-              label="button"
-              onClick={[Function]}
-              style={
-                Object {
-                  "marginLeft": "4px",
-                }
-              }
-            >
-              button
-            </button>
-          </button__StyledBtn>
-        </nav>
-      </dialog__DialogActions>
-    </section>
-  </dialog__DialogBody>
+        button
+      </button>
+    </nav>
+  </section>
 </div>
 `;
 
@@ -825,76 +724,42 @@ exports[`Dialog passes an onOverlayMouseUp function to overlay via props 1`] = `
 }
 
 <div>
-  <overlay__OverlayWrap
-    active={false}
+  <div
+    className="c0"
     data-dracs="overlay"
-    delay={100}
-    lockScroll={true}
     onMouseUp={[Function]}
     onTouchStart={[Function]}
-  >
-    <div
-      className="c0"
-      data-dracs="overlay"
-      onMouseUp={[Function]}
-      onTouchStart={[Function]}
-    />
-  </overlay__OverlayWrap>
-  <dialog__DialogBody
-    active={false}
+  />
+  <section
     aria-labelledby="dracs-dialog-title"
-    delay={300}
+    className="c1"
     role="dialog"
     tabIndex={-1}
   >
-    <section
-      aria-labelledby="dracs-dialog-title"
-      className="c1"
-      role="dialog"
-      tabIndex={-1}
+    <h3
+      className="c2"
+      id="dracs-dialog-title"
     >
-      <dialog__DialogTitle
-        bold={true}
-        id="dracs-dialog-title"
+      A dialog
+    </h3>
+    <nav
+      className="c3"
+    >
+      <button
+        className="c4"
+        disabled={false}
+        label="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "4px",
+          }
+        }
       >
-        <h3
-          className="c2"
-          id="dracs-dialog-title"
-        >
-          A dialog
-        </h3>
-      </dialog__DialogTitle>
-      <dialog__DialogActions>
-        <nav
-          className="c3"
-        >
-          <button__StyledBtn
-            label="button"
-            onClick={[Function]}
-            style={
-              Object {
-                "marginLeft": "4px",
-              }
-            }
-          >
-            <button
-              className="c4"
-              disabled={false}
-              label="button"
-              onClick={[Function]}
-              style={
-                Object {
-                  "marginLeft": "4px",
-                }
-              }
-            >
-              button
-            </button>
-          </button__StyledBtn>
-        </nav>
-      </dialog__DialogActions>
-    </section>
-  </dialog__DialogBody>
+        button
+      </button>
+    </nav>
+  </section>
 </div>
 `;
 
@@ -1050,76 +915,42 @@ exports[`Dialog passes onOverlayClick function to overlay via props 1`] = `
 }
 
 <div>
-  <overlay__OverlayWrap
-    active={false}
+  <div
+    className="c0"
     data-dracs="overlay"
-    delay={100}
-    lockScroll={true}
     onClick={[Function]}
     onTouchStart={[Function]}
-  >
-    <div
-      className="c0"
-      data-dracs="overlay"
-      onClick={[Function]}
-      onTouchStart={[Function]}
-    />
-  </overlay__OverlayWrap>
-  <dialog__DialogBody
-    active={false}
+  />
+  <section
     aria-labelledby="dracs-dialog-title"
-    delay={300}
+    className="c1"
     role="dialog"
     tabIndex={-1}
   >
-    <section
-      aria-labelledby="dracs-dialog-title"
-      className="c1"
-      role="dialog"
-      tabIndex={-1}
+    <h3
+      className="c2"
+      id="dracs-dialog-title"
     >
-      <dialog__DialogTitle
-        bold={true}
-        id="dracs-dialog-title"
+      A dialog
+    </h3>
+    <nav
+      className="c3"
+    >
+      <button
+        className="c4"
+        disabled={false}
+        label="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "4px",
+          }
+        }
       >
-        <h3
-          className="c2"
-          id="dracs-dialog-title"
-        >
-          A dialog
-        </h3>
-      </dialog__DialogTitle>
-      <dialog__DialogActions>
-        <nav
-          className="c3"
-        >
-          <button__StyledBtn
-            label="button"
-            onClick={[Function]}
-            style={
-              Object {
-                "marginLeft": "4px",
-              }
-            }
-          >
-            <button
-              className="c4"
-              disabled={false}
-              label="button"
-              onClick={[Function]}
-              style={
-                Object {
-                  "marginLeft": "4px",
-                }
-              }
-            >
-              button
-            </button>
-          </button__StyledBtn>
-        </nav>
-      </dialog__DialogActions>
-    </section>
-  </dialog__DialogBody>
+        button
+      </button>
+    </nav>
+  </section>
 </div>
 `;
 
@@ -1275,76 +1106,42 @@ exports[`Dialog sets width to 25vw when type=quarterScreen 1`] = `
 }
 
 <div>
-  <overlay__OverlayWrap
-    active={false}
+  <div
+    className="c0"
     data-dracs="overlay"
-    delay={100}
-    lockScroll={true}
     onTouchStart={[Function]}
-  >
-    <div
-      className="c0"
-      data-dracs="overlay"
-      onTouchStart={[Function]}
-    />
-  </overlay__OverlayWrap>
-  <dialog__DialogBody
-    active={false}
+  />
+  <section
     aria-labelledby="dracs-dialog-title"
-    delay={300}
+    className="c1"
     role="dialog"
     tabIndex={-1}
     type="quarterScreen"
   >
-    <section
-      aria-labelledby="dracs-dialog-title"
-      className="c1"
-      role="dialog"
-      tabIndex={-1}
-      type="quarterScreen"
+    <h3
+      className="c2"
+      id="dracs-dialog-title"
     >
-      <dialog__DialogTitle
-        bold={true}
-        id="dracs-dialog-title"
+      A dialog
+    </h3>
+    <nav
+      className="c3"
+    >
+      <button
+        className="c4"
+        disabled={false}
+        label="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "4px",
+          }
+        }
       >
-        <h3
-          className="c2"
-          id="dracs-dialog-title"
-        >
-          A dialog
-        </h3>
-      </dialog__DialogTitle>
-      <dialog__DialogActions>
-        <nav
-          className="c3"
-        >
-          <button__StyledBtn
-            label="button"
-            onClick={[Function]}
-            style={
-              Object {
-                "marginLeft": "4px",
-              }
-            }
-          >
-            <button
-              className="c4"
-              disabled={false}
-              label="button"
-              onClick={[Function]}
-              style={
-                Object {
-                  "marginLeft": "4px",
-                }
-              }
-            >
-              button
-            </button>
-          </button__StyledBtn>
-        </nav>
-      </dialog__DialogActions>
-    </section>
-  </dialog__DialogBody>
+        button
+      </button>
+    </nav>
+  </section>
 </div>
 `;
 
@@ -1500,76 +1297,42 @@ exports[`Dialog sets width to 30vw when type=thirtyPctScreen 1`] = `
 }
 
 <div>
-  <overlay__OverlayWrap
-    active={false}
+  <div
+    className="c0"
     data-dracs="overlay"
-    delay={100}
-    lockScroll={true}
     onTouchStart={[Function]}
-  >
-    <div
-      className="c0"
-      data-dracs="overlay"
-      onTouchStart={[Function]}
-    />
-  </overlay__OverlayWrap>
-  <dialog__DialogBody
-    active={false}
+  />
+  <section
     aria-labelledby="dracs-dialog-title"
-    delay={300}
+    className="c1"
     role="dialog"
     tabIndex={-1}
     type="thirtyPctScreen"
   >
-    <section
-      aria-labelledby="dracs-dialog-title"
-      className="c1"
-      role="dialog"
-      tabIndex={-1}
-      type="thirtyPctScreen"
+    <h3
+      className="c2"
+      id="dracs-dialog-title"
     >
-      <dialog__DialogTitle
-        bold={true}
-        id="dracs-dialog-title"
+      A dialog
+    </h3>
+    <nav
+      className="c3"
+    >
+      <button
+        className="c4"
+        disabled={false}
+        label="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "4px",
+          }
+        }
       >
-        <h3
-          className="c2"
-          id="dracs-dialog-title"
-        >
-          A dialog
-        </h3>
-      </dialog__DialogTitle>
-      <dialog__DialogActions>
-        <nav
-          className="c3"
-        >
-          <button__StyledBtn
-            label="button"
-            onClick={[Function]}
-            style={
-              Object {
-                "marginLeft": "4px",
-              }
-            }
-          >
-            <button
-              className="c4"
-              disabled={false}
-              label="button"
-              onClick={[Function]}
-              style={
-                Object {
-                  "marginLeft": "4px",
-                }
-              }
-            >
-              button
-            </button>
-          </button__StyledBtn>
-        </nav>
-      </dialog__DialogActions>
-    </section>
-  </dialog__DialogBody>
+        button
+      </button>
+    </nav>
+  </section>
 </div>
 `;
 
@@ -1725,76 +1488,42 @@ exports[`Dialog sets width to 50vw when type=halfScreen 1`] = `
 }
 
 <div>
-  <overlay__OverlayWrap
-    active={false}
+  <div
+    className="c0"
     data-dracs="overlay"
-    delay={100}
-    lockScroll={true}
     onTouchStart={[Function]}
-  >
-    <div
-      className="c0"
-      data-dracs="overlay"
-      onTouchStart={[Function]}
-    />
-  </overlay__OverlayWrap>
-  <dialog__DialogBody
-    active={false}
+  />
+  <section
     aria-labelledby="dracs-dialog-title"
-    delay={300}
+    className="c1"
     role="dialog"
     tabIndex={-1}
     type="halfScreen"
   >
-    <section
-      aria-labelledby="dracs-dialog-title"
-      className="c1"
-      role="dialog"
-      tabIndex={-1}
-      type="halfScreen"
+    <h3
+      className="c2"
+      id="dracs-dialog-title"
     >
-      <dialog__DialogTitle
-        bold={true}
-        id="dracs-dialog-title"
+      A dialog
+    </h3>
+    <nav
+      className="c3"
+    >
+      <button
+        className="c4"
+        disabled={false}
+        label="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "4px",
+          }
+        }
       >
-        <h3
-          className="c2"
-          id="dracs-dialog-title"
-        >
-          A dialog
-        </h3>
-      </dialog__DialogTitle>
-      <dialog__DialogActions>
-        <nav
-          className="c3"
-        >
-          <button__StyledBtn
-            label="button"
-            onClick={[Function]}
-            style={
-              Object {
-                "marginLeft": "4px",
-              }
-            }
-          >
-            <button
-              className="c4"
-              disabled={false}
-              label="button"
-              onClick={[Function]}
-              style={
-                Object {
-                  "marginLeft": "4px",
-                }
-              }
-            >
-              button
-            </button>
-          </button__StyledBtn>
-        </nav>
-      </dialog__DialogActions>
-    </section>
-  </dialog__DialogBody>
+        button
+      </button>
+    </nav>
+  </section>
 </div>
 `;
 
@@ -1950,76 +1679,42 @@ exports[`Dialog sets width to 96vw when type=large 1`] = `
 }
 
 <div>
-  <overlay__OverlayWrap
-    active={false}
+  <div
+    className="c0"
     data-dracs="overlay"
-    delay={100}
-    lockScroll={true}
     onTouchStart={[Function]}
-  >
-    <div
-      className="c0"
-      data-dracs="overlay"
-      onTouchStart={[Function]}
-    />
-  </overlay__OverlayWrap>
-  <dialog__DialogBody
-    active={false}
+  />
+  <section
     aria-labelledby="dracs-dialog-title"
-    delay={300}
+    className="c1"
     role="dialog"
     tabIndex={-1}
     type="large"
   >
-    <section
-      aria-labelledby="dracs-dialog-title"
-      className="c1"
-      role="dialog"
-      tabIndex={-1}
-      type="large"
+    <h3
+      className="c2"
+      id="dracs-dialog-title"
     >
-      <dialog__DialogTitle
-        bold={true}
-        id="dracs-dialog-title"
+      A dialog
+    </h3>
+    <nav
+      className="c3"
+    >
+      <button
+        className="c4"
+        disabled={false}
+        label="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "4px",
+          }
+        }
       >
-        <h3
-          className="c2"
-          id="dracs-dialog-title"
-        >
-          A dialog
-        </h3>
-      </dialog__DialogTitle>
-      <dialog__DialogActions>
-        <nav
-          className="c3"
-        >
-          <button__StyledBtn
-            label="button"
-            onClick={[Function]}
-            style={
-              Object {
-                "marginLeft": "4px",
-              }
-            }
-          >
-            <button
-              className="c4"
-              disabled={false}
-              label="button"
-              onClick={[Function]}
-              style={
-                Object {
-                  "marginLeft": "4px",
-                }
-              }
-            >
-              button
-            </button>
-          </button__StyledBtn>
-        </nav>
-      </dialog__DialogActions>
-    </section>
-  </dialog__DialogBody>
+        button
+      </button>
+    </nav>
+  </section>
 </div>
 `;
 
@@ -2175,76 +1870,42 @@ exports[`Dialog sets width to 300px when type=small 1`] = `
 }
 
 <div>
-  <overlay__OverlayWrap
-    active={false}
+  <div
+    className="c0"
     data-dracs="overlay"
-    delay={100}
-    lockScroll={true}
     onTouchStart={[Function]}
-  >
-    <div
-      className="c0"
-      data-dracs="overlay"
-      onTouchStart={[Function]}
-    />
-  </overlay__OverlayWrap>
-  <dialog__DialogBody
-    active={false}
+  />
+  <section
     aria-labelledby="dracs-dialog-title"
-    delay={300}
+    className="c1"
     role="dialog"
     tabIndex={-1}
     type="small"
   >
-    <section
-      aria-labelledby="dracs-dialog-title"
-      className="c1"
-      role="dialog"
-      tabIndex={-1}
-      type="small"
+    <h3
+      className="c2"
+      id="dracs-dialog-title"
     >
-      <dialog__DialogTitle
-        bold={true}
-        id="dracs-dialog-title"
+      A dialog
+    </h3>
+    <nav
+      className="c3"
+    >
+      <button
+        className="c4"
+        disabled={false}
+        label="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "4px",
+          }
+        }
       >
-        <h3
-          className="c2"
-          id="dracs-dialog-title"
-        >
-          A dialog
-        </h3>
-      </dialog__DialogTitle>
-      <dialog__DialogActions>
-        <nav
-          className="c3"
-        >
-          <button__StyledBtn
-            label="button"
-            onClick={[Function]}
-            style={
-              Object {
-                "marginLeft": "4px",
-              }
-            }
-          >
-            <button
-              className="c4"
-              disabled={false}
-              label="button"
-              onClick={[Function]}
-              style={
-                Object {
-                  "marginLeft": "4px",
-                }
-              }
-            >
-              button
-            </button>
-          </button__StyledBtn>
-        </nav>
-      </dialog__DialogActions>
-    </section>
-  </dialog__DialogBody>
+        button
+      </button>
+    </nav>
+  </section>
 </div>
 `;
 
@@ -2400,76 +2061,42 @@ exports[`Dialog sets width to 700px when type=medium 1`] = `
 }
 
 <div>
-  <overlay__OverlayWrap
-    active={false}
+  <div
+    className="c0"
     data-dracs="overlay"
-    delay={100}
-    lockScroll={true}
     onTouchStart={[Function]}
-  >
-    <div
-      className="c0"
-      data-dracs="overlay"
-      onTouchStart={[Function]}
-    />
-  </overlay__OverlayWrap>
-  <dialog__DialogBody
-    active={false}
+  />
+  <section
     aria-labelledby="dracs-dialog-title"
-    delay={300}
+    className="c1"
     role="dialog"
     tabIndex={-1}
     type="medium"
   >
-    <section
-      aria-labelledby="dracs-dialog-title"
-      className="c1"
-      role="dialog"
-      tabIndex={-1}
-      type="medium"
+    <h3
+      className="c2"
+      id="dracs-dialog-title"
     >
-      <dialog__DialogTitle
-        bold={true}
-        id="dracs-dialog-title"
+      A dialog
+    </h3>
+    <nav
+      className="c3"
+    >
+      <button
+        className="c4"
+        disabled={false}
+        label="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "4px",
+          }
+        }
       >
-        <h3
-          className="c2"
-          id="dracs-dialog-title"
-        >
-          A dialog
-        </h3>
-      </dialog__DialogTitle>
-      <dialog__DialogActions>
-        <nav
-          className="c3"
-        >
-          <button__StyledBtn
-            label="button"
-            onClick={[Function]}
-            style={
-              Object {
-                "marginLeft": "4px",
-              }
-            }
-          >
-            <button
-              className="c4"
-              disabled={false}
-              label="button"
-              onClick={[Function]}
-              style={
-                Object {
-                  "marginLeft": "4px",
-                }
-              }
-            >
-              button
-            </button>
-          </button__StyledBtn>
-        </nav>
-      </dialog__DialogActions>
-    </section>
-  </dialog__DialogBody>
+        button
+      </button>
+    </nav>
+  </section>
 </div>
 `;
 
@@ -2625,75 +2252,41 @@ exports[`Dialog sets width to auto when type=auto 1`] = `
 }
 
 <div>
-  <overlay__OverlayWrap
-    active={false}
+  <div
+    className="c0"
     data-dracs="overlay"
-    delay={100}
-    lockScroll={true}
     onTouchStart={[Function]}
-  >
-    <div
-      className="c0"
-      data-dracs="overlay"
-      onTouchStart={[Function]}
-    />
-  </overlay__OverlayWrap>
-  <dialog__DialogBody
-    active={false}
+  />
+  <section
     aria-labelledby="dracs-dialog-title"
-    delay={300}
+    className="c1"
     role="dialog"
     tabIndex={-1}
     type="auto"
   >
-    <section
-      aria-labelledby="dracs-dialog-title"
-      className="c1"
-      role="dialog"
-      tabIndex={-1}
-      type="auto"
+    <h3
+      className="c2"
+      id="dracs-dialog-title"
     >
-      <dialog__DialogTitle
-        bold={true}
-        id="dracs-dialog-title"
+      A dialog
+    </h3>
+    <nav
+      className="c3"
+    >
+      <button
+        className="c4"
+        disabled={false}
+        label="button"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginLeft": "4px",
+          }
+        }
       >
-        <h3
-          className="c2"
-          id="dracs-dialog-title"
-        >
-          A dialog
-        </h3>
-      </dialog__DialogTitle>
-      <dialog__DialogActions>
-        <nav
-          className="c3"
-        >
-          <button__StyledBtn
-            label="button"
-            onClick={[Function]}
-            style={
-              Object {
-                "marginLeft": "4px",
-              }
-            }
-          >
-            <button
-              className="c4"
-              disabled={false}
-              label="button"
-              onClick={[Function]}
-              style={
-                Object {
-                  "marginLeft": "4px",
-                }
-              }
-            >
-              button
-            </button>
-          </button__StyledBtn>
-        </nav>
-      </dialog__DialogActions>
-    </section>
-  </dialog__DialogBody>
+        button
+      </button>
+    </nav>
+  </section>
 </div>
 `;

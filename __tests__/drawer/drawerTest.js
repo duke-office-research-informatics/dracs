@@ -1,6 +1,6 @@
 import React from "react";
 import { mountWithTheme } from "../../config/scUtils.js";
-import { axe } from "jest-axe";
+import { axe } from "../../config/axe-helper.js";
 import { theme, Drawer, Portal } from "../../lib/dracs.es.js";
 
 const mockFn = jest.fn();
