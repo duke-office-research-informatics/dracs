@@ -68,6 +68,7 @@ function loadStories() {
   require("../stories/typography/h3.js");
   require("../stories/typography/h4.js");
   require("../stories/typography/h5.js");
+  require("../stories/icons/icons.js");
 }
 
 // Option defaults:
