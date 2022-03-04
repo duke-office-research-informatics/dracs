@@ -180,6 +180,7 @@ stories.add(
         gridTemplateColumns: "repeat(auto-fill, minmax(150px, 1fr))",
         gridGap: "1.5rem",
         justifyItems: "center",
+        width: "100%",
       }}
     >
       {Object.keys(iconList).map(icon => {
