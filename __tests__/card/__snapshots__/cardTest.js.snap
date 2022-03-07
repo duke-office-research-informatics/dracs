@@ -33,18 +33,11 @@ exports[`Card adds a box-shadow when \`raised\` is set to true 1`] = `
   z-index: 100;
 }
 
-<card__CardWrapper
-  border={true}
+<section
+  className="c0"
   height="auto"
-  raised={true}
   width="auto"
->
-  <section
-    className="c0"
-    height="auto"
-    width="auto"
-  />
-</card__CardWrapper>
+/>
 `;
 
 exports[`Card attaches a className via props 1`] = `
@@ -79,18 +72,11 @@ exports[`Card attaches a className via props 1`] = `
   z-index: 100;
 }
 
-<card__CardWrapper
-  border={true}
-  className="testClass"
+<section
+  className="c0 testClass"
   height="auto"
   width="auto"
->
-  <section
-    className="c0 testClass"
-    height="auto"
-    width="auto"
-  />
-</card__CardWrapper>
+/>
 `;
 
 exports[`Card attaches children 1`] = `
@@ -130,50 +116,35 @@ exports[`Card attaches children 1`] = `
   z-index: 100;
 }
 
-<card__CardWrapper
-  border={true}
+<section
+  className="c0"
   height="auto"
   width="auto"
 >
-  <section
-    className="c0"
-    height="auto"
-    width="auto"
+  <svg
+    aria-label="open customize and profile menu"
+    className="c1"
+    color="#fff"
+    height={24}
+    role="img"
+    viewBox="0 0 24 24"
+    width={24}
   >
-    <icon_wrapper__Icon
-      aria-label="open customize and profile menu"
-      color="#fff"
-      height={24}
-      role="img"
-      viewBox="0 0 24 24"
-      width={24}
-    >
-      <svg
-        aria-label="open customize and profile menu"
-        className="c1"
-        color="#fff"
-        height={24}
-        role="img"
-        viewBox="0 0 24 24"
-        width={24}
-      >
-        <title>
-          menu icon
-        </title>
-        <desc>
-          hamburger menu icon
-        </desc>
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-        <path
-          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-        />
-      </svg>
-    </icon_wrapper__Icon>
-  </section>
-</card__CardWrapper>
+    <title>
+      menu icon
+    </title>
+    <desc>
+      hamburger menu icon
+    </desc>
+    <path
+      d="M0 0h24v24H0z"
+      fill="none"
+    />
+    <path
+      d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+    />
+  </svg>
+</section>
 `;
 
 exports[`Card does not apply a border when \`border\` set to false 1`] = `
@@ -207,17 +178,11 @@ exports[`Card does not apply a border when \`border\` set to false 1`] = `
   z-index: 100;
 }
 
-<card__CardWrapper
-  border={false}
+<section
+  className="c0"
   height="auto"
   width="auto"
->
-  <section
-    className="c0"
-    height="auto"
-    width="auto"
-  />
-</card__CardWrapper>
+/>
 `;
 
 exports[`Card matches snapshot 1`] = `
@@ -252,17 +217,11 @@ exports[`Card matches snapshot 1`] = `
   z-index: 100;
 }
 
-<card__CardWrapper
-  border={true}
+<section
+  className="c0"
   height="auto"
   width="auto"
->
-  <section
-    className="c0"
-    height="auto"
-    width="auto"
-  />
-</card__CardWrapper>
+/>
 `;
 
 exports[`Card sets a mediaQuery via props 1`] = `
@@ -303,18 +262,11 @@ exports[`Card sets a mediaQuery via props 1`] = `
   }
 }
 
-<card__CardWrapper
-  border={true}
+<section
+  className="c0"
   height="auto"
-  mediaQuery="@media(max-width:768px){padding:8px}"
   width="auto"
->
-  <section
-    className="c0"
-    height="auto"
-    width="auto"
-  />
-</card__CardWrapper>
+/>
 `;
 
 exports[`Card sets a style object via props 1`] = `
@@ -349,8 +301,8 @@ exports[`Card sets a style object via props 1`] = `
   z-index: 100;
 }
 
-<card__CardWrapper
-  border={true}
+<section
+  className="c0"
   height="auto"
   style={
     Object {
@@ -358,18 +310,7 @@ exports[`Card sets a style object via props 1`] = `
     }
   }
   width="auto"
->
-  <section
-    className="c0"
-    height="auto"
-    style={
-      Object {
-        "flexDirection": "row",
-      }
-    }
-    width="auto"
-  />
-</card__CardWrapper>
+/>
 `;
 
 exports[`Card sets a width via props 1`] = `
@@ -404,17 +345,11 @@ exports[`Card sets a width via props 1`] = `
   z-index: 100;
 }
 
-<card__CardWrapper
-  border={true}
+<section
+  className="c0"
   height="auto"
   width="100px"
->
-  <section
-    className="c0"
-    height="auto"
-    width="100px"
-  />
-</card__CardWrapper>
+/>
 `;
 
 exports[`Card sets an html id attr via props 1`] = `
@@ -449,19 +384,12 @@ exports[`Card sets an html id attr via props 1`] = `
   z-index: 100;
 }
 
-<card__CardWrapper
-  border={true}
+<section
+  className="c0"
   height="auto"
   id="testID"
   width="auto"
->
-  <section
-    className="c0"
-    height="auto"
-    id="testID"
-    width="auto"
-  />
-</card__CardWrapper>
+/>
 `;
 
 exports[`Card sets an onClick handler that is called on click 1`] = `
@@ -497,19 +425,12 @@ exports[`Card sets an onClick handler that is called on click 1`] = `
   z-index: 100;
 }
 
-<card__CardWrapper
-  border={true}
+<section
+  className="c0"
   height="auto"
   onClick={[Function]}
   width="auto"
->
-  <section
-    className="c0"
-    height="auto"
-    onClick={[Function]}
-    width="auto"
-  />
-</card__CardWrapper>
+/>
 `;
 
 exports[`Card sets background color via props 1`] = `
@@ -544,18 +465,11 @@ exports[`Card sets background color via props 1`] = `
   z-index: 100;
 }
 
-<card__CardWrapper
-  bgColor="#f6f5f4"
-  border={true}
+<section
+  className="c0"
   height="auto"
   width="auto"
->
-  <section
-    className="c0"
-    height="auto"
-    width="auto"
-  />
-</card__CardWrapper>
+/>
 `;
 
 exports[`Card sets height via props 1`] = `
@@ -590,17 +504,11 @@ exports[`Card sets height via props 1`] = `
   z-index: 100;
 }
 
-<card__CardWrapper
-  border={true}
+<section
+  className="c0"
   height="300px"
   width="auto"
->
-  <section
-    className="c0"
-    height="300px"
-    width="auto"
-  />
-</card__CardWrapper>
+/>
 `;
 
 exports[`Card sets margin via props 1`] = `
@@ -636,18 +544,11 @@ exports[`Card sets margin via props 1`] = `
   z-index: 100;
 }
 
-<card__CardWrapper
-  border={true}
+<section
+  className="c0"
   height="auto"
-  margin="20px"
   width="auto"
->
-  <section
-    className="c0"
-    height="auto"
-    width="auto"
-  />
-</card__CardWrapper>
+/>
 `;
 
 exports[`Card sets minHeight via props 1`] = `
@@ -683,18 +584,11 @@ exports[`Card sets minHeight via props 1`] = `
   z-index: 100;
 }
 
-<card__CardWrapper
-  border={true}
+<section
+  className="c0"
   height="auto"
-  minHeight="200px"
   width="auto"
->
-  <section
-    className="c0"
-    height="auto"
-    width="auto"
-  />
-</card__CardWrapper>
+/>
 `;
 
 exports[`Card sets minWidth via props 1`] = `
@@ -730,18 +624,11 @@ exports[`Card sets minWidth via props 1`] = `
   z-index: 100;
 }
 
-<card__CardWrapper
-  border={true}
+<section
+  className="c0"
   height="auto"
-  minWidth="200px"
   width="auto"
->
-  <section
-    className="c0"
-    height="auto"
-    width="auto"
-  />
-</card__CardWrapper>
+/>
 `;
 
 exports[`Card sets padding via props 1`] = `
@@ -777,16 +664,9 @@ exports[`Card sets padding via props 1`] = `
   z-index: 100;
 }
 
-<card__CardWrapper
-  border={true}
+<section
+  className="c0"
   height="auto"
-  padding="8px"
   width="auto"
->
-  <section
-    className="c0"
-    height="auto"
-    width="auto"
-  />
-</card__CardWrapper>
+/>
 `;

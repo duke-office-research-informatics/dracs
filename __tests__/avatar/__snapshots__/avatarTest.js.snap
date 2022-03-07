@@ -32,41 +32,27 @@ exports[`Avatar \`bgColor\` prop matches snapshot 1`] = `
   font-size: 0;
 }
 
-<avatar__AvatarWrap
-  bgColor="#696969"
+<div
+  className="c0"
   size={32}
 >
-  <div
-    className="c0"
-    size={32}
+  <svg
+    aria-label="profile icon"
+    className="c1"
+    color="#fff"
+    height={30}
+    role="img"
+    viewBox="0 0 50 50"
+    width={30}
   >
-    <icon_wrapper__Icon
-      aria-label="profile icon"
-      color="#fff"
-      height={30}
-      role="img"
-      viewBox="0 0 50 50"
-      width={30}
-    >
-      <svg
-        aria-label="profile icon"
-        className="c1"
-        color="#fff"
-        height={30}
-        role="img"
-        viewBox="0 0 50 50"
-        width={30}
-      >
-        <title>
-          profile icon
-        </title>
-        <path
-          d="M34.8,33.8c-1.7-0.7-3.8-1.6-3.8-2.3V27c2.5-1.9,4-4.9,4-8v-6c0-5.5-4.5-10-10-10c-5.5,0-10,4.5-10,10v6c0,3.1,1.5,6.2,4,8  v4.5c0,0.6-2.1,1.5-3.8,2.3C11.1,35.5,5,38.1,5,45v1h40v-1C45,38.1,38.9,35.5,34.8,33.8z"
-        />
-      </svg>
-    </icon_wrapper__Icon>
-  </div>
-</avatar__AvatarWrap>
+    <title>
+      profile icon
+    </title>
+    <path
+      d="M34.8,33.8c-1.7-0.7-3.8-1.6-3.8-2.3V27c2.5-1.9,4-4.9,4-8v-6c0-5.5-4.5-10-10-10c-5.5,0-10,4.5-10,10v6c0,3.1,1.5,6.2,4,8  v4.5c0,0.6-2.1,1.5-3.8,2.3C11.1,35.5,5,38.1,5,45v1h40v-1C45,38.1,38.9,35.5,34.8,33.8z"
+    />
+  </svg>
+</div>
 `;
 
 exports[`Avatar \`displayLetter\` prop matches snapshot 1`] = `
@@ -95,27 +81,17 @@ exports[`Avatar \`displayLetter\` prop matches snapshot 1`] = `
   text-transform: uppercase;
 }
 
-<avatar__AvatarWrap
-  bgColor="transparent"
-  displayLetter="a"
+<div
+  className="c0"
   size={32}
 >
-  <div
-    className="c0"
+  <span
+    className="c1"
     size={32}
   >
-    <avatar__AvatarLetter
-      size={32}
-    >
-      <span
-        className="c1"
-        size={32}
-      >
-        a
-      </span>
-    </avatar__AvatarLetter>
-  </div>
-</avatar__AvatarWrap>
+    a
+  </span>
+</div>
 `;
 
 exports[`Avatar \`iconColor\` matches snapshot 1`] = `
@@ -144,29 +120,18 @@ exports[`Avatar \`iconColor\` matches snapshot 1`] = `
   text-transform: uppercase;
 }
 
-<avatar__AvatarWrap
-  bgColor="transparent"
-  displayLetter="a"
+<div
+  className="c0"
   size={32}
 >
-  <div
-    className="c0"
+  <span
+    className="c1"
+    color="#0680cd"
     size={32}
   >
-    <avatar__AvatarLetter
-      color="#0680cd"
-      size={32}
-    >
-      <span
-        className="c1"
-        color="#0680cd"
-        size={32}
-      >
-        a
-      </span>
-    </avatar__AvatarLetter>
-  </div>
-</avatar__AvatarWrap>
+    a
+  </span>
+</div>
 `;
 
 exports[`Avatar \`iconHoverColor\` matches snapshot 1`] = `
@@ -205,42 +170,27 @@ exports[`Avatar \`iconHoverColor\` matches snapshot 1`] = `
   font-size: 0;
 }
 
-<avatar__AvatarWrap
-  bgColor="transparent"
+<div
+  className="c0"
   size={32}
 >
-  <div
-    className="c0"
-    size={32}
+  <svg
+    aria-label="profile icon"
+    className="c1"
+    color="#fff"
+    height={30}
+    role="img"
+    viewBox="0 0 50 50"
+    width={30}
   >
-    <icon_wrapper__Icon
-      aria-label="profile icon"
-      color="#fff"
-      height={30}
-      hoverColor="#0680cd"
-      role="img"
-      viewBox="0 0 50 50"
-      width={30}
-    >
-      <svg
-        aria-label="profile icon"
-        className="c1"
-        color="#fff"
-        height={30}
-        role="img"
-        viewBox="0 0 50 50"
-        width={30}
-      >
-        <title>
-          profile icon
-        </title>
-        <path
-          d="M34.8,33.8c-1.7-0.7-3.8-1.6-3.8-2.3V27c2.5-1.9,4-4.9,4-8v-6c0-5.5-4.5-10-10-10c-5.5,0-10,4.5-10,10v6c0,3.1,1.5,6.2,4,8  v4.5c0,0.6-2.1,1.5-3.8,2.3C11.1,35.5,5,38.1,5,45v1h40v-1C45,38.1,38.9,35.5,34.8,33.8z"
-        />
-      </svg>
-    </icon_wrapper__Icon>
-  </div>
-</avatar__AvatarWrap>
+    <title>
+      profile icon
+    </title>
+    <path
+      d="M34.8,33.8c-1.7-0.7-3.8-1.6-3.8-2.3V27c2.5-1.9,4-4.9,4-8v-6c0-5.5-4.5-10-10-10c-5.5,0-10,4.5-10,10v6c0,3.1,1.5,6.2,4,8  v4.5c0,0.6-2.1,1.5-3.8,2.3C11.1,35.5,5,38.1,5,45v1h40v-1C45,38.1,38.9,35.5,34.8,33.8z"
+    />
+  </svg>
+</div>
 `;
 
 exports[`Avatar \`imgUrl\` matches snapshot 1`] = `
@@ -271,16 +221,10 @@ exports[`Avatar \`imgUrl\` matches snapshot 1`] = `
   background-image: url(https://image.freepik.com/free-vector/soft-background-with-a-cute-blue-watercolor-stain_1048-5169.jpg);
 }
 
-<avatar__AvatarWrap
-  bgColor="transparent"
-  imgUrl="https://image.freepik.com/free-vector/soft-background-with-a-cute-blue-watercolor-stain_1048-5169.jpg"
+<div
+  className="c0"
   size={32}
->
-  <div
-    className="c0"
-    size={32}
-  />
-</avatar__AvatarWrap>
+/>
 `;
 
 exports[`Avatar \`size\` (larger than 32) matches snapshot 1`] = `
@@ -309,27 +253,17 @@ exports[`Avatar \`size\` (larger than 32) matches snapshot 1`] = `
   text-transform: uppercase;
 }
 
-<avatar__AvatarWrap
-  bgColor="transparent"
-  displayLetter="a"
+<div
+  className="c0"
   size={40}
 >
-  <div
-    className="c0"
+  <span
+    className="c1"
     size={40}
   >
-    <avatar__AvatarLetter
-      size={40}
-    >
-      <span
-        className="c1"
-        size={40}
-      >
-        a
-      </span>
-    </avatar__AvatarLetter>
-  </div>
-</avatar__AvatarWrap>
+    a
+  </span>
+</div>
 `;
 
 exports[`Avatar matches snapshot 1`] = `
@@ -364,39 +298,25 @@ exports[`Avatar matches snapshot 1`] = `
   font-size: 0;
 }
 
-<avatar__AvatarWrap
-  bgColor="transparent"
+<div
+  className="c0"
   size={32}
 >
-  <div
-    className="c0"
-    size={32}
+  <svg
+    aria-label="profile icon"
+    className="c1"
+    color="#fff"
+    height={30}
+    role="img"
+    viewBox="0 0 50 50"
+    width={30}
   >
-    <icon_wrapper__Icon
-      aria-label="profile icon"
-      color="#fff"
-      height={30}
-      role="img"
-      viewBox="0 0 50 50"
-      width={30}
-    >
-      <svg
-        aria-label="profile icon"
-        className="c1"
-        color="#fff"
-        height={30}
-        role="img"
-        viewBox="0 0 50 50"
-        width={30}
-      >
-        <title>
-          profile icon
-        </title>
-        <path
-          d="M34.8,33.8c-1.7-0.7-3.8-1.6-3.8-2.3V27c2.5-1.9,4-4.9,4-8v-6c0-5.5-4.5-10-10-10c-5.5,0-10,4.5-10,10v6c0,3.1,1.5,6.2,4,8  v4.5c0,0.6-2.1,1.5-3.8,2.3C11.1,35.5,5,38.1,5,45v1h40v-1C45,38.1,38.9,35.5,34.8,33.8z"
-        />
-      </svg>
-    </icon_wrapper__Icon>
-  </div>
-</avatar__AvatarWrap>
+    <title>
+      profile icon
+    </title>
+    <path
+      d="M34.8,33.8c-1.7-0.7-3.8-1.6-3.8-2.3V27c2.5-1.9,4-4.9,4-8v-6c0-5.5-4.5-10-10-10c-5.5,0-10,4.5-10,10v6c0,3.1,1.5,6.2,4,8  v4.5c0,0.6-2.1,1.5-3.8,2.3C11.1,35.5,5,38.1,5,45v1h40v-1C45,38.1,38.9,35.5,34.8,33.8z"
+    />
+  </svg>
+</div>
 `;

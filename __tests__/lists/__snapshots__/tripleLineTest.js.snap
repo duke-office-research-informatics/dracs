@@ -133,61 +133,42 @@ exports[`Triple Line List Item matches snapshot w/o a11y violations 1`] = `
   justify-content: flex-end;
 }
 
-<list__ListWrap>
-  <ul
-    className="c0"
+<ul
+  className="c0"
+>
+  <li
+    className="c1"
+    onKeyUp={[Function]}
+    tabIndex={null}
   >
-    <triple_line__ItemWrap
-      onKeyUp={[Function]}
-      tabIndex={null}
+    <div
+      className="c2"
     >
-      <li
-        className="c1"
-        onKeyUp={[Function]}
-        tabIndex={null}
+      <div
+        className="c3"
       >
-        <triple_line__ItemLeftContainer>
-          <div
-            className="c2"
-          >
-            <triple_line__TextContainer>
-              <div
-                className="c3"
-              >
-                <triple_line__LineOne>
-                  <h4
-                    className="c4"
-                  >
-                    test title
-                  </h4>
-                </triple_line__LineOne>
-                <triple_line__LineTwo>
-                  <p
-                    className="c5"
-                  >
-                    test subtitle
-                  </p>
-                </triple_line__LineTwo>
-                <triple_line__LineThree>
-                  <h5
-                    className="c6"
-                  >
-                    test third line
-                  </h5>
-                </triple_line__LineThree>
-              </div>
-            </triple_line__TextContainer>
-          </div>
-        </triple_line__ItemLeftContainer>
-        <triple_line__ItemRightContainer>
-          <div
-            className="c7"
-          />
-        </triple_line__ItemRightContainer>
-      </li>
-    </triple_line__ItemWrap>
-  </ul>
-</list__ListWrap>
+        <h4
+          className="c4"
+        >
+          test title
+        </h4>
+        <p
+          className="c5"
+        >
+          test subtitle
+        </p>
+        <h5
+          className="c6"
+        >
+          test third line
+        </h5>
+      </div>
+    </div>
+    <div
+      className="c7"
+    />
+  </li>
+</ul>
 `;
 
 exports[`Triple Line List Item passes a child to the correct dom node in the list item 1`] = `
@@ -324,89 +305,62 @@ exports[`Triple Line List Item passes a child to the correct dom node in the lis
   justify-content: flex-end;
 }
 
-<triple_line__ItemWrap
-  bottomBorder={true}
+<li
+  className="c0"
   onKeyUp={[Function]}
   tabIndex={null}
 >
-  <li
-    className="c0"
-    onKeyUp={[Function]}
-    tabIndex={null}
+  <div
+    className="c1"
   >
-    <triple_line__ItemLeftContainer>
-      <div
-        className="c1"
+    <div
+      className="c2"
+    >
+      <h4
+        className="c3"
       >
-        <triple_line__TextContainer>
-          <div
-            className="c2"
-          >
-            <triple_line__LineOne>
-              <h4
-                className="c3"
-              >
-                test title
-              </h4>
-            </triple_line__LineOne>
-            <triple_line__LineTwo>
-              <p
-                className="c4"
-              >
-                test subtitle
-              </p>
-            </triple_line__LineTwo>
-            <triple_line__LineThree>
-              <h5
-                className="c5"
-              >
-                test third line
-              </h5>
-            </triple_line__LineThree>
-          </div>
-        </triple_line__TextContainer>
-      </div>
-    </triple_line__ItemLeftContainer>
-    <triple_line__ItemRightContainer>
-      <div
-        className="c6"
+        test title
+      </h4>
+      <p
+        className="c4"
       >
-        <icon_wrapper__Icon
-          aria-label="warning"
-          color="#ffd960"
-          height={24}
-          role="img"
-          viewBox="0 0 24 24"
-          width={24}
-        >
-          <svg
-            aria-label="warning"
-            className="c7"
-            color="#ffd960"
-            height={24}
-            role="img"
-            viewBox="0 0 24 24"
-            width={24}
-          >
-            <title>
-              warning
-            </title>
-            <desc>
-              triangle with exclamation mark in center
-            </desc>
-            <path
-              d="M0 0h24v24H0z"
-              fill="none"
-            />
-            <path
-              d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
-            />
-          </svg>
-        </icon_wrapper__Icon>
-      </div>
-    </triple_line__ItemRightContainer>
-  </li>
-</triple_line__ItemWrap>
+        test subtitle
+      </p>
+      <h5
+        className="c5"
+      >
+        test third line
+      </h5>
+    </div>
+  </div>
+  <div
+    className="c6"
+  >
+    <svg
+      aria-label="warning"
+      className="c7"
+      color="#ffd960"
+      height={24}
+      role="img"
+      viewBox="0 0 24 24"
+      width={24}
+    >
+      <title>
+        warning
+      </title>
+      <desc>
+        triangle with exclamation mark in center
+      </desc>
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+      />
+    </svg>
+  </div>
+</li>
 `;
 
 exports[`Triple Line List Item sets a border when bottomBorder prop = true 1`] = `
@@ -543,62 +497,42 @@ exports[`Triple Line List Item sets a border when bottomBorder prop = true 1`] =
   justify-content: flex-end;
 }
 
-<list__ListWrap>
-  <ul
-    className="c0"
+<ul
+  className="c0"
+>
+  <li
+    className="c1"
+    onKeyUp={[Function]}
+    tabIndex={null}
   >
-    <triple_line__ItemWrap
-      bottomBorder={true}
-      onKeyUp={[Function]}
-      tabIndex={null}
+    <div
+      className="c2"
     >
-      <li
-        className="c1"
-        onKeyUp={[Function]}
-        tabIndex={null}
+      <div
+        className="c3"
       >
-        <triple_line__ItemLeftContainer>
-          <div
-            className="c2"
-          >
-            <triple_line__TextContainer>
-              <div
-                className="c3"
-              >
-                <triple_line__LineOne>
-                  <h4
-                    className="c4"
-                  >
-                    test title
-                  </h4>
-                </triple_line__LineOne>
-                <triple_line__LineTwo>
-                  <p
-                    className="c5"
-                  >
-                    test subtitle
-                  </p>
-                </triple_line__LineTwo>
-                <triple_line__LineThree>
-                  <h5
-                    className="c6"
-                  >
-                    test third line
-                  </h5>
-                </triple_line__LineThree>
-              </div>
-            </triple_line__TextContainer>
-          </div>
-        </triple_line__ItemLeftContainer>
-        <triple_line__ItemRightContainer>
-          <div
-            className="c7"
-          />
-        </triple_line__ItemRightContainer>
-      </li>
-    </triple_line__ItemWrap>
-  </ul>
-</list__ListWrap>
+        <h4
+          className="c4"
+        >
+          test title
+        </h4>
+        <p
+          className="c5"
+        >
+          test subtitle
+        </p>
+        <h5
+          className="c6"
+        >
+          test third line
+        </h5>
+      </div>
+    </div>
+    <div
+      className="c7"
+    />
+  </li>
+</ul>
 `;
 
 exports[`Triple Line List Item sets a click handler on the left icon via onLeftIconClick prop 1`] = `
@@ -751,106 +685,72 @@ exports[`Triple Line List Item sets a click handler on the left icon via onLeftI
   justify-content: flex-end;
 }
 
-<list__ListWrap>
-  <ul
-    className="c0"
+<ul
+  className="c0"
+>
+  <li
+    className="c1 c2"
+    onKeyUp={[Function]}
+    tabIndex={null}
   >
-    <triple_line__ItemWrap
-      onKeyUp={[Function]}
-      tabIndex={null}
+    <div
+      className="c3"
     >
-      <li
-        className="c1 c2"
+      <div
+        className="c4"
+        onClick={[Function]}
         onKeyUp={[Function]}
-        tabIndex={null}
+        tabIndex="0"
       >
-        <triple_line__ItemLeftContainer>
-          <div
-            className="c3"
-          >
-            <triple_line__LeftItemWrap
-              onClick={[Function]}
-              onKeyUp={[Function]}
-              tabIndex="0"
-            >
-              <div
-                className="c4"
-                onClick={[Function]}
-                onKeyUp={[Function]}
-                tabIndex="0"
-              >
-                <icon_wrapper__Icon
-                  aria-label="warning"
-                  color="#ffd960"
-                  height={24}
-                  role="img"
-                  viewBox="0 0 24 24"
-                  width={24}
-                >
-                  <svg
-                    aria-label="warning"
-                    className="c5"
-                    color="#ffd960"
-                    height={24}
-                    role="img"
-                    viewBox="0 0 24 24"
-                    width={24}
-                  >
-                    <title>
-                      warning
-                    </title>
-                    <desc>
-                      triangle with exclamation mark in center
-                    </desc>
-                    <path
-                      d="M0 0h24v24H0z"
-                      fill="none"
-                    />
-                    <path
-                      d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
-                    />
-                  </svg>
-                </icon_wrapper__Icon>
-              </div>
-            </triple_line__LeftItemWrap>
-            <triple_line__TextContainer>
-              <div
-                className="c6"
-              >
-                <triple_line__LineOne>
-                  <h4
-                    className="c7"
-                  >
-                    test title
-                  </h4>
-                </triple_line__LineOne>
-                <triple_line__LineTwo>
-                  <p
-                    className="c8"
-                  >
-                    test subtitle
-                  </p>
-                </triple_line__LineTwo>
-                <triple_line__LineThree>
-                  <h5
-                    className="c9"
-                  >
-                    test third line
-                  </h5>
-                </triple_line__LineThree>
-              </div>
-            </triple_line__TextContainer>
-          </div>
-        </triple_line__ItemLeftContainer>
-        <triple_line__ItemRightContainer>
-          <div
-            className="c10"
+        <svg
+          aria-label="warning"
+          className="c5"
+          color="#ffd960"
+          height={24}
+          role="img"
+          viewBox="0 0 24 24"
+          width={24}
+        >
+          <title>
+            warning
+          </title>
+          <desc>
+            triangle with exclamation mark in center
+          </desc>
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
           />
-        </triple_line__ItemRightContainer>
-      </li>
-    </triple_line__ItemWrap>
-  </ul>
-</list__ListWrap>
+          <path
+            d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+          />
+        </svg>
+      </div>
+      <div
+        className="c6"
+      >
+        <h4
+          className="c7"
+        >
+          test title
+        </h4>
+        <p
+          className="c8"
+        >
+          test subtitle
+        </p>
+        <h5
+          className="c9"
+        >
+          test third line
+        </h5>
+      </div>
+    </div>
+    <div
+      className="c10"
+    />
+  </li>
+</ul>
 `;
 
 exports[`Triple Line List Item sets a left icon in the proper dom node when passed as leftIcon prop 1`] = `
@@ -998,98 +898,67 @@ exports[`Triple Line List Item sets a left icon in the proper dom node when pass
   justify-content: flex-end;
 }
 
-<triple_line__ItemWrap
+<li
+  className="c0 c1"
   onKeyUp={[Function]}
   tabIndex={null}
 >
-  <li
-    className="c0 c1"
-    onKeyUp={[Function]}
-    tabIndex={null}
+  <div
+    className="c2"
   >
-    <triple_line__ItemLeftContainer>
-      <div
-        className="c2"
+    <div
+      className="c3"
+      onKeyUp={[Function]}
+      tabIndex={null}
+    >
+      <svg
+        aria-label="warning"
+        className="c4"
+        color="#ffd960"
+        height={24}
+        role="img"
+        viewBox="0 0 24 24"
+        width={24}
       >
-        <triple_line__LeftItemWrap
-          onKeyUp={[Function]}
-          tabIndex={null}
-        >
-          <div
-            className="c3"
-            onKeyUp={[Function]}
-            tabIndex={null}
-          >
-            <icon_wrapper__Icon
-              aria-label="warning"
-              color="#ffd960"
-              height={24}
-              role="img"
-              viewBox="0 0 24 24"
-              width={24}
-            >
-              <svg
-                aria-label="warning"
-                className="c4"
-                color="#ffd960"
-                height={24}
-                role="img"
-                viewBox="0 0 24 24"
-                width={24}
-              >
-                <title>
-                  warning
-                </title>
-                <desc>
-                  triangle with exclamation mark in center
-                </desc>
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-                <path
-                  d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </div>
-        </triple_line__LeftItemWrap>
-        <triple_line__TextContainer>
-          <div
-            className="c5"
-          >
-            <triple_line__LineOne>
-              <h4
-                className="c6"
-              >
-                test title
-              </h4>
-            </triple_line__LineOne>
-            <triple_line__LineTwo>
-              <p
-                className="c7"
-              >
-                test subtitle
-              </p>
-            </triple_line__LineTwo>
-            <triple_line__LineThree>
-              <h5
-                className="c8"
-              >
-                test third line
-              </h5>
-            </triple_line__LineThree>
-          </div>
-        </triple_line__TextContainer>
-      </div>
-    </triple_line__ItemLeftContainer>
-    <triple_line__ItemRightContainer>
-      <div
-        className="c9"
-      />
-    </triple_line__ItemRightContainer>
-  </li>
-</triple_line__ItemWrap>
+        <title>
+          warning
+        </title>
+        <desc>
+          triangle with exclamation mark in center
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+        />
+      </svg>
+    </div>
+    <div
+      className="c5"
+    >
+      <h4
+        className="c6"
+      >
+        test title
+      </h4>
+      <p
+        className="c7"
+      >
+        test subtitle
+      </p>
+      <h5
+        className="c8"
+      >
+        test third line
+      </h5>
+    </div>
+  </div>
+  <div
+    className="c9"
+  />
+</li>
 `;
 
 exports[`Triple Line List Item sets an onClick fn on correct dom node when passed via onClick prop 1`] = `
@@ -1220,57 +1089,39 @@ exports[`Triple Line List Item sets an onClick fn on correct dom node when passe
   justify-content: flex-end;
 }
 
-<triple_line__ItemWrap
+<li
+  className="c0"
   onClick={[Function]}
   onKeyUp={[Function]}
   tabIndex={null}
 >
-  <li
-    className="c0"
-    onClick={[Function]}
-    onKeyUp={[Function]}
-    tabIndex={null}
+  <div
+    className="c1"
   >
-    <triple_line__ItemLeftContainer>
-      <div
-        className="c1"
+    <div
+      className="c2"
+    >
+      <h4
+        className="c3"
       >
-        <triple_line__TextContainer>
-          <div
-            className="c2"
-          >
-            <triple_line__LineOne>
-              <h4
-                className="c3"
-              >
-                test title
-              </h4>
-            </triple_line__LineOne>
-            <triple_line__LineTwo>
-              <p
-                className="c4"
-              >
-                test subtitle
-              </p>
-            </triple_line__LineTwo>
-            <triple_line__LineThree>
-              <h5
-                className="c5"
-              >
-                test third line
-              </h5>
-            </triple_line__LineThree>
-          </div>
-        </triple_line__TextContainer>
-      </div>
-    </triple_line__ItemLeftContainer>
-    <triple_line__ItemRightContainer>
-      <div
-        className="c6"
-      />
-    </triple_line__ItemRightContainer>
-  </li>
-</triple_line__ItemWrap>
+        test title
+      </h4>
+      <p
+        className="c4"
+      >
+        test subtitle
+      </p>
+      <h5
+        className="c5"
+      >
+        test third line
+      </h5>
+    </div>
+  </div>
+  <div
+    className="c6"
+  />
+</li>
 `;
 
 exports[`Triple Line List Item sets content for first line on correct dom node via lineOne prop 1`] = `
@@ -1409,55 +1260,38 @@ exports[`Triple Line List Item sets content for first line on correct dom node v
   justify-content: flex-end;
 }
 
-<triple_line__ItemWrap
+<li
+  className="c0 c1"
   onKeyUp={[Function]}
   tabIndex={null}
 >
-  <li
-    className="c0 c1"
-    onKeyUp={[Function]}
-    tabIndex={null}
+  <div
+    className="c2"
   >
-    <triple_line__ItemLeftContainer>
-      <div
-        className="c2"
+    <div
+      className="c3"
+    >
+      <h4
+        className="c4"
       >
-        <triple_line__TextContainer>
-          <div
-            className="c3"
-          >
-            <triple_line__LineOne>
-              <h4
-                className="c4"
-              >
-                test title
-              </h4>
-            </triple_line__LineOne>
-            <triple_line__LineTwo>
-              <p
-                className="c5"
-              >
-                test subtitle
-              </p>
-            </triple_line__LineTwo>
-            <triple_line__LineThree>
-              <h5
-                className="c6"
-              >
-                test third line
-              </h5>
-            </triple_line__LineThree>
-          </div>
-        </triple_line__TextContainer>
-      </div>
-    </triple_line__ItemLeftContainer>
-    <triple_line__ItemRightContainer>
-      <div
-        className="c7"
-      />
-    </triple_line__ItemRightContainer>
-  </li>
-</triple_line__ItemWrap>
+        test title
+      </h4>
+      <p
+        className="c5"
+      >
+        test subtitle
+      </p>
+      <h5
+        className="c6"
+      >
+        test third line
+      </h5>
+    </div>
+  </div>
+  <div
+    className="c7"
+  />
+</li>
 `;
 
 exports[`Triple Line List Item sets content for second line on correct dom node via lineTwo prop 1`] = `
@@ -1596,55 +1430,38 @@ exports[`Triple Line List Item sets content for second line on correct dom node 
   justify-content: flex-end;
 }
 
-<triple_line__ItemWrap
+<li
+  className="c0 c1"
   onKeyUp={[Function]}
   tabIndex={null}
 >
-  <li
-    className="c0 c1"
-    onKeyUp={[Function]}
-    tabIndex={null}
+  <div
+    className="c2"
   >
-    <triple_line__ItemLeftContainer>
-      <div
-        className="c2"
+    <div
+      className="c3"
+    >
+      <h4
+        className="c4"
       >
-        <triple_line__TextContainer>
-          <div
-            className="c3"
-          >
-            <triple_line__LineOne>
-              <h4
-                className="c4"
-              >
-                test title
-              </h4>
-            </triple_line__LineOne>
-            <triple_line__LineTwo>
-              <p
-                className="c5"
-              >
-                test subtitle
-              </p>
-            </triple_line__LineTwo>
-            <triple_line__LineThree>
-              <h5
-                className="c6"
-              >
-                test third line
-              </h5>
-            </triple_line__LineThree>
-          </div>
-        </triple_line__TextContainer>
-      </div>
-    </triple_line__ItemLeftContainer>
-    <triple_line__ItemRightContainer>
-      <div
-        className="c7"
-      />
-    </triple_line__ItemRightContainer>
-  </li>
-</triple_line__ItemWrap>
+        test title
+      </h4>
+      <p
+        className="c5"
+      >
+        test subtitle
+      </p>
+      <h5
+        className="c6"
+      >
+        test third line
+      </h5>
+    </div>
+  </div>
+  <div
+    className="c7"
+  />
+</li>
 `;
 
 exports[`Triple Line List Item sets content for third line on correct dom node via lineThree prop 1`] = `
@@ -1783,55 +1600,38 @@ exports[`Triple Line List Item sets content for third line on correct dom node v
   justify-content: flex-end;
 }
 
-<triple_line__ItemWrap
+<li
+  className="c0 c1"
   onKeyUp={[Function]}
   tabIndex={null}
 >
-  <li
-    className="c0 c1"
-    onKeyUp={[Function]}
-    tabIndex={null}
+  <div
+    className="c2"
   >
-    <triple_line__ItemLeftContainer>
-      <div
-        className="c2"
+    <div
+      className="c3"
+    >
+      <h4
+        className="c4"
       >
-        <triple_line__TextContainer>
-          <div
-            className="c3"
-          >
-            <triple_line__LineOne>
-              <h4
-                className="c4"
-              >
-                test title
-              </h4>
-            </triple_line__LineOne>
-            <triple_line__LineTwo>
-              <p
-                className="c5"
-              >
-                test subtitle
-              </p>
-            </triple_line__LineTwo>
-            <triple_line__LineThree>
-              <h5
-                className="c6"
-              >
-                test third line
-              </h5>
-            </triple_line__LineThree>
-          </div>
-        </triple_line__TextContainer>
-      </div>
-    </triple_line__ItemLeftContainer>
-    <triple_line__ItemRightContainer>
-      <div
-        className="c7"
-      />
-    </triple_line__ItemRightContainer>
-  </li>
-</triple_line__ItemWrap>
+        test title
+      </h4>
+      <p
+        className="c5"
+      >
+        test subtitle
+      </p>
+      <h5
+        className="c6"
+      >
+        test third line
+      </h5>
+    </div>
+  </div>
+  <div
+    className="c7"
+  />
+</li>
 `;
 
 exports[`Triple Line List Item sets proper styles when clickable prop = true 1`] = `
@@ -1976,64 +1776,41 @@ exports[`Triple Line List Item sets proper styles when clickable prop = true 1`]
   justify-content: flex-end;
 }
 
-<list__ListWrap>
-  <ul
-    className="c0"
+<ul
+  className="c0"
+>
+  <li
+    className="c1 c2"
+    onClick={[Function]}
+    onKeyUp={[Function]}
+    tabIndex="0"
   >
-    <triple_line__ItemWrap
-      clickable={true}
-      onClick={[Function]}
-      onKeyUp={[Function]}
-      tabIndex="0"
+    <div
+      className="c3"
     >
-      <li
-        className="c1 c2"
-        onClick={[Function]}
-        onKeyUp={[Function]}
-        tabIndex="0"
+      <div
+        className="c4"
       >
-        <triple_line__ItemLeftContainer>
-          <div
-            className="c3"
-          >
-            <triple_line__TextContainer>
-              <div
-                className="c4"
-              >
-                <triple_line__LineOne
-                  clickable={true}
-                >
-                  <h4
-                    className="c5"
-                  >
-                    test title
-                  </h4>
-                </triple_line__LineOne>
-                <triple_line__LineTwo>
-                  <p
-                    className="c6"
-                  >
-                    test subtitle
-                  </p>
-                </triple_line__LineTwo>
-                <triple_line__LineThree>
-                  <h5
-                    className="c7"
-                  >
-                    test third line
-                  </h5>
-                </triple_line__LineThree>
-              </div>
-            </triple_line__TextContainer>
-          </div>
-        </triple_line__ItemLeftContainer>
-        <triple_line__ItemRightContainer>
-          <div
-            className="c8"
-          />
-        </triple_line__ItemRightContainer>
-      </li>
-    </triple_line__ItemWrap>
-  </ul>
-</list__ListWrap>
+        <h4
+          className="c5"
+        >
+          test title
+        </h4>
+        <p
+          className="c6"
+        >
+          test subtitle
+        </p>
+        <h5
+          className="c7"
+        >
+          test third line
+        </h5>
+      </div>
+    </div>
+    <div
+      className="c8"
+    />
+  </li>
+</ul>
 `;

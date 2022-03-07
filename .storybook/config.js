@@ -9,7 +9,6 @@ import { theme } from "../src/index.js";
 import "../assets/reset.css";
 
 const StoryWrapper = styled.div`
-  position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
@@ -18,9 +17,9 @@ const StoryWrapper = styled.div`
   justify-content: center;
   align-items: center;
   align-content: center;
-  height: 100%;
+  height: 100vh;
   background-color: #fff;
-  margin: 24px;
+  padding: 24px;
   box-sizing: border-box;
 `;
 
@@ -68,6 +67,7 @@ function loadStories() {
   require("../stories/typography/h3.js");
   require("../stories/typography/h4.js");
   require("../stories/typography/h5.js");
+  require("../stories/icons/icons.js");
 }
 
 // Option defaults:

@@ -6,11 +6,9 @@ exports[`List matches snapshot 1`] = `
   margin: 0;
 }
 
-<list__ListWrap>
-  <ul
-    className="c0"
-  />
-</list__ListWrap>
+<ul
+  className="c0"
+/>
 `;
 
 exports[`List renders children 1`] = `
@@ -67,39 +65,26 @@ exports[`List renders children 1`] = `
   white-space: nowrap;
 }
 
-<list__ListWrap>
-  <ul
-    className="c0"
+<ul
+  className="c0"
+>
+  <li
+    className="c1"
+    onKeyUp={[Function]}
+    tabIndex={null}
   >
-    <single_line__ItemWrap
-      onKeyUp={[Function]}
-      tabIndex={null}
+    <div
+      className="c2"
     >
-      <li
-        className="c1"
-        onKeyUp={[Function]}
-        tabIndex={null}
+      <div
+        className="c3"
       >
-        <single_line__ItemLeftContainer>
-          <div
-            className="c2"
-          >
-            <single_line__TitleWrap>
-              <div
-                className="c3"
-              >
-                its a test title
-              </div>
-            </single_line__TitleWrap>
-          </div>
-        </single_line__ItemLeftContainer>
-        <single_line__ItemRightContainer>
-          <div
-            className=""
-          />
-        </single_line__ItemRightContainer>
-      </li>
-    </single_line__ItemWrap>
-  </ul>
-</list__ListWrap>
+        its a test title
+      </div>
+    </div>
+    <div
+      className=""
+    />
+  </li>
+</ul>
 `;

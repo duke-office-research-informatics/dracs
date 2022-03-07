@@ -7,11 +7,9 @@ exports[`Dividers DashedDivider matches snapshot 1`] = `
   border-top: 1px dashed #e8e5e2;
 }
 
-<dividers__DashedDivider>
-  <div
-    className="c0"
-  />
-</dividers__DashedDivider>
+<div
+  className="c0"
+/>
 `;
 
 exports[`Dividers SolidDivider matches snapshot 1`] = `
@@ -21,9 +19,7 @@ exports[`Dividers SolidDivider matches snapshot 1`] = `
   border-top: 1px solid #e8e5e2;
 }
 
-<dividers__SolidDivider>
-  <div
-    className="c0"
-  />
-</dividers__SolidDivider>
+<div
+  className="c0"
+/>
 `;

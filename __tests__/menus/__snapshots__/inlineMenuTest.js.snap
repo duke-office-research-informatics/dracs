@@ -93,78 +93,53 @@ exports[`Inline Menu does not mount the menu on initial component mount 1`] = `
   outline: dotted 1px rgb(59,153,252);
 }
 
-<inline_menu__ComponentWrap>
+<div
+  className="c0"
+>
   <div
-    className="c0"
+    aria-expanded={false}
+    aria-haspopup={true}
+    className="c1"
+    disabled={false}
+    onClick={[Function]}
+    onTouchEnd={[Function]}
+    role="button"
+    tabIndex="0"
   >
-    <inline_menu__TriggerWrap
-      aria-expanded={false}
-      aria-haspopup={true}
-      displayTrigger={true}
-      onClick={[Function]}
-      onTouchEnd={[Function]}
-      role="button"
-      tabIndex="0"
+    <h4
+      className="c2"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        className="c1"
-        disabled={false}
-        onClick={[Function]}
-        onTouchEnd={[Function]}
-        role="button"
-        tabIndex="0"
+      Test trigger
+    </h4>
+    <div
+      className="c3 c4"
+    >
+      <svg
+        aria-label="edit icon"
+        className="c5"
+        color="#53a4dc"
+        height={16}
+        role="img"
+        viewBox="0 0 24 24"
+        width={16}
       >
-        <typography__H4>
-          <h4
-            className="c2"
-          >
-            Test trigger
-          </h4>
-        </typography__H4>
-        <inline_menu__MenuTrigger>
-          <div
-            className="c3 c4"
-          >
-            <icon_wrapper__Icon
-              aria-label="edit icon"
-              color="#53a4dc"
-              height={16}
-              role="img"
-              viewBox="0 0 24 24"
-              width={16}
-            >
-              <svg
-                aria-label="edit icon"
-                className="c5"
-                color="#53a4dc"
-                height={16}
-                role="img"
-                viewBox="0 0 24 24"
-                width={16}
-              >
-                <title>
-                  edit icon
-                </title>
-                <desc>
-                  pencil
-                </desc>
-                <path
-                  d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
-                />
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </div>
-        </inline_menu__MenuTrigger>
-      </div>
-    </inline_menu__TriggerWrap>
+        <title>
+          edit icon
+        </title>
+        <desc>
+          pencil
+        </desc>
+        <path
+          d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+    </div>
   </div>
-</inline_menu__ComponentWrap>
+</div>
 `;
 
 exports[`Inline Menu matches snapshot and returns no a11y violations 1`] = `
@@ -260,78 +235,53 @@ exports[`Inline Menu matches snapshot and returns no a11y violations 1`] = `
   outline: dotted 1px rgb(59,153,252);
 }
 
-<inline_menu__ComponentWrap>
+<div
+  className="c0"
+>
   <div
-    className="c0"
+    aria-expanded={false}
+    aria-haspopup={true}
+    className="c1"
+    disabled={false}
+    onClick={[Function]}
+    onTouchEnd={[Function]}
+    role="button"
+    tabIndex="0"
   >
-    <inline_menu__TriggerWrap
-      aria-expanded={false}
-      aria-haspopup={true}
-      displayTrigger={true}
-      onClick={[Function]}
-      onTouchEnd={[Function]}
-      role="button"
-      tabIndex="0"
+    <h4
+      className="c2"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        className="c1"
-        disabled={false}
-        onClick={[Function]}
-        onTouchEnd={[Function]}
-        role="button"
-        tabIndex="0"
+      Test trigger
+    </h4>
+    <div
+      className="c3 c4"
+    >
+      <svg
+        aria-label="edit icon"
+        className="c5"
+        color="#53a4dc"
+        height={16}
+        role="img"
+        viewBox="0 0 24 24"
+        width={16}
       >
-        <typography__H4>
-          <h4
-            className="c2"
-          >
-            Test trigger
-          </h4>
-        </typography__H4>
-        <inline_menu__MenuTrigger>
-          <div
-            className="c3 c4"
-          >
-            <icon_wrapper__Icon
-              aria-label="edit icon"
-              color="#53a4dc"
-              height={16}
-              role="img"
-              viewBox="0 0 24 24"
-              width={16}
-            >
-              <svg
-                aria-label="edit icon"
-                className="c5"
-                color="#53a4dc"
-                height={16}
-                role="img"
-                viewBox="0 0 24 24"
-                width={16}
-              >
-                <title>
-                  edit icon
-                </title>
-                <desc>
-                  pencil
-                </desc>
-                <path
-                  d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
-                />
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </div>
-        </inline_menu__MenuTrigger>
-      </div>
-    </inline_menu__TriggerWrap>
+        <title>
+          edit icon
+        </title>
+        <desc>
+          pencil
+        </desc>
+        <path
+          d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+    </div>
   </div>
-</inline_menu__ComponentWrap>
+</div>
 `;
 
 exports[`Inline Menu mounts items passed as children in the proper dom node 1`] = `
@@ -462,30 +412,17 @@ exports[`Inline Menu mounts items passed as children in the proper dom node 1`] 
       }
     }
   >
-    <inline_menu__MenuWrap
-      active={true}
-      animateMenu={true}
+    <div
       aria-hidden={false}
-      left={0}
-      position="belowright"
+      className="c0"
       role="menu"
-      top={0}
-      visible={true}
     >
-      <div
-        aria-hidden={false}
-        className="c0"
-        role="menu"
+      <p
+        className="c1"
       >
-        <typography__P>
-          <p
-            className="c1"
-          >
-            Test menu
-          </p>
-        </typography__P>
-      </div>
-    </inline_menu__MenuWrap>
+        Test menu
+      </p>
+    </div>
   </div>
 </Portal>
 `;
@@ -630,80 +567,56 @@ exports[`Inline Menu mounts the menu on trigger click 1`] = `
   transition: all 0.3s linear;
 }
 
-<inline_menu__ComponentWrap>
+<div
+  className="c0"
+>
   <div
-    className="c0"
+    aria-expanded={true}
+    aria-haspopup={true}
+    className="c1"
+    disabled={false}
+    onClick={[Function]}
+    onTouchEnd={[Function]}
+    role="button"
+    tabIndex="0"
   >
-    <inline_menu__TriggerWrap
-      aria-expanded={true}
-      aria-haspopup={true}
-      displayTrigger={true}
-      onClick={[Function]}
-      onTouchEnd={[Function]}
-      role="button"
-      tabIndex="0"
+    <h4
+      className="c2"
     >
-      <div
-        aria-expanded={true}
-        aria-haspopup={true}
-        className="c1"
-        disabled={false}
-        onClick={[Function]}
-        onTouchEnd={[Function]}
-        role="button"
-        tabIndex="0"
+      Test trigger
+    </h4>
+    <div
+      className="c3 c4"
+    >
+      <svg
+        aria-label="edit icon"
+        className="c5"
+        color="#53a4dc"
+        height={16}
+        role="img"
+        viewBox="0 0 24 24"
+        width={16}
       >
-        <typography__H4>
-          <h4
-            className="c2"
-          >
-            Test trigger
-          </h4>
-        </typography__H4>
-        <inline_menu__MenuTrigger>
-          <div
-            className="c3 c4"
-          >
-            <icon_wrapper__Icon
-              aria-label="edit icon"
-              color="#53a4dc"
-              height={16}
-              role="img"
-              viewBox="0 0 24 24"
-              width={16}
-            >
-              <svg
-                aria-label="edit icon"
-                className="c5"
-                color="#53a4dc"
-                height={16}
-                role="img"
-                viewBox="0 0 24 24"
-                width={16}
-              >
-                <title>
-                  edit icon
-                </title>
-                <desc>
-                  pencil
-                </desc>
-                <path
-                  d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
-                />
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </div>
-        </inline_menu__MenuTrigger>
-      </div>
-    </inline_menu__TriggerWrap>
-    <Portal
-      containerInfo={
-        <body>
-          .c1 {
+        <title>
+          edit icon
+        </title>
+        <desc>
+          pencil
+        </desc>
+        <path
+          d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+    </div>
+  </div>
+  <Portal
+    containerInfo={
+      <body>
+        .c1 {
   font-family: "Roboto","Open-Sans",Sans-Serif;
   font-size: 0.875em;
   line-height: 1.15em;
@@ -751,63 +664,49 @@ exports[`Inline Menu mounts the menu on trigger click 1`] = `
 }
 
 <div
-            class=""
-            style="display: flex; flex: 1 1 auto; position: absolute; top: 0px;"
+          class=""
+          style="display: flex; flex: 1 1 auto; position: absolute; top: 0px;"
+        >
+          <div
+            aria-hidden="false"
+            class="c0"
+            role="menu"
           >
-            <div
-              aria-hidden="false"
-              class="c0"
-              role="menu"
+            <p
+              class="c1"
             >
-              <p
-                class="c1"
-              >
-                Test menu
-              </p>
-            </div>
+              Test menu
+            </p>
           </div>
-        </body>
+        </div>
+      </body>
+    }
+  >
+    <div
+      className=""
+      style={
+        Object {
+          "display": "flex",
+          "flex": "1 1 auto",
+          "position": "absolute",
+          "top": 0,
+        }
       }
     >
       <div
-        className=""
-        style={
-          Object {
-            "display": "flex",
-            "flex": "1 1 auto",
-            "position": "absolute",
-            "top": 0,
-          }
-        }
+        aria-hidden={false}
+        className="c6"
+        role="menu"
       >
-        <inline_menu__MenuWrap
-          active={true}
-          animateMenu={true}
-          aria-hidden={false}
-          left={0}
-          position="belowright"
-          role="menu"
-          top={0}
-          visible={true}
+        <p
+          className="c7"
         >
-          <div
-            aria-hidden={false}
-            className="c6"
-            role="menu"
-          >
-            <typography__P>
-              <p
-                className="c7"
-              >
-                Test menu
-              </p>
-            </typography__P>
-          </div>
-        </inline_menu__MenuWrap>
+          Test menu
+        </p>
       </div>
-    </Portal>
-  </div>
-</inline_menu__ComponentWrap>
+    </div>
+  </Portal>
+</div>
 `;
 
 exports[`Inline Menu mounts the menu on trigger click 2`] = `
@@ -891,30 +790,17 @@ exports[`Inline Menu mounts the menu on trigger click 2`] = `
       }
     }
   >
-    <inline_menu__MenuWrap
-      active={true}
-      animateMenu={true}
+    <div
       aria-hidden={false}
-      left={0}
-      position="belowright"
+      className="c0"
       role="menu"
-      top={0}
-      visible={true}
     >
-      <div
-        aria-hidden={false}
-        className="c0"
-        role="menu"
+      <p
+        className="c1"
       >
-        <typography__P>
-          <p
-            className="c1"
-          >
-            Test menu
-          </p>
-        </typography__P>
-      </div>
-    </inline_menu__MenuWrap>
+        Test menu
+      </p>
+    </div>
   </div>
 </Portal>
 `;
@@ -1059,79 +945,55 @@ exports[`Inline Menu mounts the menu when active prop is true 1`] = `
   transition: all 0.3s linear;
 }
 
-<inline_menu__ComponentWrap>
+<div
+  className="c0"
+>
   <div
-    className="c0"
+    aria-expanded={false}
+    aria-haspopup={true}
+    className="c1"
+    disabled={false}
+    onClick={[Function]}
+    onTouchEnd={[Function]}
+    role="button"
+    tabIndex="0"
   >
-    <inline_menu__TriggerWrap
-      aria-expanded={false}
-      aria-haspopup={true}
-      displayTrigger={true}
-      onClick={[Function]}
-      onTouchEnd={[Function]}
-      role="button"
-      tabIndex="0"
+    <h4
+      className="c2"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        className="c1"
-        disabled={false}
-        onClick={[Function]}
-        onTouchEnd={[Function]}
-        role="button"
-        tabIndex="0"
+      Test trigger
+    </h4>
+    <div
+      className="c3 c4"
+    >
+      <svg
+        aria-label="edit icon"
+        className="c5"
+        color="#53a4dc"
+        height={16}
+        role="img"
+        viewBox="0 0 24 24"
+        width={16}
       >
-        <typography__H4>
-          <h4
-            className="c2"
-          >
-            Test trigger
-          </h4>
-        </typography__H4>
-        <inline_menu__MenuTrigger>
-          <div
-            className="c3 c4"
-          >
-            <icon_wrapper__Icon
-              aria-label="edit icon"
-              color="#53a4dc"
-              height={16}
-              role="img"
-              viewBox="0 0 24 24"
-              width={16}
-            >
-              <svg
-                aria-label="edit icon"
-                className="c5"
-                color="#53a4dc"
-                height={16}
-                role="img"
-                viewBox="0 0 24 24"
-                width={16}
-              >
-                <title>
-                  edit icon
-                </title>
-                <desc>
-                  pencil
-                </desc>
-                <path
-                  d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
-                />
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </div>
-        </inline_menu__MenuTrigger>
-      </div>
-    </inline_menu__TriggerWrap>
-    <Portal
-      containerInfo={
-        .c1 {
+        <title>
+          edit icon
+        </title>
+        <desc>
+          pencil
+        </desc>
+        <path
+          d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+    </div>
+  </div>
+  <Portal
+    containerInfo={
+      .c1 {
   font-family: "Roboto","Open-Sans",Sans-Serif;
   font-size: 0.875em;
   line-height: 1.15em;
@@ -1179,62 +1041,50 @@ exports[`Inline Menu mounts the menu when active prop is true 1`] = `
 }
 
 <body>
+        <div
+          class=""
+          style="display: flex; flex: 1 1 auto; position: absolute; top: 0px;"
+        >
           <div
-            class=""
-            style="display: flex; flex: 1 1 auto; position: absolute; top: 0px;"
+            aria-hidden="true"
+            class="c0"
+            role="menu"
           >
-            <div
-              aria-hidden="true"
-              class="c0"
-              role="menu"
+            <p
+              class="c1"
             >
-              <p
-                class="c1"
-              >
-                Test menu
-              </p>
-            </div>
+              Test menu
+            </p>
           </div>
-        </body>
+        </div>
+      </body>
+    }
+  >
+    <div
+      className=""
+      style={
+        Object {
+          "display": "flex",
+          "flex": "1 1 auto",
+          "position": "absolute",
+          "top": 0,
+        }
       }
     >
       <div
-        className=""
-        style={
-          Object {
-            "display": "flex",
-            "flex": "1 1 auto",
-            "position": "absolute",
-            "top": 0,
-          }
-        }
+        aria-hidden={true}
+        className="c6"
+        role="menu"
       >
-        <inline_menu__MenuWrap
-          active={false}
-          animateMenu={true}
-          aria-hidden={true}
-          position="belowright"
-          role="menu"
-          visible={true}
+        <p
+          className="c7"
         >
-          <div
-            aria-hidden={true}
-            className="c6"
-            role="menu"
-          >
-            <typography__P>
-              <p
-                className="c7"
-              >
-                Test menu
-              </p>
-            </typography__P>
-          </div>
-        </inline_menu__MenuWrap>
+          Test menu
+        </p>
       </div>
-    </Portal>
-  </div>
-</inline_menu__ComponentWrap>
+    </div>
+  </Portal>
+</div>
 `;
 
 exports[`Inline Menu mounts the menu when active prop is true 2`] = `
@@ -1318,28 +1168,17 @@ exports[`Inline Menu mounts the menu when active prop is true 2`] = `
       }
     }
   >
-    <inline_menu__MenuWrap
-      active={false}
-      animateMenu={true}
+    <div
       aria-hidden={true}
-      position="belowright"
+      className="c0"
       role="menu"
-      visible={true}
     >
-      <div
-        aria-hidden={true}
-        className="c0"
-        role="menu"
+      <p
+        className="c1"
       >
-        <typography__P>
-          <p
-            className="c1"
-          >
-            Test menu
-          </p>
-        </typography__P>
-      </div>
-    </inline_menu__MenuWrap>
+        Test menu
+      </p>
+    </div>
   </div>
 </Portal>
 `;
@@ -1484,137 +1323,99 @@ exports[`Inline Menu mounts the menu when active prop is true 3`] = `
   transition: all 0.3s linear;
 }
 
-<inline_menu__ComponentWrap>
+<div
+  className="c0"
+>
   <div
-    className="c0"
+    aria-expanded={true}
+    aria-haspopup={true}
+    className="c1"
+    disabled={false}
+    onClick={[Function]}
+    onTouchEnd={[Function]}
+    role="button"
+    tabIndex="0"
   >
-    <inline_menu__TriggerWrap
-      aria-expanded={true}
-      aria-haspopup={true}
-      displayTrigger={true}
-      onClick={[Function]}
-      onTouchEnd={[Function]}
-      role="button"
-      tabIndex="0"
+    <h4
+      className="c2"
     >
-      <div
-        aria-expanded={true}
-        aria-haspopup={true}
-        className="c1"
-        disabled={false}
-        onClick={[Function]}
-        onTouchEnd={[Function]}
-        role="button"
-        tabIndex="0"
+      Test trigger
+    </h4>
+    <div
+      className="c3 c4"
+    >
+      <svg
+        aria-label="edit icon"
+        className="c5"
+        color="#53a4dc"
+        height={16}
+        role="img"
+        viewBox="0 0 24 24"
+        width={16}
       >
-        <typography__H4>
-          <h4
-            className="c2"
-          >
-            Test trigger
-          </h4>
-        </typography__H4>
-        <inline_menu__MenuTrigger>
+        <title>
+          edit icon
+        </title>
+        <desc>
+          pencil
+        </desc>
+        <path
+          d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+    </div>
+  </div>
+  <Portal
+    containerInfo={
+      <body>
+        <div
+          class=""
+          style="display: flex; flex: 1 1 auto; position: absolute; top: 0px;"
+        >
           <div
-            className="c3 c4"
+            aria-hidden="false"
+            class="c6"
+            role="menu"
           >
-            <icon_wrapper__Icon
-              aria-label="edit icon"
-              color="#53a4dc"
-              height={16}
-              role="img"
-              viewBox="0 0 24 24"
-              width={16}
+            <p
+              class="c7"
             >
-              <svg
-                aria-label="edit icon"
-                className="c5"
-                color="#53a4dc"
-                height={16}
-                role="img"
-                viewBox="0 0 24 24"
-                width={16}
-              >
-                <title>
-                  edit icon
-                </title>
-                <desc>
-                  pencil
-                </desc>
-                <path
-                  d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
-                />
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-              </svg>
-            </icon_wrapper__Icon>
+              Test menu
+            </p>
           </div>
-        </inline_menu__MenuTrigger>
-      </div>
-    </inline_menu__TriggerWrap>
-    <Portal
-      containerInfo={
-        <body>
-          <div
-            class=""
-            style="display: flex; flex: 1 1 auto; position: absolute; top: 0px;"
-          >
-            <div
-              aria-hidden="false"
-              class="c6"
-              role="menu"
-            >
-              <p
-                class="c7"
-              >
-                Test menu
-              </p>
-            </div>
-          </div>
-        </body>
+        </div>
+      </body>
+    }
+  >
+    <div
+      className=""
+      style={
+        Object {
+          "display": "flex",
+          "flex": "1 1 auto",
+          "position": "absolute",
+          "top": 0,
+        }
       }
     >
       <div
-        className=""
-        style={
-          Object {
-            "display": "flex",
-            "flex": "1 1 auto",
-            "position": "absolute",
-            "top": 0,
-          }
-        }
+        aria-hidden={false}
+        className="c6"
+        role="menu"
       >
-        <inline_menu__MenuWrap
-          active={true}
-          animateMenu={true}
-          aria-hidden={false}
-          left={0}
-          position="belowright"
-          role="menu"
-          top={0}
-          visible={true}
+        <p
+          className="c7"
         >
-          <div
-            aria-hidden={false}
-            className="c6"
-            role="menu"
-          >
-            <typography__P>
-              <p
-                className="c7"
-              >
-                Test menu
-              </p>
-            </typography__P>
-          </div>
-        </inline_menu__MenuWrap>
+          Test menu
+        </p>
       </div>
-    </Portal>
-  </div>
-</inline_menu__ComponentWrap>
+    </div>
+  </Portal>
+</div>
 `;
 
 exports[`Inline Menu mounts the menu when active prop is true 4`] = `
@@ -1698,28 +1499,17 @@ exports[`Inline Menu mounts the menu when active prop is true 4`] = `
       }
     }
   >
-    <inline_menu__MenuWrap
-      active={false}
-      animateMenu={true}
+    <div
       aria-hidden={true}
-      position="belowright"
+      className="c0"
       role="menu"
-      visible={true}
     >
-      <div
-        aria-hidden={true}
-        className="c0"
-        role="menu"
+      <p
+        className="c1"
       >
-        <typography__P>
-          <p
-            className="c1"
-          >
-            Test menu
-          </p>
-        </typography__P>
-      </div>
-    </inline_menu__MenuWrap>
+        Test menu
+      </p>
+    </div>
   </div>
 </Portal>
 `;

@@ -11,15 +11,11 @@ exports[`H1 bolds when \`bold\` prop is set to true 1`] = `
   padding: 0;
 }
 
-<typography__H1
-  bold={true}
+<h1
+  className="c0"
 >
-  <h1
-    className="c0"
-  >
-    An H1 is you
-  </h1>
-</typography__H1>
+  An H1 is you
+</h1>
 `;
 
 exports[`H1 displays correct color when \`color\` prop is declared 1`] = `
@@ -33,16 +29,12 @@ exports[`H1 displays correct color when \`color\` prop is declared 1`] = `
   padding: 0;
 }
 
-<typography__H1
+<h1
+  className="c0"
   color="#0680cd"
 >
-  <h1
-    className="c0"
-    color="#0680cd"
-  >
-    An H1 is you
-  </h1>
-</typography__H1>
+  An H1 is you
+</h1>
 `;
 
 exports[`H1 italicizes when \`italic\` prop is set to true 1`] = `
@@ -57,15 +49,11 @@ exports[`H1 italicizes when \`italic\` prop is set to true 1`] = `
   padding: 0;
 }
 
-<typography__H1
-  italic={true}
+<h1
+  className="c0"
 >
-  <h1
-    className="c0"
-  >
-    An H1 is you
-  </h1>
-</typography__H1>
+  An H1 is you
+</h1>
 `;
 
 exports[`H1 matches dom snapshot 1`] = `
@@ -79,13 +67,11 @@ exports[`H1 matches dom snapshot 1`] = `
   padding: 0;
 }
 
-<typography__H1>
-  <h1
-    className="c0"
-  >
-    An H1 is you
-  </h1>
-</typography__H1>
+<h1
+  className="c0"
+>
+  An H1 is you
+</h1>
 `;
 
 exports[`H1 sets the top/bottom margin when \`margin\` prop is declared 1`] = `
@@ -99,15 +85,11 @@ exports[`H1 sets the top/bottom margin when \`margin\` prop is declared 1`] = `
   padding: 0;
 }
 
-<typography__H1
-  margin={8}
+<h1
+  className="c0"
 >
-  <h1
-    className="c0"
-  >
-    An H1 is you
-  </h1>
-</typography__H1>
+  An H1 is you
+</h1>
 `;
 
 exports[`H2 bolds when \`bold\` prop is set to true 1`] = `
@@ -121,15 +103,11 @@ exports[`H2 bolds when \`bold\` prop is set to true 1`] = `
   padding: 0;
 }
 
-<typography__H2
-  bold={true}
+<h2
+  className="c0"
 >
-  <h2
-    className="c0"
-  >
-    An H2 is you
-  </h2>
-</typography__H2>
+  An H2 is you
+</h2>
 `;
 
 exports[`H2 displays correct color when \`color\` prop is declared 1`] = `
@@ -143,16 +121,12 @@ exports[`H2 displays correct color when \`color\` prop is declared 1`] = `
   padding: 0;
 }
 
-<typography__H2
+<h2
+  className="c0"
   color="#0680cd"
 >
-  <h2
-    className="c0"
-    color="#0680cd"
-  >
-    An H2 is you
-  </h2>
-</typography__H2>
+  An H2 is you
+</h2>
 `;
 
 exports[`H2 italicizes when \`italic\` prop is set to true 1`] = `
@@ -167,15 +141,11 @@ exports[`H2 italicizes when \`italic\` prop is set to true 1`] = `
   padding: 0;
 }
 
-<typography__H2
-  italic={true}
+<h2
+  className="c0"
 >
-  <h2
-    className="c0"
-  >
-    An H2 is you
-  </h2>
-</typography__H2>
+  An H2 is you
+</h2>
 `;
 
 exports[`H2 matches dom snapshot 1`] = `
@@ -189,13 +159,11 @@ exports[`H2 matches dom snapshot 1`] = `
   padding: 0;
 }
 
-<typography__H2>
-  <h2
-    className="c0"
-  >
-    An H2 is you
-  </h2>
-</typography__H2>
+<h2
+  className="c0"
+>
+  An H2 is you
+</h2>
 `;
 
 exports[`H2 sets the top/bottom margin when \`margin\` prop is declared 1`] = `
@@ -209,15 +177,11 @@ exports[`H2 sets the top/bottom margin when \`margin\` prop is declared 1`] = `
   padding: 0;
 }
 
-<typography__H2
-  margin={8}
+<h2
+  className="c0"
 >
-  <h2
-    className="c0"
-  >
-    An H2 is you
-  </h2>
-</typography__H2>
+  An H2 is you
+</h2>
 `;
 
 exports[`H3 bolds when \`bold\` prop is set to true 1`] = `
@@ -231,15 +195,11 @@ exports[`H3 bolds when \`bold\` prop is set to true 1`] = `
   padding: 0;
 }
 
-<typography__H3
-  bold={true}
+<h3
+  className="c0"
 >
-  <h3
-    className="c0"
-  >
-    An H3 is you
-  </h3>
-</typography__H3>
+  An H3 is you
+</h3>
 `;
 
 exports[`H3 displays correct color when \`color\` prop is declared 1`] = `
@@ -253,16 +213,12 @@ exports[`H3 displays correct color when \`color\` prop is declared 1`] = `
   padding: 0;
 }
 
-<typography__H3
+<h3
+  className="c0"
   color="#0680cd"
 >
-  <h3
-    className="c0"
-    color="#0680cd"
-  >
-    An H3 is you
-  </h3>
-</typography__H3>
+  An H3 is you
+</h3>
 `;
 
 exports[`H3 italicizes when \`italic\` prop is set to true 1`] = `
@@ -277,15 +233,11 @@ exports[`H3 italicizes when \`italic\` prop is set to true 1`] = `
   padding: 0;
 }
 
-<typography__H3
-  italic={true}
+<h3
+  className="c0"
 >
-  <h3
-    className="c0"
-  >
-    An H3 is you
-  </h3>
-</typography__H3>
+  An H3 is you
+</h3>
 `;
 
 exports[`H3 matches dom snapshot 1`] = `
@@ -299,13 +251,11 @@ exports[`H3 matches dom snapshot 1`] = `
   padding: 0;
 }
 
-<typography__H3>
-  <h3
-    className="c0"
-  >
-    An H3 is you
-  </h3>
-</typography__H3>
+<h3
+  className="c0"
+>
+  An H3 is you
+</h3>
 `;
 
 exports[`H3 sets the top/bottom margin when \`margin\` prop is declared 1`] = `
@@ -319,15 +269,11 @@ exports[`H3 sets the top/bottom margin when \`margin\` prop is declared 1`] = `
   padding: 0;
 }
 
-<typography__H3
-  margin={8}
+<h3
+  className="c0"
 >
-  <h3
-    className="c0"
-  >
-    An H3 is you
-  </h3>
-</typography__H3>
+  An H3 is you
+</h3>
 `;
 
 exports[`H4 bolds when \`bold\` prop is set to true 1`] = `
@@ -341,15 +287,11 @@ exports[`H4 bolds when \`bold\` prop is set to true 1`] = `
   padding: 0;
 }
 
-<typography__H4
-  bold={true}
+<h4
+  className="c0"
 >
-  <h4
-    className="c0"
-  >
-    An H4 is you
-  </h4>
-</typography__H4>
+  An H4 is you
+</h4>
 `;
 
 exports[`H4 displays correct color when \`color\` prop is declared 1`] = `
@@ -363,16 +305,12 @@ exports[`H4 displays correct color when \`color\` prop is declared 1`] = `
   padding: 0;
 }
 
-<typography__H4
+<h4
+  className="c0"
   color="#0680cd"
 >
-  <h4
-    className="c0"
-    color="#0680cd"
-  >
-    An H4 is you
-  </h4>
-</typography__H4>
+  An H4 is you
+</h4>
 `;
 
 exports[`H4 italicizes when \`italic\` prop is set to true 1`] = `
@@ -387,15 +325,11 @@ exports[`H4 italicizes when \`italic\` prop is set to true 1`] = `
   padding: 0;
 }
 
-<typography__H4
-  italic={true}
+<h4
+  className="c0"
 >
-  <h4
-    className="c0"
-  >
-    An H4 is you
-  </h4>
-</typography__H4>
+  An H4 is you
+</h4>
 `;
 
 exports[`H4 matches dom snapshot 1`] = `
@@ -409,13 +343,11 @@ exports[`H4 matches dom snapshot 1`] = `
   padding: 0;
 }
 
-<typography__H4>
-  <h4
-    className="c0"
-  >
-    An H4 is you
-  </h4>
-</typography__H4>
+<h4
+  className="c0"
+>
+  An H4 is you
+</h4>
 `;
 
 exports[`H4 sets the top/bottom margin when \`margin\` prop is declared 1`] = `
@@ -429,15 +361,11 @@ exports[`H4 sets the top/bottom margin when \`margin\` prop is declared 1`] = `
   padding: 0;
 }
 
-<typography__H4
-  margin={8}
+<h4
+  className="c0"
 >
-  <h4
-    className="c0"
-  >
-    An H4 is you
-  </h4>
-</typography__H4>
+  An H4 is you
+</h4>
 `;
 
 exports[`H5 bolds when \`bold\` prop is set to true 1`] = `
@@ -451,15 +379,11 @@ exports[`H5 bolds when \`bold\` prop is set to true 1`] = `
   padding: 0;
 }
 
-<typography__H5
-  bold={true}
+<h5
+  className="c0"
 >
-  <h5
-    className="c0"
-  >
-    An H5 is you
-  </h5>
-</typography__H5>
+  An H5 is you
+</h5>
 `;
 
 exports[`H5 displays correct color when \`color\` prop is declared 1`] = `
@@ -473,16 +397,12 @@ exports[`H5 displays correct color when \`color\` prop is declared 1`] = `
   padding: 0;
 }
 
-<typography__H5
+<h5
+  className="c0"
   color="#0680cd"
 >
-  <h5
-    className="c0"
-    color="#0680cd"
-  >
-    An H5 is you
-  </h5>
-</typography__H5>
+  An H5 is you
+</h5>
 `;
 
 exports[`H5 italicizes when \`italic\` prop is set to true 1`] = `
@@ -497,15 +417,11 @@ exports[`H5 italicizes when \`italic\` prop is set to true 1`] = `
   padding: 0;
 }
 
-<typography__H5
-  italic={true}
+<h5
+  className="c0"
 >
-  <h5
-    className="c0"
-  >
-    An H5 is you
-  </h5>
-</typography__H5>
+  An H5 is you
+</h5>
 `;
 
 exports[`H5 line-height: 1.43em when \`expanded\` is set to true 1`] = `
@@ -519,15 +435,11 @@ exports[`H5 line-height: 1.43em when \`expanded\` is set to true 1`] = `
   padding: 0;
 }
 
-<typography__H5
-  expanded={true}
+<h5
+  className="c0"
 >
-  <h5
-    className="c0"
-  >
-    An H5 is you
-  </h5>
-</typography__H5>
+  An H5 is you
+</h5>
 `;
 
 exports[`H5 matches dom snapshot 1`] = `
@@ -541,13 +453,11 @@ exports[`H5 matches dom snapshot 1`] = `
   padding: 0;
 }
 
-<typography__H5>
-  <h5
-    className="c0"
-  >
-    An H5 is you
-  </h5>
-</typography__H5>
+<h5
+  className="c0"
+>
+  An H5 is you
+</h5>
 `;
 
 exports[`H5 sets the top/bottom margin when \`margin\` prop is declared 1`] = `
@@ -561,15 +471,11 @@ exports[`H5 sets the top/bottom margin when \`margin\` prop is declared 1`] = `
   padding: 0;
 }
 
-<typography__H5
-  margin={8}
+<h5
+  className="c0"
 >
-  <h5
-    className="c0"
-  >
-    An H5 is you
-  </h5>
-</typography__H5>
+  An H5 is you
+</h5>
 `;
 
 exports[`P bolds when \`bold\` prop is set to true 1`] = `
@@ -583,15 +489,11 @@ exports[`P bolds when \`bold\` prop is set to true 1`] = `
   padding: 0;
 }
 
-<typography__P
-  bold={true}
+<p
+  className="c0"
 >
-  <p
-    className="c0"
-  >
-    An P is you
-  </p>
-</typography__P>
+  An P is you
+</p>
 `;
 
 exports[`P displays correct color when \`color\` prop is declared 1`] = `
@@ -605,16 +507,12 @@ exports[`P displays correct color when \`color\` prop is declared 1`] = `
   padding: 0;
 }
 
-<typography__P
+<p
+  className="c0"
   color="#0680cd"
 >
-  <p
-    className="c0"
-    color="#0680cd"
-  >
-    An P is you
-  </p>
-</typography__P>
+  An P is you
+</p>
 `;
 
 exports[`P italicizes when \`italic\` prop is set to true 1`] = `
@@ -629,15 +527,11 @@ exports[`P italicizes when \`italic\` prop is set to true 1`] = `
   padding: 0;
 }
 
-<typography__P
-  italic={true}
+<p
+  className="c0"
 >
-  <p
-    className="c0"
-  >
-    An P is you
-  </p>
-</typography__P>
+  An P is you
+</p>
 `;
 
 exports[`P line-height: 1.43em when \`expanded\` is set to true 1`] = `
@@ -651,15 +545,11 @@ exports[`P line-height: 1.43em when \`expanded\` is set to true 1`] = `
   padding: 0;
 }
 
-<typography__P
-  expanded={true}
+<p
+  className="c0"
 >
-  <p
-    className="c0"
-  >
-    An P is you
-  </p>
-</typography__P>
+  An P is you
+</p>
 `;
 
 exports[`P matches dom snapshot 1`] = `
@@ -673,13 +563,11 @@ exports[`P matches dom snapshot 1`] = `
   padding: 0;
 }
 
-<typography__P>
-  <p
-    className="c0"
-  >
-    An P is you
-  </p>
-</typography__P>
+<p
+  className="c0"
+>
+  An P is you
+</p>
 `;
 
 exports[`P sets the top/bottom margin when \`margin\` prop is declared 1`] = `
@@ -693,13 +581,9 @@ exports[`P sets the top/bottom margin when \`margin\` prop is declared 1`] = `
   padding: 0;
 }
 
-<typography__P
-  margin={8}
+<p
+  className="c0"
 >
-  <p
-    className="c0"
-  >
-    An P is you
-  </p>
-</typography__P>
+  An P is you
+</p>
 `;

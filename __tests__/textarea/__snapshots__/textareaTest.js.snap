@@ -128,115 +128,65 @@ exports[`Textarea applies the correct styles and attrs when \`inputState\`=defau
   box-shadow: none;
 }
 
-<textarea__ComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <textarea__TextareaWrapper
-      inputState="primary"
-      isFocused={false}
-      isTouched={false}
+    <label
+      className="c2"
+      htmlFor="testLabelName"
     >
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-          textAreaLabel={true}
-        >
-          <label
-            className="c2"
-            htmlFor="testLabelName"
-          >
-            testLabel
-          </label>
-        </label__LabelField>
-        <textarea__TextareaInput
-          aria-controls="testLabelName-statusText"
-          id="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          name="testLabelName"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <textarea
-            aria-controls="testLabelName-statusText"
-            className="c3"
-            disabled={false}
-            id="testLabelName"
-            name="testLabelName"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            tabIndex="0"
-            value=""
-          />
-        </textarea__TextareaInput>
-      </div>
-    </textarea__TextareaWrapper>
-    <help-text__HelpLabel
-      dense={true}
-      id="testLabelName-statusText"
-      inputState="primary"
-      role="status"
-      textAreaHelp={true}
-    >
-      <div
-        className="c4"
-        id="testLabelName-statusText"
-        role="status"
-      >
-        <help-text__HelpIcon>
-          <span
-            className="c5"
-          >
-            <icon_wrapper__Icon
-              aria-label="open customize and profile menu"
-              color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-              height={12}
-              role="img"
-              viewBox="0 0 24 24"
-              width={12}
-            >
-              <svg
-                aria-label="open customize and profile menu"
-                className="c6"
-                color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-                height={12}
-                role="img"
-                viewBox="0 0 24 24"
-                width={12}
-              >
-                <title>
-                  menu icon
-                </title>
-                <desc>
-                  hamburger menu icon
-                </desc>
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-                <path
-                  d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </span>
-        </help-text__HelpIcon>
-      </div>
-    </help-text__HelpLabel>
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
   </div>
-</textarea__ComponentWrapper>
+  <div
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  >
+    <span
+      className="c5"
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c6"
+        color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+        height={12}
+        role="img"
+        viewBox="0 0 24 24"
+        width={12}
+      >
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
 `;
 
 exports[`Textarea applies the correct styles and attrs when \`inputState\`=disabled 1`] = `
@@ -367,115 +317,65 @@ exports[`Textarea applies the correct styles and attrs when \`inputState\`=disab
   box-shadow: none;
 }
 
-<textarea__ComponentWrapper
-  inputState="disabled"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <textarea__TextareaWrapper
-      inputState="disabled"
-      isFocused={false}
-      isTouched={false}
+    <label
+      className="c2"
+      htmlFor="testLabelName"
     >
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testLabelName"
-          inputState="disabled"
-          isFocused={false}
-          isTouched={false}
-          textAreaLabel={true}
-        >
-          <label
-            className="c2"
-            htmlFor="testLabelName"
-          >
-            testLabel
-          </label>
-        </label__LabelField>
-        <textarea__TextareaInput
-          aria-controls="testLabelName-statusText"
-          id="testLabelName"
-          inputState="disabled"
-          isFocused={false}
-          name="testLabelName"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <textarea
-            aria-controls="testLabelName-statusText"
-            className="c3"
-            disabled={true}
-            id="testLabelName"
-            name="testLabelName"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            tabIndex="0"
-            value=""
-          />
-        </textarea__TextareaInput>
-      </div>
-    </textarea__TextareaWrapper>
-    <help-text__HelpLabel
-      dense={true}
-      id="testLabelName-statusText"
-      inputState="disabled"
-      role="status"
-      textAreaHelp={true}
-    >
-      <div
-        className="c4"
-        id="testLabelName-statusText"
-        role="status"
-      >
-        <help-text__HelpIcon>
-          <span
-            className="c5"
-          >
-            <icon_wrapper__Icon
-              aria-label="open customize and profile menu"
-              color="hsla(0,0%,14.9%,0.44999999999999996)"
-              height={12}
-              role="img"
-              viewBox="0 0 24 24"
-              width={12}
-            >
-              <svg
-                aria-label="open customize and profile menu"
-                className="c6"
-                color="hsla(0,0%,14.9%,0.44999999999999996)"
-                height={12}
-                role="img"
-                viewBox="0 0 24 24"
-                width={12}
-              >
-                <title>
-                  menu icon
-                </title>
-                <desc>
-                  hamburger menu icon
-                </desc>
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-                <path
-                  d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </span>
-        </help-text__HelpIcon>
-      </div>
-    </help-text__HelpLabel>
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={true}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
   </div>
-</textarea__ComponentWrapper>
+  <div
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  >
+    <span
+      className="c5"
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c6"
+        color="hsla(0,0%,14.9%,0.44999999999999996)"
+        height={12}
+        role="img"
+        viewBox="0 0 24 24"
+        width={12}
+      >
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
 `;
 
 exports[`Textarea applies the correct styles and attrs when \`inputState\`=error  1`] = `
@@ -606,115 +506,65 @@ exports[`Textarea applies the correct styles and attrs when \`inputState\`=error
   box-shadow: none;
 }
 
-<textarea__ComponentWrapper
-  inputState="error"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <textarea__TextareaWrapper
-      inputState="error"
-      isFocused={false}
-      isTouched={false}
+    <label
+      className="c2"
+      htmlFor="testLabelName"
     >
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testLabelName"
-          inputState="error"
-          isFocused={false}
-          isTouched={false}
-          textAreaLabel={true}
-        >
-          <label
-            className="c2"
-            htmlFor="testLabelName"
-          >
-            testLabel
-          </label>
-        </label__LabelField>
-        <textarea__TextareaInput
-          aria-controls="testLabelName-statusText"
-          id="testLabelName"
-          inputState="error"
-          isFocused={false}
-          name="testLabelName"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <textarea
-            aria-controls="testLabelName-statusText"
-            className="c3"
-            disabled={false}
-            id="testLabelName"
-            name="testLabelName"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            tabIndex="0"
-            value=""
-          />
-        </textarea__TextareaInput>
-      </div>
-    </textarea__TextareaWrapper>
-    <help-text__HelpLabel
-      dense={true}
-      id="testLabelName-statusText"
-      inputState="error"
-      role="status"
-      textAreaHelp={true}
-    >
-      <div
-        className="c4"
-        id="testLabelName-statusText"
-        role="status"
-      >
-        <help-text__HelpIcon>
-          <span
-            className="c5"
-          >
-            <icon_wrapper__Icon
-              aria-label="open customize and profile menu"
-              color="hsla(15,100%,40%,0.87)"
-              height={12}
-              role="img"
-              viewBox="0 0 24 24"
-              width={12}
-            >
-              <svg
-                aria-label="open customize and profile menu"
-                className="c6"
-                color="hsla(15,100%,40%,0.87)"
-                height={12}
-                role="img"
-                viewBox="0 0 24 24"
-                width={12}
-              >
-                <title>
-                  menu icon
-                </title>
-                <desc>
-                  hamburger menu icon
-                </desc>
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-                <path
-                  d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </span>
-        </help-text__HelpIcon>
-      </div>
-    </help-text__HelpLabel>
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
   </div>
-</textarea__ComponentWrapper>
+  <div
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  >
+    <span
+      className="c5"
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c6"
+        color="hsla(15,100%,40%,0.87)"
+        height={12}
+        role="img"
+        viewBox="0 0 24 24"
+        width={12}
+      >
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
 `;
 
 exports[`Textarea matches snapshot 1`] = `
@@ -833,76 +683,37 @@ exports[`Textarea matches snapshot 1`] = `
   box-shadow: none;
 }
 
-<textarea__ComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <textarea__TextareaWrapper
-      inputState="primary"
-      isFocused={false}
-      isTouched={false}
+    <label
+      className="c2"
+      htmlFor="testLabelName"
     >
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-          textAreaLabel={true}
-        >
-          <label
-            className="c2"
-            htmlFor="testLabelName"
-          >
-            testLabel
-          </label>
-        </label__LabelField>
-        <textarea__TextareaInput
-          aria-controls="testLabelName-statusText"
-          id="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          name="testLabelName"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <textarea
-            aria-controls="testLabelName-statusText"
-            className="c3"
-            disabled={false}
-            id="testLabelName"
-            name="testLabelName"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            tabIndex="0"
-            value=""
-          />
-        </textarea__TextareaInput>
-      </div>
-    </textarea__TextareaWrapper>
-    <help-text__HelpLabel
-      dense={true}
-      id="testLabelName-statusText"
-      inputState="primary"
-      role="status"
-      textAreaHelp={true}
-    >
-      <div
-        className="c4"
-        id="testLabelName-statusText"
-        role="status"
-      />
-    </help-text__HelpLabel>
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
   </div>
-</textarea__ComponentWrapper>
+  <div
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
 `;
 
 exports[`Textarea sets \`helpIcon\` via props 1`] = `
@@ -1033,115 +844,65 @@ exports[`Textarea sets \`helpIcon\` via props 1`] = `
   box-shadow: none;
 }
 
-<textarea__ComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <textarea__TextareaWrapper
-      inputState="primary"
-      isFocused={false}
-      isTouched={false}
+    <label
+      className="c2"
+      htmlFor="testLabelName"
     >
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-          textAreaLabel={true}
-        >
-          <label
-            className="c2"
-            htmlFor="testLabelName"
-          >
-            testLabel
-          </label>
-        </label__LabelField>
-        <textarea__TextareaInput
-          aria-controls="testLabelName-statusText"
-          id="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          name="testLabelName"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <textarea
-            aria-controls="testLabelName-statusText"
-            className="c3"
-            disabled={false}
-            id="testLabelName"
-            name="testLabelName"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            tabIndex="0"
-            value=""
-          />
-        </textarea__TextareaInput>
-      </div>
-    </textarea__TextareaWrapper>
-    <help-text__HelpLabel
-      dense={true}
-      id="testLabelName-statusText"
-      inputState="primary"
-      role="status"
-      textAreaHelp={true}
-    >
-      <div
-        className="c4"
-        id="testLabelName-statusText"
-        role="status"
-      >
-        <help-text__HelpIcon>
-          <span
-            className="c5"
-          >
-            <icon_wrapper__Icon
-              aria-label="open customize and profile menu"
-              color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-              height={12}
-              role="img"
-              viewBox="0 0 24 24"
-              width={12}
-            >
-              <svg
-                aria-label="open customize and profile menu"
-                className="c6"
-                color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
-                height={12}
-                role="img"
-                viewBox="0 0 24 24"
-                width={12}
-              >
-                <title>
-                  menu icon
-                </title>
-                <desc>
-                  hamburger menu icon
-                </desc>
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-                <path
-                  d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-                />
-              </svg>
-            </icon_wrapper__Icon>
-          </span>
-        </help-text__HelpIcon>
-      </div>
-    </help-text__HelpLabel>
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
   </div>
-</textarea__ComponentWrapper>
+  <div
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  >
+    <span
+      className="c5"
+    >
+      <svg
+        aria-label="open customize and profile menu"
+        className="c6"
+        color="hsla(0, 0%, 14.9%, 0.5700000000000001)"
+        height={12}
+        role="img"
+        viewBox="0 0 24 24"
+        width={12}
+      >
+        <title>
+          menu icon
+        </title>
+        <desc>
+          hamburger menu icon
+        </desc>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </span>
+  </div>
+</div>
 `;
 
 exports[`Textarea sets \`helpText\` via props 1`] = `
@@ -1260,78 +1021,39 @@ exports[`Textarea sets \`helpText\` via props 1`] = `
   box-shadow: none;
 }
 
-<textarea__ComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <textarea__TextareaWrapper
-      inputState="primary"
-      isFocused={false}
-      isTouched={false}
+    <label
+      className="c2"
+      htmlFor="testLabelName"
     >
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-          textAreaLabel={true}
-        >
-          <label
-            className="c2"
-            htmlFor="testLabelName"
-          >
-            testLabel
-          </label>
-        </label__LabelField>
-        <textarea__TextareaInput
-          aria-controls="testLabelName-statusText"
-          id="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          name="testLabelName"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <textarea
-            aria-controls="testLabelName-statusText"
-            className="c3"
-            disabled={false}
-            id="testLabelName"
-            name="testLabelName"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            tabIndex="0"
-            value=""
-          />
-        </textarea__TextareaInput>
-      </div>
-    </textarea__TextareaWrapper>
-    <help-text__HelpLabel
-      dense={true}
-      id="testLabelName-statusText"
-      inputState="primary"
-      role="status"
-      textAreaHelp={true}
-    >
-      <div
-        className="c4"
-        id="testLabelName-statusText"
-        role="status"
-      >
-        test help
-      </div>
-    </help-text__HelpLabel>
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
   </div>
-</textarea__ComponentWrapper>
+  <div
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  >
+    test help
+  </div>
+</div>
 `;
 
 exports[`Textarea sets a style object on the component wrapper via props 1`] = `
@@ -1450,8 +1172,8 @@ exports[`Textarea sets a style object on the component wrapper via props 1`] = `
   box-shadow: none;
 }
 
-<textarea__ComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
   style={
     Object {
       "backgroundColor": "blue",
@@ -1459,77 +1181,33 @@ exports[`Textarea sets a style object on the component wrapper via props 1`] = `
   }
 >
   <div
-    className="c0"
-    style={
-      Object {
-        "backgroundColor": "blue",
-      }
-    }
+    className="c1"
   >
-    <textarea__TextareaWrapper
-      inputState="primary"
-      isFocused={false}
-      isTouched={false}
+    <label
+      className="c2"
+      htmlFor="testLabelName"
     >
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-          textAreaLabel={true}
-        >
-          <label
-            className="c2"
-            htmlFor="testLabelName"
-          >
-            testLabel
-          </label>
-        </label__LabelField>
-        <textarea__TextareaInput
-          aria-controls="testLabelName-statusText"
-          id="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          name="testLabelName"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <textarea
-            aria-controls="testLabelName-statusText"
-            className="c3"
-            disabled={false}
-            id="testLabelName"
-            name="testLabelName"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            tabIndex="0"
-            value=""
-          />
-        </textarea__TextareaInput>
-      </div>
-    </textarea__TextareaWrapper>
-    <help-text__HelpLabel
-      dense={true}
-      id="testLabelName-statusText"
-      inputState="primary"
-      role="status"
-      textAreaHelp={true}
-    >
-      <div
-        className="c4"
-        id="testLabelName-statusText"
-        role="status"
-      />
-    </help-text__HelpLabel>
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
   </div>
-</textarea__ComponentWrapper>
+  <div
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
 `;
 
 exports[`Textarea sets an onBlur func and sets state.isFocused to false on blur 1`] = `
@@ -1648,76 +1326,37 @@ exports[`Textarea sets an onBlur func and sets state.isFocused to false on blur 
   box-shadow: none;
 }
 
-<textarea__ComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <textarea__TextareaWrapper
-      inputState="primary"
-      isFocused={true}
-      isTouched={false}
+    <label
+      className="c2"
+      htmlFor="testLabelName"
     >
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testLabelName"
-          inputState="primary"
-          isFocused={true}
-          isTouched={false}
-          textAreaLabel={true}
-        >
-          <label
-            className="c2"
-            htmlFor="testLabelName"
-          >
-            testLabel
-          </label>
-        </label__LabelField>
-        <textarea__TextareaInput
-          aria-controls="testLabelName-statusText"
-          id="testLabelName"
-          inputState="primary"
-          isFocused={true}
-          name="testLabelName"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <textarea
-            aria-controls="testLabelName-statusText"
-            className="c3"
-            disabled={false}
-            id="testLabelName"
-            name="testLabelName"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            tabIndex="0"
-            value=""
-          />
-        </textarea__TextareaInput>
-      </div>
-    </textarea__TextareaWrapper>
-    <help-text__HelpLabel
-      dense={true}
-      id="testLabelName-statusText"
-      inputState="primary"
-      role="status"
-      textAreaHelp={true}
-    >
-      <div
-        className="c4"
-        id="testLabelName-statusText"
-        role="status"
-      />
-    </help-text__HelpLabel>
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
   </div>
-</textarea__ComponentWrapper>
+  <div
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
 `;
 
 exports[`Textarea sets an onChange function on the input and sets state.isTouched to true if value isnt empty 1`] = `
@@ -1836,76 +1475,37 @@ exports[`Textarea sets an onChange function on the input and sets state.isTouche
   box-shadow: none;
 }
 
-<textarea__ComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <textarea__TextareaWrapper
-      inputState="primary"
-      isFocused={false}
-      isTouched={false}
+    <label
+      className="c2"
+      htmlFor="testLabelName"
     >
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-          textAreaLabel={true}
-        >
-          <label
-            className="c2"
-            htmlFor="testLabelName"
-          >
-            testLabel
-          </label>
-        </label__LabelField>
-        <textarea__TextareaInput
-          aria-controls="testLabelName-statusText"
-          id="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          name="testLabelName"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <textarea
-            aria-controls="testLabelName-statusText"
-            className="c3"
-            disabled={false}
-            id="testLabelName"
-            name="testLabelName"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            tabIndex="0"
-            value=""
-          />
-        </textarea__TextareaInput>
-      </div>
-    </textarea__TextareaWrapper>
-    <help-text__HelpLabel
-      dense={true}
-      id="testLabelName-statusText"
-      inputState="primary"
-      role="status"
-      textAreaHelp={true}
-    >
-      <div
-        className="c4"
-        id="testLabelName-statusText"
-        role="status"
-      />
-    </help-text__HelpLabel>
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
   </div>
-</textarea__ComponentWrapper>
+  <div
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
 `;
 
 exports[`Textarea sets focus on the textarea when \`autoFocus\`=true 1`] = `
@@ -2024,78 +1624,38 @@ exports[`Textarea sets focus on the textarea when \`autoFocus\`=true 1`] = `
   box-shadow: none;
 }
 
-<textarea__ComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <textarea__TextareaWrapper
-      inputState="primary"
-      isFocused={false}
-      isTouched={false}
+    <label
+      className="c2"
+      htmlFor="testLabelName"
     >
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-          textAreaLabel={true}
-        >
-          <label
-            className="c2"
-            htmlFor="testLabelName"
-          >
-            testLabel
-          </label>
-        </label__LabelField>
-        <textarea__TextareaInput
-          aria-controls="testLabelName-statusText"
-          autoFocus={true}
-          id="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          name="testLabelName"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <textarea
-            aria-controls="testLabelName-statusText"
-            autoFocus={true}
-            className="c3"
-            disabled={false}
-            id="testLabelName"
-            name="testLabelName"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            tabIndex="0"
-            value=""
-          />
-        </textarea__TextareaInput>
-      </div>
-    </textarea__TextareaWrapper>
-    <help-text__HelpLabel
-      dense={true}
-      id="testLabelName-statusText"
-      inputState="primary"
-      role="status"
-      textAreaHelp={true}
-    >
-      <div
-        className="c4"
-        id="testLabelName-statusText"
-        role="status"
-      />
-    </help-text__HelpLabel>
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      autoFocus={true}
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
   </div>
-</textarea__ComponentWrapper>
+  <div
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
 `;
 
 exports[`Textarea sets id attr via props and propogages to relevant elements for a11y 1`] = `
@@ -2214,76 +1774,37 @@ exports[`Textarea sets id attr via props and propogages to relevant elements for
   box-shadow: none;
 }
 
-<textarea__ComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <textarea__TextareaWrapper
-      inputState="primary"
-      isFocused={false}
-      isTouched={false}
+    <label
+      className="c2"
+      htmlFor="testId"
     >
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testId"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-          textAreaLabel={true}
-        >
-          <label
-            className="c2"
-            htmlFor="testId"
-          >
-            testLabel
-          </label>
-        </label__LabelField>
-        <textarea__TextareaInput
-          aria-controls="testId-statusText"
-          id="testId"
-          inputState="primary"
-          isFocused={false}
-          name="testLabelName"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <textarea
-            aria-controls="testId-statusText"
-            className="c3"
-            disabled={false}
-            id="testId"
-            name="testLabelName"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            tabIndex="0"
-            value=""
-          />
-        </textarea__TextareaInput>
-      </div>
-    </textarea__TextareaWrapper>
-    <help-text__HelpLabel
-      dense={true}
-      id="testId-statusText"
-      inputState="primary"
-      role="status"
-      textAreaHelp={true}
-    >
-      <div
-        className="c4"
-        id="testId-statusText"
-        role="status"
-      />
-    </help-text__HelpLabel>
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testId-statusText"
+      className="c3"
+      disabled={false}
+      id="testId"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
   </div>
-</textarea__ComponentWrapper>
+  <div
+    className="c4"
+    id="testId-statusText"
+    role="status"
+  />
+</div>
 `;
 
 exports[`Textarea sets the components height via props 1`] = `
@@ -2402,78 +1923,38 @@ exports[`Textarea sets the components height via props 1`] = `
   box-shadow: none;
 }
 
-<textarea__ComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
+    height="500px"
   >
-    <textarea__TextareaWrapper
-      height="500px"
-      inputState="primary"
-      isFocused={false}
-      isTouched={false}
+    <label
+      className="c2"
+      htmlFor="testLabelName"
     >
-      <div
-        className="c1"
-        height="500px"
-      >
-        <label__LabelField
-          htmlFor="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-          textAreaLabel={true}
-        >
-          <label
-            className="c2"
-            htmlFor="testLabelName"
-          >
-            testLabel
-          </label>
-        </label__LabelField>
-        <textarea__TextareaInput
-          aria-controls="testLabelName-statusText"
-          id="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          name="testLabelName"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <textarea
-            aria-controls="testLabelName-statusText"
-            className="c3"
-            disabled={false}
-            id="testLabelName"
-            name="testLabelName"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            tabIndex="0"
-            value=""
-          />
-        </textarea__TextareaInput>
-      </div>
-    </textarea__TextareaWrapper>
-    <help-text__HelpLabel
-      dense={true}
-      id="testLabelName-statusText"
-      inputState="primary"
-      role="status"
-      textAreaHelp={true}
-    >
-      <div
-        className="c4"
-        id="testLabelName-statusText"
-        role="status"
-      />
-    </help-text__HelpLabel>
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
   </div>
-</textarea__ComponentWrapper>
+  <div
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
 `;
 
 exports[`Textarea sets the html type attr on the input via props 1`] = `
@@ -2592,78 +2073,38 @@ exports[`Textarea sets the html type attr on the input via props 1`] = `
   box-shadow: none;
 }
 
-<textarea__ComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <textarea__TextareaWrapper
-      inputState="primary"
-      isFocused={false}
-      isTouched={false}
+    <label
+      className="c2"
+      htmlFor="testLabelName"
     >
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-          textAreaLabel={true}
-        >
-          <label
-            className="c2"
-            htmlFor="testLabelName"
-          >
-            testLabel
-          </label>
-        </label__LabelField>
-        <textarea__TextareaInput
-          aria-controls="testLabelName-statusText"
-          id="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          name="testLabelName"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          type="search"
-          value=""
-        >
-          <textarea
-            aria-controls="testLabelName-statusText"
-            className="c3"
-            disabled={false}
-            id="testLabelName"
-            name="testLabelName"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            tabIndex="0"
-            type="search"
-            value=""
-          />
-        </textarea__TextareaInput>
-      </div>
-    </textarea__TextareaWrapper>
-    <help-text__HelpLabel
-      dense={true}
-      id="testLabelName-statusText"
-      inputState="primary"
-      role="status"
-      textAreaHelp={true}
-    >
-      <div
-        className="c4"
-        id="testLabelName-statusText"
-        role="status"
-      />
-    </help-text__HelpLabel>
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      type="search"
+      value=""
+    />
   </div>
-</textarea__ComponentWrapper>
+  <div
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
 `;
 
 exports[`Textarea sets the inputs value via props 1`] = `
@@ -2782,76 +2223,37 @@ exports[`Textarea sets the inputs value via props 1`] = `
   box-shadow: none;
 }
 
-<textarea__ComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <textarea__TextareaWrapper
-      inputState="primary"
-      isFocused={false}
-      isTouched={true}
+    <label
+      className="c2"
+      htmlFor="testLabelName"
     >
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          isTouched={true}
-          textAreaLabel={true}
-        >
-          <label
-            className="c2"
-            htmlFor="testLabelName"
-          >
-            testLabel
-          </label>
-        </label__LabelField>
-        <textarea__TextareaInput
-          aria-controls="testLabelName-statusText"
-          id="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          name="testLabelName"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value="test"
-        >
-          <textarea
-            aria-controls="testLabelName-statusText"
-            className="c3"
-            disabled={false}
-            id="testLabelName"
-            name="testLabelName"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            tabIndex="0"
-            value="test"
-          />
-        </textarea__TextareaInput>
-      </div>
-    </textarea__TextareaWrapper>
-    <help-text__HelpLabel
-      dense={true}
-      id="testLabelName-statusText"
-      inputState="primary"
-      role="status"
-      textAreaHelp={true}
-    >
-      <div
-        className="c4"
-        id="testLabelName-statusText"
-        role="status"
-      />
-    </help-text__HelpLabel>
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value="test"
+    />
   </div>
-</textarea__ComponentWrapper>
+  <div
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
 `;
 
 exports[`Textarea sets the inputs width via props 1`] = `
@@ -2970,78 +2372,38 @@ exports[`Textarea sets the inputs width via props 1`] = `
   box-shadow: none;
 }
 
-<textarea__ComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
   width="500px"
 >
   <div
-    className="c0"
-    width="500px"
+    className="c1"
   >
-    <textarea__TextareaWrapper
-      inputState="primary"
-      isFocused={false}
-      isTouched={false}
+    <label
+      className="c2"
+      htmlFor="testLabelName"
     >
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-          textAreaLabel={true}
-        >
-          <label
-            className="c2"
-            htmlFor="testLabelName"
-          >
-            testLabel
-          </label>
-        </label__LabelField>
-        <textarea__TextareaInput
-          aria-controls="testLabelName-statusText"
-          id="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          name="testLabelName"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <textarea
-            aria-controls="testLabelName-statusText"
-            className="c3"
-            disabled={false}
-            id="testLabelName"
-            name="testLabelName"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            tabIndex="0"
-            value=""
-          />
-        </textarea__TextareaInput>
-      </div>
-    </textarea__TextareaWrapper>
-    <help-text__HelpLabel
-      dense={true}
-      id="testLabelName-statusText"
-      inputState="primary"
-      role="status"
-      textAreaHelp={true}
-    >
-      <div
-        className="c4"
-        id="testLabelName-statusText"
-        role="status"
-      />
-    </help-text__HelpLabel>
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
   </div>
-</textarea__ComponentWrapper>
+  <div
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
 `;
 
 exports[`Textarea sets the placeholder on input via props 1`] = `
@@ -3160,78 +2522,38 @@ exports[`Textarea sets the placeholder on input via props 1`] = `
   box-shadow: none;
 }
 
-<textarea__ComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <textarea__TextareaWrapper
-      inputState="primary"
-      isFocused={false}
-      isTouched={false}
+    <label
+      className="c2"
+      htmlFor="testLabelName"
     >
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-          textAreaLabel={true}
-        >
-          <label
-            className="c2"
-            htmlFor="testLabelName"
-          >
-            testLabel
-          </label>
-        </label__LabelField>
-        <textarea__TextareaInput
-          aria-controls="testLabelName-statusText"
-          id="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          name="testLabelName"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          placeholder="tteesstt"
-          tabIndex="0"
-          value=""
-        >
-          <textarea
-            aria-controls="testLabelName-statusText"
-            className="c3"
-            disabled={false}
-            id="testLabelName"
-            name="testLabelName"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            placeholder="tteesstt"
-            tabIndex="0"
-            value=""
-          />
-        </textarea__TextareaInput>
-      </div>
-    </textarea__TextareaWrapper>
-    <help-text__HelpLabel
-      dense={true}
-      id="testLabelName-statusText"
-      inputState="primary"
-      role="status"
-      textAreaHelp={true}
-    >
-      <div
-        className="c4"
-        id="testLabelName-statusText"
-        role="status"
-      />
-    </help-text__HelpLabel>
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="tteesstt"
+      tabIndex="0"
+      value=""
+    />
   </div>
-</textarea__ComponentWrapper>
+  <div
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
 `;
 
 exports[`Textarea sets the proper styles when state.isFocused=true 1`] = `
@@ -3350,76 +2672,37 @@ exports[`Textarea sets the proper styles when state.isFocused=true 1`] = `
   box-shadow: none;
 }
 
-<textarea__ComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <textarea__TextareaWrapper
-      inputState="primary"
-      isFocused={true}
-      isTouched={false}
+    <label
+      className="c2"
+      htmlFor="testLabelName"
     >
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testLabelName"
-          inputState="primary"
-          isFocused={true}
-          isTouched={false}
-          textAreaLabel={true}
-        >
-          <label
-            className="c2"
-            htmlFor="testLabelName"
-          >
-            testLabel
-          </label>
-        </label__LabelField>
-        <textarea__TextareaInput
-          aria-controls="testLabelName-statusText"
-          id="testLabelName"
-          inputState="primary"
-          isFocused={true}
-          name="testLabelName"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <textarea
-            aria-controls="testLabelName-statusText"
-            className="c3"
-            disabled={false}
-            id="testLabelName"
-            name="testLabelName"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            tabIndex="0"
-            value=""
-          />
-        </textarea__TextareaInput>
-      </div>
-    </textarea__TextareaWrapper>
-    <help-text__HelpLabel
-      dense={true}
-      id="testLabelName-statusText"
-      inputState="primary"
-      role="status"
-      textAreaHelp={true}
-    >
-      <div
-        className="c4"
-        id="testLabelName-statusText"
-        role="status"
-      />
-    </help-text__HelpLabel>
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
   </div>
-</textarea__ComponentWrapper>
+  <div
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
 `;
 
 exports[`Textarea sets the proper styles when state.isTouched=true 1`] = `
@@ -3538,76 +2821,37 @@ exports[`Textarea sets the proper styles when state.isTouched=true 1`] = `
   box-shadow: none;
 }
 
-<textarea__ComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <textarea__TextareaWrapper
-      inputState="primary"
-      isFocused={false}
-      isTouched={true}
+    <label
+      className="c2"
+      htmlFor="testLabelName"
     >
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          isTouched={true}
-          textAreaLabel={true}
-        >
-          <label
-            className="c2"
-            htmlFor="testLabelName"
-          >
-            testLabel
-          </label>
-        </label__LabelField>
-        <textarea__TextareaInput
-          aria-controls="testLabelName-statusText"
-          id="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          name="testLabelName"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          tabIndex="0"
-          value=""
-        >
-          <textarea
-            aria-controls="testLabelName-statusText"
-            className="c3"
-            disabled={false}
-            id="testLabelName"
-            name="testLabelName"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            tabIndex="0"
-            value=""
-          />
-        </textarea__TextareaInput>
-      </div>
-    </textarea__TextareaWrapper>
-    <help-text__HelpLabel
-      dense={true}
-      id="testLabelName-statusText"
-      inputState="primary"
-      role="status"
-      textAreaHelp={true}
-    >
-      <div
-        className="c4"
-        id="testLabelName-statusText"
-        role="status"
-      />
-    </help-text__HelpLabel>
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      tabIndex="0"
+      value=""
+    />
   </div>
-</textarea__ComponentWrapper>
+  <div
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
 `;
 
 exports[`Textarea sets the readOnly attr on input via props 1`] = `
@@ -3726,78 +2970,38 @@ exports[`Textarea sets the readOnly attr on input via props 1`] = `
   box-shadow: none;
 }
 
-<textarea__ComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <textarea__TextareaWrapper
-      inputState="primary"
-      isFocused={false}
-      isTouched={false}
+    <label
+      className="c2"
+      htmlFor="testLabelName"
     >
-      <div
-        className="c1"
-      >
-        <label__LabelField
-          htmlFor="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-          textAreaLabel={true}
-        >
-          <label
-            className="c2"
-            htmlFor="testLabelName"
-          >
-            testLabel
-          </label>
-        </label__LabelField>
-        <textarea__TextareaInput
-          aria-controls="testLabelName-statusText"
-          id="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          name="testLabelName"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          readOnly={true}
-          tabIndex="0"
-          value=""
-        >
-          <textarea
-            aria-controls="testLabelName-statusText"
-            className="c3"
-            disabled={false}
-            id="testLabelName"
-            name="testLabelName"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            readOnly={true}
-            tabIndex="0"
-            value=""
-          />
-        </textarea__TextareaInput>
-      </div>
-    </textarea__TextareaWrapper>
-    <help-text__HelpLabel
-      dense={true}
-      id="testLabelName-statusText"
-      inputState="primary"
-      role="status"
-      textAreaHelp={true}
-    >
-      <div
-        className="c4"
-        id="testLabelName-statusText"
-        role="status"
-      />
-    </help-text__HelpLabel>
+      testLabel
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      readOnly={true}
+      tabIndex="0"
+      value=""
+    />
   </div>
-</textarea__ComponentWrapper>
+  <div
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
 `;
 
 exports[`Textarea sets the required attr via props and adds a star to the label 1`] = `
@@ -3916,86 +3120,46 @@ exports[`Textarea sets the required attr via props and adds a star to the label 
   box-shadow: none;
 }
 
-<textarea__ComponentWrapper
-  inputState="primary"
+<div
+  className="c0"
 >
   <div
-    className="c0"
+    className="c1"
   >
-    <textarea__TextareaWrapper
-      inputState="primary"
-      isFocused={false}
-      isTouched={false}
+    <label
+      className="c2"
+      htmlFor="testLabelName"
     >
-      <div
-        className="c1"
+      testLabel
+      <span
+        style={
+          Object {
+            "color": "hsla(15,100%,40%,0.5)",
+            "marginLeft": "2px",
+          }
+        }
       >
-        <label__LabelField
-          htmlFor="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          isTouched={false}
-          textAreaLabel={true}
-        >
-          <label
-            className="c2"
-            htmlFor="testLabelName"
-          >
-            testLabel
-            <span
-              style={
-                Object {
-                  "color": "hsla(15,100%,40%,0.5)",
-                  "marginLeft": "2px",
-                }
-              }
-            >
-              *
-            </span>
-          </label>
-        </label__LabelField>
-        <textarea__TextareaInput
-          aria-controls="testLabelName-statusText"
-          id="testLabelName"
-          inputState="primary"
-          isFocused={false}
-          name="testLabelName"
-          onBlur={[Function]}
-          onChange={[Function]}
-          onFocus={[Function]}
-          required={true}
-          tabIndex="0"
-          value=""
-        >
-          <textarea
-            aria-controls="testLabelName-statusText"
-            className="c3"
-            disabled={false}
-            id="testLabelName"
-            name="testLabelName"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            required={true}
-            tabIndex="0"
-            value=""
-          />
-        </textarea__TextareaInput>
-      </div>
-    </textarea__TextareaWrapper>
-    <help-text__HelpLabel
-      dense={true}
-      id="testLabelName-statusText"
-      inputState="primary"
-      role="status"
-      textAreaHelp={true}
-    >
-      <div
-        className="c4"
-        id="testLabelName-statusText"
-        role="status"
-      />
-    </help-text__HelpLabel>
+        *
+      </span>
+    </label>
+    <textarea
+      aria-controls="testLabelName-statusText"
+      className="c3"
+      disabled={false}
+      id="testLabelName"
+      name="testLabelName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      required={true}
+      tabIndex="0"
+      value=""
+    />
   </div>
-</textarea__ComponentWrapper>
+  <div
+    className="c4"
+    id="testLabelName-statusText"
+    role="status"
+  />
+</div>
 `;

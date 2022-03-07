@@ -103,6 +103,8 @@ class Dropdown extends React.Component {
       propTypes.string,
       propTypes.func,
     ]),
+    /** Optional HTML type attribute for the Button. */
+    buttonType: propTypes.string,
     /** React element(s) that will be children of this component -- will be compoised in a menu-item wrapper */
     children: propTypes.node,
     /** Boolean that sets whether the dropdown menu will close upon selection of an item */
@@ -436,6 +438,7 @@ class Dropdown extends React.Component {
         aria-expanded={this.state.active}
         onKeyDown={this.handleMenuButtonKeydown}
         name={this.props.type === "button" ? this.props.name : null}
+        type={this.props.buttonType ? this.props.buttonType : null}
       >
         {this.props.buttonLabel ? (
           this.props.buttonLabel

@@ -78,44 +78,30 @@ exports[`Radio Button calls onChange handler on label click when \`changeOnLabel
   cursor: pointer;
 }
 
-<buttons__RadioWrap
-  changeOnLabelClick={true}
+<div
+  className="c0"
 >
-  <div
-    className="c0"
+  <input
+    aria-labelledby="testButton-label"
+    className=""
+    disabled={false}
+    id="testButton"
+    name="testButton"
+    onChange={[Function]}
+    onClick={[Function]}
+    type="radio"
+    value="testButton"
+  />
+  <label
+    htmlFor="testButton"
+  />
+  <span
+    id="testButton-label"
+    onClick={[Function]}
   >
-    <buttons__RadioInput
-      aria-labelledby="testButton-label"
-      id="testButton"
-      name="testButton"
-      onChange={[Function]}
-      onClick={[Function]}
-      type="radio"
-      value="testButton"
-    >
-      <input
-        aria-labelledby="testButton-label"
-        className=""
-        disabled={false}
-        id="testButton"
-        name="testButton"
-        onChange={[Function]}
-        onClick={[Function]}
-        type="radio"
-        value="testButton"
-      />
-    </buttons__RadioInput>
-    <label
-      htmlFor="testButton"
-    />
-    <span
-      id="testButton-label"
-      onClick={[Function]}
-    >
-      test button
-    </span>
-  </div>
-</buttons__RadioWrap>
+    test button
+  </span>
+</div>
 `;
 
 exports[`Radio Button calls the onChange handler on input click 1`] = `
@@ -195,42 +181,30 @@ exports[`Radio Button calls the onChange handler on input click 1`] = `
   color: #131516;
 }
 
-<buttons__RadioWrap>
-  <div
-    className="c0"
+<div
+  className="c0"
+>
+  <input
+    aria-labelledby="testButton-label"
+    className=""
+    disabled={false}
+    id="testButton"
+    name="testButton"
+    onChange={[Function]}
+    onClick={[Function]}
+    type="radio"
+    value="testButton"
+  />
+  <label
+    htmlFor="testButton"
+  />
+  <span
+    id="testButton-label"
+    onClick={null}
   >
-    <buttons__RadioInput
-      aria-labelledby="testButton-label"
-      id="testButton"
-      name="testButton"
-      onChange={[Function]}
-      onClick={[Function]}
-      type="radio"
-      value="testButton"
-    >
-      <input
-        aria-labelledby="testButton-label"
-        className=""
-        disabled={false}
-        id="testButton"
-        name="testButton"
-        onChange={[Function]}
-        onClick={[Function]}
-        type="radio"
-        value="testButton"
-      />
-    </buttons__RadioInput>
-    <label
-      htmlFor="testButton"
-    />
-    <span
-      id="testButton-label"
-      onClick={null}
-    >
-      test button
-    </span>
-  </div>
-</buttons__RadioWrap>
+    test button
+  </span>
+</div>
 `;
 
 exports[`Radio Button disables itself when \`disabled\` is set to true 1`] = `
@@ -311,47 +285,32 @@ exports[`Radio Button disables itself when \`disabled\` is set to true 1`] = `
   cursor: not-allowed;
 }
 
-<buttons__RadioWrap
+<div
+  className="c0"
   disabled={true}
 >
-  <div
-    className="c0"
+  <input
+    aria-labelledby="testButton-label"
+    className=""
     disabled={true}
+    id="testButton"
+    name="testButton"
+    onChange={[Function]}
+    onClick={[Function]}
+    type="radio"
+    value="testButton"
+  />
+  <label
+    htmlFor="testButton"
+  />
+  <span
+    disabled={true}
+    id="testButton-label"
+    onClick={null}
   >
-    <buttons__RadioInput
-      aria-labelledby="testButton-label"
-      disabled={true}
-      id="testButton"
-      name="testButton"
-      onChange={[Function]}
-      onClick={[Function]}
-      type="radio"
-      value="testButton"
-    >
-      <input
-        aria-labelledby="testButton-label"
-        className=""
-        disabled={true}
-        id="testButton"
-        name="testButton"
-        onChange={[Function]}
-        onClick={[Function]}
-        type="radio"
-        value="testButton"
-      />
-    </buttons__RadioInput>
-    <label
-      htmlFor="testButton"
-    />
-    <span
-      disabled={true}
-      id="testButton-label"
-      onClick={null}
-    >
-      test button
-    </span>
-  </div>
-</buttons__RadioWrap>
+    test button
+  </span>
+</div>
 `;
 
 exports[`Radio Button matches snapshot 1`] = `
@@ -431,42 +390,30 @@ exports[`Radio Button matches snapshot 1`] = `
   color: #131516;
 }
 
-<buttons__RadioWrap>
-  <div
-    className="c0"
+<div
+  className="c0"
+>
+  <input
+    aria-labelledby="testButton-label"
+    className=""
+    disabled={false}
+    id="testButton"
+    name="testButton"
+    onChange={[Function]}
+    onClick={[Function]}
+    type="radio"
+    value="testButton"
+  />
+  <label
+    htmlFor="testButton"
+  />
+  <span
+    id="testButton-label"
+    onClick={null}
   >
-    <buttons__RadioInput
-      aria-labelledby="testButton-label"
-      id="testButton"
-      name="testButton"
-      onChange={[Function]}
-      onClick={[Function]}
-      type="radio"
-      value="testButton"
-    >
-      <input
-        aria-labelledby="testButton-label"
-        className=""
-        disabled={false}
-        id="testButton"
-        name="testButton"
-        onChange={[Function]}
-        onClick={[Function]}
-        type="radio"
-        value="testButton"
-      />
-    </buttons__RadioInput>
-    <label
-      htmlFor="testButton"
-    />
-    <span
-      id="testButton-label"
-      onClick={null}
-    >
-      test button
-    </span>
-  </div>
-</buttons__RadioWrap>
+    test button
+  </span>
+</div>
 `;
 
 exports[`Radio Button renders a child 1`] = `
@@ -551,72 +498,51 @@ exports[`Radio Button renders a child 1`] = `
   color: #131516;
 }
 
-<buttons__RadioWrap>
-  <div
-    className="c0"
+<div
+  className="c0"
+>
+  <input
+    aria-labelledby="testButton-label"
+    className=""
+    disabled={false}
+    id="testButton"
+    name="testButton"
+    onChange={[Function]}
+    onClick={[Function]}
+    type="radio"
+    value="testButton"
+  />
+  <label
+    htmlFor="testButton"
+  />
+  <span
+    id="testButton-label"
+    onClick={null}
   >
-    <buttons__RadioInput
-      aria-labelledby="testButton-label"
-      id="testButton"
-      name="testButton"
-      onChange={[Function]}
-      onClick={[Function]}
-      type="radio"
-      value="testButton"
-    >
-      <input
-        aria-labelledby="testButton-label"
-        className=""
-        disabled={false}
-        id="testButton"
-        name="testButton"
-        onChange={[Function]}
-        onClick={[Function]}
-        type="radio"
-        value="testButton"
-      />
-    </buttons__RadioInput>
-    <label
-      htmlFor="testButton"
+    test button
+  </span>
+  <svg
+    aria-label="open customize and profile menu"
+    className="c1"
+    color="#fff"
+    height={24}
+    role="img"
+    viewBox="0 0 24 24"
+    width={24}
+  >
+    <title>
+      menu icon
+    </title>
+    <desc>
+      hamburger menu icon
+    </desc>
+    <path
+      d="M0 0h24v24H0z"
+      fill="none"
     />
-    <span
-      id="testButton-label"
-      onClick={null}
-    >
-      test button
-    </span>
-    <icon_wrapper__Icon
-      aria-label="open customize and profile menu"
-      color="#fff"
-      height={24}
-      role="img"
-      viewBox="0 0 24 24"
-      width={24}
-    >
-      <svg
-        aria-label="open customize and profile menu"
-        className="c1"
-        color="#fff"
-        height={24}
-        role="img"
-        viewBox="0 0 24 24"
-        width={24}
-      >
-        <title>
-          menu icon
-        </title>
-        <desc>
-          hamburger menu icon
-        </desc>
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-        <path
-          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-        />
-      </svg>
-    </icon_wrapper__Icon>
-  </div>
-</buttons__RadioWrap>
+    <path
+      d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+    />
+  </svg>
+</div>
 `;
