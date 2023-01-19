@@ -16,7 +16,7 @@
     "react-dom": "^16.8.0",
     "styled-components": "^4.1.3",
     "lodash": "^4.17.4",
-    "prop-types": "^16.8.0"
+    "prop-types": "^15.8.0"
   },
   "scripts": {
     "build": "rollup -c",
