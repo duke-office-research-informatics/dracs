@@ -16,6 +16,10 @@ RUN NODE_ENV=${NODE_ENV} npm install
 
 RUN chown -R 1001:0 ${APP_ROOT} && chmod -R ug+rwx ${APP_ROOT}
 
+run mkdir /tmp/.npm
+run npm config set cache /tmp/.npm --global
+run chown -R 1001:0 /tmp/.npm
+
 # lifted centos/nodejs s2i builder fix_permissions script
 RUN find -L "${APP_ROOT}" -user 1001 \! -group 0 -exec chgrp 0 {} + && \
     find -L "${APP_ROOT}" -user 1001 \! -perm -g+rw -exec chmod g+rw {} + && \

@@ -5,3 +5,5 @@ services:
     image: dracs
     ports:
       - 9001:9001
+    volumes:
+      - .:/opt/app-root/src:z
