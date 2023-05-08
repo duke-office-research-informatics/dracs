@@ -143,34 +143,36 @@ export class Dialog extends React.PureComponent {
               fallbackFocus: this.body,
             }}
           >
-            <Overlay
-              active={this.props.active}
-              delay={100}
-              onClick={this.props.onOverlayClick}
-              escKeyDown={this.props.escKeyDown}
-              onMouseDown={this.props.onOverlayMouseDown}
-              onMouseMove={this.props.onOverlayMouseMove}
-              onMouseUp={this.props.onOverlayMouseUp}
-            />
-            <DialogBody
-              active={this.state.visible}
-              aria-labelledby="dracs-dialog-title"
-              delay={this.props.delay}
-              type={this.props.type}
-              role="dialog" //eslint-disable-line
-              ref={node => (this.body = node)}
-              tabIndex={-1}
-            >
-              {this.props.title ? (
-                <DialogTitle id="dracs-dialog-title" bold>
-                  {this.props.title}
-                </DialogTitle>
-              ) : null}
-              {this.props.children}
-              {this.renderActions().length ? (
-                <DialogActions>{this.renderActions()}</DialogActions>
-              ) : null}
-            </DialogBody>
+            <div>
+              <Overlay
+                active={this.props.active}
+                delay={100}
+                onClick={this.props.onOverlayClick}
+                escKeyDown={this.props.escKeyDown}
+                onMouseDown={this.props.onOverlayMouseDown}
+                onMouseMove={this.props.onOverlayMouseMove}
+                onMouseUp={this.props.onOverlayMouseUp}
+              />
+              <DialogBody
+                active={this.state.visible}
+                aria-labelledby="dracs-dialog-title"
+                delay={this.props.delay}
+                type={this.props.type}
+                role="dialog" //eslint-disable-line
+                ref={node => (this.body = node)}
+                tabIndex={-1}
+              >
+                {this.props.title ? (
+                  <DialogTitle id="dracs-dialog-title" bold>
+                    {this.props.title}
+                  </DialogTitle>
+                ) : null}
+                {this.props.children}
+                {this.renderActions().length ? (
+                  <DialogActions>{this.renderActions()}</DialogActions>
+                ) : null}
+              </DialogBody>
+            </div>
           </FocusTrap>
         </Transition>
       </Portal>
