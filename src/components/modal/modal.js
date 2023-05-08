@@ -165,35 +165,37 @@ class Modal extends React.PureComponent {
             }}
             paused={this.props.pauseFocusTrap}
           >
-            <Overlay
-              active={this.props.active}
-              delay={100}
-              onClick={this.props.onOverlayClick}
-              escKeyDown={this.props.escKeyDown}
-              onMouseDown={this.props.onOverlayMouseDown}
-              onMouseMove={this.props.onOverlayMouseMove}
-              onMouseUp={this.props.onOverlayMouseUp}
-              style={this.props.overlayStyle}
-              className={this.props.overlayClassName}
-            />
-            <ModalBody
-              ref={node => (this.modalBody = node)}
-              active={this.state.visible}
-              delay={this.props.delay}
-              tabIndex={-1}
-              padding={this.props.padding}
-              height={this.props.height}
-              margin={this.props.margin}
-              minHeight={this.props.minHeight}
-              maxHeight={this.props.maxHeight}
-              width={this.props.width}
-              minWidth={this.props.minWidth}
-              maxWidth={this.props.maxWidth}
-              style={this.props.modalStyle}
-              className={this.props.modalClassName}
-            >
-              {this.props.children}
-            </ModalBody>
+            <div>
+              <Overlay
+                active={this.props.active}
+                delay={100}
+                onClick={this.props.onOverlayClick}
+                escKeyDown={this.props.escKeyDown}
+                onMouseDown={this.props.onOverlayMouseDown}
+                onMouseMove={this.props.onOverlayMouseMove}
+                onMouseUp={this.props.onOverlayMouseUp}
+                style={this.props.overlayStyle}
+                className={this.props.overlayClassName}
+              />
+              <ModalBody
+                ref={node => (this.modalBody = node)}
+                active={this.state.visible}
+                delay={this.props.delay}
+                tabIndex={-1}
+                padding={this.props.padding}
+                height={this.props.height}
+                margin={this.props.margin}
+                minHeight={this.props.minHeight}
+                maxHeight={this.props.maxHeight}
+                width={this.props.width}
+                minWidth={this.props.minWidth}
+                maxWidth={this.props.maxWidth}
+                style={this.props.modalStyle}
+                className={this.props.modalClassName}
+              >
+                {this.props.children}
+              </ModalBody>
+            </div>
           </FocusTrap>
         </Transition>
       </Portal>
