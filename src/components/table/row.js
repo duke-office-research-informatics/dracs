@@ -13,7 +13,7 @@ const RowEl = styled.tr`
       : ""}
   ${p =>
     p.childStyle?.nth
-      ? `${p.childStyle.nthChild.parentSelector}:nth-child(${p.childStyle.nth.childSelector}) {${p.childStyle.nth.css}}`
+      ? `${p.childStyle.nth.parentSelector}:nth-child(${p.childStyle.nth.childSelector}) {${p.childStyle.nth.css}}`
       : ""}
 `;
 
