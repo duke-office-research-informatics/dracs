@@ -5,6 +5,16 @@ import styled from "styled-components";
 const TD = styled.td`
   padding: ${p => (p.sortable ? "16px 8px 16px 28px" : "16px 8px")};
   text-align: ${p => (p.sortable ? "left" : "center")};
+  ${p =>
+    p.childStyle?.firstChild
+      ? `&:first-child {${p.childStyle.firstChild}}`
+      : ""}
+  ${p =>
+    p.childStyle?.lastChild ? `&:last-child {${p.childStyle.lastChild}}` : ""}
+  ${p =>
+    p.childStyle?.nth
+      ? `&:nth-child${p.childStyle.nth.selector} {${p.childStyle.nth.css}}`
+      : ""}
 `;
 
 class Cell extends React.PureComponent {
