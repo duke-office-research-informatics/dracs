@@ -5,13 +5,15 @@ import styled from "styled-components";
 const RowEl = styled.tr`
   ${p =>
     p.childStyle?.firstChild
-      ? `&:first-child {${p.childStyle.firstChild}}`
+      ? `${p.childStyle.firstChild.parentSelector}:first-child {${p.childStyle.firstChild.css}}`
       : ""}
   ${p =>
-    p.childStyle?.lastChild ? `&:last-child {${p.childStyle.lastChild}}` : ""}
+    p.childStyle?.lastChild
+      ? `${p.childStyle.lastChild.parentSelector}:last-child {${p.childStyle.lastChild.css}}`
+      : ""}
   ${p =>
     p.childStyle?.nth
-      ? `&:nth-child${p.childStyle.nth.selector} {${p.childStyle.nth.css}}`
+      ? `${p.childStyle.nthChild.parentSelector}:nth-child(${p.childStyle.nth.childSelector}) {${p.childStyle.nth.css}}`
       : ""}
 `;
 
