@@ -5,6 +5,10 @@ import styled from "styled-components";
 const TD = styled.td`
   padding: ${p => (p.sortable ? "16px 8px 16px 28px" : "16px 8px")};
   text-align: ${p => (p.sortable ? "left" : "center")};
+  ${p => {
+    console.log("p.childStyle:", p.childStyle);
+    return null;
+  }}
   ${p =>
     p.childStyle?.firstChild
       ? `${p.childStyle.firstChild.parentSelector}:first-child {${p.childStyle.firstChild.css}}`
