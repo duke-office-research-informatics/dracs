@@ -16,6 +16,8 @@ import TableBody from "./body-container.js";
 import HeaderCell from "./header-cell.js";
 import Row from "./row.js";
 import Cell from "./cell.js";
+import Col from "./col.js";
+import ColGroup from "./colGroup.js";
 
 const XScrollbar = styled.div``;
 const YScrollbar = styled.div``;
@@ -145,6 +147,13 @@ const isTableBody = child => {
 };
 const isTableRow = child => {
   if (child.props.isTableRow) {
+    return true;
+  } else {
+    return false;
+  }
+};
+const isBuiltIn = child => {
+  if (child.props.isBuiltIn) {
     return true;
   } else {
     return false;
@@ -594,6 +603,9 @@ class Table extends React.PureComponent {
       filterReactChildren(this.props.children, isTableRow)
     ).map((child, index) => [index, Boolean(child.props.selected)]);
 
+  renderBuiltIns = () =>
+    React.Children.toArray(filterReactChildren(this.props.children, isBuiltIn));
+
   renderHeader = () => {
     const tuples = this.getRowTuples();
     const selected = tuples.filter(item => item[1]).length === tuples.length;
@@ -646,6 +658,7 @@ class Table extends React.PureComponent {
 
     const header = this.renderHeader();
     const body = this.renderBody();
+    const builtIns = this.renderBuiltIns();
 
     this.headerCount = header.length;
     this.rowCount = body.length;
@@ -716,6 +729,7 @@ class Table extends React.PureComponent {
             }}
           >
             <TableWrap tableWrapRef={node => (this.tableElement = node)}>
+              {builtIns}
               <TableHead>{header}</TableHead>
               <TableBody>{body}</TableBody>
             </TableWrap>
@@ -726,4 +740,14 @@ class Table extends React.PureComponent {
   }
 }
 
-export { Table, TableWrap, TableHead, TableBody, Row, Cell, HeaderCell };
+export {
+  Table,
+  TableWrap,
+  TableHead,
+  TableBody,
+  Row,
+  Cell,
+  HeaderCell,
+  Col,
+  ColGroup,
+};
