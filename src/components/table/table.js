@@ -146,7 +146,7 @@ const isTableBody = child => {
   }
 };
 const isTableRow = child => {
-  if (child.props.isTableRow) {
+  if (child.props.isTableRow || child.props.isBuiltIn) {
     return true;
   } else {
     return false;
@@ -652,17 +652,23 @@ class Table extends React.PureComponent {
       child =>
         React.Children.map(
           filterReactChildren(child.props.children, isTableRow),
-          (row, r) =>
-            React.cloneElement(row, {
-              key: `tableRow_${r}`,
-              rowRef: node => {
-                Table[`tableRow_${r}`] = node;
-              },
-              onMouseEnter: Table.handleRowMouseEnter.bind(this, r),
-              onMouseLeave: Table.handleRowMouseLeave.bind(this, r),
-              onSelect: Table.handleRowSelect,
-              selectable: Table.props.selectable,
-            })
+          (row, r) => {
+            if (row.props.isTableRow) {
+              return React.cloneElement(row, {
+                key: `tableRow_${r}`,
+                rowRef: node => {
+                  Table[`tableRow_${r}`] = node;
+                },
+                onMouseEnter: Table.handleRowMouseEnter.bind(this, r),
+                onMouseLeave: Table.handleRowMouseLeave.bind(this, r),
+                onSelect: Table.handleRowSelect,
+                selectable: Table.props.selectable,
+              });
+            } else {
+              // this should return any non row children of tbody
+              return row;
+            }
+          }
         )
     );
   };
