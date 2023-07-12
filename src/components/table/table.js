@@ -659,6 +659,9 @@ class Table extends React.PureComponent {
     const header = this.renderHeader();
     const body = this.renderBody();
     const builtIns = this.renderBuiltIns();
+    console.log("header:", header);
+    console.log("body:", body);
+    console.log("builtIns:", builtIns);
 
     this.headerCount = header.length;
     this.rowCount = body.length;
