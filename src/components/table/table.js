@@ -17,7 +17,7 @@ import HeaderCell from "./header-cell.js";
 import Row from "./row.js";
 import Cell from "./cell.js";
 import Col from "./col.js";
-import ColGroup from "./colGroup.js";
+import ColGroup from "./col-group.js";
 
 const XScrollbar = styled.div``;
 const YScrollbar = styled.div``;
