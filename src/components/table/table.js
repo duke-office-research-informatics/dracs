@@ -153,6 +153,7 @@ const isTableRow = child => {
   }
 };
 const isBuiltIn = child => {
+  console.log("Checking row for isBuiltIn:", child);
   if (child.props.isBuiltIn) {
     return true;
   } else {
