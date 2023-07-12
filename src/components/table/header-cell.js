@@ -26,6 +26,10 @@ const ButtonWrap = styled.div`
 
 class HeaderCell extends React.PureComponent {
   render() {
+    console.log(
+      "I am a header cell and my this.props.colspan = ",
+      this.props.colspan
+    );
     const {
       cellRef,
       onClick,
@@ -38,6 +42,12 @@ class HeaderCell extends React.PureComponent {
       children,
       ...otherProps
     } = this.props;
+    console.log(
+      "After destructuring, otherProps.colspan:",
+      otherProps.colspan,
+      "props.colspan:",
+      this.props.colspan
+    );
     return (
       <TH
         ref={cellRef}
