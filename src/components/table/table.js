@@ -603,8 +603,22 @@ class Table extends React.PureComponent {
       filterReactChildren(this.props.children, isTableRow)
     ).map((child, index) => [index, Boolean(child.props.selected)]);
 
-  renderBuiltIns = () =>
-    React.Children.toArray(filterReactChildren(this.props.children, isBuiltIn));
+  renderBuiltIns = () => {
+    console.log("renderBuiltins children:", this.props.children);
+    console.log(
+      "filtered children:",
+      filterReactChildren(this.props.children, isBuiltIn)
+    );
+    console.log(
+      "what should be returned:",
+      React.Children.toArray(
+        filterReactChildren(this.props.children, isBuiltIn)
+      )
+    );
+    return React.Children.toArray(
+      filterReactChildren(this.props.children, isBuiltIn)
+    );
+  };
 
   renderHeader = () => {
     const tuples = this.getRowTuples();
@@ -655,6 +669,7 @@ class Table extends React.PureComponent {
   render() {
     const { stickyHeader, headerColor } = this.props;
     const { stickyColumn, stickyColumnCount } = this.state;
+    console.log("All children in render:", this.props.children);
 
     const header = this.renderHeader();
     const body = this.renderBody();
