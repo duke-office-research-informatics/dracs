@@ -5,7 +5,7 @@ const Col = props => {
 };
 
 Col.defaultProps = {
-  isBuiltIn: true,
+  isColumnAttribute: true,
 };
 
 export default Col;

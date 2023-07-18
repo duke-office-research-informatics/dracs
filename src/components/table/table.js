@@ -146,14 +146,14 @@ const isTableBody = child => {
   }
 };
 const isTableRow = child => {
-  if (child.props.isTableRow || child.props.isBuiltIn) {
+  if (child.props.isTableRow || child.props.isColumnAttribute) {
     return true;
   } else {
     return false;
   }
 };
-const isBuiltIn = child => {
-  if (child.props.isBuiltIn) {
+const isColumnAttribute = child => {
+  if (child.props.isColumnAttribute) {
     return true;
   } else {
     return false;
@@ -605,7 +605,7 @@ class Table extends React.PureComponent {
 
   renderBuiltIns = () => {
     return React.Children.toArray(
-      filterReactChildren(this.props.children, isBuiltIn)
+      filterReactChildren(this.props.children, isColumnAttribute)
     );
   };
 

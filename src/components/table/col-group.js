@@ -5,7 +5,7 @@ const ColGroup = props => {
 };
 
 ColGroup.defaultProps = {
-  isBuiltIn: true,
+  isColumnAttribute: true,
 };
 
 export default ColGroup;
