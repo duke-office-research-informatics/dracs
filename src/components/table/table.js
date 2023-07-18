@@ -153,7 +153,6 @@ const isTableRow = child => {
   }
 };
 const isBuiltIn = child => {
-  console.log("Checking row for isBuiltIn:", child);
   if (child.props.isBuiltIn) {
     return true;
   } else {
@@ -605,17 +604,6 @@ class Table extends React.PureComponent {
     ).map((child, index) => [index, Boolean(child.props.selected)]);
 
   renderBuiltIns = () => {
-    console.log("renderBuiltins children:", this.props.children);
-    console.log(
-      "filtered children:",
-      filterReactChildren(this.props.children, isBuiltIn)
-    );
-    console.log(
-      "what should be returned:",
-      React.Children.toArray(
-        filterReactChildren(this.props.children, isBuiltIn)
-      )
-    );
     return React.Children.toArray(
       filterReactChildren(this.props.children, isBuiltIn)
     );
@@ -676,14 +664,10 @@ class Table extends React.PureComponent {
   render() {
     const { stickyHeader, headerColor } = this.props;
     const { stickyColumn, stickyColumnCount } = this.state;
-    console.log("All children in render:", this.props.children);
 
     const header = this.renderHeader();
     const body = this.renderBody();
     const builtIns = this.renderBuiltIns();
-    console.log("header:", header);
-    console.log("body:", body);
-    console.log("builtIns:", builtIns);
 
     this.headerCount = header.length;
     this.rowCount = body.length;
