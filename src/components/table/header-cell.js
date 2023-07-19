@@ -26,36 +26,43 @@ const ButtonWrap = styled.div`
 
 class HeaderCell extends React.PureComponent {
   render() {
+    const {
+      cellRef,
+      onClick,
+      primarySortValue,
+      secondarySortValue,
+      sortValueType,
+      sortable,
+      sortKey,
+      sortDirection,
+      children,
+      ...otherProps
+    } = this.props;
     return (
       <TH
-        ref={this.props.cellRef}
+        ref={cellRef}
         onClick={
-          this.props.onClick
-            ? () =>
-                this.props.onClick(
-                  this.props.primarySortValue,
-                  this.props.secondarySortValue,
-                  this.props.sortValueType
-                )
+          onClick
+            ? () => onClick(primarySortValue, secondarySortValue, sortValueType)
             : null
         }
-        sortable={this.props.sortable}
-        style={this.props.style}
+        sortable={sortable}
+        {...otherProps}
       >
-        {this.props.sortable ? (
+        {sortable ? (
           <SortWrap>
             <ButtonWrap>
               <IconCaretUp
                 color={
-                  this.props.sortKey === this.props.primarySortValue
-                    ? this.props.sortDirection === "asc"
+                  sortKey === primarySortValue
+                    ? sortDirection === "asc"
                       ? "#0680cd"
                       : "#e5e5e5"
                     : "#e5e5e5"
                 }
                 hoverColor={
-                  this.props.sortKey === this.props.primarySortValue
-                    ? this.props.sortDirection === "asc"
+                  sortKey === primarySortValue
+                    ? sortDirection === "asc"
                       ? null
                       : "#0680cd"
                     : "#0680cd"
@@ -65,15 +72,15 @@ class HeaderCell extends React.PureComponent {
               />
               <IconCaretDown
                 color={
-                  this.props.sortKey === this.props.primarySortValue
-                    ? this.props.sortDirection === "desc"
+                  sortKey === primarySortValue
+                    ? sortDirection === "desc"
                       ? "#0680cd"
                       : "#e5e5e5"
                     : "#e5e5e5"
                 }
                 hoverColor={
-                  this.props.sortKey === this.props.primarySortValue
-                    ? this.props.sortDirection === "desc"
+                  sortKey === primarySortValue
+                    ? sortDirection === "desc"
                       ? null
                       : "#0680cd"
                     : "#0680cd"
@@ -82,10 +89,10 @@ class HeaderCell extends React.PureComponent {
                 style={{ marginTop: "-1.5px" }}
               />
             </ButtonWrap>
-            {this.props.children}
+            {children}
           </SortWrap>
         ) : (
-          this.props.children
+          children
         )}
       </TH>
     );

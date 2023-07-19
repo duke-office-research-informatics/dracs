@@ -1,4 +1,5 @@
 import palette from "./colorPalette.js";
+import somColorPalette from "./somColorPalette.js";
 
 const colors = {
   base: palette.gray.dark, //base text color
@@ -23,6 +24,7 @@ const colors = {
   successGreen: "#4AC948", //lighter green used to indicate a success status in buttons and icons
   ironweed: palette.sg.purple, //purple used in some statuses that is available in the Duke styleguide
   magnolia: "#1D6363", //green used in some statuses that is available in the Dke styleguide
+  som: somColorPalette,
 };
 
 export default colors;

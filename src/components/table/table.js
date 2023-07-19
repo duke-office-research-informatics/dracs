@@ -16,6 +16,8 @@ import TableBody from "./body-container.js";
 import HeaderCell from "./header-cell.js";
 import Row from "./row.js";
 import Cell from "./cell.js";
+import Col from "./col.js";
+import ColGroup from "./col-group.js";
 
 const XScrollbar = styled.div``;
 const YScrollbar = styled.div``;
@@ -144,7 +146,14 @@ const isTableBody = child => {
   }
 };
 const isTableRow = child => {
-  if (child.props.isTableRow) {
+  if (child.props.isTableRow || child.props.isColumnAttribute) {
+    return true;
+  } else {
+    return false;
+  }
+};
+const isColumnAttribute = child => {
+  if (child.props.isColumnAttribute) {
     return true;
   } else {
     return false;
@@ -594,6 +603,12 @@ class Table extends React.PureComponent {
       filterReactChildren(this.props.children, isTableRow)
     ).map((child, index) => [index, Boolean(child.props.selected)]);
 
+  renderBuiltIns = () => {
+    return React.Children.toArray(
+      filterReactChildren(this.props.children, isColumnAttribute)
+    );
+  };
+
   renderHeader = () => {
     const tuples = this.getRowTuples();
     const selected = tuples.filter(item => item[1]).length === tuples.length;
@@ -625,17 +640,23 @@ class Table extends React.PureComponent {
       child =>
         React.Children.map(
           filterReactChildren(child.props.children, isTableRow),
-          (row, r) =>
-            React.cloneElement(row, {
-              key: `tableRow_${r}`,
-              rowRef: node => {
-                Table[`tableRow_${r}`] = node;
-              },
-              onMouseEnter: Table.handleRowMouseEnter.bind(this, r),
-              onMouseLeave: Table.handleRowMouseLeave.bind(this, r),
-              onSelect: Table.handleRowSelect,
-              selectable: Table.props.selectable,
-            })
+          (row, r) => {
+            if (row.props.isTableRow) {
+              return React.cloneElement(row, {
+                key: `tableRow_${r}`,
+                rowRef: node => {
+                  Table[`tableRow_${r}`] = node;
+                },
+                onMouseEnter: Table.handleRowMouseEnter.bind(this, r),
+                onMouseLeave: Table.handleRowMouseLeave.bind(this, r),
+                onSelect: Table.handleRowSelect,
+                selectable: Table.props.selectable,
+              });
+            } else {
+              // this should return any non row children of tbody
+              return row;
+            }
+          }
         )
     );
   };
@@ -646,6 +667,7 @@ class Table extends React.PureComponent {
 
     const header = this.renderHeader();
     const body = this.renderBody();
+    const builtIns = this.renderBuiltIns();
 
     this.headerCount = header.length;
     this.rowCount = body.length;
@@ -716,6 +738,7 @@ class Table extends React.PureComponent {
             }}
           >
             <TableWrap tableWrapRef={node => (this.tableElement = node)}>
+              {builtIns}
               <TableHead>{header}</TableHead>
               <TableBody>{body}</TableBody>
             </TableWrap>
@@ -726,4 +749,14 @@ class Table extends React.PureComponent {
   }
 }
 
-export { Table, TableWrap, TableHead, TableBody, Row, Cell, HeaderCell };
+export {
+  Table,
+  TableWrap,
+  TableHead,
+  TableBody,
+  Row,
+  Cell,
+  HeaderCell,
+  Col,
+  ColGroup,
+};

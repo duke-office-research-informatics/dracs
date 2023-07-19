@@ -94,6 +94,8 @@ export {
   Row,
   Cell,
   HeaderCell,
+  Col,
+  ColGroup,
 } from "./components/table/table.js";
 
 //tabs
