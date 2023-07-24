@@ -98,6 +98,8 @@ export {
   ColGroup,
 } from "./components/table/table.js";
 
+export { Table as SimpleTable } from "./components/simpleTable/table.js";
+
 //tabs
 export { default as TabGroup } from "./components/tabs/tabs.js";
 export { default as Tab } from "./components/tabs/tab/tab.js";
