@@ -19,86 +19,31 @@ import Cell from "../table/cell.js";
 import Col from "../table/col.js";
 import ColGroup from "../table/col-group.js";
 
-const XScrollbar = styled.div``;
-const YScrollbar = styled.div``;
-const TableYWrap = styled.div``;
-const TableXWrap = styled.div``;
-
 const ElementWrap = styled.div`
   box-sizing: border-box;
   position: relative;
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  overflow-y: auto;
   transform: translateZ(0);
   display: block;
-   ${TableYWrap},${TableXWrap}{
-    z-index: 0;
-    position: relative;
-    -webkit-overflow-scrolling: touch;
-    transform: translateZ(0);
-  }
-   ${TableXWrap}{
-    width: 100%;
-    overflow-x: auto;
-    transform: translateZ(0);
-    scrollbar-width: none;
-    -ms-overflow-style: none; /* Internet Explorer 11 */
-    &::webkit-scrollbar{
-      display: none;
-    }
-  }
-   ${TableYWrap}{
-    height: 100%;
-    overflow-y: auto;
-    /* Hack to hide scrollbars */
-    padding-right: 17px;
-    margin-right: -17px;
-    transform: translateZ(0);
-    scrollbar-width: none;
-    -ms-overflow-style: none; /* Internet Explorer 11 */
-    &::webkit-scrollbar{
-      display: none;
-    }
-  }
-   ${XScrollbar}, ${YScrollbar}{
-    position: absolute;
-    background-color: transparent;
-    z-index: 5;
-    overflow: auto;
-    transform: translateZ(0);
-    -ms-overflow-style: -ms-autohiding-scrollbar;
-  }
-  ${XScrollbar}{
-    left: 0px;
-    bottom: 0px;
-    height: 20px;
-    width: 100%;
-  }
-  ${YScrollbar}{
-    right: 0px;
-    top: 0px;
-    height: 100%;
-    width: 20px !important;
-  }
-  ${XScrollbar} div {
-  height: 100%;
-  }
-  ${YScrollbar} div {
-  height: 100%;
-  }
-  th, tr, td, tbody, table {
+  th,
+  tr,
+  td,
+  tbody,
+  table {
     box-sizing: border-box;
     border-collapse: separate;
     border-spacing: 0px;
   }
-  tbody, table {
+  tbody,
+  table {
     transform: translateZ(0);
   }
-  th{
+  th {
     white-space: nowrap;
   }
-  td{
+  td {
     border-bottom: solid 1px ${p => p.theme.colors.border};
   }
 `;
@@ -173,26 +118,11 @@ class Table extends React.PureComponent {
   };
 
   render() {
-    const { headerColor } = this.props;
-
-    const header = this.renderHeader();
-    const body = this.renderBody();
-    const builtIns = this.renderBuiltIns();
-
-    console.log("Simple Table has entered the chat");
-    // this.headerCount = header.length;
-    // this.rowCount = body.length;
-    // this.columnCount =
-    //   (header[0] && React.Children.toArray(header[0].props.children).length) ||
-    //   0;
+    const { children, ...otherProps } = this.props;
 
     return (
-      <ElementWrap ref={node => (this.table = node)} headerColor={headerColor}>
-        <TableWrap tableWrapRef={node => (this.tableElement = node)}>
-          {builtIns}
-          <TableHead>{header}</TableHead>
-          <TableBody>{body}</TableBody>
-        </TableWrap>
+      <ElementWrap {...otherProps}>
+        <TableWrap>{this.props.children}</TableWrap>
       </ElementWrap>
     );
   }
