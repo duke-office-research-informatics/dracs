@@ -14,6 +14,7 @@ import {
   IconHelp,
   IconLogout,
   IconProfile,
+  SimpleTable,
 } from "../../src/index.js";
 import styled from "styled-components";
 
