@@ -11,8 +11,26 @@ import {
   Row,
 } from "../../src/index.js";
 import { withInfo } from "@storybook/addon-info";
-import { withKnobs } from "@storybook/addon-knobs/react.js";
+import { withKnobs, boolean } from "@storybook/addon-knobs/react.js";
 import styled from "styled-components";
+import _ from "lodash";
+
+// I tried sorting the list and updating sortKey and sortDirection, but props don't appear to update
+const rowData = [
+  { name: "Jenna", role: "Sr Front End Dev", yearsOfService: "6" },
+  { name: "Johnny", role: "Jr Front End Dev", yearsOfService: "2" },
+  { name: "Joanna", role: "Dev Analyst", yearsOfService: "3" },
+  { name: "Jonah", role: "Service Line Owner", yearsOfService: "8" },
+  { name: "Janice", role: "Director of Development", yearsOfService: "15" },
+  { name: "Jensen", role: "Product Owner", yearsOfService: "1" },
+];
+
+let sortKey = "name";
+let sortDirection = "asc";
+
+const sortRows = sortValue => {
+  alert(`Sorting by ${sortValue}`);
+};
 
 const stories = storiesOf("Table", module);
 stories.addDecorator(withKnobs, withInfo);
@@ -57,23 +75,49 @@ stories.add(
         <SimpleTable>
           <TableHead>
             <Row>
-              <HeaderCell>Name</HeaderCell>
-              <HeaderCell>Role</HeaderCell>
+              <HeaderCell
+                onClick={
+                  boolean("HeaderCell.Sortable", false) ? sortRows : null
+                }
+                sortDirection={sortDirection}
+                primarySortValue="name"
+                sortKey={sortKey}
+                sortable={boolean("HeaderCell.Sortable", false)}
+              >
+                Name
+              </HeaderCell>
+              <HeaderCell
+                onClick={
+                  boolean("HeaderCell.Sortable", false) ? sortRows : null
+                }
+                sortDirection={sortDirection}
+                primarySortValue="role"
+                sortKey={sortKey}
+                sortable={boolean("HeaderCell.Sortable", false)}
+              >
+                Role
+              </HeaderCell>
+              <HeaderCell
+                onClick={
+                  boolean("HeaderCell.Sortable", false) ? sortRows : null
+                }
+                sortDirection={sortDirection}
+                primarySortValue="yearsOfService"
+                sortKey={sortKey}
+                sortable={boolean("HeaderCell.Sortable", false)}
+              >
+                Years in role
+              </HeaderCell>
             </Row>
           </TableHead>
           <TableBody>
-            <Row>
-              <Cell>Jenna</Cell>
-              <Cell>Sr Front End Dev</Cell>
-            </Row>
-            <Row>
-              <Cell>Johnny</Cell>
-              <Cell>Jr Front End Dev</Cell>
-            </Row>
-            <Row>
-              <Cell>Joanna</Cell>
-              <Cell>Dev Analyst</Cell>
-            </Row>
+            {rowData.map(person => (
+              <Row key={`row-${person.name}`}>
+                <Cell>{person.name}</Cell>
+                <Cell>{person.role}</Cell>
+                <Cell>{person.yearsOfService}</Cell>
+              </Row>
+            ))}
           </TableBody>
         </SimpleTable>
       </TableContainer>
@@ -122,23 +166,49 @@ stories.add(
         <Table>
           <TableHead>
             <Row>
-              <HeaderCell>Name</HeaderCell>
-              <HeaderCell>Role</HeaderCell>
+              <HeaderCell
+                onClick={
+                  boolean("HeaderCell.Sortable", false) ? sortRows : null
+                }
+                sortDirection={sortDirection}
+                primarySortValue="name"
+                sortKey={sortKey}
+                sortable={boolean("HeaderCell.Sortable", false)}
+              >
+                Name
+              </HeaderCell>
+              <HeaderCell
+                onClick={
+                  boolean("HeaderCell.Sortable", false) ? sortRows : null
+                }
+                sortDirection={sortDirection}
+                primarySortValue="role"
+                sortKey={sortKey}
+                sortable={boolean("HeaderCell.Sortable", false)}
+              >
+                Role
+              </HeaderCell>
+              <HeaderCell
+                onClick={
+                  boolean("HeaderCell.Sortable", false) ? sortRows : null
+                }
+                sortDirection={sortDirection}
+                primarySortValue="yearsOfService"
+                sortKey={sortKey}
+                sortable={boolean("HeaderCell.Sortable", false)}
+              >
+                Years in role
+              </HeaderCell>
             </Row>
           </TableHead>
           <TableBody>
-            <Row>
-              <Cell>Jenna</Cell>
-              <Cell>Sr Front End Dev</Cell>
-            </Row>
-            <Row>
-              <Cell>Johnny</Cell>
-              <Cell>Jr Front End Dev</Cell>
-            </Row>
-            <Row>
-              <Cell>Joanna</Cell>
-              <Cell>Dev Analyst</Cell>
-            </Row>
+            {rowData.map(person => (
+              <Row key={`row-${person.name}`}>
+                <Cell>{person.name}</Cell>
+                <Cell>{person.role}</Cell>
+                <Cell>{person.yearsOfService}</Cell>
+              </Row>
+            ))}
           </TableBody>
         </Table>
       </TableContainer>

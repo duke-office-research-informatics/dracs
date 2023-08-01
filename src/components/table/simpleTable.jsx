@@ -34,6 +34,7 @@ const ElementWrap = styled.div`
   }
   th {
     white-space: nowrap;
+    border-bottom: 2px solid #e5e5e5;
   }
   td {
     border-bottom: solid 1px ${p => p.theme.colors.border};

@@ -38,6 +38,7 @@ class HeaderCell extends React.PureComponent {
       children,
       ...otherProps
     } = this.props;
+    console.log("Sort Direction:", sortDirection);
     return (
       <TH
         ref={cellRef}
