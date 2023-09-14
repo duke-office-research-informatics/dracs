@@ -4,9 +4,12 @@ import styled from "styled-components";
 import styledMap from "styled-map";
 
 import colors from "../../../theme/colors/colorTheme.js";
+import somColorPalette from "../../../theme/colors/somColorPalette.js";
 
 const bgColor = styledMap("styleType", {
   filled: colors.action,
+  deemphasized: colors.bg,
+  deemphasizedFilled: colors.muted,
   inverted: colors.bg,
   error: colors.bg,
   errorFilled: colors.error,
@@ -17,6 +20,8 @@ const bgColor = styledMap("styleType", {
 
 const bgHoverColor = styledMap("styleType", {
   filled: colors.actionHover,
+  deemphasized: colors.bg,
+  deemphasizedFilled: somColorPalette.tertiary.dukeGrayLighter,
   inverted: colors.bg,
   error: colors.bg,
   errorFilled: "hsla(15,100%,40%,0.8)",
@@ -27,6 +32,8 @@ const bgHoverColor = styledMap("styleType", {
 
 const color = styledMap("styleType", {
   filled: colors.bg,
+  deemphasized: colors.muted,
+  deemphasizedFilled: colors.bg,
   inverted: colors.action,
   error: colors.error,
   errorFilled: colors.bg,
@@ -37,6 +44,8 @@ const color = styledMap("styleType", {
 
 const hoverColor = styledMap("styleType", {
   filled: colors.bg,
+  deemphasized: somColorPalette.tertiary.dukeGrayLighter,
+  deemphasizedFilled: colors.bg,
   inverted: colors.actionHover,
   error: "hsla(15,100%,40%,0.8)",
   errorFilled: colors.bg,
@@ -206,6 +215,8 @@ Button.propTypes = {
   type: propTypes.oneOf([
     "raised",
     "raiseOnHover",
+    "deemphasized",
+    "deemphasizedFilled",
     "filled",
     "inverted",
     "error",
