@@ -229,6 +229,7 @@ class InputGroup extends React.Component {
             onMouseEnter={this.props.onMouseEnter}
             onMouseLeave={this.props.onMouseLeave}
             onMouseUp={this.props.onMouseUp}
+            onPaste={this.props.onPaste}
             onTouchStart={this.props.onTouchStart}
             onTouchEnd={this.props.onTouchEnd}
             pattern={this.props.pattern}
