@@ -93,6 +93,8 @@ class InputGroup extends React.Component {
     onTouchStart: propTypes.func,
     /** Function that will trigger at the end of a user (on touch devices) touching the element */
     onTouchEnd: propTypes.func,
+    /** Function that will trigger on content being pasted into the element */
+    onPaste: propTypes.func,
     /**String that sets the html 'pattern' property on the input */
     pattern: propTypes.string,
     /** String that sets the placeholder that will display in the input (when focused with a label, and by default without the label) if the input's value is blank */
@@ -229,6 +231,7 @@ class InputGroup extends React.Component {
             onMouseEnter={this.props.onMouseEnter}
             onMouseLeave={this.props.onMouseLeave}
             onMouseUp={this.props.onMouseUp}
+            onPaste={this.props.onPaste}
             onTouchStart={this.props.onTouchStart}
             onTouchEnd={this.props.onTouchEnd}
             pattern={this.props.pattern}

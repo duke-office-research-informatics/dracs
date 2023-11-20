@@ -102,6 +102,7 @@ const Input = props => {
       onMouseUp={props.onMouseUp}
       onTouchStart={props.onTouchStart}
       onTouchEnd={props.onTouchEnd}
+      onPaste={props.onPaste}
       pattern={props.pattern}
       placeholder={props.placeholder}
       readOnly={props.readOnly}
@@ -135,6 +136,7 @@ Input.propTypes = {
   onMouseUp: propTypes.func,
   onTouchStart: propTypes.func,
   onTouchEnd: propTypes.func,
+  onPaste: propTypes.func,
   pattern: propTypes.string,
   inputRef: propTypes.func,
   noLabel: propTypes.bool,
